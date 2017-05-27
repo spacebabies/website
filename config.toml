@@ -1,4 +1,4 @@
-baseURL = "http://spacebabies.netlify.com"
+baseURL = "http://spacebabies.netlify.com/"
 languageCode = "en-us"
 title = "Space Babies"
 theme = "hugo-creative-portfolio-theme"
@@ -9,7 +9,7 @@ canonifyURLs = true
   # Use custom.css for your custom styling
   style = "default"
   description = "Internet Engineers"
-  copyright = "Overhoeksplein 2, NL-1031KS Amsterdam, The Netherlands. KvK 34180528. VAT NL811222792B01."
+  copyright = "Overhoeksplein 2<br>NL-1031KS Amsterdam<br>The Netherlands.<br><br>KvK 34180528<br>VAT NL811222792B01<br><br><br>"
   sidebarAbout = [
     "We create beautiful, fast and secure web applications."
   ]
