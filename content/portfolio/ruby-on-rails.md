@@ -10,7 +10,7 @@ weight = 4
 It is one of the great web frameworks. _Airbnb_ and _Shopify_ are built with it, to name just two. Even though it‘s been around since biblical times, it shows no signs of aging. Given a choice, we always use it to build web somethings. Here is why.
 <!--more-->
 
-![Campagnebeeld Stedelijk Museum Amsterdam: De Verliefde Camera][1]
+![Ruby on Rails logo][1]
 
 Allow me to take you back to around y2k. Joost was a _Java Enterprise Edition_ consultant at the time. I went to businesses in the land to write them some code. We thought that weeks, actually more likely months, were the norm until you had done did something useful. All this accompanied with a cornucopia of xml files to glue everything together. We billed €100 per hour and life was fucking _amazing_.
 
