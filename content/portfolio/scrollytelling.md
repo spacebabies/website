@@ -18,8 +18,6 @@ The division between Space Babies and Scrollytelling blurs from time to time, an
 
 ## 💗 Open Source
 
-![GitHub - be social][1]
+<img src="/img/portfolio/be-social.gif" class="img-responsive" alt="GitHub - be social">
 
 One of the best aspects of Scrollytelling is that we get to contribute greatly back to Open Source. The underlying Pageflow application has received a bunch of updates from us; all of which were gladly accepted. The improvements led to other improvements. It's thrilling to experience this virtuous cycle first hand. Open Source: humanity(tm), Done Right(r).
-
-[1]: /img/portfolio/be-social.gif

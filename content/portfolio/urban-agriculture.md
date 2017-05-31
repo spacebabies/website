@@ -12,8 +12,6 @@ By invitation of the [Lemon Tree Trust](http://lemontreetrust.org), we went to I
 
 This growing of crops has a clear role to play from the earliest stages of a crisis, through refugee camp and crisis-city settings, to resettlement or returnees.
 
-![Makeshift professional lighting][1]
+<img src="/img/portfolio/makeshift-professional-lighting.jpg" class="img-responsive" alt="Makeshift Professional lighting">
 
 We came to seek urban farmers of any skill level. We found awe-inspiring stories of people growing crops and lush gardens in the most unlikely of places. These stories will be published as a series of [Scrollytellings](https://www.scrollytelling.io/) in the coming time.
-
-[1]: /img/portfolio/makeshift-professional-lighting.jpg

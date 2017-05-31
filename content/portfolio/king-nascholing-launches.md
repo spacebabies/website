@@ -10,22 +10,12 @@ weight = 1
 This tailor-made ecommerce and online courseware website saves King nascholing countless hours of manual labor, making students happier and more effective.
 <!--more-->
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+The client approached us to take their manual enrollment process online. We proceeded to automate as much of the process as possible: from student enrollment, to online courseware, to reminders via email.
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+<img src="/img/portfolio/king-screenshot.jpg" class="img-responsive" alt="www.kingnascholing.nl">
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+Since King nascholing came from a mostly manual process, and so did not have the online steps clearly defined, we held a couple User Story Workshops first. In these collaborative, open sessions we dug in to find the stories that needed to be implemented. Priorities were determined collaboratively, and an agile workflow was adopted.
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+Space Babies pushed out almost daily progress to the software, and we were very open in accepting changes resulting from new insights. This led to the new website being delivered on time and within budget; albeit with many lower-priority functionality unimplemented. The large list of learnings is now used for ongoing maintenance. Space Babies continues to monitor, manage and improve the website to this day.
 
-## Header Level 2
-
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+[www.kingnascholing.nl](https://www.kingnascholing.nl/)

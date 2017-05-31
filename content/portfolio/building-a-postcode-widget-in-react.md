@@ -10,7 +10,7 @@ weight = 6
 Our job is to create beautiful, fast and secure web applications. This postcode widget contains embodies all three aspects.
 <!--more-->
 
-![BLITTS postcode widget][1]
+<img src="/img/portfolio/blitts-widget.png" class="img-responsive" alt="BLITTS postcode widget">
 
 The widget is in use on [Blitts](http://www.blitts.nl/), one of the products we maintain. Blitts allows you to request a permit for home improvement. Enter your postcode to see if the product is supported in your area. (hint: only Dutch postcodes will work. Try 1234AA 1 for a success response).
 
@@ -192,5 +192,3 @@ There is plenty to be improved on the back end, such as moving towards a REST AP
 After this change, our widget renders asynchronously, its code is organized, and offers a much richer experience than before. Not bad.
 
 A big tip of the hat to [Hannes Fostie](https://github.com/hannesfostie) for introducing me to React.JS and showing me how awesome it is. Thanks Hannes!
-
-[1]: /img/portfolio/blitts-widget.png

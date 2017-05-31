@@ -18,7 +18,9 @@ Space Babies maintains [BLITTS](https://www.blitts.nl/), an online application t
 
 When drawing is complete, BLITTS also takes you through several questions to determine what kind of permit you actually need. This is specific per city, and even city zone. The application does have all the information however and he's very patient too. Currently, several large local governments in The Netherlands, like Rotterdam and Zaanstad, use BLITTS.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RWqXiYS9WhM?ecver=1" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/RWqXiYS9WhM?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
 
 The application was conceived by its founders Martijn Verbeek and Joris Kleinveld. After the initial developers left, we eventually took over a neglected Rails 2 application. Our assessment led to a couple scenarios in which the app could become great again. Imagine our delight when the founders agreed with a rigid upgrade and maintenance process, in which we were given green light for rigorous upkeep, test-driven development and, as we always do, continuous delivery. Carefully and with excrutiating attention to detail, we brought everything to spec and totally rebuilt the test suite. Founders happy, but most notably, (some) citizens happy.
 
