@@ -7,7 +7,7 @@ showonlyimage = false
 weight = 6
 +++
 
-Our job is to create build beautiful, fast and secure web applications. This postcode widget contains embodies all three aspects.
+Our job is to create beautiful, fast and secure web applications. This postcode widget contains embodies all three aspects.
 <!--more-->
 
 ![BLITTS postcode widget][1]

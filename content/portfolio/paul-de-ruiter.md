@@ -7,7 +7,7 @@ title = "Paul de Ruiter"
 weight = 8
 +++
 
-A stunning new corporate identity, and creation + maintenance of a website built from scratch.
+A stunning new corporate identity, and creation of a new website to go with it.
 <!--more-->
 
 [www.paulderuiter.nl/en](https://www.paulderuiter.nl/en/)

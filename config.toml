@@ -1,4 +1,4 @@
-baseURL = "https://spacebabies.netlify.com/"
+baseURL = "https://www.spacebabies.nl/"
 languageCode = "en-us"
 title = "Space Babies"
 theme = "hugo-creative-portfolio-theme"

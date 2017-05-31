@@ -3,7 +3,7 @@ draft = false
 image = "img/portfolio/makeshift-professional-lighting.jpg"
 showonlyimage = false
 date = "2016-11-05T20:23:59+05:30"
-title = "Urban Agriculture in the context of forced displacement"
+title = "Agriculture in the context of forced displacement"
 weight = 11
 +++
 
