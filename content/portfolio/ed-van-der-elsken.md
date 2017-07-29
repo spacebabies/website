@@ -1,10 +1,9 @@
 +++
 image = "img/portfolio/eds-tijdreis.jpg"
 showonlyimage = false
-date = "2016-11-05T19:44:32+05:30"
+date = "2017-03-05T19:44:32+05:30"
 title = "Ed van der Elsken"
 draft = false
-weight = 2
 +++
 
 Three webdocs. The man in words and pictures.

@@ -4,7 +4,6 @@ showonlyimage = false
 date = "2015-11-05T19:57:40+05:30"
 title = "BLITTS"
 draft = false
-weight = 7
 +++
 
 Draw and submit your building permit online. Hard hat and safety boots not needed.

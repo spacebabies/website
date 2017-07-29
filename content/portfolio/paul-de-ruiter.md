@@ -2,9 +2,8 @@
 showonlyimage = false
 draft = false
 image = "img/portfolio/paul-de-ruiter.jpg"
-date = "2016-11-05T19:59:22+05:30"
+date = "2015-08-05T19:59:22+05:30"
 title = "Paul de Ruiter"
-weight = 8
 +++
 
 A stunning new corporate identity, and creation of a new website to go with it.

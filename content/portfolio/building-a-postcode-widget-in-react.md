@@ -4,7 +4,6 @@ image = ""
 date = "2016-11-05T19:56:17+05:30"
 title = "A postcode widget in React"
 showonlyimage = false
-weight = 6
 +++
 
 Our job is to create beautiful, fast and secure web applications. This postcode widget contains embodies all three aspects.
