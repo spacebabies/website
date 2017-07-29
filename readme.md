@@ -12,6 +12,8 @@ hugo server
 
 # Deploy
 
+Hosted on Netlify.
+
 ```
 git push origin master
 ```
