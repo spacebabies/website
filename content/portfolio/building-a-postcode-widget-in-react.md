@@ -6,7 +6,7 @@ title = "A postcode widget in React"
 showonlyimage = false
 +++
 
-Our job is to create beautiful, fast and secure web applications. This postcode widget contains embodies all three aspects.
+Our job is to create beautiful, fast and secure web applications. This postcode widget embodies all three aspects.
 <!--more-->
 
 <img src="/img/portfolio/blitts-widget.png" class="img-responsive" alt="BLITTS postcode widget">
