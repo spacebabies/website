@@ -31,7 +31,7 @@ Or, how do we automatically use those changed filenames without having to do any
 
 <img src="/img/portfolio/lazy-office-worker.png">
 
-When Middlemap has the finished sitemap, it will trigger an event we can use from the config file. Here's the code you'll need in `config.rb`:
+When Middleman has finished constructing the sitemap, it will trigger an event we can use from the config file. Here's the code you'll need in `config.rb`:
 
 ```
 ready do
@@ -47,7 +47,7 @@ ready do
 end
 ```
 
-When the Sitemap is ready, we fire up a Proxy. If you're as confused by this name as I was, don't worry. This is not a web server proxy; it's a file proxy. It's Middleman's solution for generating a file with dynamic contents. The first argument is the filename you want to have built, and the second is the source template file you'll use to populate it.
+When the Sitemap is ready, we fire up a Proxy. If you're as confused by this name as I was, don't worry. This is not a web server proxy; it's a file proxy. It's Middleman's solution for generating a file with dynamic contents. The first argument is the filename you want to have built, and the second is the source template file you'll use to populate it (with the rendering engine extension removed).
 
 About that template file, here is ours. It lives in `source/headers.txt.erb`:
 
@@ -67,9 +67,11 @@ About that template file, here is ours. It lives in `source/headers.txt.erb`:
   Cache-Control: public, max-age=31556926
 ```
 
-We pass some local variables into this template. Yours will be different from ours. If you want, go nuts with nested hashes, objects or Structs. We chose to keep things flat and simple. Our code in `config.rb` fetches these values from the sitemap. These might change from build to build; but they'll always be exactly the same as Middleman uses internally to generate the output. Which means they will always be up to date, which means we win! Actually, our visitors. But that's good too.
+The local variables you see being used here were given to the template from our config file. Yours will be different from ours. If you want, go nuts with nested hashes, objects or Structs. We chose to keep things flat and simple.
 
-About that, we found it best to use asset fingerprinting, instead of the old cache buster method. We have this line in `config.rb`:
+The values of these variables will change if your asset files have changed. And that's exactly what you want, since those new values are used in your asset helpers as well. We're tapping into the exact mechanism Middleman uses internally. For a double whammy, that means we can also set far-future cache headers on those assets. We handle that in the `_redirect` file in one go. We win the internet! Actually, our visitors win. But that's good too.
+
+About asset URLs, we found it best to use fingerprinting, instead of the old cache buster method. We have this line in `config.rb`:
 
 ```
 activate :asset_hash
