@@ -10,6 +10,12 @@ brew install hugo
 hugo server
 ```
 
+# New content
+
+```
+hugo new portfolio/title-here.md
+```
+
 # Deploy
 
 Hosted on Netlify.
