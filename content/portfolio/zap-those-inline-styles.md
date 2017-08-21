@@ -33,7 +33,7 @@ The corresponding controller code will look something like this:
 
 ``` ruby
 def index
-  # actually put that Product.all into a helper and memoize it. mkay
+  # actually put Product.all into a helper and memoize it. mkay
   @products = Product.all
 end
 ```
