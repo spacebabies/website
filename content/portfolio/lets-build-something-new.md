@@ -1,0 +1,379 @@
++++
+date = "2017-02-05T19:41:01+05:30"
+title = "Let's Build Something New"
+draft = true
++++
+Let's build something totally new today! It has been snowing all weekend, and
+my town is covered in a fluffy white blanket. Perfect conditions for the
+creation of a thing.
+<!--more-->
+
+We are going to create an add-on to Pageflow. Specifically, we are about to
+create a connection between it and Localfocus. We want to display pretty
+graphs easily! Editors should be able to paste a URL somewhere and voila.
+
+Since Pageflow has been through a big change in code, there aren't many
+tutorials teaching the new, correct, way. If you follow this step by step, at
+the end you'll have a working add-on. Let's do this!
+
+The code for this excercise is on GitHub.
+
+## Reading the docs
+
+The first order of business is [readin' some documentation](https://github.com/codevise/pageflow/blob/99143f6a81ad743a6dd1102db8a6d7918305660b/doc/index.md). With what we are trying to accomplish, [Creating a Pageflow Plugin Rails Engine](https://github.com/codevise/pageflow/blob/99143f6a81ad743a6dd1102db8a6d7918305660b/doc/creating_a_pageflow_plugin_rails_engine.md) is the way to go. Incidentally, or maybe not so much, the bulk of which was written by yours truly!
+
+### 1: create a rubygem
+
+Our plugin name is going to be `pageflow-localfocus`. We are modelling it after [`pageflow-chart`](https://github.com/codevise/pageflow-chart) as they do more or less exactly the same thing. Following the instructions, we use Bundler to get started:
+
+``` shell
+bundle gem pageflow-localfocus
+```
+
+That generated a bunch of files. Wow! Let's commit them all. A brand new git
+repository was already created for us, and all the files were added to it too.
+
+``` shell
+git commit
+```
+
+Time to create [a new repository on GitHub](https://github.com/scrollytelling/pageflow-localfocus), and connect it with our local one.
+
+``` shell
+git remote add origin git@github.com:scrollytelling/pageflow-localfocus.git
+git push -u origin master
+```
+
+Excellent.
+
+
+### 2: fill in the gemspec
+
+The gemspec is a file that describes our gem. As it stands, we need to fix
+the TODOs that are in there. Also, we are removing the bit about not pushing
+to rubygems, and we add the ddependencies mentioned in the doc.
+
+### 3: create the Rails Engine itself
+
+We create a new file that holds the Rails Engine code:
+
+``` ruby
+require 'rails/engine'
+
+module Pageflow
+  module Localfocus
+    class Engine < ::Rails::Engine
+      isolate_namespace Pageflow::Localfocus
+    end
+  end
+end
+```
+
+In this file we are requiring `rails/engine`! A-ha. That means we depend on
+Rails too, so we are adding that to the gemspec.
+
+Our first bit of code is in the can! But how can we see if it does something?
+
+Enter the console:
+
+``` shell
+bin/console
+```
+
+We are greeting with a big failure:
+
+``` shell
+bin/console
+/Users/joost/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-4.2.10/lib/rails/engine.rb:531:in `routes': uninitialized constant Rails::Engine::ActionDispatch (NameError)
+```
+
+Right. Time for a little experience to kick in. If we just require all of rails
+before we require the engine, we're good. So at the top of `engine.rb` we add:
+
+``` ruby
+require 'rails'
+```
+
+I have no idea if that is the _correct_ way to go about it, but it works:
+
+``` shell
+irb(main):002:0> Pageflow::Localfocus::VERSION
+=> "0.1.0"
+```
+
+Let's commit the lot and move on. Next!
+
+### 4: Creating a Page Type
+
+We move on to the next piece of documentation: [Creating Page Types](https://github.com/codevise/pageflow/blob/99143f6a81ad743a6dd1102db8a6d7918305660b/doc/creating_page_types.md).
+
+First on the menu is adding the required JavaScript files. We are just following
+orders here. If you want to know more, there is a commit for that!
+
+### 5: Registering the Page Component
+
+Look at us! It's not even tea time yet and we're already created a bunch of
+new things today. Time to take it to the next level and create a React Component
+for our page type. This is also neatly described in the documentation, with
+one change I am making: the page component will not be in the main
+`components.js` but neatly tucked away in the `components` directory.
+
+I am just copying and pasting stuff at this point with absolutely no idea
+as to what it does! Like this:
+
+``` javascript
+(function() {
+  const {
+    PageWrapper,
+    PageBackground, PageBackgroundImage, PageShadow,
+    PageContent, PageHeader, PageText
+  } = pageflow.react.components;
+
+  function Page(props) {
+    return (
+      <PageWrapper>
+        <PageBackground>
+        </PageBackground>
+
+        <PageContent>
+        </PageContent>
+      </PageWrapper>
+    );
+  }
+
+  const {registerPageType, connectInPage, combine} = pageflow.react;
+  const {pageAttributes} = pageflow.react.selectors;
+
+  registerPageType('localfocus', {
+    component: connectInPage(
+      combine({
+        page: pageAttributes()
+      })
+    )(Page)
+  });
+}());
+```
+
+It sure looks impressive.
+
+So far, we've added boilerplate. It's time to get dirty. All we need is
+an `<iframe>` that points to the chart. Let's hard-code one into our
+component and see if that works.
+
+But wait! What's that? [iframes and React don't go nicely together?](https://medium.com/@ebakhtarov/handling-of-iframes-in-react-f038be46ac24) Of course. Nothing ever works without pain in this ‘ecosystem’. But I am just an old Unix greybeard, don't listen to me. Let's make React happy and jump through some hoops to throw an iframe on the page.
+
+### 6: Adding the actual iframe
+
+It seems like a smart idea to setup a 'ref' to the iframe, as mentioned in the
+React documentation. It's the best way to maintain a relation to the DOM object,
+which an iframe obviously is. When you need a ref, you cannot use a pure
+function to create your component. So, a class it is.
+
+``` jsx
+class LocalfocusIframe extends React.Component {
+  render() {
+    return (
+      <iframe
+        className="localfocusvisual"
+        scrolling="no"
+        frameborder="0"
+        style="width:100%;height:550px;overflow:hidden"
+        ref={iframe => this.iframe = iframe}
+        src="https://localfocus2.appspot.com/551a9626918b3?api=1"></iframe>
+    );
+  }
+}
+```
+
+We have just put in a random chart URL, because we wanna see something now!
+
+The time has come to add our newest baby to our local Pageflow install. But
+we need to add still more boiletplate first. Time to work on the editor
+integration.
+
+### 7: Setting Up the Editor Integration
+
+As described, we need a Backbone view that will be displayed inside the editor.
+
+I managed to copy and paste the `ConfigurationEditorView` from the doc. But
+sadly, more was needed. I needed an input field and a template to render with.
+I found inspiration in the [`pageflow-vr`](https://github.com/codevise/pageflow-vr)
+plugin which is setup very decent.
+
+I found that I wanted my own URL input field:
+
+``` html
+<label>
+  <span class="name"></span>
+  <span class="inline_help"></span>
+  <input
+    type="url"
+    required pattern="https://localfocus2.appspot.com/.*"
+    title="Only localfocus URLs are allowed"
+    placeholder="https://localfocus2.appspot.com/551a9626918b3"
+  />
+</label>
+<div class="validation"></div>
+<div class="status_container"></div>
+```
+
+Pageflow does provide a built-in URL field, but this doesn't use HTML5 form
+field validation. Mine does and also has the `url` type set. Most mobile devices
+will tweak the keyboard, making URL entry easier.
+
+We also need a UrlInputView to glue the whole thing together. This one is
+pretty large, so I won't paste it here. Take a look at the source.
+
+### 8: Localization
+
+Finish is in sight! We need to add translation strings for our editor UI.
+
+Once more this is expertly described in the documentation.
+
+### 9: Almost there: the Plugin class
+
+This is pretty routine; copypasta-time once more.
+
+``` ruby
+require 'pageflow/plugin'
+
+module Pageflow
+  module Localfocus
+    class Plugin < Pageflow::Plugin
+      config.page_types.register(Pageflow::React.create_page_type('localfocus'))
+    end
+
+    def self.plugin
+      Plugin.new
+    end
+  end
+end
+```
+
+## John Dies At The End
+
+_Or, how I started seeing things._
+
+Having created all this awesome code we need just one thing: **RESULTS!**
+
+It would be a little presumptuous to publish the gem as-is and call it a day.
+Instead, we will activate the plugin locally and see what's what. Time to leave
+our gem code alone for a bit and go back to Scrollytelling; our Rails app.
+
+Add the under-construction gem to Gemfile:
+
+``` ruby
+gem 'pageflow-localfocus', path: '/Users/joost/Gems/pageflow-localfocus'
+```
+
+Install it:
+
+``` shell
+bundle install
+```
+
+And add it to the Pageflow initializer:
+
+``` ruby
+# ... lots of config
+config.plugin(Pageflow::Localfocus.plugin)
+# ... lots of config more
+```
+
+Progress being made. Yes, we will need more configuration once everything is
+done, but for now let's fire up the ol' Rails
+server and see if we can select this page type in our editor. But, oh no! The
+server won't even start.
+
+``` ruby
+NameError: undefined local variable or method config for Pageflow::Localfocus::Plugin:Class
+```
+
+We didn't copy-paste enough code from the documentation. We actually need to
+write a method in our plugin class! Duh! That's what you get when you're just
+going through the motions.
+
+Our method should look like this:
+
+``` ruby
+def configure(config)
+  config.page_types.register(Pageflow::React.create_page_type('localfocus'))
+end
+```
+
+And now everything starts! Pay attention, y'all!!
+
+We log into the editor, create a new page, and lo and behold, we can select
+Localfocus as the page type! (We need to fix the category; we will do that
+later.)
+
+But... nothing happens. Or, more specifically, errors are shown in the browser
+console:
+
+``` javascript
+Uncaught TypeError: constructor is not a constructor
+    at child.createConfigurationEditorView (http://scrollytelling.dev/assets/pageflow/editor/api/page_type.self-34fa332454121a83e2f96da2706f603016182821520121041780d6369b666374.js?body=1:35:12)
+```
+
+At this point (actually, a half hour later) I realized I needed to actually
+configure the plugin properly. Which means adding it to `components.js` and
+the Rails asset stylesheet. Which means doing this in the Rails app:
+
+``` ruby
+# app/assets/javascripts/components.js
+//= require "pageflow/localfocus/components"
+
+# app/assets/javascripts/pageflow/application.js
+//= require "pageflow/localfocus"
+
+# app/assets/javascripts/pageflow/editor.js
+//= require pageflow/localfocus/editor
+```
+
+And that worked! No errors! Actually, one:
+
+```
+SyntaxError: unknown: Unexpected token (15:5)
+  13 |       );
+  14 |     }
+> 15 |   }());
+     |      ^
+  16 |
+```
+
+Turns out I hadn't indented the `LocalfocusIframe` class properly. I blame
+parentheses. They are always out to get me. On to the next error, which was
+that `LocalfocusIframe` is not defined.
+
+Well, it turns out that can't be a pure function either. So I rewrote it
+into a proper class:
+
+``` javascript
+class LocalfocusIframe extends React.Component {
+  render() {
+    return (
+      <iframe
+        className="localfocusvisual"
+        scrolling="no"
+        frameborder="0"
+        style="width:100%;height:550px;overflow:hidden"
+        ref={iframe => this.iframe = iframe}
+        src="https://localfocus2.appspot.com/551a9626918b3?api=1">
+      </iframe>
+    )
+  }
+}
+```
+
+and needed to require it in the page:
+
+``` javascript
+const {LocalfocusIframe} = pageflow.localfocus;
+```
+
+Oh, and since we have two JavaScript entry points (one for public view, the
+other for the editor), this line needs to be at the very top of either file:
+
+```
+pageflow.localfocus = pageflow.localfocus || {};
+```
