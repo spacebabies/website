@@ -1,26 +1,31 @@
 +++
 date = "2017-02-05T19:41:01+05:30"
 title = "Let's Build Something New"
-draft = true
+draft = false
 +++
 Let's build something totally new today! It has been snowing all weekend, and
 my town is covered in a fluffy white blanket. Perfect conditions for the
 creation of a thing.
 <!--more-->
 
+<img src="/img/portfolio/pageflow-io.jpg" class="img-responsive" alt="Pageflow">
+
 We are going to create an add-on to Pageflow. Specifically, we are about to
-create a connection between it and Localfocus. We want to display pretty
-graphs easily! Editors should be able to paste a URL somewhere and voila.
+create a connection between it and [Localfocus](https://www.localfocus.nl/nl/). We want to display pretty
+graphs easily! Editors should be able to paste a URL in a field and magic should
+happen. MAGIC.
 
 Since Pageflow has been through a big change in code, there aren't many
-tutorials teaching the new, correct, way. If you follow this step by step, at
-the end you'll have a working add-on. Let's do this!
+tutorials teaching the new, correct, way. If you follow this one, step by step, at
+the end you'll have a working add-on. Okay, you can skip where I made a mistake. Let's do this!
 
-The code for this excercise is on GitHub.
+The code for this excercise is on [GitHub](https://github.com/scrollytelling/pageflow-localfocus).
+
+<img src="/img/portfolio/woohoo-j-lets-do-this-com-14032494.png" class="img-responsive" alt="Let's Do This!">
 
 ## Reading the docs
 
-The first order of business is [readin' some documentation](https://github.com/codevise/pageflow/blob/99143f6a81ad743a6dd1102db8a6d7918305660b/doc/index.md). With what we are trying to accomplish, [Creating a Pageflow Plugin Rails Engine](https://github.com/codevise/pageflow/blob/99143f6a81ad743a6dd1102db8a6d7918305660b/doc/creating_a_pageflow_plugin_rails_engine.md) is the way to go. Incidentally, or maybe not so much, the bulk of which was written by yours truly!
+The first order of business is [readin' some documentation](https://github.com/codevise/pageflow/blob/99143f6a81ad743a6dd1102db8a6d7918305660b/doc/index.md). With what we are trying to accomplish, the document [Creating a Pageflow Plugin Rails Engine](https://github.com/codevise/pageflow/blob/99143f6a81ad743a6dd1102db8a6d7918305660b/doc/creating_a_pageflow_plugin_rails_engine.md) is the way to go. The bulk of which, incidentally, or maybe not so much, was written by yours truly!
 
 ### 1: create a rubygem
 
@@ -46,6 +51,7 @@ git push -u origin master
 
 Excellent.
 
+<img src="/img/portfolio/step-1-complete-yrjkpv.jpg" class="img-responsive" alt="Step 1 Complete">
 
 ### 2: fill in the gemspec
 
@@ -53,13 +59,17 @@ The gemspec is a file that describes our gem. As it stands, we need to fix
 the TODOs that are in there. Also, we are removing the bit about not pushing
 to rubygems, and we add the ddependencies mentioned in the doc.
 
+While we're in here, let's mention the license in the spec and also generate the
+actual MIT license in the repository. And while we're still there we'll also
+generate a [Contributor Covenant](https://www.contributor-covenant.org). There should
+be no mistake that everyone is welcome to help with this project, and abuse
+of any kind is not tolerated.
+
 ### 3: create the Rails Engine itself
 
 We create a new file that holds the Rails Engine code:
 
 ``` ruby
-require 'rails/engine'
-
 module Pageflow
   module Localfocus
     class Engine < ::Rails::Engine
@@ -69,8 +79,21 @@ module Pageflow
 end
 ```
 
-In this file we are requiring `rails/engine`! A-ha. That means we depend on
-Rails too, so we are adding that to the gemspec.
+In this file we are depending on something something Rails. A-ha. That means we
+need add Rails as a dependency in our spec.
+
+_PS: after that intial file, I added two more handy things:_
+
+```
+  # autoload our code, which is Rails dogma
+  config.autoload_paths << File.join(config.root, 'lib')
+
+  # automagically reload our React code when it changes
+  # This has been fixed in newer versions of react-rails.
+  initializer "pageflow-localfocus.add_watchable_files", group: :all do |app|
+    app.config.watchable_files.concat Dir["#{config.root}/app/assets/javascripts/**/*.jsx*"]
+  end
+```
 
 Our first bit of code is in the can! But how can we see if it does something?
 
@@ -78,28 +101,11 @@ Enter the console:
 
 ``` shell
 bin/console
-```
-
-We are greeting with a big failure:
-
-``` shell
-bin/console
-/Users/joost/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-4.2.10/lib/rails/engine.rb:531:in `routes': uninitialized constant Rails::Engine::ActionDispatch (NameError)
-```
-
-Right. Time for a little experience to kick in. If we just require all of rails
-before we require the engine, we're good. So at the top of `engine.rb` we add:
-
-``` ruby
-require 'rails'
-```
-
-I have no idea if that is the _correct_ way to go about it, but it works:
-
-``` shell
 irb(main):002:0> Pageflow::Localfocus::VERSION
 => "0.1.0"
 ```
+
+#missionaccomplished
 
 Let's commit the lot and move on. Next!
 
@@ -155,6 +161,8 @@ as to what it does! Like this:
 ```
 
 It sure looks impressive.
+
+<img src="/img/portfolio/i-like-the-way-you-move.jpg" class="img-responsive" alt="I like the way you move">
 
 So far, we've added boilerplate. It's time to get dirty. All we need is
 an `<iframe>` that points to the chart. Let's hard-code one into our
@@ -224,6 +232,10 @@ will tweak the keyboard, making URL entry easier.
 We also need a UrlInputView to glue the whole thing together. This one is
 pretty large, so I won't paste it here. Take a look at the source.
 
+Then after banging my head against a wall for much longer than I care to admit,
+I just went in and chucked all my innovations and copied existing Pageflow
+code. Always be shippin'. :'(
+
 ### 8: Localization
 
 Finish is in sight! We need to add translation strings for our editor UI.
@@ -235,26 +247,36 @@ Once more this is expertly described in the documentation.
 This is pretty routine; copypasta-time once more.
 
 ``` ruby
-require 'pageflow/plugin'
-
 module Pageflow
   module Localfocus
     class Plugin < Pageflow::Plugin
-      config.page_types.register(Pageflow::React.create_page_type('localfocus'))
-    end
-
-    def self.plugin
-      Plugin.new
+      def configure(config)
+        config.page_types.register(Pageflow::Localfocus.page_type)
+      end
     end
   end
 end
 ```
+
+The trick here is to reference our `Localfocus` module when we want to use
+this class:
+
+``` ruby
+def self.plugin
+  Localfocus::Plugin.new
+end
+```
+
+Because the autoload pagic has alrady seen `Pageflow` and doesn't look further.
+Oh, autoloading, it is so nice, so automagic, I love magic!
 
 ## John Dies At The End
 
 _Or, how I started seeing things._
 
 Having created all this awesome code we need just one thing: **RESULTS!**
+
+<img src="/img/portfolio/10-resultaten.jpg" class="img-responsive" alt="RESULTS">
 
 It would be a little presumptuous to publish the gem as-is and call it a day.
 Instead, we will activate the plugin locally and see what's what. Time to leave
@@ -282,8 +304,11 @@ config.plugin(Pageflow::Localfocus.plugin)
 
 Progress being made. Yes, we will need more configuration once everything is
 done, but for now let's fire up the ol' Rails
-server and see if we can select this page type in our editor. But, oh no! The
-server won't even start.
+server and see if we can select this page type in our editor.
+
+### 💢 NO! Errors are here!
+
+But, oh no! The server won't even start.
 
 ``` ruby
 NameError: undefined local variable or method config for Pageflow::Localfocus::Plugin:Class
@@ -306,6 +331,8 @@ And now everything starts! Pay attention, y'all!!
 We log into the editor, create a new page, and lo and behold, we can select
 Localfocus as the page type! (We need to fix the category; we will do that
 later.)
+
+### 💢 NO! Errors are here!
 
 But... nothing happens. Or, more specifically, errors are shown in the browser
 console:
@@ -330,7 +357,11 @@ the Rails asset stylesheet. Which means doing this in the Rails app:
 //= require pageflow/localfocus/editor
 ```
 
-And that worked! No errors! Actually, one:
+And that worked!
+
+### 💢 NO! Errors are here!
+
+Actually, one:
 
 ```
 SyntaxError: unknown: Unexpected token (15:5)
@@ -342,8 +373,11 @@ SyntaxError: unknown: Unexpected token (15:5)
 ```
 
 Turns out I hadn't indented the `LocalfocusIframe` class properly. I blame
-parentheses. They are always out to get me. On to the next error, which was
-that `LocalfocusIframe` is not defined.
+parentheses. They are always out to get me.
+
+### 💢 NO! Errors are here! IDIOT!
+
+On to the next error, which was that `LocalfocusIframe` is not defined.
 
 Well, it turns out that can't be a pure function either. So I rewrote it
 into a proper class:
@@ -377,3 +411,28 @@ other for the editor), this line needs to be at the very top of either file:
 ```
 pageflow.localfocus = pageflow.localfocus || {};
 ```
+
+### 💢 NO! Errors are here!
+
+My editor fields were all messed up.
+
+After trying in vain to wrap my head around Backbone/Marionette, I gave up
+and just copied the text input views from Pageflow. `pageflow.inputView` was
+my friend. I made no sudden moves, copied every line by precious line, and
+then my editor worked. Progress!
+
+### 💢 NO! Errors are STILL here! Amateur!
+
+Still no luck. The LocalFocus frame seemed to load, but was empty. My console
+had a big warning about hitting some /null URL over there. Back to you! LOL.
+In fact, back to me. I took out the ?api=1 parameter on the iframe source and
+that fixed things right back up.
+
+Obviously all my editor UI still shows the UNTRANSLATED STRINGS because I had
+to purge the local cache first. Now What?
+
+...
+
+Now, nothing! After that it kind of just worked!
+
+<img src="/img/portfolio/something-new.png" class="img-responsive" alt="A LocalFocus graph embedded in a Pageflow/Scrollytelling document">
