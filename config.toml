@@ -9,7 +9,7 @@ canonifyURLs = true
   # Use custom.css for your custom styling
   style = "default"
   description = "Internet Engineers"
-  copyright = "Overhoeksplein 2<br>NL-1031KS Amsterdam<br>The Netherlands<br><br>KvK 34180528<br>VAT NL811222792B01<br><br><br>"
+  copyright = "Overhoeksplein 2<br>NL-1031KS Amsterdam<br>The Netherlands<br><br>KvK 38431742<br>VAT NL147480140B02<br><br><br>"
   sidebarAbout = [
     "We create beautiful, fast and secure web applications."
   ]
