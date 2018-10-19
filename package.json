@@ -6,7 +6,7 @@
     "netlify-lambda": "^1.0.2"
   },
   "scripts": {
-    "build": "hugo; yarn build:lambda; mv functions public/",
+    "build": "hugo; yarn build:lambda;",
     "start:lambda": "netlify-lambda serve resources/functions",
     "build:lambda": "netlify-lambda build resources/functions"
   }
