@@ -1,0 +1,10 @@
+/
+  Strict-Transport-Security: max-age=31536000; includeSubdomains
+  Link: </css/bootstrap.min.css>; rel=preload; as=style
+  Link: </css/font-awesome.min.css>; rel=preload; as=style
+/css/*
+  Cache-Control: public, max-age=14400
+/img/*
+  Cache-Control: public, max-age=14400
+/js/*
+  Cache-Control: public, max-age=14400
