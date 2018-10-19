@@ -1,5 +1,12 @@
 {
+  "name": "space-babies",
+  "version": "6.0.0",
+  "private": true,
   "dependencies": {
     "netlify-lambda": "^1.0.2"
+  },
+  "scripts": {
+    "start:lambda": "netlify-lambda serve resources/functions",
+    "build:lambda": "netlify-lambda build resources/functions"
   }
 }
