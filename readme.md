@@ -1,7 +1,7 @@
 # Install
 
 ```
-brew install hugo
+sudo apt install hugo
 ```
 
 # Run
