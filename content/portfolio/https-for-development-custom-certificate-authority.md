@@ -54,6 +54,8 @@ sudo ln -s ~/pki/ca.crt /usr/local/share/ca-certificates/$HOST.crt
 sudo update-ca-certificates --fresh
 ```
 
+Chrome and Firefox need to have this certificate imported separately. This is a button in the preferences.
+
 ### 3. Encrypt all the things
 
 To switch from http to https, we need a certificate and a key, exactly
