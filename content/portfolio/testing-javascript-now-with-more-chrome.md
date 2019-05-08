@@ -9,6 +9,8 @@ And Chrome does so, without complaints, after every little change I make.
 
 <!--more-->
 
+**2019 update! Selenium is 2018, [get with the program](https://www.spacebabies.nl/portfolio/testing-applications-with-chrome-devtools-protocol/**
+
 A normal part of creating a website is testing it. See if all the buttons work,
 see if nothing goes unexpectedly bad, see if everything looks okay. Testing by
 hand is soul-crushingly boring though. So there are scripts to help us do that.
