@@ -58,12 +58,7 @@ Chuck the entire file. Create a new one in the same place:
 
 ``` ruby
 require 'capybara/cuprite'
-
-Capybara.register_driver :cuprite do |app|
-  Caoybara::Cuprite::Driver.new app, browser_options: { 'no-sandbox': nil }
-end
-
-Capybara.javascript_driver - :cuprite
+Capybara.javascript_driver = :cuprite
 ```
 
 **All set!**
@@ -89,7 +84,7 @@ cookies = page.driver.cookies
 cookie_name = 'gdpr_consent_misery'
 
 unless cookies[cookie_name]
-  page.driver.set_cookie cookie_name, value: 'dismiss'
+  page.driver.set_cookie cookie_name, 'dismiss'
   puts "Set cookie `#{cookie_name}`"
 end
 ```
