@@ -1,9 +1,6 @@
 +++
 date = "2017-08-07T16:44:48+01:00"
-image = ""
-showonlyimage = false
 title = "Middleman Netlify Server Push"
-Categories = ["Infrastructure"]
 +++
 
 Last month, Netlify introduced their implementation of [HTTP/2 Server Push](https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/). We started using this and have have noticed significantly faster websites. Here is how to configure Middleman to use this feature.

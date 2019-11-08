@@ -1,9 +1,8 @@
 +++
 date = "2017-02-05T19:41:01+05:30"
 title = "Let's Build Something New"
-draft = false
-Categories = ["Software Development", "Ruby"]
 +++
+
 Let's build something totally new today! It has been snowing all weekend, and
 my town is covered in a fluffy white blanket. Perfect conditions for the
 creation of a thing.

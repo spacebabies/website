@@ -1,6 +1,7 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
 title = "About Space Babies"
+description = "We enable our customers to use the Internet as best as humanly possible."
 +++
 
 ## Joost Baaij

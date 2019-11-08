@@ -1,10 +1,6 @@
 +++
 date = "2019-08-29T22:46:32+05:30"
-draft = false
 title = 'HTTPS for the masses'
-image = ""
-showonlyimage = false
-Categories = ["Infrastructure"]
 +++
 
 Remember that post where I showed you [how to easily run https on your

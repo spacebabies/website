@@ -1,10 +1,9 @@
 +++
-date = "2017-08-21T22:57:46+01:00"
-image = "img/portfolio/css3.svg"
-showonlyimage = false
 title = "Zap those inline styles"
-Categories = ["CSS"]
+date = "2017-08-21T22:57:46+01:00"
+images = ["img/portfolio/css3.svg"]
 +++
+
 We‘ve all done it: adding inline styles to HTML pages, because the content is dynamic. Backgrounds for example. Inline styles bother me because they bloat the page, can't be cached and just look ugly. Zap those ugly inline styles! Using Rails helpers and bad-ass cache magic. ✨
 <!--more-->
 

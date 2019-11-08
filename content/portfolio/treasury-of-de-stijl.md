@@ -1,10 +1,9 @@
 +++
-date = "2017-07-30T16:30:14+01:00"
-image = "img/portfolio/de-stijl.png"
-showonlyimage = false
 title = "Treasury of De Stijl"
-Categories = ["Our Products"]
+date = "2017-07-30T16:30:14+01:00"
+images = ["img/portfolio/de-stijl.png"]
 +++
+
 For Scrollytelling, we helped build and now host and support [The Treasury of _De Stijl_](https://www.deschatkamervandestijl.nl). We celebrate the art form's Centennial with unique stories and bleeding-edge technology.
 <!--more-->
 

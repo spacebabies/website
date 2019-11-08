@@ -3,15 +3,21 @@ languageCode = "en-us"
 title = "Space Babies"
 theme = "hugo-creative-portfolio-theme"
 canonifyURLs = true
+enableRobotsTXT = true
+image = "img/space-babies.png"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Internet Engineers"
+  description = "Internet Engineers. If you can envision it, we can build it."
   copyright = "Overhoeksplein 2<br>NL-1031KS Amsterdam<br>The Netherlands<br><br>KvK 70132208<br>VAT NL147480140B02<br><br><br>"
   sidebarAbout = [
     "We create beautiful, fast and secure web applications."
+  ]
+  images = [
+    "img/space-babies.png"
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a

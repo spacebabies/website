@@ -1,8 +1,6 @@
 +++
-date = "2019-05-08T05:49:14+01:00"
-showonlyimage = false
 title = "Testing all the things with Chrome DevTools Protocol"
-Categories = ["Infrastructure"]
+date = "2019-05-08T05:49:14+01:00"
 +++
 
 If you, like me, are [using Chrome to test your applications](https://www.spacebabies.nl/portfolio/testing-javascript-now-with-more-chrome/), your life just got better. It's time to say _adieu_ to Chromedriver and Selenium.

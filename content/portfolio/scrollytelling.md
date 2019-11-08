@@ -1,10 +1,8 @@
 +++
-image = "img/portfolio/scrollytelling-logo.png"
-showonlyimage = true
-draft = false
-date = "2016-11-05T19:53:42+05:30"
 title = "Scrollytelling"
-Categories = ["Our Products"]
+images = ["img/portfolio/scrollytelling-logo.png"]
+showonlyimage = true
+date = "2016-11-05T19:53:42+05:30"
 +++
 
 We co-founded and bootstrapped a succesful SaaS aimed at national media.

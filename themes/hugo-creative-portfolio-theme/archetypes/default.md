@@ -1,2 +1,4 @@
 +++
+draft = false
+showonlyimage = false
 +++

@@ -1,10 +1,7 @@
 +++
-showonlyimage = false
-draft = false
-image = "img/portfolio/paul-de-ruiter.jpg"
+images = ["img/portfolio/paul-de-ruiter.jpg"]
 date = "2015-08-05T19:59:22+05:30"
 title = "Paul de Ruiter"
-Categories = ["Our Customers"]
 +++
 
 A stunning new corporate identity, and creation of a new website to go with it.

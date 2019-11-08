@@ -1,10 +1,6 @@
 +++
 date = "2017-07-29T08:43:51+01:00"
-draft = false
-image = ""
-showonlyimage = false
 title = "lightswitch hosting"
-Categories = ["Infrastructure"]
 +++
 
 Hosting a website has become like installing a light switch. Connect some wires, hit it, and a lamp goes on. It's cheap, practically invisible and it's very uncool. Oh, and it's expected to work every single time, for decades, without maintenance.
