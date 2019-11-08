@@ -2,6 +2,7 @@
 title = "Testing JavaScript, now with more Chrome"
 date = "2017-10-22T13:34:43+02:00"
 image = "img/portfolio/google-chrome-sign.jpg"
+Categories = ["Javascript", "Software Development"]
 +++
 Starting today, I am using Chrome to run automated browser tests. I tell Chrome
 to browse through my sites, click buttons, and (mis)behave like a regular human.

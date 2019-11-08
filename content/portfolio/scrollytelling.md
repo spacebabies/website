@@ -4,6 +4,7 @@ showonlyimage = true
 draft = false
 date = "2016-11-05T19:53:42+05:30"
 title = "Scrollytelling"
+Categories = ["Our Products"]
 +++
 
 We co-founded and bootstrapped a succesful SaaS aimed at national media.

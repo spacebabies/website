@@ -3,6 +3,7 @@ title = "Bitbucket Pipelines: now 200% more DRY"
 image = "img/portfolio/bitbucket-pipelines-header.png"
 showonlyimage = false
 date = "2018-08-28T11:20:19+05:30"
+Categories = ["Software Development", "Infrastructure"]
 +++
 
 Today, I saw the *future*. And it was bright. And full of annoying youngsters

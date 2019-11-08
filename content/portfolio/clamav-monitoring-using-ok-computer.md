@@ -4,6 +4,7 @@ showonlyimage = false
 date = "2018-10-10T16:42:32+02:00"
 title = "ClamAV monitoring with OkComputer"
 draft = false
+Categories = ["Software Development", "infrastructure"]
 +++
 
 Made the world every so slightly better today.

@@ -2,6 +2,7 @@
 date = "2018-08-24T14:56:22+05:30"
 showonlyimage = false
 title = 'Recursive Rails partials'
+Categories = ["Ruby", "Software Development"]
 +++
 
 Love it when I make the world slightly better by improving an Open Source product I use.

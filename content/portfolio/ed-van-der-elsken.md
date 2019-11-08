@@ -4,6 +4,7 @@ showonlyimage = false
 date = "2017-03-05T19:44:32+05:30"
 title = "Ed van der Elsken"
 draft = false
+Categories = ["Our Products"]
 +++
 
 Three webdocs. The man in words and pictures.

@@ -2,6 +2,7 @@
 date = "2018-05-28T16:30:14+01:00"
 image = "img/portfolio/img__about-cookie-consent-1-1-1024x588.png"
 title = 'Cookie Opt-In: doing the GOD DAMN CORRECT THING'
+Categories = ["Javascript"]
 +++
 Oh, GDPR, GDPGRRRRRRRRRR! Have you been in the situation where you—and your
 customer!—want to do the right thing, and only load third-party cookies after

@@ -3,6 +3,7 @@ date = "2017-09-19T05:25:14+02:00"
 image = "img/portfolio/box-tea.jpg"
 showonlyimage = false
 title = "Mr. Jones"
+Categories = ["Our Customers"]
 +++
 
 We are delighted to announce that Mr. Jones is now maintained by Space Babies.
