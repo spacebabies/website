@@ -1,6 +1,6 @@
 +++
 title = "Agriculture in the context of forced displacement"
-images = "img/portfolio/makeshift-professional-lighting.jpg"
+images = ["img/portfolio/makeshift-professional-lighting.jpg"]
 date = "2016-11-05T20:23:59+05:30"
 +++
 

@@ -4,7 +4,7 @@ theme = "hugo-creative-portfolio-theme"
 canonifyURLs = true
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
-
+languageCode = "en-us"
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
