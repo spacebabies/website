@@ -17,4 +17,4 @@ All that knowledge is available in book form. Self-published and from what I hea
 
 The new one is, responsive I mean, and it looks darn pretty too. It haz all the latest clouds. HTTP/2, asset optimisation, Stripe Checkout 3.0, https via Let's Encrypt, and the latest and greatest of secure headers.
 
-<a href="https://www.thedefiantred.com"><img src="/img/portfolio/the-defiant-red-index-desktop.png"></a>
+<a href="https://www.thedefiantred.com"><img alt="The Cover of The Defiant Red" src="/img/portfolio/the-defiant-red-index-desktop.png"></a>

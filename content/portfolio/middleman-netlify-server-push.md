@@ -17,7 +17,7 @@ Now, on to the full story!
 
 ### Middleman creates static files
 
-<img src="/img/portfolio/middleman-foundation.jpg">
+<img src="/img/portfolio/middleman-foundation.jpg" alt="Middleman is something that saves time building websites.">
 
 Middleman is a static website generator, written in Ruby. It is one of the tools we use to deploy websites on Netlify. Middleman is smart enough to use fingerprinted asset URLs. This means that filenames of CSS and JavaScript files change every time we make a change to them. Netlify needs a static file called `_headers` to configure Server Push. To marry the two worlds, we need a bit of code.
 
@@ -27,7 +27,7 @@ We will use the [Middleman Sitemap](https://middlemanapp.com/advanced/sitemap/) 
 
 Or, how do we automatically use those changed filenames without having to do any work?
 
-<img src="/img/portfolio/lazy-office-worker.png">
+<img src="/img/portfolio/lazy-office-worker.png" alt="The stereotype is that office workers are lazy.">
 
 When Middleman has finished constructing the sitemap, it will trigger an event we can use from the config file. Here's the code you'll need in `config.rb`:
 
@@ -81,4 +81,4 @@ Now `git push` and sit back!
 
 The fingerprinted paths end up in the headers file, and Netlify does the rest. You can see for yourself on [www.paulderuiter.nl](https://www.paulderuiter.nl/).
 
-<a href="https://www.paulderuiter.nl"><img src="/img/portfolio/paul-de-ruiter-en.png"></a>
+<a href="https://www.paulderuiter.nl"><img src="/img/portfolio/paul-de-ruiter-en.png" alt="Mugshot of Paul de Ruiter"></a>
