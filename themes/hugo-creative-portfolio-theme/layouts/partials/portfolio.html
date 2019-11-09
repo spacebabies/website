@@ -1,34 +1,34 @@
 <div class="col-xs-12 col-sm-8 col-md-9 content-column">
-    {{ partial "mobile_nav_toggle.html" . }}
-    <div class="grid">
-        <div class="row">
-          {{ range (where .Data.Pages "Section" "portfolio") }}
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
-                      {{ if and (isset .Params "images") .Params.images }}
-                        {{ if eq .Params.showonlyimage true }}
-                        <a href="{{ .Permalink }}" title="Start reading {{ .Title }}" class="box-masonry-image with-hover-overlay">
-                        {{ else }}
-                        <a href="{{ .Permalink }}" title="Start reading {{ .Title }}" class="box-masonry-image with-hover-overlay with-hover-icon">
-                        {{ end }}
+  {{ partial "mobile_nav_toggle.html" . }}
+  <div class="grid">
+    <div class="row">
+      {{ range (where .Data.Pages "Section" "portfolio") }}
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+        <div class="box-masonry">
+          {{ if and (isset .Params "images") .Params.images }}
+          {{ if eq .Params.showonlyimage true }}
+          <a href="{{ .Permalink }}" title="Start reading {{ .Title }}" class="box-masonry-image with-hover-overlay">
+            {{ else }}
+            <a href="{{ .Permalink }}" title="Start reading {{ .Title }}" class="box-masonry-image with-hover-overlay with-hover-icon">
+              {{ end }}
 
-                        {{ $image := index (.Params.images) 0 }}
-                        <img src="{{ $image }}" alt="{{ .LinkTitle }}" class="img-responsive">
-                        </a>
-                      {{ end }}
-                      {{ if eq .Params.showonlyimage true }}
-                      <div class="box-masonry-hover-text-header">
-                      {{ else }}
-                      <div class="box-masonry-text">
-                      {{ end }}
-                          <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                          <div class="box-masonry-desription">
-                              <p>{{ .Summary }}</p>
-                          </div>
-                      </div>
-                  </div>
+              {{ $image := index (.Params.images) 0 }}
+              <img src="{{ $image }}" alt="{{ .LinkTitle }}" class="img-responsive">
+            </a>
+            {{ end }}
+            {{ if eq .Params.showonlyimage true }}
+            <div class="box-masonry-hover-text-header">
+              {{ else }}
+              <div class="box-masonry-text">
+                {{ end }}
+                <a class="h4" href="{{ .Permalink }}">{{ .Title }}</a>
+                <div class="box-masonry-desription">
+                  <p>{{ .Summary }}</p>
+                </div>
               </div>
-          {{ end }}
+            </div>
         </div>
+        {{ end }}
+      </div>
     </div>
-</div>
+  </div>

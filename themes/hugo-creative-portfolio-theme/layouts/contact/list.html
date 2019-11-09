@@ -6,10 +6,9 @@
       <div class="content-column-content">
          <h1>{{ .Title }}</h1>
          {{ .Content }}
-         <h4>You can find us on:</h4>
-         {{ partial "social_buttons_in_contact.html" . }}
+
          {{ with .Site.Params.email }}
-         <h4>Drop us a line, maybe?</h4>
+         <h2>Drop us a line, maybe?</h2>
          <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/{{ . }}">
            <div class="controls">
              <div class="form-group">

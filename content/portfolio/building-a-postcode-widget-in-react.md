@@ -50,7 +50,7 @@ To break that down a little, we have a normal HTML form and a chunk of inline jQ
 
 Let’s get started modernizing it!
 
-## React
+## We choose React
 
 Since Blitts is a Rails app, step one is to install react-rails, after which we can start writing our components.
 
