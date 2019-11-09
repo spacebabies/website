@@ -18,7 +18,7 @@ _Recursion._ Tum dum duuummm!!
 
 <div style="width:100%;height:0;padding-bottom:95%;position:relative;"><iframe src="https://giphy.com/embed/ArobrE6qU5QDC" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/wtf-time-ArobrE6qU5QDC">via GIPHY</a></p>
 
-#### Rails partials
+## Rails partials
 
 The [Ancestry wiki](https://github.com/stefankroes/ancestry/wiki) contains code examples that build an HTML list. I don't think
 it's great code, because it doesn't use the power of Rails very much. When rendering

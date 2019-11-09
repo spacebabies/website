@@ -5,6 +5,7 @@ date = "2018-11-06T14:56:22+05:30"
 There's honor in delivering great work, even if it's a [website announcing  the shuttering of one of your products](https://www.scrollytelling.com).
 <!--more-->
 
+## RIP Scrollytelling
 Sometimes, the best that can happen is for something to end. It was the case
 for Scrollytelling, of which I am a co-founder. A bittersweet goodbye for sure.
 We created great unique content, had our delivery apparatus in top condition,

@@ -10,6 +10,7 @@ Inline styles bother me because they bloat the page, can't be cached and just lo
 
 I'm gonna walk you step by step.
 
+## First step
 We're tryna move away from this ugly fella here:
 
 ``` html
@@ -22,6 +23,7 @@ We will need a stylesheet and we will want it to be dynamic. This means we want 
 
 <img src="/img/portfolio/530e685201681a4c402b382055389a6f0fcea5941705e348634c53502ca3813e.jpg">
 
+## New step
 This is going into our layout:
 
 ``` html
@@ -30,6 +32,7 @@ This is going into our layout:
 
 The astute observer will observe it starts with a slash. This will side-track Sprockets and the asset pipeline meaning we can get down to biznis. Don't copypasta that line quite yet though; it's not good enough as we'll soon see.
 
+## Next step: controller
 The corresponding controller code will look something like this:
 
 ``` ruby

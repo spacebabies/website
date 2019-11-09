@@ -26,6 +26,7 @@ There are many monitoring tools on the market, but for our Ruby on Rails apps
 we like to use OkComputer. There was no known method to monitor ClamAV with
 OkComputer. **Until today!**
 
+## We created an OkComputer integration
 We wrote the [official check](https://github.com/spacebabies/ok_computer-clamav) which you can add to your installation now.
 
 > Monitor `clamd` from the luxury of your existing OkComputer setup! This check will make noise when the daemon does not respond to messages. It makes a socket connection, sends a PING and waits for a PONG. If any of that does not occur, you'll know it.

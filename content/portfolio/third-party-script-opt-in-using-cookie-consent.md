@@ -19,7 +19,7 @@ you wish to deny cookies. But behold! I have a [customer](http://www.blitts.nl) 
 the right thing! And only load third-party tracking cookies after an explicit
 'yes'. [Cookie Consent even has a page dedicated to setting that up.](https://cookieconsent.insites.com/documentation/disabling-cookies/)
 
-### YOU FAIL!
+## YOU FAIL!
 
 The example provided treats _dismiss_ as **allow** and all those third-party
 cookies are dumped on all those poor devices! The horror!
