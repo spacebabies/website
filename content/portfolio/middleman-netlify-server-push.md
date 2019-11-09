@@ -1,10 +1,11 @@
 +++
-date = "2017-08-07T16:44:48+01:00"
 title = "Middleman Netlify Server Push"
+date = "2017-08-07T16:44:48+01:00"
 +++
-
-Last month, Netlify introduced their implementation of [HTTP/2 Server Push](https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/). We started using this and have have noticed significantly faster websites. Here is how to configure Middleman to use this feature.
+Last month, Netlify introduced their implementation of [HTTP/2 Server Push](https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/).
 <!--more-->
+
+We started using this and have have noticed significantly faster websites. Here is how to configure Middleman to use this feature.
 
 Holy technical terms! `middleman netlify server push` what does that even mean? Take it easy—if you're not a developer, you can probably skip the following paragraphs and go straight to _whoa, that IS fast!_.
 

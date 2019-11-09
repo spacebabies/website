@@ -1,9 +1,8 @@
 +++
+title = "De Digitale Topschool"
 mages = ["img/portfolio/de-digitale-topschool.jpg"]
 date = "2016-11-05T20:02:19+05:30"
-title = "De Digitale Topschool"
 +++
-
 Our e-learning environment helps gifted students in primary education by matching them with a private mentor.
 <!--more-->
 

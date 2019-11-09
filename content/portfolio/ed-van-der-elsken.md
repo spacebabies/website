@@ -1,9 +1,8 @@
 +++
-image = ["img/portfolio/eds-tijdreis.jpg"]
-date = "2017-03-05T19:44:32+05:30"
 title = "Ed van der Elsken"
+images = ["img/portfolio/eds-tijdreis.jpg"]
+date = "2017-03-05T19:44:32+05:30"
 +++
-
 Three webdocs. The man in words and pictures.
 <!--more-->
 

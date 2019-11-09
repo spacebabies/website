@@ -4,9 +4,7 @@ images = ["img/portfolio/bitbucket-pipelines-header.png"]
 showonlyimage = false
 date = "2018-08-28T11:20:19+05:30"
 +++
-
-Today, I saw the *future*. And it was bright. And full of annoying youngsters
-who acted as if they were the alpha and omega of society, now get off my lawn!!
+Today, I saw the *future*. And it was bright. And full of annoying youngsters who acted as if they were the alpha and omega of society, now get off my lawn!!
 <!--more-->
 
 I've been keeping an eye on Bitbucket Pipelines lately; it's a service that offers

@@ -1,7 +1,7 @@
 +++
-image = "img/portfolio/makeshift-professional-lighting.jpg"
-date = "2016-11-05T20:23:59+05:30"
 title = "Agriculture in the context of forced displacement"
+images = "img/portfolio/makeshift-professional-lighting.jpg"
+date = "2016-11-05T20:23:59+05:30"
 +++
 
 By invitation of the [Lemon Tree Trust](http://lemontreetrust.org), we went to Iraq to find stories around urban agriculture by people who leave or flee their homes due to conflict, violence, persecution or human rights violations.

@@ -1,10 +1,11 @@
 +++
-date = "2017-07-29T08:43:51+01:00"
 title = "lightswitch hosting"
+date = "2017-07-29T08:43:51+01:00"
 +++
-
-Hosting a website has become like installing a light switch. Connect some wires, hit it, and a lamp goes on. It's cheap, practically invisible and it's very uncool. Oh, and it's expected to work every single time, for decades, without maintenance.
+Hosting a website has become like installing a light switch. Connect some wires, hit it, and a lamp goes on.
 <!--more-->
+
+It's cheap, practically invisible and it's very uncool. Oh, and it's expected to work every single time, for decades, without maintenance.
 
 Even if we developed everything in-house, our customers rightfully compare their website hosting with Facebook or Google. The only way to play this game, is team up with the best companies in the world. By choosing Netlify, we have done just that.
 

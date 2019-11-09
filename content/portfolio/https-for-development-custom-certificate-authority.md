@@ -1,15 +1,13 @@
 +++
-date = "2019-01-04T20:33:32+05:30"
 title = "Website development on HTTPS: be your own GoDaddy"
+date = "2019-01-04T20:33:32+05:30"
 +++
-
-Long gone are the days when https for websites was a curiosity;
-reserved only for the checkout page. Encryption is the norm now.
+Long gone are the days when https for websites was a curiosity; reserved only for the checkout page. Encryption is the norm now.
+<!--more-->
 
 But as creators, we never bothered with https when developing something.
 In fact, it was a burden. We cannot get "real" https certificates on our
 local workstations. We have to create our own.
-<!--more-->
 
 So let's fake being a huge provider like Go Daddy! When it all works,
 maybe we get to [shoot some elephants](https://gawker.com/5787676/meet-godaddys-ridiculous-elephant-killing-ceo) too!

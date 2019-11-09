@@ -1,8 +1,7 @@
 +++
-date = "2016-11-05T19:56:17+05:30"
 title = "A postcode widget in React"
+date = "2016-11-05T19:56:17+05:30"
 +++
-
 Our job is to create beautiful, fast and secure web applications. This postcode widget embodies all three aspects.
 <!--more-->
 

@@ -1,9 +1,8 @@
 +++
+title = "Paul de Ruiter"
 images = ["img/portfolio/paul-de-ruiter.jpg"]
 date = "2015-08-05T19:59:22+05:30"
-title = "Paul de Ruiter"
 +++
-
 A stunning new corporate identity, and creation of a new website to go with it.
 <!--more-->
 

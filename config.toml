@@ -1,10 +1,8 @@
 baseURL = "https://www.spacebabies.nl/"
-languageCode = "en-us"
 title = "Space Babies"
 theme = "hugo-creative-portfolio-theme"
 canonifyURLs = true
 enableRobotsTXT = true
-image = "img/space-babies.png"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]

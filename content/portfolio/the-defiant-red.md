@@ -3,9 +3,10 @@ title = "The Defiant Red"
 date = "2019-04-29T08:49:14+01:00"
 images = ["img/portfolio/the-defiant-red-screen-mobile.jpg"]
 +++
-
-My very own father is a renowned expert of ceramic glazes. It's been his work his entire life. And retirement or not, it seems he has a little trouble letting go...
+My very own father is a renowned expert of ceramic glazes. It's been his work his entire life.
 <!--more-->
+
+And retirement or not, it seems he has a little trouble letting go...
 
 Joking aside. Anyone who has been tasked with producing a new glaze in the color red, sooner or later ends up chatting with him. He's the authority on this, and always open to sharing recipes, resources, anything.
 

@@ -2,9 +2,10 @@
 title = "Testing all the things with Chrome DevTools Protocol"
 date = "2019-05-08T05:49:14+01:00"
 +++
-
-If you, like me, are [using Chrome to test your applications](https://www.spacebabies.nl/portfolio/testing-javascript-now-with-more-chrome/), your life just got better. It's time to say _adieu_ to Chromedriver and Selenium.
+If you, like me, are [using Chrome to test your applications](https://www.spacebabies.nl/portfolio/testing-javascript-now-with-more-chrome/), your life just got better.
 <!--more-->
+
+It's time to say _adieu_ to Chromedriver and Selenium.
 
 > Quick TLDR: I can control Chrome like a puppeteer and make it go through a project that is still under construction. It can do everything Chrome can, using a script I write. And it happily keeps testing everything, day after day. Hands in the air for outsourcing boring stuff!
 

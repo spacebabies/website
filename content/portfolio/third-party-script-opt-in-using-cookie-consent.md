@@ -3,11 +3,12 @@ title = 'Cookie Opt-In: doing the GOD DAMN CORRECT THING'
 date = "2018-05-28T16:30:14+01:00"
 images = ["img/portfolio/img__about-cookie-consent-1-1-1024x588.png"]
 +++
+Oh, GDPR, GDPGRRRRRRRRRR!
+<!--more-->
 
-Oh, GDPR, GDPGRRRRRRRRRR! Have you been in the situation where you—and your
+Have you been in the situation where you—and your
 customer!—want to do the right thing, and only load third-party cookies after
 an actual opt-in? Fond of the Cookie Consent widget like I am? Read on!
-<!--more-->
 
 Cookie Consent is decent code to ask your visitors if you may place some
 of those dreadful carb-laden things on their computer. I recommend it for

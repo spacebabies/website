@@ -3,9 +3,10 @@ title = "Treasury of De Stijl"
 date = "2017-07-30T16:30:14+01:00"
 images = ["img/portfolio/de-stijl.png"]
 +++
-
-For Scrollytelling, we helped build and now host and support [The Treasury of _De Stijl_](https://www.deschatkamervandestijl.nl). We celebrate the art form's Centennial with unique stories and bleeding-edge technology.
+For Scrollytelling, we helped build and now host and support [The Treasury of _De Stijl_](https://www.deschatkamervandestijl.nl).
 <!--more-->
+
+We celebrate the art form's Centennial with unique stories and bleeding-edge technology.
 
 Scrollytelling was commissioned by ARTtube to produce the “treasury”: a collection of never-heard-before stories surrounding _De Stijl_'s seminal figures **Theo van Doesburg**, **Piet Mondriaan**, **Bart van der Leck** and **Vilmos Huszár**.
 

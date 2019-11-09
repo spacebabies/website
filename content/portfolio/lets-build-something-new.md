@@ -1,12 +1,11 @@
 +++
-date = "2017-02-05T19:41:01+05:30"
 title = "Let's Build Something New"
+date = "2017-02-05T19:41:01+05:30"
 +++
-
-Let's build something totally new today! It has been snowing all weekend, and
-my town is covered in a fluffy white blanket. Perfect conditions for the
-creation of a thing.
+Let's build something totally new today, who'se with me?!
 <!--more-->
+
+It has been snowing all weekend, and my town is covered in a fluffy white blanket. Perfect conditions for the creation of a thing.
 
 <img src="/img/portfolio/pageflow-io.jpg" class="img-responsive" alt="Pageflow">
 

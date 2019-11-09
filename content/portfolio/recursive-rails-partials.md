@@ -1,8 +1,7 @@
 +++
-date = "2018-08-24T14:56:22+05:30"
 title = 'Recursive Rails partials'
+date = "2018-08-24T14:56:22+05:30"
 +++
-
 Love it when I make the world slightly better by improving an Open Source product I use.
 <!--more-->
 

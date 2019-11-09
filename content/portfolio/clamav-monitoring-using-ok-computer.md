@@ -1,9 +1,8 @@
 +++
+title = "ClamAV monitoring with OkComputer"
 images = ["/img/portfolio/ok__what_now__by_lazylatiaslover-dbjq69b.png"]
 date = "2018-10-10T16:42:32+02:00"
-title = "ClamAV monitoring with OkComputer"
 +++
-
 Made the world every so slightly better today.
 <!--more-->
 
