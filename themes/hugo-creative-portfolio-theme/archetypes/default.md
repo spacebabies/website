@@ -1,4 +1,2 @@
 +++
-draft = false
-showonlyimage = false
 +++

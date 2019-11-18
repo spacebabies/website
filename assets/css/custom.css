@@ -1,0 +1,10 @@
+figure {
+  margin-bottom: 2em;
+}
+
+figcaption h4 {
+  font-weight: 200;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #cdcdcd;
+}
