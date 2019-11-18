@@ -1,7 +1,7 @@
 +++
 title = "King nascholing"
 date = "2017-02-05T19:41:01+05:30"
-images = ["/portfolio/king-nascholing-laucnhes/king-nascholing.jpg"]
+images = ["/portfolio/king-nascholing-launches/king-nascholing.jpg"]
 +++
 This tailor-made ecommerce and online courseware website saves King nascholing countless hours of manual labor, making students happier and more effective.
 <!--more-->
