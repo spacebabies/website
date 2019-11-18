@@ -1,20 +1,20 @@
 {{ partial "meta" . }}
 
-<link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
-<link rel="stylesheet" href="{{ "css/font-awesome.min.css" | relURL }}">
-<link rel="stylesheet" href="{{ "css/owl.carousel.css" | relURL }}">
-<link rel="stylesheet" href="{{ "css/owl.theme.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/font-awesome.min.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/owl.carousel.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/owl.theme.css" | absURL }}">
 
 {{ with .Site.Params.style }}
-  <link href="{{ printf "css/style.%s.css" . | relURL }}" rel="stylesheet" id="theme-stylesheet">
+  <link href="{{ printf "css/style.%s.css" . | absURL }}" rel="stylesheet" id="theme-stylesheet">
 {{ else }}
-  <link href="{{ "css/style.default.css" | relURL }}" rel="stylesheet" id="theme-stylesheet">
+  <link href="{{ "css/style.default.css" | absURL }}" rel="stylesheet" id="theme-stylesheet">
 {{ end }}
 
-<link href="{{ "css/custom.css" | relURL }}" rel="stylesheet">
+<link href="{{ "css/custom.css" | absURL }}" rel="stylesheet">
 
-<link rel="shortcut icon" href="{{ "img/favicon.png" | relURL }}">
+<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}">
 
 {{ with .OutputFormats.Get "RSS" }}
   <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">

@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.spacebabies.nl/"
 canonifyURLs = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = true
