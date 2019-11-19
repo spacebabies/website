@@ -1,0 +1,13 @@
+{
+    "name": "Space Babies",
+    "short_name": "Space Babies",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#efa100",
+    "background_color": "#efa100"
+}
