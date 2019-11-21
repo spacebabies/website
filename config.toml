@@ -1,9 +1,15 @@
 baseURL = "https://www.spacebabies.nl/"
-disableKinds = ["taxonomy", "taxonomyTerm"]
-enableRobotsTXT = true
-languageCode = "en-us"
+title = "Space Babies - We create internet"
 theme = "hugo-creative-portfolio-theme"
-title = "Space Babies"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableGitInfo = true
+enableRobotsTXT = true
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
+
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
