@@ -19,7 +19,11 @@ title = "Space Babies"
   subtitle = "We create internet"
   description = "Internet Engineers. If you can envision it, we can build it."
   copyright = "Overhoeksplein 2<br>NL-1031KS Amsterdam<br>The Netherlands<br><br>KvK 70132208<br>VAT ID NL001734749B64<br><br><br>"
-  sidebarAbout = ["We create beautiful, fast and secure web applications."]
+  sidebarAbout = [
+    "Hi! Space Babies is me, Joost Baaij.",
+    "I create beautiful, fast and secure web applications, and have been doing so for more than twenty years.",
+    "My work has enabled my customers' effortless growth online. "
+  ]
   images = ["img/space-babies.png"]
 
   # Nav links in the side bar
