@@ -18,7 +18,7 @@ Since Pageflow has been through a big change in code, there aren't many
 tutorials teaching the new, correct, way. If you follow this one, step by step, at
 the end you'll have a working add-on. Okay, you can skip where I made a mistake. Let's do this!
 
-The code for this excercise is on [GitHub](https://github.com/scrollytelling/pageflow-localfocus).
+The code for this exercise is on [GitHub](https://github.com/scrollytelling/pageflow-localfocus).
 
 {{< figure src="woohoo-j-lets-do-this-com-14032494.png" title="Let's Do This!" >}}
 
@@ -81,7 +81,7 @@ end
 In this file we are depending on something something Rails. A-ha. That means we
 need add Rails as a dependency in our spec.
 
-_PS: after that intial file, I added two more handy things:_
+_PS: after that initial file, I added two more handy things:_
 
 {{< highlight bash >}}
   # autoload our code, which is Rails dogma
@@ -192,7 +192,7 @@ class LocalfocusIframe extends React.Component {
 }
 {{< /highlight >}}
 
-We have just put in a random chart URL, because we wanna see something now!
+We have just put in a random chart URL, because we want to see something now!
 
 The time has come to add our newest baby to our local Pageflow install. But
 we need to add still more boiletplate first. Time to work on the editor

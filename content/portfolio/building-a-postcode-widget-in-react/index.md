@@ -35,9 +35,9 @@ It’s a beautiful case of inline jQuery circa 2009:
         url: '/postcodecheck/' + postcode + '/' + housenumber + '/' + housenumber_addition,
         success: function(data) {
           if(data.available){
-            $('.postcodecheck-result').text('Uw adres is beschikbaar in BLITTS!');
+            $('.postcodecheck-result').text('Address available');
           } else {
-            $('.postcodecheck-result').text('Uw adres is helaas nog niet beschikbaar in BLITTS voor het aanvragen van een vergunning, maar u kunt wel controleren of u vergunningsvrij kunt bouwen.');
+            $('.postcodecheck-result').text('Address not available');
           }
         }
       });
@@ -152,7 +152,7 @@ var PostcodeCheck = React.createClass({
     e.preventDefault();
 
     if (!this.state.postcode || !this.state.housenumber) {
-      this.setState({result: 'Postcode en huisnummer zijn verplichte velden.'});
+      this.setState({result: 'Postcode and house number are required'});
       return;
     }
 
@@ -161,9 +161,9 @@ var PostcodeCheck = React.createClass({
       url: '/postcodecheck/' + this.state.postcode + '/' + this.state.housenumber + '/' + this.state.housenumberAddition,
       success: function(data) {
         if (data.available) {
-          this.setState({result: 'Uw adres is beschikbaar in BLITTS!'});
+          this.setState({result: 'Address available'});
         } else {
-          this.setState({result: 'Uw adres is helaas nog niet beschikbaar in BLITTS voor het aanvragen van een vergunning, maar u kunt wel controleren of u vergunningsvrij kunt bouwen.'});
+          this.setState({result: 'Address not available'});
         }
       }.bind(this),
       error: function(xhr, status, err) {
