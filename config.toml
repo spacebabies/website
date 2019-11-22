@@ -1,11 +1,12 @@
 baseURL = "https://www.spacebabies.nl/"
-title = "Space Babies"
-theme = "hugo-creative-portfolio-theme"
-languageCode = "en-us"
 defaultContentLanguage = "en"
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 enableGitInfo = true
 enableRobotsTXT = true
-disableKinds = ["section", "taxonomy", "taxonomyTerm"]
+languageCode = "en-us"
+paginate = 15
+theme = "hugo-creative-portfolio-theme"
+title = "Space Babies"
 
 [privacy]
   [privacy.youtube]

@@ -1,5 +1,5 @@
 +++
-title = "Paul de Ruiter"
+title = "A stunning new corporate identity for architect Paul de Ruiter"
 images = ["/portfolio/paul-de-ruiter/paul-de-ruiter.jpg"]
 date = "2015-08-05T19:59:22+05:30"
 +++

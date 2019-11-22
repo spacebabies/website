@@ -1,5 +1,5 @@
 +++
-title = "Treasury of De Stijl"
+title = "Treasury of De Stijl. Still blown away by Mondriaan"
 date = "2017-07-30T16:30:14+01:00"
 images = ["/portfolio/treasury-of-de-stijl/de-stijl.png"]
 +++

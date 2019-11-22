@@ -1,5 +1,5 @@
 +++
-title = "The Defiant Red"
+title = "The Defiant Red: definitive book about red ceramic glazes"
 date = "2019-04-29T08:49:14+01:00"
 images = ["/portfolio/the-defiant-red/the-defiant-red-screen-mobile.jpg"]
 +++

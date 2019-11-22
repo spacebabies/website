@@ -1,5 +1,5 @@
 +++
-title = 'Recursive Rails partials'
+title = 'Recursive Rails Partials are Recursive Rails Partials are Recursive'
 date = "2018-08-24T14:56:22+05:30"
 +++
 Love it when I make the world slightly better by improving an Open Source product I use.

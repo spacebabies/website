@@ -1,6 +1,6 @@
 +++
 date = "2016-11-06T13:00:25+05:30"
-title = "Get in touch"
+title = "Contact Space Babies: get in touch"
 description = 'There are numerous ways to get in touch with me. Here they are!'
 layout = 'contact.html'
 +++

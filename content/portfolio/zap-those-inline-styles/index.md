@@ -1,5 +1,5 @@
 +++
-title = "Zap those inline styles"
+title = "Zap those inline styles for performance and security"
 date = "2017-08-21T22:57:46+01:00"
 images = ["/portfolio/zap-those-inline-styles/css3.svg"]
 +++

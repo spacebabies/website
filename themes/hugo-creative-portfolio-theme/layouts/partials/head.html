@@ -1,7 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{ with .Title }}<title>{{ . }}</title>{{ end }}
-<link rel="canonical" href="{{ .Permalink }}" itemprop="url">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ with .Prev }}<link rel="prev" href="{{ .Permalink }}">{{ end }}
+{{ with .Next }}<link rel="next" href="{{ .Permalink }}">{{ end }}
 <base href="{{ .Permalink }}">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 

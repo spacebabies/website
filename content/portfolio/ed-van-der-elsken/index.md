@@ -1,5 +1,5 @@
 +++
-title = "Ed van der Elsken"
+title = "Ed van der Elsken: the man in photos"
 images = ["/portfolio/ed-van-der-elsken/eds-tijdreis.jpg"]
 date = "2017-03-05T19:44:32+05:30"
 +++

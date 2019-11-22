@@ -1,5 +1,5 @@
 +++
-title = "lightswitch hosting"
+title = "Hosting as reliable and (seeminly) simple as flicking a light switch"
 date = "2017-07-29T08:43:51+01:00"
 +++
 Hosting a website has become like installing a light switch. Connect some wires, hit it, and a lamp goes on.

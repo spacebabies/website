@@ -1,5 +1,5 @@
 +++
-title = "De Digitale Topschool"
+title = "De Digitale Topschool: online learning environment for gifted children"
 mages = ["/portfolio/de-digitale-topschool/de-digitale-topschool.jpg"]
 date = "2016-11-05T20:02:19+05:30"
 +++

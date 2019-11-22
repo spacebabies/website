@@ -1,5 +1,5 @@
 +++
-title = "Mr. Jones"
+title = "Mr. Jones, the world-renowned tea brand"
 date = "2017-09-19T05:25:14+02:00"
 images = [":filename/portfolio/mr-jones/box-tea.jpg"]
 +++

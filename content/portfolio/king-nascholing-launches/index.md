@@ -1,5 +1,5 @@
 +++
-title = "King nascholing"
+title = "King nascholing: accredited education for healthcare professionals"
 date = "2017-02-05T19:41:01+05:30"
 images = ["/portfolio/king-nascholing-launches/king-nascholing.jpg"]
 +++

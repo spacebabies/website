@@ -1,6 +1,6 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
-title = "About Space Babies"
+title = "About Joost Baaij a.k.a. Space Babies"
 description = "We enable our customers to use the Internet as best as humanly possible."
 +++
 

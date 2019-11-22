@@ -1,5 +1,5 @@
 +++
-title = "BLITTS"
+title = "BLITTS. Get freshly-baked permits for home improvement online"
 images = ["/portfolio/blitts/blitts-buildings.jpg"]
 date = "2015-11-05T19:57:40+05:30"
 +++
