@@ -2,7 +2,7 @@
 title = "Middleman Netlify Server Push"
 date = "2017-08-07T16:44:48+01:00"
 +++
-Last month, Netlify introduced their implementation of [HTTP/2 Server Push](https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/).
+Last month, Netlify introduced their implementation of [HTTP/2 Server Push](https://www.netlify.com/blog/2016/04/15/make-your-site-faster-with-netlifys-intelligent-cdn/).
 <!--more-->
 
 We started using this and have have noticed significantly faster websites. Here is how to configure Middleman to use this feature.
@@ -11,7 +11,7 @@ Holy technical terms! `middleman netlify server push` what does that even mean? 
 
 ## TL;DR: Just gimme the code!
 
-<script src="https://gist.github.com/tilsammans/5512def5c88aafc7fb9fbd5309129d02.js"></script>
+{{< gist tilsammans 5512def5c88aafc7fb9fbd5309129d02 >}}
 
 Now, on to the full story!
 

@@ -17,7 +17,7 @@ most websites.
 Most customers prefer the 'inform only' option where you're out of luck if
 you wish to deny cookies. But behold! I have a [customer](http://www.blitts.nl) who wants to do
 the right thing! And only load third-party tracking cookies after an explicit
-'yes'. [Cookie Consent even has a page dedicated to setting that up.](https://cookieconsent.insites.com/documentation/disabling-cookies/)
+'yes'. [Cookie Consent even has a page dedicated to setting that up.](https://www.osano.com/cookieconsent/documentation/disabling-cookies/)
 
 ## YOU FAIL!
 

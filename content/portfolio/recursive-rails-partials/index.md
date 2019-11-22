@@ -16,7 +16,7 @@ To solve it, you need code that runs itself any amount of time.
 
 _Recursion._ Tum dum duuummm!!
 
-<div style="width:100%;height:0;padding-bottom:95%;position:relative;"><iframe src="https://giphy.com/embed/ArobrE6qU5QDC" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/wtf-time-ArobrE6qU5QDC">via GIPHY</a></p>
+<img src="wtf-time-ArobrE6qU5QDC.gif" alt="Recursion">
 
 ## Rails partials
 
