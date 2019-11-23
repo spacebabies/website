@@ -63,4 +63,4 @@ The corresponding *key* is in `~/pki/private/example.local.key`.
 
 Where these go depends on the software you're using.
 
-{{< figure src="baby-elephants-3545047_1280.jpg" title="Two elephants, cuddling." >}}
+{{< figure src="baby-elephants-3545047_1280.jpg" caption="Two elephants, cuddling." >}}

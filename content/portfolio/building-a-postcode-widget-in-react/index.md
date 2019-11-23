@@ -5,7 +5,7 @@ date = "2016-11-05T19:56:17+05:30"
 Our job is to create beautiful, fast and secure web applications. This postcode widget embodies all three aspects.
 <!--more-->
 
-{{< figure src="blitts-widget.png" title="Blitts postcode widget" >}}
+{{< figure src="blitts-widget.png" caption="Blitts postcode widget" >}}
 
 The widget is in use on [Blitts](http://www.blitts.nl/), one of the products we maintain. Blitts allows you to request a permit for home improvement. Enter your postcode to see if the product is supported in your area. (hint: only Dutch postcodes will work. Try 1234AA 1 for a success response).
 

@@ -101,4 +101,4 @@ mv cookieconsent.min.css vendor/assets/stylesheets
 
 And put everything related to this in an IIFE, comme ca:
 
-<script src="https://gist.github.com/tilsammans/c1c9bda68274d5ac473814fdd456766d.js"></script>
+{{< gist tilsammans c1c9bda68274d5ac473814fdd456766d >}}

@@ -13,7 +13,7 @@ looks and works really nicely.
 
 So, it being a queit _summer vacay_ and all, I took the plunge.
 
-{{< figure src="bitbucket-pipelines-flower.png" title="Bitbucket Pipelines. It... grows in a pot?" >}}
+{{< figure src="bitbucket-pipelines-flower.png" caption="Bitbucket Pipelines. It... grows in a pot?" >}}
 
 ## My verdict
 I won't write in detail about how the experience was. There is plenty of

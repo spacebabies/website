@@ -7,7 +7,7 @@ Let's build something totally new today, who'se with me?!
 
 It has been snowing all weekend, and my town is covered in a fluffy white blanket. Perfect conditions for the creation of a thing.
 
-{{< figure src="pageflow-io.jpg" title="Pageflow" >}}
+{{< figure src="pageflow-io.jpg" caption="Pageflow" >}}
 
 We are going to create an add-on to Pageflow. Specifically, we are about to
 create a connection between it and [Localfocus](https://www.localfocus.nl/nl/). We want to display pretty
@@ -20,7 +20,7 @@ the end you'll have a working add-on. Okay, you can skip where I made a mistake.
 
 The code for this exercise is on [GitHub](https://github.com/scrollytelling/pageflow-localfocus).
 
-{{< figure src="woohoo-j-lets-do-this-com-14032494.png" title="Let's Do This!" >}}
+{{< figure src="woohoo-j-lets-do-this-com-14032494.png" caption="Let's Do This!" >}}
 
 ## Reading the docs
 
@@ -50,7 +50,7 @@ git push -u origin master
 
 Excellent.
 
-{{< figure src="step-1-complete-yrjkpv.jpg" title="Step 1 Complete" >}}
+{{< figure src="step-1-complete-yrjkpv.jpg" caption="Step 1 Complete" >}}
 
 ### 2: fill in the gemspec
 
@@ -161,7 +161,7 @@ as to what it does! Like this:
 
 It sure looks impressive.
 
-{{< figure src="i-like-the-way-you-move.jpg" title="I like the way you move" >}}
+{{< figure src="i-like-the-way-you-move.jpg" caption="I like the way you move" >}}
 
 So far, we've added boilerplate. It's time to get dirty. All we need is
 an `<iframe>` that points to the chart. Let's hard-code one into our
@@ -216,7 +216,7 @@ I found that I wanted my own URL input field:
   <input
     type="url"
     required pattern="https://localfocus2.appspot.com/.*"
-    title="Only localfocus URLs are allowed"
+    caption="Only localfocus URLs are allowed"
     placeholder="https://localfocus2.appspot.com/551a9626918b3"
   />
 </label>
@@ -275,7 +275,7 @@ _Or, how I started seeing things._
 
 Having created all this awesome code we need just one thing: **RESULTS!**
 
-{{< figure src="10-resultaten.jpg" title="RESULTS" >}}
+{{< figure src="10-resultaten.jpg" caption="RESULTS" >}}
 
 It would be a little presumptuous to publish the gem as-is and call it a day.
 Instead, we will activate the plugin locally and see what's what. Time to leave
@@ -434,4 +434,4 @@ to purge the local cache first. Now What?
 
 Now, nothing! After that it kind of just worked!
 
-{{< figure src="something-new.png" title="A LocalFocus graph embedded in a Pageflow/Scrollytelling document" >}}
+{{< figure src="something-new.png" caption="A LocalFocus graph embedded in a Pageflow/Scrollytelling document" >}}

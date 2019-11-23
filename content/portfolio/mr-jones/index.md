@@ -6,7 +6,7 @@ images = [":filename/portfolio/mr-jones/box-tea.jpg"]
 We are delighted to announce that Mr. Jones is now maintained by Space Babies.
 <!--more-->
 
-{{< figure src="mr-jones.png" title="Mr. Jones" >}}
+{{< figure src="mr-jones.png" caption="Mr. Jones" >}}
 
 ## Okay who is he
 Who he is? He is a high-end tea brand sold in The Netherlands.

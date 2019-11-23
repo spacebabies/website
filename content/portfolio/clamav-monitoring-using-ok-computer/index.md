@@ -6,7 +6,7 @@ date = "2018-10-10T16:42:32+02:00"
 Made the world every so slightly better today.
 <!--more-->
 
-{{< figure src="ok__what_now__by_lazylatiaslover-dbjq69b.png" title="Better is good" >}}
+{{< figure src="ok__what_now__by_lazylatiaslover-dbjq69b.png" caption="Better is good" >}}
 
 For some projects, I add a <mark>virus scanner for every upload going into the system</mark>. You just
 don't know what someone could be bringing into your <s>house</s>server, intentionally or not.

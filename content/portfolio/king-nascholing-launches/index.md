@@ -10,7 +10,7 @@ This tailor-made ecommerce and online courseware website saves King nascholing c
 The client approached us to take their manual enrollment process online. We proceeded to automate as much of the process as possible: from student enrollment, to online courseware, to reminders via email.
 
 ## Workshop Time!
-{{< figure src="king-screenshot.jpg" title="www.kingnascholing.nl" >}}
+{{< figure src="king-screenshot.jpg" caption="www.kingnascholing.nl" >}}
 
 
 Since King nascholing came from a mostly manual process, and so did not have the online steps clearly defined, we held a couple User Story Workshops first. In these collaborative, open sessions we dug in to find the stories that needed to be implemented. Priorities were determined collaboratively, and an agile workflow was adopted.

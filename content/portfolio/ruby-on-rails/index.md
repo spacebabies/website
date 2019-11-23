@@ -7,7 +7,7 @@ It is one of the great web frameworks. _Airbnb_ and _Shopify_ are built with it,
 
 Even though it‘s been around since biblical times, it shows no signs of aging. Given a choice, we always use it to build web somethings. Here is why.
 
-{{< figure src="ruby-on-rails-logo.png" title="Ruby on Rails" >}}
+{{< figure src="ruby-on-rails-logo.png" caption="Ruby on Rails" >}}
 
 Allow me to take you back to around y2k. Joost was a _Java Enterprise Edition_ consultant at the time. I went to businesses in the land to write them some code. We thought that weeks, actually more likely months, were the norm until you had done did something useful. All this accompanied with a cornucopia of xml files to glue everything together. We billed €100 per hour and life was fucking _amazing_.
 

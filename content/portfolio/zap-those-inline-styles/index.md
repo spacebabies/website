@@ -21,7 +21,7 @@ We want to move those styles into the place where styles belong, i.e. a styleshe
 
 We will need a stylesheet and we will want it to be dynamic. This means we want it to go into a controller to fetch the current product images and render those out into something that looks like CSS. And, if you're wondering, no the idiot Sprockets asset pipeline is not going to help us here, even if we add `.erb` to a stylesheet. (Which is a dumb idea if you ever asked me anyway)
 
-{{< figure src="530e685201681a4c402b382055389a6f0fcea5941705e348634c53502ca3813e.jpg" title="Your idea is bad, and you should feel bad." >}}
+{{< figure src="530e685201681a4c402b382055389a6f0fcea5941705e348634c53502ca3813e.jpg" caption="Your idea is bad, and you should feel bad." >}}
 
 ## New step
 This is going into our layout:
