@@ -838,18 +838,18 @@ a:active {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.box-masonry h4 {
+.box-masonry h2 {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-.box-masonry h4 a {
+.box-masonry h2 a {
   color: #000;
   border-bottom: solid 1px transparent;
 }
-.box-masonry h4 a:hover {
+.box-masonry h2 a:hover {
   border-bottom: dotted 1px #ef5285;
   color: #000;
   text-decoration: none;
@@ -876,7 +876,7 @@ a:active {
 .box-masonry .box-masonry-hover-text-header p {
   font-size: 14px;
 }
-.box-masonry .box-masonry-hover-text-header h4 a {
+.box-masonry .box-masonry-hover-text-header h2 a {
   color: #555555;
 }
 .box-masonry .box-masonry-hover-center {

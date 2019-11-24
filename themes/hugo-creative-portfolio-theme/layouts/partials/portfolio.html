@@ -4,34 +4,42 @@
     <div class="row">
       {{ $paginator := .Paginate (where $.Site.RegularPages "Section" "portfolio") }}
       {{ range $paginator.Pages }}
+
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
         <div class="box-masonry">
           {{ if and (isset .Params "images") .Params.images }}
-          {{ if eq .Params.showonlyimage true }}
-          <a href="{{ .Permalink }}" title="Start reading {{ .Title }}" class="box-masonry-image with-hover-overlay">
-            {{ else }}
-          <a href="{{ .Permalink }}" title="Start reading {{ .Title }}" class="box-masonry-image with-hover-overlay with-hover-icon">
-            {{ end }}
-
             {{ $image := index (.Params.images) 0 }}
-            <img src="{{ $image }}" alt="{{ .LinkTitle }}" class="img-responsive">
-          </a>
+
+            {{ if eq .Params.showonlyimage true }}
+              <figure class="box-masonry-image with-hover-overlay">
+              <img src="{{ $image }}" alt="{{ .LinkTitle }}" class="img-responsive">
+              </figure>
+            {{ else }}
+              <a href="{{ .Permalink }}" title="Start reading {{ .Title }}" class="box-masonry-image with-hover-overlay with-hover-icon">
+              <img src="{{ $image }}" alt="{{ .LinkTitle }}" class="img-responsive">
+              </a>
+            {{ end }}
           {{ end }}
 
           {{ if eq .Params.showonlyimage true }}
-          <div class="box-masonry-hover-text-header">
-            {{ else }}
-          <div class="box-masonry-text">
-          {{ end }}
-
-          <a class="h4" href="{{ .Permalink }}">{{ .Title }}</a>
-            <div class="box-masonry-desription">
-              <p>{{ .Summary }}</p>
+            <div class="box-masonry-hover-text-header">
+              <h2>{{ .Title }}</h2>
+              <div class="box-masonry-desription">
+                <p>{{ .Content }}</p>
+              </div>
             </div>
-          </div>
+          {{ else }}
+            <div class="box-masonry-text">
+              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+              <div class="box-masonry-desription">
+                <p>{{ .Summary }}</p>
+              </div>
+            </div>
+          {{ end }}
         </div>
       </div>
       {{ end }}
+
     </div>
   </div>
   {{ template "_internal/pagination.html" . }}

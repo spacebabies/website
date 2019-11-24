@@ -7,7 +7,7 @@ Remember that post where I showed you [how to easily run https on your
 local development server](https://www.spacebabies.nl/portfolio/https-for-development-custom-certificate-authority/)? Well, it just got easier.
 <!--more-->
 
-Here is the full recipe, from raw ingredients to delicious baked https.
+Here is the full recipe, from raw ingredients to delicious baked https. Ready for the masses.
 
 ## 1: Download mkcert
 
