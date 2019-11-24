@@ -24,8 +24,6 @@ The second story will feature friends, writers, photographers and various bon vi
 
 The third story will feature people who are inspired by Ed right now. The story will highlight the concepts Ed left us with. He was ahead of the curve: *selfies* and reality television were normal for him.
 
-This article was cross-posted on [Scrollytelling](https://www.scrollytelling.com/2016/11/24/stedelijk-museum-ed-van-der-elsken.html).
-
 ### About Scrollytelling
 
 We enable online stories. We've hit large scale, have millions of readers and use open source for everything. Come check us out at [www.scrollytelling.com](https://www.scrollytelling.com/).

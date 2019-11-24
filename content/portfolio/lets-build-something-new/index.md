@@ -167,7 +167,7 @@ So far, we've added boilerplate. It's time to get dirty. All we need is
 an `<iframe>` that points to the chart. Let's hard-code one into our
 component and see if that works.
 
-But wait! What's that? [iframes and React don't go nicely together?](https://medium.com/@ebakhtarov/handling-of-iframes-in-react-f038be46ac24) Of course. Nothing ever works without pain in this ‘ecosystem’. But I am just an old Unix greybeard, don't listen to me. Let's make React happy and jump through some hoops to throw an iframe on the page.
+But wait! What's that? _iframes and React don't go nicely together?_ Of course. Nothing ever works without pain in this ‘ecosystem’. But I am just an old Unix greybeard, don't listen to me. Let's make React happy and jump through some hoops to throw an iframe on the page.
 
 ### 6: Adding the actual iframe
 
