@@ -5,7 +5,7 @@
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
 /site.webmanifest
-  Content-Type: application/manifest+json
+  Content-Type: application/manifest+json; charset=UTF-8
   Cache-Control: public; max-age=14400
 /img/*
   Cache-Control: public, max-age=14400
