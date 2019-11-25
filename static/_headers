@@ -7,11 +7,13 @@
 /site.webmanifest
   Content-Type: application/manifest+json
   Cache-Control: public; max-age=14400
-/img*
+/img/*
   Cache-Control: public, max-age=14400
-/fonts*
+/*fonts/*
   Cache-Control: public, max-age=14400
-*.css
+/*.png
+  Cache-Control: public, max-age=14400
+/*.css
   Cache-Control: public, max-age=31536000
-*.js
+/*.js
   Cache-Control: public, max-age=31536000
