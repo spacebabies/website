@@ -1,16 +1,17 @@
 +++
-title = "The Defiant Red: definitive book about red ceramic glazes"
+title = "The Defiant Red: the standard book on red ceramic glazes"
 date = "2019-04-29T08:49:14+01:00"
 images = ["/portfolio/the-defiant-red/the-defiant-red-screen-mobile.jpg"]
 +++
 My very own father is a renowned expert of ceramic glazes. It's been his work his entire life.
 <!--more-->
 
-And retirement or not, it seems he has a little trouble letting go...
+And retirement or not, it seems he has a little trouble letting go. So he wrote a book about part of his work: inventing and producing red ceramic glazes. He wrote _the_ book, in fact.
 
-Joking aside. Anyone who has been tasked with producing a new glaze in the color red, sooner or later ends up chatting with him. He's the authority on this, and always open to sharing recipes, resources, anything.
+Anyone who has been tasked with producing a new glaze in the color red, sooner or later ends up chatting with him. He's the authority on this, and always open to sharing recipes, resources, anything.
 
 ## Now with 100% more dead trees
+
 All that knowledge is available in book form. Self-published and from what I hear, the first edition is already about to run out. 🧐 Naturally, I made the website for it. Last week I've completely rehauled it. Gotta keep up. _(Although I think the old one wasn't even responsive.)_
 
 ✨ [www.thedefiantred.com](https://www.thedefiantred.com) ✨

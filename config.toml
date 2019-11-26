@@ -22,7 +22,8 @@ title = "Space Babies"
   sidebarAbout = [
     "Hi! Space Babies is me, Joost Baaij.",
     "I create beautiful, fast and secure internet applications, and have been doing so for more than twenty years.",
-    "My work has enabled my customers' effortless growth online. "
+    "My work has enabled my customers' effortless growth online. I specialize in mission-critical things, such as websites and payment gateways that simply must not go down.",
+    'Some of my Space Babies:<br><a href="https://www.dedigitaletopschool.nl/" target="_blank">De Digitale Topschool</a><br><a href="https://www.fysiodeurloo.nl/" target="_blank">Fysio Deurloo</a><br><a href="https://www.growinghome.earth/" target="_blank">Growing Home</a><br><a href="https://www.kingnascholing.nl/" target="_blank">King nascholing</a><br><a href="https://mrjones.org/" target="_blank">Mr. Jones</a><br><a href="https://www.theholyroad.org/" target="_blank">The Holy Road</a><br>'
   ]
   images = ["img/space-babies.png"]
 

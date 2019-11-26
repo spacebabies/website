@@ -1,11 +1,11 @@
 +++
-title = "Website development on HTTPS: be your own GoDaddy"
+title = "Website development on HTTPS"
 date = "2019-01-04T20:33:32+05:30"
 +++
 Long gone are the days when https for websites was a curiosity; reserved only for the checkout page. Encryption is the norm now.
 <!--more-->
 
-But as creators, we never bothered with https when developing something.
+But as creators, we never bothered with https for our local website development. (That is on our own computer, while we're working on the foundations and stuff.)
 In fact, it was a burden. We cannot get "real" https certificates on our
 local workstations. We have to create our own.
 
