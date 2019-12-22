@@ -2,7 +2,7 @@
 date = "2016-11-06T13:00:25+05:30"
 title = "Contact Space Babies"
 description = 'There are numerous ways to get in touch with me. Here they are!'
-layout = 'contact.html'
+scripts_async = ['https://www.google.com/recaptcha/api.js']
 +++
 
 ## Let's get in touch

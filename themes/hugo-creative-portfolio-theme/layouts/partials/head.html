@@ -48,17 +48,19 @@
 {{- with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
 {{- with .Params.locale }}<meta property="og:locale" content="{{ . }}" />{{ end }}
 {{- with .Site.Params.title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
+{{- range .Params.scripts_async }}
+<script src="{{ . }}" async defer></script>
+{{- end }}
 
-{{ $bootstrap := resources.Get "css/bootstrap.min.css" }}
-{{ $fa := resources.Get "css/font-awesome.min.css" }}
-{{ $roboto := resources.Get "css/roboto.css" }}
-{{ $carousel := resources.Get "css/owl.carousel.css" }}
-{{ $theme := resources.Get "css/owl.theme.css" }}
-{{ $default := resources.Get "css/style.default.css" }}
-{{ $custom := resources.Get "css/custom.css" }}
-{{ $style := slice $bootstrap $fa $roboto $carousel $theme $default $custom | resources.Concat "css/style.css" | minify | resources.Fingerprint "sha512" }}
+{{- $bootstrap := resources.Get "css/bootstrap.min.css" }}
+{{- $fa := resources.Get "css/font-awesome.min.css" }}
+{{- $roboto := resources.Get "css/roboto.css" }}
+{{- $carousel := resources.Get "css/owl.carousel.css" }}
+{{- $theme := resources.Get "css/owl.theme.css" }}
+{{- $default := resources.Get "css/style.default.css" }}
+{{- $custom := resources.Get "css/custom.css" }}
+{{- $style := slice $bootstrap $fa $roboto $carousel $theme $default $custom | resources.Concat "css/style.css" | minify | resources.Fingerprint "sha512" }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
-
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">

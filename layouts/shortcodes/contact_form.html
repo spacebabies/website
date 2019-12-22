@@ -1,8 +1,11 @@
 <form id="contact-form" class="contact-form form" method="post" action="{{ .Get "action" }}">
   <div class="controls">
-    <div class="form-group">
-      <em>Please fill out all fields.</em>
-    </div>
+    <p>
+      <em>
+        Please fill out all fields, except if you're trying to sell something.<br>
+        I never engage with cold pitches via contact form, so save yourself the trouble.
+      </em>
+    </p>
     <div class="form-group">
       <label for="name">Your name *</label>
       <input type="text" name="name" id="name" required="required" class="form-control">
@@ -15,7 +18,10 @@
       <label for="message">Your message for me *</label>
       <textarea rows="4" name="message" id="message" required="required" class="form-control"></textarea>
     </div>
-    <div>
+    <div class="form-group">
+      <div class="g-recaptcha" data-sitekey="6LfuJckUAAAAAG4WXQjXNDDunLv6aT38AJIYhJje"></div>
+    </div>
+    <div class="form-group">
       <input type="submit" value="Send" class="btn btn-ghost">
     </div>
   </div>
