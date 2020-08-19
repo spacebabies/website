@@ -60,7 +60,7 @@
 {{- $default := resources.Get "css/style.default.css" }}
 {{- $custom := resources.Get "css/custom.css" }}
 {{- $style := slice $bootstrap $fa $roboto $carousel $theme $default $custom | resources.Concat "css/style.css" | minify | resources.Fingerprint "sha512" }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
