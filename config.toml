@@ -1,6 +1,7 @@
 baseURL = "https://www.spacebabies.nl/"
 defaultContentLanguage = "en"
 disableKinds = ["section", "taxonomy", "taxonomyTerm"]
+disableHugoGeneratorInject = true
 enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "en-us"
