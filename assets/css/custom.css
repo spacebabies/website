@@ -6,7 +6,8 @@ figure {
   margin-bottom: 2em;
 }
 
-figcaption h4 {
+figcaption h4,
+figcaption p {
   font-weight: 200;
   font-size: 14px;
   text-transform: uppercase;
