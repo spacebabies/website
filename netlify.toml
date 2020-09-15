@@ -3,5 +3,8 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [context.production.environment]
+  HUGO_VERSION = "0.59.1"
+
+[context.new-2020.environment]
   HUGO_VERSION = "0.75.0"
 
