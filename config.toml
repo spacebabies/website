@@ -1,47 +1,75 @@
 baseURL = "https://www.spacebabies.nl/"
-defaultContentLanguage = "en"
-disableKinds = ["section", "taxonomy", "taxonomyTerm"]
-disableHugoGeneratorInject = true
-enableGitInfo = true
-enableRobotsTXT = true
 languageCode = "en-us"
-paginate = 15
-theme = "hugo-creative-portfolio-theme"
-title = "Space Babies"
+theme = "raditian-free-hugo-theme"
 
-[privacy]
-  [privacy.youtube]
-    privacyEnhanced = true
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Portfolio"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
+
+  [[menu.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Portfolio"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
 
 [params]
-  # Style options: default (pink), blue, green, pink, red, sea, violet
-  # Use custom.css for your custom styling
-  style = "default"
-  subtitle = "We create internet"
-  description = "Internet Engineers. If you can envision it, we can build it."
-  copyright = "Overhoeksplein 2<br>NL-1031KS Amsterdam<br>The Netherlands<br><br>KvK 70132208<br>VAT ID NL001734749B64<br><br><br>"
-  sidebarAbout = [
-    "Hi! Space Babies is me, Joost Baaij.",
-    "I create beautiful, fast and secure internet applications, and have been doing so for more than twenty years.",
-    "My work has enabled my customers' effortless growth online. I specialize in mission-critical things, such as websites and payment gateways that simply must not go down.",
-    'Some of my Space Babies:<br><a href="https://www.dedigitaletopschool.nl/" target="_blank">De Digitale Topschool</a><br><a href="https://www.fysiodeurloo.nl/" target="_blank">Fysio Deurloo</a><br><a href="https://www.growinghome.earth/" target="_blank">Growing Home</a><br><a href="https://www.kingnascholing.nl/" target="_blank">King nascholing</a><br><a href="https://mrjones.org/" target="_blank">Mr. Jones</a><br><a href="https://www.theholyroad.org/" target="_blank">The Holy Road</a><br>'
-  ]
-  images = ["img/space-babies.png"]
 
-  # Nav links in the side bar
-  [[params.navlinks]]
-  name = "Home"
-  url = ""
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
-  [[params.navlinks]]
-  name = "About"
-  url = "about/"
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
-  [[params.navlinks]]
-  name = "Contact"
-  url = "contact/"
+  [params.logo]
+    text1 = "Andreas"
+    text2 = "Ellure"
 
-  [params.social]
-  email         = "info@spacebabies.nl"
-  stackoverflow = "https://stackoverflow.com/users/235411/joost-baaij"
-  github        = "https://github.com/spacebabies"
+  [params.footer]
+      copyright = "© Raditian. All rights reserved."
+      [params.footer.radity_logo]
+        x = "img/general/design-and-code-radity.png"
+        _2x = "img/general/design-and-code-radity@2x.png"
+        alt = "Design & Code - Radity"
