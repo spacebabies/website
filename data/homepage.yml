@@ -1,3 +1,6 @@
+head:
+  title: 'Space Babies'
+
 # showcase
 showcase:
   enable: true
