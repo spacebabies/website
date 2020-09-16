@@ -15,11 +15,21 @@ theme = "raditian-free-hugo-theme"
 
   # JS Plugins
   [[params.plugins.js]]
+  URL = "js/library/jquery-3.3.1.slim.min.js"
+  [[params.plugins.js]]
+  URL = "js/library/bootstrap.min.js"
+  [[params.plugins.js]]
   URL = "js/rad-animations.js"
   [[params.plugins.js]]
   URL = "js/sticky-header.js"
   [[params.plugins.js]]
   URL = "js/library/fontfaceobserver.js"
+  [[params.plugins.js]]
+  URL = "js/library/lozad.min.js"
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/library/smooth-scroll.polyfills.min.js"
 
 
 # navigation
