@@ -1,6 +1,7 @@
 baseURL = "https://www.spacebabies.nl/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
+disableHugoGeneratorInject = true
 
 # Plugins
 [params.plugins]
