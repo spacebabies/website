@@ -12,151 +12,141 @@ showcase:
 
   button:
     icon: "icon-mail-fill"
-    btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    btnText: "Get in touch"
+    URL: "https://www.spacebabies.nl/#contact"
 
   socialLinks:
-    - icon: "github"
-      URL: "https://github.com/tilsammans"
+    # - icon: "github"
+    #   URL: "https://github.com/tilsammans"
 
-    - icon: "stackoverflow"
-      URL: "https://stackoverflow.com/users/story/235411"
+    # - icon: "stackoverflow"
+    #   URL: "https://stackoverflow.com/users/story/235411"
 
 # about
 about:
   enable: true
-  title: "What I do"
+  title: "About Me"
   content: '<p class="lead">
     My work has enabled my customers effortless growth online.
     I specialize in mission-critical things, such as websites and
     payment gateways that simply must not go down.
     </p>
     <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
+    I founded Space Babies in 2000 and have used almost every web technology imaginable. 
+    My products routinely handle millions of visitors and crucial to my customer’s business.
+    I am recognised being in the top 6% of global Ruby developers by StackOverflow.
     </p>'
   button:
     icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+    btnText: "Portfolio"
+    URL: "https://www.spacebabies.nl/#portfolio"
   image:
     x: "img/who-am-i/user-picture.png"
     _2x: "img/who-am-i/user-picture@2x.png"
 
 # education
 education:
-  enable: false
-  title: "Education"
+  enable: true
+  title: "Expertise"
   items:
-    - university: "University of Waterloo"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+    - university: "Ruby on Rails"
+      year: "For interactive, bespoke, and e-commerce apps"
+      degree: "Versatile, battle-tested ecosystem to create fully interactive web applications. I am somewhat of an expert, having used it since before it came to market."
 
-    - university: "Sir John A Macdonald CI"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+    - university: "Jamstack"
+      year: "For websites, brochures, online storytelling"
+      degree: "Standardisation of web development best practices, focusing on speed and security. Using HTML, CSS and JavaScript, I deploy these globally."
 
 # experience
 experience:
   enable: true
   title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  description: "My passion is building internet applications which let people communicate effortlessly. I am very experienced building content management systems. I enjoy increasing my customers value. I am proponent of agile development, web standards, open source and efficient user interaction."
   button:
-    icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    icon: "icon-github-line"
+    btnText: "My Open Source work"
+    URL: "https://www.github.com/tilsammans"
   button2:
     icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "#"
+    btnText: "My Resume"
+    URL: "https://stackoverflow.com/users/story/235411"
 
   items:
-    - title: "Sr. Front-End Developer"
-      company: "Radity"
-      duration: "Feb 2011 - Sep 2019"
+    - title: "Owner / Managing Director"
+      company: "Space Babies"
+      duration: "Dec 2002 - current"
 
-    - title: "Sr. Front-End Developer"
-      company: "Textic"
-      duration: "Apr 2010 - Jan 2011"
+    - title: "Founder / CTO"
+      company: "De Digitale Topschool"
+      duration: "Mar 2012 - Sep 2020"
 
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Architect"
+      company: "King nascholing"
+      duration: "Mar 2016 - Aug 2020"
 
 # Client & Work
 client_and_work:
-  title: "Clients & Works"
+  title: "Portfolio"
   enable: true
 
   clients:
     - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
+        x: "img/clients/kingnascholing.png"
+        _2x: "img/clients/kingnascholing@2x.png"
+      alt: "King nascholing"
 
     - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
+        x: "img/clients/mrjones.png"
+        _2x: "img/clients/mrjones@2x.png"
+      alt: "Mr. Jones"
 
     - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
+        x: "img/clients/dedigitaletopschool.png"
+        _2x: "img/clients/dedigitaletopschool@2x.png"
+      alt: "De Digitale Topschool"
 
     - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
+        x: "img/clients/xs2radio.png"
+        _2x: "img/clients/xs2radio@2x.png"
+      alt: "XS2RADIO"
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
-      is_even: true
+    # - title: "Radity Finance - UI Kit"
+    #   description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "Case Study"
+    #     URL: "#"
+    #   image:
+    #     x: "img/works/radity-finance.jpg"
+    #     _2x: "img/works/radity-finance@2x.jpg"
+    #   is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
-      is_even: false
+    # - title: "Swiss Fintech Website"
+    #   description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "Case Study"
+    #     URL: "#"
+    #   image:
+    #     x: "img/works/swissfintech.jpg"
+    #     _2x: "img/works/swissfintech@2x.jpg"
+    #   is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
-      is_even: true
+    # - title: "Robo Advisor"
+    #   description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "Case Study"
+    #     URL: "#"
+    #   image:
+    #     x: "img/works/robo-advisor.jpg"
+    #     _2x: "img/works/robo-advisor@2x.jpg"
+    #   is_even: true
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testimonials"
   items:
     - name: "Daniel Jordan"
@@ -186,25 +176,27 @@ contact:
   title: "Contact"
   form:
     action: "#"
-    full_name: "Full Name"
+    full_name: "Your name"
     email: "Email Address"
     message: "Type Your Message Here"
   phone:
-    title: "Phone Number"
-    number: "+41 (44) 505 10 99"
+    title: "VAT ID"
+    number: "NL001734749B64"
   email:
     title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+    email: '<a href="mailto:info@spacebabies.nl">info@spacebabies.nl</a>'
   address:
     title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+    address: "Overhoeksplein 2<br />NL-1031 KS Amsterdam"
+  registrations:
+    title: 
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
 
 # newsletter
 newsletter:
-  enable: true
+  enable: false
   title: "Newsletter subscription"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
