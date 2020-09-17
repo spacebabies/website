@@ -10,8 +10,10 @@ showcase:
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
+    alt: Showcase
   imageMobile:
     x: "img/showcase/showcase-mobile.jpg"
+    alt: Showcase
 
   button:
     icon: "icon-mail-fill"
@@ -74,7 +76,7 @@ experience:
   I am an expert in development, security, standards, and operations.
   I am very experienced building content management systems and e-commerce solutions.
   I enjoy increasing my customer’s value.
-  A full-stack developer such as me can complete all aspects of a website: front-end (what you see), back-end (how it works) and operational management.
+  A full stack developer such as me can complete all aspects of a website: front-end (what you see), back-end (how it works) and operational management.
   "
   button:
     icon: "icon-github-line"
@@ -130,7 +132,7 @@ client_and_work:
 
   works:
     - title: "Scrollytelling"
-      description: "Co-founded and architected Scrollytelling, a succesful new business for telling content-rich online stories.  Ultimately serving more than 7 million readers."
+      description: "Co-founded and architected Scrollytelling, a successful new business for telling content-rich online stories.  Ultimately serving more than 7 million readers."
       button:
         icon: "icon-arrow-right"
         btnText: "Website"
