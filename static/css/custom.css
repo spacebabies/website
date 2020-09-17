@@ -3,6 +3,10 @@
     to { transform: rotate(359deg); }
 }
 
+section#about {
+    margin-top: 0;
+}
+
 .header .navbar-brand {
     flex-direction: row;
 }

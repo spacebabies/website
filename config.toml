@@ -6,11 +6,16 @@ disableHugoGeneratorInject = true
 enableGitInfo = true
 enableRobotsTXT = true
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  changelog = "changelog"
+
 # navigation
 [menu]
 
   [[menu.header]]
-  name = "About"
+  name = "About me"
   URL = "#about"
   weight = 2
 
@@ -26,7 +31,7 @@ enableRobotsTXT = true
 
 
   [[menu.footer]]
-  name = "About"
+  name = "About me"
   URL = "#about"
   weight = 2
 
@@ -43,6 +48,7 @@ enableRobotsTXT = true
 
 [params]
 
+  description = "I create websites in Ruby on Rails and HTML, CSS, and Javascript (Jamstack)"
   sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
   # googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager

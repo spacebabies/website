@@ -40,11 +40,29 @@
 
 [build]
   publish = "public"
-  command = "hugo --baseURL $DEPLOY_URL --gc --minify"
+  command = "hugo --baseURL $DEPLOY_URL --buildDrafts --gc --minify"
 
-[context.production.environment]
-  HUGO_VERSION = "0.59.1"
-
-[context.new-2020.environment]
+[build.environment]
   HUGO_VERSION = "0.75.0"
 
+[build.production]
+  command = "hugo --gc --minify"
+
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = false
+[build.processing.images]
+  compress = true
+
+[[redirects]]
+  from = "/portfolio/*"
+  to = "/changelog/:splat"
+  status = 301
+  force = true

@@ -36,12 +36,12 @@ about:
     I specialize in mission-critical applications, such as global
     e-commerce and content management used from all over the world.
     </p>
-    <p class="lead">
+    <p>
     I founded Space Babies in 2000 and have used almost every web technology imaginable. 
     My products routinely handle millions of visitors without breaking a sweat.
     I usually handle monitoring and preemtive maintenance as well.
     </p>
-    <p class="lead">
+    <p>
     Last but not least, I am recognised being in the top 6% of global Ruby developers on <a href="https://stackoverflow.com/users/story/235411" target="_blank">StackOverflow</a>.
     </p>'
   button:
@@ -69,7 +69,13 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "I can work solo or as team lead/manager. My passion is building internet applications which let people communicate effortlessly. I am very experienced building content management systems. I enjoy increasing my customers value. I am proponent of agile development, web standards, open source and efficient user interaction."
+  description: "
+  I can work solo or as team lead/manager.
+  I am an expert in development, security, standards, and operations.
+  I am very experienced building content management systems and e-commerce solutions.
+  I enjoy increasing my customer’s value.
+  A full-stack developer such as me can complete all aspects of a website: front-end (what you see), back-end (how it works) and operational management.
+  "
   button:
     icon: "icon-github-line"
     btnText: "My Open Source work"
