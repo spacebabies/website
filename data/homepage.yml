@@ -30,14 +30,19 @@ about:
   enable: true
   title: "About Me"
   content: '<p class="lead">
-    My work has enabled my customers effortless growth online.
-    I specialize in mission-critical things, such as websites and
-    payment gateways that simply must not go down.
+    My customers business thrive because of the online properties
+    I helped create. E-commerce runs uninterrupted, incidents are rare,
+    and I write documentation and tests to keep it that way.
+    I specialize in mission-critical applications, such as global
+    e-commerce and content management used from all over the world.
     </p>
     <p class="lead">
     I founded Space Babies in 2000 and have used almost every web technology imaginable. 
-    My products routinely handle millions of visitors and crucial to my customer’s business.
-    I am recognised being in the top 6% of global Ruby developers by StackOverflow.
+    My products routinely handle millions of visitors without breaking a sweat.
+    I usually handle monitoring and preemtive maintenance as well.
+    </p>
+    <p class="lead">
+    Last but not least, I am recognised being in the top 6% of global Ruby developers on <a href="https://stackoverflow.com/users/story/235411" target="_blank">StackOverflow</a>.
     </p>'
   button:
     icon: "icon-smile-fill"
@@ -64,7 +69,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "My passion is building internet applications which let people communicate effortlessly. I am very experienced building content management systems. I enjoy increasing my customers value. I am proponent of agile development, web standards, open source and efficient user interaction."
+  description: "I can work solo or as team lead/manager. My passion is building internet applications which let people communicate effortlessly. I am very experienced building content management systems. I enjoy increasing my customers value. I am proponent of agile development, web standards, open source and efficient user interaction."
   button:
     icon: "icon-github-line"
     btnText: "My Open Source work"
@@ -97,55 +102,59 @@ client_and_work:
         x: "img/clients/kingnascholing.png"
         _2x: "img/clients/kingnascholing@2x.png"
       alt: "King nascholing"
+      URL: "https://www.kingnascholing.nl"
 
     - logo:
         x: "img/clients/mrjones.png"
         _2x: "img/clients/mrjones@2x.png"
       alt: "Mr. Jones"
+      URL: "https://mrjones.org"
 
     - logo:
         x: "img/clients/dedigitaletopschool.png"
         _2x: "img/clients/dedigitaletopschool@2x.png"
       alt: "De Digitale Topschool"
+      URL: "https://www.dedigitaletopschool.nl"
 
     - logo:
         x: "img/clients/xs2radio.png"
         _2x: "img/clients/xs2radio@2x.png"
       alt: "XS2RADIO"
+      URL: "https://www.xs2radio.com"
 
   works:
-    # - title: "Radity Finance - UI Kit"
-    #   description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
-    #   button:
-    #     icon: "icon-arrow-right"
-    #     btnText: "Case Study"
-    #     URL: "#"
-    #   image:
-    #     x: "img/works/radity-finance.jpg"
-    #     _2x: "img/works/radity-finance@2x.jpg"
-    #   is_even: true
+    - title: "Scrollytelling"
+      description: "Co-founded and architected Scrollytelling, a succesful new business for telling content-rich online stories.  Ultimately serving more than 7 million readers."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Website"
+        URL: "https://www.scrollytelling.com"
+      image:
+        x: "img/works/scrollytelling.png"
+        _2x: "img/works/scrollytelling@2x.png"
+      is_even: true
 
-    # - title: "Swiss Fintech Website"
-    #   description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-    #   button:
-    #     icon: "icon-arrow-right"
-    #     btnText: "Case Study"
-    #     URL: "#"
-    #   image:
-    #     x: "img/works/swissfintech.jpg"
-    #     _2x: "img/works/swissfintech@2x.jpg"
-    #   is_even: false
+    - title: "King nascholing"
+      description: "I architected and built this bespoke mission critical e-commerce website and online courseware. All their business now runs through this property."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Website"
+        URL: "https://www.kingnascholing.nl"
+      image:
+        x: "img/works/kingnascholing.png"
+        _2x: "img/works/kingnascholing@2x.png"
+      is_even: false
 
-    # - title: "Robo Advisor"
-    #   description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-    #   button:
-    #     icon: "icon-arrow-right"
-    #     btnText: "Case Study"
-    #     URL: "#"
-    #   image:
-    #     x: "img/works/robo-advisor.jpg"
-    #     _2x: "img/works/robo-advisor@2x.jpg"
-    #   is_even: true
+    - title: "De Digitale Topschool"
+      description: "I architected, designed and built the premier Dutch online school for gifted children in primary education, and have handled all maintenance since then."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Website"
+        URL: "https://www.dedigitaletopschool.nl"
+      image:
+        x: "img/works/dedigitaletopschool.png"
+        _2x: "img/works/dedigitaletopschool@2x.png"
+      is_even: true
 
 # testimonial
 testimonial:
