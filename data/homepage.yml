@@ -18,7 +18,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Get in touch"
-    URL: "https://www.spacebabies.nl/#contact"
+    URL: "/#contact"
 
   socialLinks:
     # - icon: "github"
@@ -49,7 +49,7 @@ about:
   button:
     icon: "icon-smile-fill"
     btnText: "Portfolio"
-    URL: "https://www.spacebabies.nl/#portfolio"
+    URL: "/#portfolio"
   image:
     x: "img/who-am-i/user-picture.png"
     _2x: "img/who-am-i/user-picture@2x.png"
