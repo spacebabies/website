@@ -10,7 +10,6 @@
 <link rel="canonical" href="{{ .Permalink }}">
 {{ with .Prev }}<link rel="prev" href="{{ .Permalink }}">{{ end -}}
 {{ with .Next }}<link rel="next" href="{{ .Permalink }}">{{ end -}}
-<base href="{{ .Permalink }}">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
