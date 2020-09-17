@@ -52,7 +52,6 @@ section#about {
 
     /* Fade In animation triggering after font load or 3s timeout */
     .rad-fade-in {
-        will-change: opacity, transform;
         animation-name: rad-fade-in-fallback;
         animation-duration: 5s;
         animation-fill-mode: both;
@@ -95,7 +94,6 @@ section#about {
 
     /* Fade In Long animation triggering after font load or 3s timeout */
     .rad-fade-in-long {
-        will-change: opacity, transform;
         animation-name: rad-fade-in-long-fallback;
         animation-duration: 8s;
         animation-fill-mode: both;
@@ -142,7 +140,6 @@ section#about {
 
     /* Fade Down animation triggering after font load or 3s timeout */
     .rad-fade-down {
-        will-change: opacity, transform;
         animation-name: rad-fade-down-fallback;
         animation-duration: 5s;
         animation-fill-mode: both;
@@ -191,7 +188,6 @@ section#about {
 
     /* Scale Down animation triggering after font load or 3s timeout */
     .rad-scale-down {
-        will-change: opacity, transform;
         animation-name: rad-scale-down-fallback;
         animation-duration: 5s;
         animation-fill-mode: both;
