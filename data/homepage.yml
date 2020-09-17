@@ -1,5 +1,5 @@
 head:
-  title: 'Space Babies'
+  title: 'I create websites in Ruby on Rails and HTML, CSS, and Javascript (Jamstack)'
 
 # showcase
 showcase:
@@ -60,11 +60,15 @@ education:
   title: "Expertise"
   items:
     - university: "Ruby on Rails"
-      year: "For interactive, bespoke, and e-commerce apps"
-      degree: "Versatile, battle-tested ecosystem to create fully interactive web applications. I am somewhat of an expert, having used it since before it came to market."
+      year: "For interactive, bespoke, and e-commerce apps:"
+      degree: "
+      Versatile, battle-tested ecosystem to create fully interactive web applications.
+      I am an expert, having used it since before it came to market.
+      "
+      URL: "https://www.rubyonrails.org"
 
     - university: "Jamstack"
-      year: "For websites, brochures, online storytelling"
+      year: "For websites, brochures, anything content-driven:"
       degree: "Standardisation of web development best practices, focusing on speed and security. Using HTML, CSS and JavaScript, I deploy these globally."
 
 # experience

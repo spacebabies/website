@@ -3,6 +3,10 @@
     to { transform: rotate(359deg); }
 }
 
+.education:before {
+    z-index: -1;
+}
+
 section#about {
     margin-top: 0;
 }
