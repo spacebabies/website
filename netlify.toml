@@ -39,14 +39,8 @@
     Cache-Control = "max-age=31536000"
 
 [build]
+  functions = "functions"
   publish = "public"
-  command = "hugo --baseURL $DEPLOY_URL --buildDrafts --gc --minify"
-
-[build.environment]
-  HUGO_VERSION = "0.75.0"
-
-[build.production]
-  command = "hugo --gc --minify"
 
 [build.processing]
   skip_processing = false
@@ -60,6 +54,14 @@
   pretty_urls = false
 [build.processing.images]
   compress = true
+
+[context.branch-deploy]
+  command = "hugo --baseURL $DEPLOY_URL --buildDrafts --gc --minify"
+  environment = { HUGO_VERSION = "0.75.0" }
+
+[context.production]
+  command = "hugo --gc --minify"
+  environment = { HUGO_VERSION = "0.75.0" }
 
 [[redirects]]
   from = "/portfolio/*"
