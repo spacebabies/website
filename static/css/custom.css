@@ -13,6 +13,8 @@ section#about {
 
 .header .navbar-brand {
     flex-direction: row;
+    justify-content: left;
+    margin-left: auto;
 }
 .header .navbar-brand img {
     max-height: 50px;
@@ -21,24 +23,20 @@ section#about {
 
 .header .navbar-brand img.sbA {
     width: 50px;
-    margin-right: 1em;
 }
 
 .header .navbar-brand img.sbB {
     width: 45px;
-    margin-right: 1em;
 }
 
 .header .navbar-brand img.sbC {
     width: 65px;
-    margin-right: 1em;
     padding-bottom: 1px;
     transform-origin: 50% 40%;
 }
 
 .header .navbar-brand img.sbD {
     width: 50px;
-    margin-right: 0;
 }
 
 .header .navbar-brand img.anim-spin {
