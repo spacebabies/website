@@ -1,18 +1,19 @@
-(function() {
-    var theBabies = document.querySelectorAll('.navbar-brand img');
-    var luckyIndex = Math.round(Math.random() * theBabies.length)
-    var lucky = theBabies[luckyIndex];
-    var animations = new Array('anim-spin', 'anim-jump');
-
+(function() {    
     function pickLucky() {
+        var theBabies = document.querySelectorAll('.navbar-brand img');
+        var animations = new Array('anim-spin', 'anim-jump');
+        var luckyIndex = Math.floor(Math.random() * theBabies.length)
+        var lucky = theBabies[luckyIndex];
+
+        lucky.style.animationDelay = Math.floor(Math.random() * 4 + 4) + 's';
         lucky.classList.add(animations[Math.floor(Math.random() * animations.length)]);
-        lucky.style.animationDelay = Math.floor(Math.random() * 12 + 4);
-        clearInterval(timer)
-        timer = setInterval(pickLucky, Math.round(Math.random() * 3000) + 1000)
+        setTimeout(pickLucky, Math.floor(Math.random() * 2000) + 1000);
+        lucky.addEventListener('animationend', function (event) {
+            event.target.classList.remove('anim-jump', 'anim-spin');
+        });
     }
 
-    var timer = setInterval(pickLucky, 1000);
-    
+    setTimeout(pickLucky, Math.floor(Math.random() * 2000) + 500);
 })();
 
 (function (w) {
@@ -42,3 +43,11 @@
         w.document.documentElement.className += " fonts-loaded";
     });
 })(this);
+
+const scroll = new SmoothScroll('a[href*="#"]');
+$('a.nav-link').on('click', () => {
+    const navbar = $('.navbar-collapse');
+    if (navbar && navbar.hasClass('show')) {
+        $('.navbar-toggler').click();
+    }
+})
