@@ -16,16 +16,12 @@
                 <p class="lead">
                     {{ .Site.Data.homepage.experience.description }}
                 </p>
-                <a href="{{ .Site.Data.homepage.experience.button.URL }}" class="btn btn-primary"
-                   target="_blank">
-                    <i class="{{ .Site.Data.homepage.experience.button.icon }}"></i>
-                    {{ .Site.Data.homepage.experience.button.btnText }}
-                    <i class="icon-arrow-right"></i></a>
-                <a href="{{ .Site.Data.homepage.experience.button2.URL }}" class="btn btn-frameless"
-                   target="_blank">
-                    <i class="{{ .Site.Data.homepage.experience.button2.icon }}"></i>
-                    {{ .Site.Data.homepage.experience.button2.btnText }}
+                {{ range .Site.Data.homepage.experience.buttons }}
+                <a href="{{ .URL }}" class="btn btn-primary" target="_blank">
+                    {{ .btnText }}
+                    <i class="icon-arrow-right"></i>
                 </a>
+                {{ end }}
             </div>
         </div>
     </div>
