@@ -1,10 +1,12 @@
 <!-- inject:../components/baseHead/baseHeadStart.html -->
 <!DOCTYPE html>
-<html lang="{{ .Language.Lang }}">
+<html lang="en">
 
 <head>
 
     {{ partial "head.html" . }}
+
+    {{ partial "head_custom.html" . }}
 
 </head>
 
@@ -12,8 +14,12 @@
 
 	{{ partial "header.html" . }}
 
-		{{ block "main" . }}
-		{{ end }}
+	{{ range .Site.Params.sections }}
+	{{ partial . $ }}
+	{{ end }}
+
+	{{ partial "changelog.html" . }}
+
 
 	{{ partial "footer.html" . }}
     {{ partial "base-foot.html" . }}

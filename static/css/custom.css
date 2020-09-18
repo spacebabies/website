@@ -3,6 +3,21 @@
     to { transform: rotate(359deg); }
 }
 
+#changelog small,
+#changelog h1,
+#changelog h2,
+#changelog h3,
+#changelog p,
+#changelog p a { color: white; }
+#changelog small,
+figcaption p { color: rgba(0,0,0,.3); font-style: italic;}
+
+.publishedBy { color: rgba(0,0,0,.3);}
+
+.content-column img {
+    max-width: 100%;
+}
+
 .education:before {
     z-index: -1;
 }

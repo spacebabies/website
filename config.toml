@@ -50,6 +50,7 @@ enableRobotsTXT = true
 
   description = "I create websites in Ruby on Rails and HTML, CSS, and Javascript (Jamstack)"
   sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  mainSections = ["changelog"]
 
   # googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
