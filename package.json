@@ -9,11 +9,10 @@
   "private": true,
   "dependencies": {
     "algoliasearch": "^4.5.1",
-    "hugo-algolia": "^1.2.14",
+    "atomic-algolia": "^0.3.19",
     "instantsearch.js": "^4.8.1"
   },
   "scripts": {
-    "index": "hugo-algolia --all",
-    "index-and-send": "hugo-algolia --all --send"
+    "algolia": "atomic-algolia"
   }
 }

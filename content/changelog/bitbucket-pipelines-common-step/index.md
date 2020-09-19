@@ -2,7 +2,6 @@
 title: "Bitbucket Pipelines: now 200% more DRY"
 images:
   - /changelog/bitbucket-pipelines-common-step/bitbucket-pipelines-header.png
-showonlyimage: false
 date: "2018-08-28T11:20:19+05:30"
 ---
 Today, I saw the *future*. And it was bright. And full of annoying youngsters who acted as if they were the alpha and omega of society, now get off my lawn!!

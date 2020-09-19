@@ -2,7 +2,7 @@
 title: "Mr. Jones, the world-renowned tea brand"
 date: "2017-09-19T05:25:14+02:00"
 images:
-  - /changelog//mr-jones/box-tea.jpg
+  - /changelog/mr-jones/box-tea.jpg
 ---
 We are delighted to announce that Mr. Jones is now maintained by Space Babies.
 <!--more-->

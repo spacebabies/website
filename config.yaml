@@ -6,9 +6,6 @@ theme: raditian-free-hugo-theme
 disableHugoGeneratorInject: true
 enableGitInfo: true
 enableRobotsTXT: true
-algolia:
-  index: prod_spacebabies
-  appID: YS0CJ8JQF2
 taxonomies:
   category: categories
   tag: tags
@@ -35,6 +32,17 @@ menu:
       URL: '#contact'
       weight: 4
 params:
+  algolia:
+    vars:
+      - title
+      - summary
+      - date
+      - publishdate
+      - expirydate
+      - permalink
+    params:
+      - categories
+      - tags
   description: 'I create websites in Ruby on Rails and HTML, CSS, and Javascript (Jamstack)'
   sections:
     - showcase
@@ -56,3 +64,14 @@ params:
       x: img/general/design-and-code-radity.png
       _2x: img/general/design-and-code-radity@2x.png
       alt: Design & Code - Radity
+outputformats:
+  algolia:
+    basename: 'algolia'
+    isPlainText: true
+    mediaType: 'application/json'
+    notAlternative: true
+outputs:
+  home:
+  - HTML
+  - RSS
+  - ALGOLIA

@@ -1,7 +1,7 @@
 ---
 title: "A stunning new corporate identity for architect Paul de Ruiter"
 images:
-  - /changelog//paul-de-ruiter/paul-de-ruiter.jpg
+  - /changelog/paul-de-ruiter/paul-de-ruiter.jpg
 date: "2015-08-05T19:59:22+05:30"
 ---
 A stunning new corporate identity, and creation of a new website to go with it.
