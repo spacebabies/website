@@ -1,8 +1,9 @@
-+++
-title = "De Digitale Topschool: online learning environment for gifted children"
-mages = ["/changelog//de-digitale-topschool/de-digitale-topschool.jpg"]
-date = "2016-11-05T20:02:19+05:30"
-+++
+---
+title: "De Digitale Topschool: online learning environment for gifted children"
+images:
+  - changelog//de-digitale-topschool/de-digitale-topschool.jpg
+date: "2016-11-05T20:02:19+05:30"
+---
 Our e-learning environment helps gifted students in primary education by matching them with a private mentor.
 <!--more-->
 

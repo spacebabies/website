@@ -1,7 +1,7 @@
-+++
-title = "Testing all the things with Chrome DevTools Protocol"
-date = "2019-05-08T05:49:14+01:00"
-+++
+---
+title: "Testing all the things with Chrome DevTools Protocol"
+date: "2019-05-08T05:49:14+01:00"
+---
 If you, like me, are [using Chrome to test your applications](https://www.spacebabies.nl/portfolio/testing-javascript-now-with-more-chrome/), your life just got better.
 <!--more-->
 

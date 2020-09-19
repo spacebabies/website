@@ -1,9 +1,9 @@
-+++
-title = "Agriculture in the context of forced displacement"
-images = ["/changelog//urban-agriculture/makeshift-professional-lighting.jpg"]
-date = "2016-11-05T20:23:59+05:30"
-+++
-
+---
+title: "Agriculture in the context of forced displacement"
+images:
+  - /changelog//urban-agriculture/makeshift-professional-lighting.jpg
+date: "2016-11-05T20:23:59+05:30"
+---
 We went to Iraq to find stories around urban agriculture by people who leave or flee their homes due to conflict, violence, persecution or human rights violations.
 <!--more-->
 

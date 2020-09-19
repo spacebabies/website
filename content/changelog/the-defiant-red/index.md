@@ -1,8 +1,9 @@
-+++
-title = "The Defiant Red: the standard book on red ceramic glazes"
-date = "2019-04-29T08:49:14+01:00"
-images = ["/changelog//the-defiant-red/the-defiant-red-screen-mobile.jpg"]
-+++
+---
+title: "The Defiant Red: the standard book on red ceramic glazes"
+date: "2019-04-29T08:49:14+01:00"
+images:
+  - /changelog//the-defiant-red/the-defiant-red-screen-mobile.jpg
+---
 My very own father is a renowned expert of ceramic glazes. It's been his work his entire life.
 <!--more-->
 

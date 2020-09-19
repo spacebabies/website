@@ -1,8 +1,9 @@
-+++
-title = 'Cookie Opt-In: doing the GOD DAMN CORRECT THING'
-date = "2018-05-28T16:30:14+01:00"
-images = ["/changelog//third-party-script-opt-in-using-cookie-consent/img__about-cookie-consent-1-1-1024x588.png"]
-+++
+---
+title: 'Cookie Opt-In: doing the GOD DAMN CORRECT THING'
+date: "2018-05-28T16:30:14+01:00"
+images:
+  - /changelog//third-party-script-opt-in-using-cookie-consent/img__about-cookie-consent-1-1-1024x588.png
+---
 Oh, GDPR, GDPGRRRRRRRRRR!
 <!--more-->
 

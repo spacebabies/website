@@ -1,7 +1,7 @@
-+++
-title = "Middleman Netlify Server Push"
-date = "2017-08-07T16:44:48+01:00"
-+++
+---
+title: "Middleman Netlify Server Push"
+date: "2017-08-07T16:44:48+01:00"
+---
 Last month, Netlify introduced their implementation of [HTTP/2 Server Push](https://www.netlify.com/blog/2016/04/15/make-your-site-faster-with-netlifys-intelligent-cdn/).
 <!--more-->
 

@@ -1,8 +1,9 @@
-+++
-title = "Testing JavaScript, now with more Chrome"
-date = "2017-10-22T13:34:43+02:00"
-images = ["/changelog//testing-javascript-now-with-more-chrome/google-chrome-sign.jpg"]
-+++
+---
+title: "Testing JavaScript, now with more Chrome"
+date: "2017-10-22T13:34:43+02:00"
+images:
+  - /changelog//testing-javascript-now-with-more-chrome/google-chrome-sign.jpg
+---
 Starting today, I am using Chrome to run automated browser tests.
 <!--more-->
 

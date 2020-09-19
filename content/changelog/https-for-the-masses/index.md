@@ -1,7 +1,7 @@
-+++
-title = 'HTTPS for the masses, or, Secure All The Things'
-date = "2019-08-29T22:46:32+05:30"
-+++
+---
+title: 'HTTPS for the masses, or, Secure All The Things'
+date: "2019-08-29T22:46:32+05:30"
+---
 
 Remember that post where I showed you [how to easily run https on your
 local development server](https://www.spacebabies.nl/portfolio/https-for-development-custom-certificate-authority/)? Well, it just got easier.

@@ -1,8 +1,8 @@
-+++
-date = "2016-11-05T21:05:33+05:30"
-title = "About Joost Baaij a.k.a. Space Babies"
-description = "I enable my customers to use the Internet as best as humanly possible."
-+++
+---
+date: "2016-11-05T21:05:33+05:30"
+title: About Joost Baaij a.k.a. Space Babies
+description: I enable my customers to use the Internet as best as humanly possible.
+---
 
 ## Joost Baaij
 

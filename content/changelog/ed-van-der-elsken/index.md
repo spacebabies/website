@@ -1,8 +1,9 @@
-+++
-title = "Ed van der Elsken: the man in photos"
-images = ["/changelog/ed-van-der-elsken/eds-tijdreis.jpg"]
-date = "2017-03-05T19:44:32+05:30"
-+++
+---
+title: "Ed van der Elsken: the man in photos"
+images:
+  - /changelog/ed-van-der-elsken/eds-tijdreis.jpg
+date: "2017-03-05T19:44:32+05:30"
+---
 Three webdocs. The man in words and pictures.
 <!--more-->
 

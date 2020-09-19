@@ -1,8 +1,9 @@
-+++
-title = "Zap those inline styles for performance and security"
-date = "2017-08-21T22:57:46+01:00"
-images = ["/changelog//zap-those-inline-styles/css3.svg"]
-+++
+---
+title: "Zap those inline styles for performance and security"
+date: "2017-08-21T22:57:46+01:00"
+images:
+  - /changelog//zap-those-inline-styles/css3.svg
+---
 We‘ve all done it: adding inline styles to HTML pages, because the content is dynamic. Backgrounds for example.
 <!--more-->
 

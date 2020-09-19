@@ -1,7 +1,7 @@
-+++
-title = "Let's Build Something New"
-date = "2017-02-05T19:41:01+05:30"
-+++
+---
+title: "Let's Build Something New"
+date: "2017-02-05T19:41:01+05:30"
+---
 Let's build something totally new today, who'se with me?!
 <!--more-->
 

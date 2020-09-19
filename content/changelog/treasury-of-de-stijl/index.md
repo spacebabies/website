@@ -1,8 +1,9 @@
-+++
-title = "Treasury of De Stijl. Still blown away by Mondriaan"
-date = "2017-07-30T16:30:14+01:00"
-images = ["/changelog//treasury-of-de-stijl/de-stijl.png"]
-+++
+---
+title: "Treasury of De Stijl. Still blown away by Mondriaan"
+date: "2017-07-30T16:30:14+01:00"
+images:
+  - /changelog//treasury-of-de-stijl/de-stijl.png
+---
 For Scrollytelling, we helped build and now host and support [The Treasury of _De Stijl_](https://www.deschatkamervandestijl.nl).
 <!--more-->
 

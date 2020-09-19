@@ -1,7 +1,7 @@
-+++
-title = "Website development on HTTPS"
-date = "2019-01-04T20:33:32+05:30"
-+++
+---
+title: "Website development on HTTPS"
+date: "2019-01-04T20:33:32+05:30"
+---
 Long gone are the days when https for websites was a curiosity; reserved only for the checkout page. Encryption is the norm now.
 <!--more-->
 
