@@ -13,7 +13,7 @@
     "instantsearch.js": "^4.8.1"
   },
   "scripts": {
-    "index": "hugo-algolia -all",
-    "index-and-send": "hugo-algolia -all --send"
+    "index": "hugo-algolia --all",
+    "index-and-send": "hugo-algolia --all --send"
   }
 }
