@@ -60,7 +60,7 @@
   environment = { HUGO_VERSION = "0.75.0" }
 
 [context.production]
-  command = "hugo --gc --minify"
+  command = "hugo --gc --minify && hugo-algolia --all --send"
   environment = { HUGO_VERSION = "0.75.0" }
 
 [[redirects]]

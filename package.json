@@ -1,0 +1,19 @@
+{
+  "name": "www.spacebabies.nl",
+  "version": "1.0.0",
+  "description": "Space Babies website",
+  "main": "index.js",
+  "repository": "git@github.com:spacebabies/website.git",
+  "author": "Joost Baaij <joost@spacebabies.nl>",
+  "license": "None",
+  "private": true,
+  "dependencies": {
+    "algoliasearch": "^4.5.1",
+    "hugo-algolia": "^1.2.14",
+    "instantsearch.js": "^4.8.1"
+  },
+  "scripts": {
+    "index": "hugo-algolia -all",
+    "index-and-send": "hugo-algolia -all --send"
+  }
+}

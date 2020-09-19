@@ -1,0 +1,57 @@
+baseURL: 'https://www.spacebabies.nl/'
+defaultContentLanguage: en
+languageCode: en-us
+theme: raditian-free-hugo-theme
+disableHugoGeneratorInject: true
+enableGitInfo: true
+enableRobotsTXT: true
+algolia:
+  index: prod_spacebabies
+  appID: YS0CJ8JQF2
+taxonomies:
+  category: categories
+  tag: tags
+  changelog: changelog
+menu:
+  header:
+    - name: About me
+      URL: '#about'
+      weight: 2
+    - name: Portfolio
+      URL: '#portfolio'
+      weight: 3
+    - name: Contact
+      URL: '#contact'
+      weight: 4
+  footer:
+    - name: About me
+      URL: '#about'
+      weight: 2
+    - name: Portfolio
+      URL: '#portfolio'
+      weight: 3
+    - name: Contact
+      URL: '#contact'
+      weight: 4
+params:
+  description: 'I create websites in Ruby on Rails and HTML, CSS, and Javascript (Jamstack)'
+  sections:
+    - showcase
+    - about
+    - education
+    - experience
+    - client-and-work
+    - testimonial
+    - contact
+    - newsletter
+  mainSections:
+    - changelog
+  logo:
+    text1: Space
+    text2: Babies
+  footer:
+    copyright: KvK 70132208
+    radity_logo:
+      x: img/general/design-and-code-radity.png
+      _2x: img/general/design-and-code-radity@2x.png
+      alt: Design & Code - Radity
