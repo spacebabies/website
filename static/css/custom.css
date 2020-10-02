@@ -21,14 +21,16 @@
 #changelog h3,
 #changelog p,
 #changelog p a { color: white; }
-#changelog small,
+#changelog p a:hover { border-bottom: 2px solid white; }
 figcaption p { color: rgba(0,0,0,.3); font-style: italic;}
 
 .publishedBy { color: rgba(0,0,0,.3);}
-
+.morelink { word-break: keep-all; margin-left: 2em;}
 .content-column img {
-    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
+.content-column figcaption { text-align: center;}
 
 .education:before {
     z-index: -1;

@@ -5,10 +5,12 @@
       <div class="row">
         <div class="content-column-content">
           <h1>{{ .Title }}</h1>
+          {{ if .GitInfo }}
           <p class="lead publishedBy">
             Published by {{ .GitInfo.AuthorName }}
              on {{ dateFormat "2 January 2006" .PublishDate }}
             </p>
+            {{ end }}
           {{ .Content }}
           
         </div>
