@@ -3,10 +3,10 @@ title: "Straal Atelier Valmeer"
 date: 2020-10-02T16:03:10+02:00
 draft: false
 index: true
+description: "Today saw the launch of a new Space Baby: [Straal Atelier Valmeer](https://www.straalatelier.com). An online brochure and sales tool for a sandblasting company. I used the Jamstack for it."
 ---
-Today saw the launch of a new Space Baby: [Straal Atelier Valmeer](https://www.straalatelier.com). An online brochure and sales tool for a sandblasting company. I used the Jamstack for it.
 
-<!--more-->
+{{% param description %}}
 
 ## Jamstack
 

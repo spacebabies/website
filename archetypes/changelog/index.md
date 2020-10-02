@@ -1,11 +1,19 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+description: This will become your lead paragraph and summary.
 draft: false
 index: true
+series: # array. specify related “see also” pages by placing them in the same series.
+tags: # array
+
+audio: # array of absolute paths
+images: # array of absolute paths
+  - /{{ .Type }}/{{ .Name }}/image.jpg
+videos: # array of absolute paths
 ---
-This is your lead paragraph and summary.
-<!--more-->
+{{% param description %}}
+
 ## Header
 More content goes here.
 

@@ -1,11 +1,12 @@
 ---
 title: 'HTTPS for the masses, or, Secure All The Things'
 date: "2019-08-29T22:46:32+05:30"
+description: Remember that post where I showed you how to easily run https on your local development server? Well, it just got easier.
+series:
+  - https-development
 ---
 
-Remember that post where I showed you [how to easily run https on your
-local development server](https://www.spacebabies.nl/portfolio/https-for-development-custom-certificate-authority/)? Well, it just got easier.
-<!--more-->
+{{% param description %}}
 
 Here is the full recipe, from raw ingredients to delicious baked https. Ready for the masses.
 

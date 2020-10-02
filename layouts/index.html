@@ -5,13 +5,12 @@
 <head>
 
     {{ partial "head.html" . }}
-
     {{ partial "head_custom.html" . }}
 
 </head>
 
 <body>
-
+	<main aria-role="main">
 	{{ partial "header.html" . }}
 
 	{{ range .Site.Params.sections }}
@@ -20,9 +19,9 @@
 
 	{{ partial "changelog.html" . }}
 
-
 	{{ partial "footer.html" . }}
-    {{ partial "base-foot.html" . }}
+	{{ partial "base-foot.html" . }}
+	</main>
 </body>
 
 </html>

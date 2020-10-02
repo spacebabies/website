@@ -1,9 +1,9 @@
 ---
 title: "Hosting as reliable and (seeminly) simple as flicking a light switch"
 date: "2017-07-29T08:43:51+01:00"
+description: Hosting a website has become like installing a light switch. Connect some wires, hit it, and a lamp goes on.
 ---
-Hosting a website has become like installing a light switch. Connect some wires, hit it, and a lamp goes on.
-<!--more-->
+{{% param description %}}
 
 It's cheap, practically invisible and it's very uncool. Oh, and it's expected to work every single time, for decades, without maintenance.
 

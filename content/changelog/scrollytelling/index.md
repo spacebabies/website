@@ -3,9 +3,9 @@ title: "Our latest product Scrollytelling is smashing all records"
 images:
   - /changelog/scrollytelling/scrollytelling-logo.png
 date: "2016-11-05T19:53:42+05:30"
+description: We co-founded and bootstrapped a successful SaaS aimed at national media.
 ---
-We co-founded and bootstrapped a successful SaaS aimed at national media.
-<!--more-->
+{{% param description %}}
 
 ## The birth of Scrollytelling
 With co-founder Martijn van Tol, Joost brought [Scrollytelling](https://www.scrollytelling.com) into this world. You either love or hate the name. I hate it, but that's not really relevant when you're hugely successful. Things like the incorporated name and even the `.io` domain (so 2012) become details when you're dealing with 3 million readers who are all streaming hi-def video.

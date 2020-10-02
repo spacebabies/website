@@ -1,9 +1,11 @@
 ---
 title: "Website development on HTTPS"
 date: "2019-01-04T20:33:32+05:30"
+description: Long gone are the days when https for websites was a curiosity; reserved only for the checkout page. Encryption is the norm now.
+series:
+  - https-development
 ---
-Long gone are the days when https for websites was a curiosity; reserved only for the checkout page. Encryption is the norm now.
-<!--more-->
+{{% param description %}}
 
 But as creators, we never bothered with https for our local website development. (That is on our own computer, while we're working on the foundations and stuff.)
 In fact, it was a burden. We cannot get "real" https certificates on our

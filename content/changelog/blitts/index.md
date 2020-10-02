@@ -1,11 +1,12 @@
 ---
 title: BLITTS. Get freshly-baked permits for home improvement online
+description: Draw and submit your building permit online. Hard hat and safety boots not needed.
 images:
   - /changelog/blitts/blitts-buildings.jpg
 date: "2015-11-05T19:57:40+05:30"
 ---
-Draw and submit your building permit online. Hard hat and safety boots not needed.
-<!--more-->
+
+{{% param description %}}
 
 {{< figure src="blitts-buildings.jpg" caption="Blitts logo" >}}
 

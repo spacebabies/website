@@ -1,11 +1,18 @@
 ---
 title: "Bitbucket Pipelines: now 200% more DRY"
+date: "2018-08-28T11:20:19+05:30"
+description: Today, I saw the future. And it was bright. And full of annoying youngsters who acted as if they were the alpha and omega of society, now get off my lawn!!
+
 images:
   - /changelog/bitbucket-pipelines-common-step/bitbucket-pipelines-header.png
-date: "2018-08-28T11:20:19+05:30"
+  - /changelog/bitbucket-pipelines-common-step/bitbucket-pipelines-flower.png
+tags:
+  - bitbucket
+  - deployment
+  - CI
 ---
-Today, I saw the *future*. And it was bright. And full of annoying youngsters who acted as if they were the alpha and omega of society, now get off my lawn!!
-<!--more-->
+{{% param description %}}
+
 ## BitBucket Pipelines
 I've been keeping an eye on Bitbucket Pipelines lately; it's a service that offers
 to test and release software with all the heavywork offlifted to them. Plus, it
@@ -13,7 +20,7 @@ looks and works really nicely.
 
 So, it being a queit _summer vacay_ and all, I took the plunge.
 
-{{< figure src="bitbucket-pipelines-flower.png" caption="Bitbucket Pipelines. It... grows in a pot?" >}}
+{{< figure src="bitbucket-pipelines-flower.png" caption="Bitbucket Pipelines. It... grows in a pot?" alt="BitBucket Pipelines" >}}
 
 ## My verdict
 I won't write in detail about how the experience was. There is plenty of

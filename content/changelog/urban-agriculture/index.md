@@ -3,9 +3,9 @@ title: "Agriculture in the context of forced displacement"
 images:
   - /changelog/urban-agriculture/makeshift-professional-lighting.jpg
 date: "2016-11-05T20:23:59+05:30"
+description: We went to Iraq to find stories around urban agriculture by people who leave or flee their homes due to conflict, violence, persecution or human rights violations.
 ---
-We went to Iraq to find stories around urban agriculture by people who leave or flee their homes due to conflict, violence, persecution or human rights violations.
-<!--more-->
+{{% param description %}}
 
 This growing of crops has a clear role to play from the earliest stages of a crisis, through refugee camp and crisis-city settings, to resettlement or returnees.
 

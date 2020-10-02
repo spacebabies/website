@@ -3,9 +3,9 @@ title: "King nascholing: accredited education for healthcare professionals"
 date: "2017-02-05T19:41:01+05:30"
 images:
   - /changelog/king-nascholing-launches/king-nascholing.jpg
+description: This tailor-made ecommerce and online courseware website saves King nascholing countless hours of manual labor, making students happier and more effective.
 ---
-This tailor-made ecommerce and online courseware website saves King nascholing countless hours of manual labor, making students happier and more effective.
-<!--more-->
+{{% param description %}}
 
 ## The Brief
 The client approached us to take their manual enrollment process online. We proceeded to automate as much of the process as possible: from student enrollment, to online courseware, to reminders via email.

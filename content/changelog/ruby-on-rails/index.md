@@ -1,9 +1,9 @@
 ---
 title: "Ruby on Rails. Still madly in love after all those years."
 date: "2010-11-05T19:50:47+05:30"
+description: It is one of the great web frameworks. _Airbnb_ and _Shopify_ are built with it, to name just two.
 ---
-It is one of the great web frameworks. _Airbnb_ and _Shopify_ are built with it, to name just two.
-<!--more-->
+{{% param description %}}
 
 I can't help but still be madly in love with it. Even though it‘s been around since biblical times, it shows no signs of aging. Given a choice, we always use it to build web somethings. Here is why.
 

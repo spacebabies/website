@@ -3,9 +3,9 @@ title: "The Defiant Red: the standard book on red ceramic glazes"
 date: "2019-04-29T08:49:14+01:00"
 images:
   - /changelog/the-defiant-red/the-defiant-red-screen-mobile.jpg
+description: My very own father is a renowned expert of ceramic glazes. It's been his work his entire life.
 ---
-My very own father is a renowned expert of ceramic glazes. It's been his work his entire life.
-<!--more-->
+{{% param description %}}
 
 And retirement or not, it seems he has a little trouble letting go. So he wrote a book about part of his work: inventing and producing red ceramic glazes. He wrote _the_ book, in fact.
 

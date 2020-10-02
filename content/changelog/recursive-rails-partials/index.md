@@ -1,9 +1,9 @@
 ---
 title: 'Recursive Rails Partials are Recursive Rails Partials are Recursive'
 date: "2018-08-24T14:56:22+05:30"
+description: Love it when I make the world slightly better by improving an Open Source product I use.
 ---
-Love it when I make the world slightly better by improving an Open Source product I use.
-<!--more-->
+{{% param description %}}
 
 I am a big fan of [Ancestry](https://github.com/stefankroes/ancestry), software that helps
 define relationships between things. Often used to organize categories.

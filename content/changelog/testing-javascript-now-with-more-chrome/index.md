@@ -3,9 +3,9 @@ title: "Testing JavaScript, now with more Chrome"
 date: "2017-10-22T13:34:43+02:00"
 images:
   - /changelog/testing-javascript-now-with-more-chrome/google-chrome-sign.jpg
+description: Starting today, I am using Chrome to run automated browser tests.
 ---
-Starting today, I am using Chrome to run automated browser tests.
-<!--more-->
+{{% param description %}}
 
 I tell Chrome to browse through my sites, click buttons, and (mis)behave like a regular human. And Chrome does so, without complaints, after every little change I make.
 

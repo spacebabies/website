@@ -3,9 +3,9 @@ title: "Zap those inline styles for performance and security"
 date: "2017-08-21T22:57:46+01:00"
 images:
   - /changelog/zap-those-inline-styles/css3.svg
+description: "We‘ve all done it: adding inline styles to HTML pages, because the content is dynamic. Backgrounds for example."
 ---
-We‘ve all done it: adding inline styles to HTML pages, because the content is dynamic. Backgrounds for example.
-<!--more-->
+{{% param description %}}
 
 Inline styles bother me because they bloat the page, can't be cached and just look ugly. Zap those ugly inline styles! Using Rails helpers and bad-ass cache magic. ✨
 

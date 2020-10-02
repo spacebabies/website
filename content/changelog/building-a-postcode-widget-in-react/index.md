@@ -1,9 +1,12 @@
 ---
 title: A postcode widget in React
 date: "2016-11-05T19:56:17+05:30"
+description: Our job is to create beautiful, fast and secure web applications. This postcode widget embodies all three aspects.
+images:
+  - /changelog/building-a-postcode-widget-in-react/blitts-widget.png
 ---
-Our job is to create beautiful, fast and secure web applications. This postcode widget embodies all three aspects.
-<!--more-->
+
+{{% param description %}}
 
 {{< figure src="blitts-widget.png" caption="Blitts postcode widget" >}}
 
