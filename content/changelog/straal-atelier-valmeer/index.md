@@ -8,6 +8,8 @@ description: "Today saw the launch of a new Space Baby: [Straal Atelier Valmeer]
 
 {{% param description %}}
 
+find it at [www.straalatelier.com](https://www.straalatelier.com)
+
 ## Jamstack
 
 It's a great example of a [Jamstack](https://www.jamstack.org) website. But what is Jamstack? It consists of the most ubiquitous languages on the web: HTML, CSS, and JavaScript. That helps ensure that the website will work everywhere. There are no special requirements to host it. Jamstack focuses on speed, security, and rapid deployments.

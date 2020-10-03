@@ -6,7 +6,7 @@ showcase:
   enable: true
   title: "Hello, I’m Joost."
   subtitle: "Full Stack Developer"
-  description: "I run <strong>Space Babies</strong>, a software development company in Amsterdam. I create beautiful, fast and secure internet applications, and have been doing so for more than twenty years."
+  description: "I run Space Babies, a software development company in Amsterdam. I create beautiful, fast and secure internet applications, and have been doing so for more than twenty years."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
