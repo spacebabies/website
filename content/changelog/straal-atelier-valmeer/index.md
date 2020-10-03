@@ -8,7 +8,7 @@ description: "Today saw the launch of a new Space Baby: [Straal Atelier Valmeer]
 
 {{% param description %}}
 
-find it at [www.straalatelier.com](https://www.straalatelier.com)
+Find it at [www.straalatelier.com](https://www.straalatelier.com)
 
 ## Jamstack
 
@@ -38,7 +38,9 @@ We need a custom shortcode and a small database.
 <section class="grid">
   {{ range $.Site.Data.grids.instagram }}
   <figure>
-    <a rel="nofollow" href="{{ .URL }}"><img loading="lazy" src="{{ .image }}" alt="{{ .alt }} "></a>
+    <a rel="nofollow" href="{{ .URL }}">
+      <img loading="lazy" src="{{ .image }}" alt="{{ .alt }} ">
+    </a>
     <figcaption>{{ .caption | safeHTML }}</figcaption>
   </figure>
   {{ end }}
