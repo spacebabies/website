@@ -3,10 +3,10 @@
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2 text-center">
                 <h2>
-                    Latest in The Changelog:<br>
+                    Latest in my blog, The Changelog:<br>
 
-                {{ range first 1 ( where site.RegularPages "Type" "in" site.Params.mainSections ) }}
-                <small>{{ .Title }}</small>
+                    {{ range first 1 ( where site.RegularPages "Type" "in" site.Params.mainSections ) }}
+                    <small>{{ .Title }}</small>
                 </h2>
                 <p class="lead">
                     <span class="icon-quote"></span>
