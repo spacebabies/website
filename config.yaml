@@ -33,17 +33,6 @@ menu:
       URL: '#contact'
       weight: 4
 params:
-  algolia:
-    vars:
-      - title
-      - summary
-      - date
-      - publishdate
-      - expirydate
-      - permalink
-    params:
-      - categories
-      - tags
   description: 'I create websites in Ruby on Rails and HTML, CSS, and Javascript (Jamstack)'
   images:
     - /img/space-babies.png
@@ -69,14 +58,7 @@ params:
       x: img/general/design-and-code-radity.png
       _2x: img/general/design-and-code-radity@2x.png
       alt: Design & Code - Radity
-outputformats:
-  algolia:
-    basename: 'algolia'
-    isPlainText: true
-    mediaType: 'application/json'
-    notAlternative: true
 outputs:
   home:
   - HTML
   - RSS
-  - ALGOLIA

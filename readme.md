@@ -17,15 +17,6 @@ hugo server
 hugo new --kind changelog changelog/title-here
 ```
 
-## Refresh search index
-
-This is part of the deploy process, but you can do it manually too.
-
-```
-yarn index # just generate the index in public
-yarn index-and-send # generate and store in Algolia
-```
-
 # Deploy
 
 Hosted on Netlify.
