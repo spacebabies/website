@@ -46,7 +46,6 @@ params:
     - client-and-work
     - testimonial
     - contact
-    - newsletter
   mainSections:
     - changelog
   logo:

@@ -32,16 +32,16 @@ about:
   enable: true
   title: "About Me"
   content: '<p class="lead">
-    My customers thrive online, because of their online properties
-    I helped create. E-commerce runs uninterrupted, incidents are rare,
+    My customers hire me to reach bigger online goals.
+    E-commerce runs uninterrupted, incidents are rare,
     and I write documentation and tests to keep it that way.
-    I specialize in mission-critical applications, such as global
-    e-commerce and content management systems used from all over the world.
+    I specialize in creating mission-critical applications, such as global
+    e-commerce systems, online streaming storytelling, and cutting-edge websites.
     </p>
     <p>
     I founded Space Babies in 2000 and have used almost every web technology imaginable. 
-    My products routinely handle millions of visitors without breaking a sweat.
-    I usually handle monitoring and preemtive maintenance as well.
+    My products routinely handle millions of visitors and are designed to be fast and reliable.
+    I usually handle monitoring and preemptive maintenance as well.
     </p>
     <p>
     Last but not least, I am recognised being in the top 5% of global Ruby developers on <a href="https://stackoverflow.com/users/story/235411">StackOverflow</a>.
@@ -78,7 +78,7 @@ experience:
   description: "
   I can work solo or as team lead/manager.
   I am an expert in development, security, standards, and operations.
-  I am very experienced building content management systems and e-commerce solutions.
+  I am very experienced building e-commerce systems and custom content management solutions.
   I enjoy increasing my customer’s value.
   A full stack developer such as me can complete all aspects of a website: front-end (what you see), back-end (how it works) and operational management.
   "
@@ -179,26 +179,11 @@ testimonial:
         x: "img/testimonials/daniel-jordan.jpg"
         _2x: "img/testimonials/daniel-jordan@2x.jpg"
 
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
-      image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
-
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
-      image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
-
 # contact
 contact:
   enable: true
   title: "Contact"
   form:
-    action: "#"
     full_name: "Your name"
     email: "Email Address"
     message: "Type Your Message Here"
@@ -211,16 +196,6 @@ contact:
   address:
     title: "Address"
     address: "Overhoeksplein 2<br />NL-1031 KS Amsterdam"
-  registrations:
-    title: 
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
-
-# newsletter
-newsletter:
-  enable: false
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
