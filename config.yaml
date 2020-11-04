@@ -49,6 +49,7 @@ params:
     - /img/space-babies.png
   title: Space Babies
   sections:
+    - flash
     - showcase
     - about
     - education

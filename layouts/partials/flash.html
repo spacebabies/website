@@ -1,0 +1,8 @@
+<section class="section rad-animation-group" id="flash">
+    {{ range where .Site.RegularPages "Section" "flash" }}
+    <div class="container rad-fade-down">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+    </div>
+    {{ end }}
+</section>
