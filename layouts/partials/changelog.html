@@ -1,13 +1,15 @@
 <section id="changelog" class="section section--cta">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-8 offset-md-2 text-center">
+            <div class="col-12 col-md-10 offset-md-1 text-center">
                 <h2>
                     Latest in my blog, The Changelog:<br>
 
                     {{ range first 1 ( where site.RegularPages "Type" "in" site.Params.mainSections ) }}
                     <small>{{ .Title }}</small>
                 </h2>
+            </div>
+            <div class="col-12 col-md-8 offset-md-2 text-center">
                 <p class="lead">
                     <span class="icon-quote"></span>
                     {{ .Description | markdownify }}
