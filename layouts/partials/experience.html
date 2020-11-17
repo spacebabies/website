@@ -16,10 +16,11 @@
                 <p class="lead">
                     {{ .Site.Data.homepage.experience.description }}
                 </p>
+
                 {{ range .Site.Data.homepage.experience.buttons }}
                 <a href="{{ .URL }}" class="btn btn-primary">
                     {{ .btnText }}
-                    <i class="icon-arrow-right"></i>
+                    <span data-feather="{{ .icon }}"></span>
                 </a>
                 {{ end }}
             </div>

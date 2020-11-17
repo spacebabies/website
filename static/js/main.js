@@ -1,8 +1,9 @@
-(function() {    
+(function () {
+    // Pick a lucky Space Babies character and animate them.
     function pickLucky() {
         var theBabies = document.querySelectorAll('.navbar-brand img');
         var animations = new Array('anim-spin', 'anim-jump');
-        var luckyIndex = Math.floor(Math.random() * theBabies.length)
+        var luckyIndex = Math.floor(Math.random() * theBabies.length);
         var lucky = theBabies[luckyIndex];
 
         lucky.style.animationDelay = Math.floor(Math.random() * 4 + 4) + 's';
@@ -13,49 +14,37 @@
         });
     }
 
-    setTimeout(pickLucky, Math.floor(Math.random() * 2000) + 500);
+    // Re-eval all the links.
+    function walkLinks() {
+        var links = document.links;
+
+        for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+            if (links[i].hostname != window.location.hostname) {
+                links[i].target = '_blank';
+            }
+        }
+    }
+
+    function fixNavbarToggle() {
+        var navbar = $('.navbar-collapse');
+        if (navbar && navbar.hasClass('show')) {
+            $('.navbar-toggler').click();
+        }
+
+    }
+
+    // The "main" functions.
+
+    $(document)
+        .on('click', 'a.nav-link', fixNavbarToggle);
+
+    window.addEventListener('DOMContentLoaded', function () {
+        feather.replace({width: '1em', height: '1em', strokeWidth: '3px'});
+
+        new SmoothScroll('a[href*="#"]');
+
+        setTimeout(pickLucky, Math.floor(Math.random() * 2000) + 500);
+
+        walkLinks();
+    });
 })();
-
-(function (w) {
-    // if the class is already set, we're good.
-    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
-        return;
-    }
-    var fontA = new w.FontFaceObserver("Inter", {
-        weight: 300
-    });
-    var fontB = new w.FontFaceObserver("Inter", {
-        weight: 400
-    });
-    var fontC = new w.FontFaceObserver("Inter", {
-        weight: 500
-    });
-    var fontD = new w.FontFaceObserver("Inter", {
-        weight: 600
-    });
-    var fontE = new w.FontFaceObserver("Inter", {
-        weight: 700
-    });
-    var fontF = new w.FontFaceObserver("Inter", {
-        weight: 900
-    });
-    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function () {
-        w.document.documentElement.className += " fonts-loaded";
-    });
-})(this);
-
-const scroll = new SmoothScroll('a[href*="#"]');
-$('a.nav-link').on('click', () => {
-    const navbar = $('.navbar-collapse');
-    if (navbar && navbar.hasClass('show')) {
-        $('.navbar-toggler').click();
-    }
-})
-
-var links = document.links;
-
-for (var i = 0, linksLength = links.length; i < linksLength; i++) {
-    if (links[i].hostname != window.location.hostname) {
-        links[i].target = '_blank';
-    }
-}

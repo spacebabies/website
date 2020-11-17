@@ -15,17 +15,19 @@
         <p class="lead">
           {{ .Site.Data.homepage.showcase.description | safeHTML }}
         </p>
-        <a href="{{ .Site.Data.homepage.showcase.button.URL }}" class="btn btn-primary">
-          <i class="{{ .Site.Data.homepage.showcase.button.icon }}"></i>
-          {{ .Site.Data.homepage.showcase.button.btnText }}
+        {{ with .Site.Data.homepage.showcase.button }}
+        <a href="{{ .URL }}" class="btn btn-primary">
+          {{ .btnText }}
+          <span data-feather="{{ .icon }}"></span>
         </a>
+        {{ end }}
       </div>
     </div>
     <div class="row platform-links">
       <div class="col-12">
         {{ range .Site.Data.homepage.showcase.socialLinks }}
         <a href="{{ .URL }}">
-          <i class="icon-{{ .icon }}-line"></i>
+          <span data-feather="{{ .icon }}"></span>
         </a>
         {{ end }}
       </div>

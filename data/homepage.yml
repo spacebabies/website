@@ -14,9 +14,8 @@ showcase:
   imageMobile:
     x: "img/showcase/showcase-mobile.jpg"
     alt: Showcase
-
   button:
-    icon: "icon-mail-fill"
+    icon: "send"
     btnText: "Get in touch"
     URL: "/#contact"
 
@@ -47,7 +46,7 @@ about:
     Last but not least, I am recognised being in the top 5% of global Ruby developers on <a href="https://stackoverflow.com/users/story/235411">StackOverflow</a>.
     </p>'
   button:
-    icon: "icon-smile-fill"
+    icon: "smile"
     btnText: "Portfolio"
     URL: "/#portfolio"
   image:
@@ -83,10 +82,10 @@ experience:
   A full stack developer such as me can complete all aspects of a website: front-end (what you see), back-end (how it works) and operational management.
   "
   buttons:
-    - icon: "icon-github-line"
+    - icon: "github"
       btnText: "My Open Source work"
       URL: "https://www.github.com/tilsammans"
-    - icon: "icon-profile-fill"
+    - icon: "briefcase"
       btnText: "My Resume"
       URL: "https://stackoverflow.com/users/story/235411"
 
@@ -137,7 +136,7 @@ client_and_work:
     - title: "Scrollytelling"
       description: "Co-founded and architected Scrollytelling, a successful new business for telling content-rich online stories.  Ultimately serving more than 7 million readers."
       button:
-        icon: "icon-arrow-right"
+        icon: "external-link"
         btnText: "scrollytelling.com"
         URL: "https://www.scrollytelling.com"
       image:
@@ -148,7 +147,7 @@ client_and_work:
     - title: "King nascholing"
       description: "I architected and built this bespoke mission critical e-commerce website and online courseware. All their business now runs through this property."
       button:
-        icon: "icon-arrow-right"
+        icon: "external-link"
         btnText: "kingnascholing.nl"
         URL: "https://www.kingnascholing.nl"
       image:
@@ -159,7 +158,7 @@ client_and_work:
     - title: "De Digitale Topschool"
       description: "I architected, designed and built the premier Dutch online school for gifted children in primary education, and have handled all maintenance since then."
       button:
-        icon: "icon-arrow-right"
+        icon: "external-link"
         btnText: "dedigitaletopschool.nl"
         URL: "https://www.dedigitaletopschool.nl"
       image:
@@ -197,5 +196,5 @@ contact:
     title: "Address"
     address: "Overhoeksplein 2<br />NL-1031 KS Amsterdam"
   button:
-    icon: "icon-mail-fill"
+    icon: "send"
     btnText: "Send Message"

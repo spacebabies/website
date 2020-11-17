@@ -169,9 +169,6 @@ section#about {
 }
 
 
-.icon-stackoverflow-line::before {
-    content: '\e809';
-}
 
 /* Fade In animation triggering after font load or 3s timeout */
 .rad-fade-in {
@@ -356,4 +353,9 @@ section#about {
         opacity: 1;
         transform: scaleY(1);
     }
+}
+
+.btn svg,
+button svg {
+    margin-left: .5em;
 }
