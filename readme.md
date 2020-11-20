@@ -17,6 +17,8 @@ hugo server
 hugo new --kind changelog changelog/title-here
 ```
 
+Both the changelog `kind` and the directory are needed, because our archetype is directory-based.
+
 # Deploy
 
 Hosted on Netlify.
