@@ -61,3 +61,7 @@ outputs:
   home:
   - HTML
   - RSS
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

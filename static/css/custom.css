@@ -60,6 +60,34 @@ figcaption p {
     margin: 0 auto;
 }
 
+.content-column .gallery {
+    position: relative;
+    background: white;
+    z-index: 1;
+}
+
+.content-column .gallery::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: repeating-linear-gradient(-45deg, white, white 20px, black 20px, black 40px);
+    z-index: -1;
+    transition: opacity 2s ease-in;
+    opacity: 0;
+}
+
+.content-column .gallery:hover::before {
+    opacity: 1;
+}
+
+.content-column .gallery img {
+    display: inline;
+    margin: 0 1em 0 0;
+}    
+
 .content-column figcaption {
     text-align: center;
 }
