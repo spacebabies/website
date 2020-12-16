@@ -4,15 +4,18 @@
 
 <link href="/css/main.css" rel="stylesheet">
 <link href="/css/custom.css" rel="stylesheet">
+<link href="/css/default.min.css" rel="stylesheet">
 
 <link rel="canonical" href="{{ .Permalink }}">
-{{ with .Prev }}<link rel="prev" href="{{ .Permalink }}">{{ end -}}
-{{ with .Next }}<link rel="next" href="{{ .Permalink }}">{{ end -}}
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+{{ with .Prev }}
+<link rel="prev" href="{{ .Permalink }}">{{ end -}}
+{{ with .Next }}
+<link rel="next" href="{{ .Permalink }}">{{ end -}}
+<meta name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
 {{ range .AlternativeOutputFormats -}}
-<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}"
-    title="{{ $.Param "title" }}">
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Param "title" }}">
 {{ end -}}
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

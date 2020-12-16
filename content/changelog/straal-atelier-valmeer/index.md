@@ -34,40 +34,35 @@ We need a custom shortcode and a small database.
 
 #### layouts/shortcodes/grids/instagram.html
 
-{{< highlight html >}}
-<section class="grid">
-  {{ range $.Site.Data.grids.instagram }}
-  <figure>
-    <a rel="nofollow" href="{{ .URL }}">
-      <img loading="lazy" src="{{ .image }}" alt="{{ .alt }} ">
-    </a>
-    <figcaption>{{ .caption | safeHTML }}</figcaption>
-  </figure>
-  {{ end }}
-</section>{{< /highlight >}}
+    <section class="grid">
+      {{ range $.Site.Data.grids.instagram }}
+      <figure>
+        <a rel="nofollow" href="{{ .URL }}">
+          <img loading="lazy" src="{{ .image }}" alt="{{ .alt }} ">
+        </a>
+        <figcaption>{{ .caption | safeHTML }}</figcaption>
+      </figure>
+      {{ end }}
+    </section>
 
 #### data/grids/instagram.yml
 
-{{< highlight yaml >}}
-- image: /images/instagram/117308071_317385412740144_5385496135660911575_n.jpg
-  alt: Sodastralen
-  caption: '<a rel="nofollow" href="https://www.instagram.com/explore/tags/sodastralen/">#sodastralen</a>'
-  URL: https://www.instagram.com/p/CD2J6vqn5Pr/
-- image: /images/instagram/117440032_2999361750176124_5278278729190427663_n.jpg
-  alt: "Voor/na"
-  caption: '<a rel="nofollow" href="https://www.instagram.com/explore/tags/voorna/">#voorna</a>'
-  URL: https://www.instagram.com/p/CD3McWqHJYG/
-{{< /highlight >}}
+    - image: /images/instagram/117308071_317385412740144_5385496135660911575_n.jpg
+      alt: Sodastralen
+      caption: '<a rel="nofollow" href="https://www.instagram.com/explore/tags/sodastralen/">#sodastralen</a>'
+      URL: https://www.instagram.com/p/CD2J6vqn5Pr/
+    - image: /images/instagram/117440032_2999361750176124_5278278729190427663_n.jpg
+      alt: "Voor/na"
+      caption: '<a rel="nofollow" href="https://www.instagram.com/explore/tags/voorna/">#voorna</a>'
+      URL: https://www.instagram.com/p/CD3McWqHJYG/
 
 #### Use in content
 
-{{< highlight markdown >}}
-Some text. This is a Markdown template.
+    Some text. This is a Markdown template.
 
-{{</* grids/instagram */>}}
+    {{</* grids/instagram */>}}
 
-More text.
-{{< /highlight >}}
+    More text.
 
 I should maybe add the database content to a parameter or something.
 
@@ -79,46 +74,40 @@ I decided to copy each static website image to webp and use standard HTML to off
 
 In HTML, it looks ilke this:
 
-{{< highlight html >}}
-<figure>
-  <picture>
-    <source type="image/webp" srcset="/path/to/image.webp">
-    <source type="image/jpeg" srcset="/path/to/image.jpg">
-    <img src="/path/to/image.jpg" alt="Image">
-  </picture>
+    <figure>
+      <picture>
+        <source type="image/webp" srcset="/path/to/image.webp">
+        <source type="image/jpeg" srcset="/path/to/image.jpg">
+        <img src="/path/to/image.jpg" alt="Image">
+      </picture>
 
-  <figcaption>A great image</figcaption>
-</figure>
-{{< /highlight >}}
+      <figcaption>A great image</figcaption>
+    </figure>
 
 Which as a Hugo custom shortcode looks like this:
 
 #### layouts/shortcodes/figure.html
 
-{{< highlight html >}}
-<figure>
-    <picture>
-        {{ with .Get "webp" }}<source type="image/webp" srcset="{{ . }}">{{ end }}
-        {{ with .Get "jpg" }}<source type="image/jpg" srcset="{{ . }}">{{ end }}
-        {{ with .Get "png" }}<source type="image/png" srcset="{{ . }}">{{ end }}
+    <figure>
+        <picture>
+            {{ with .Get "webp" }}<source type="image/webp" srcset="{{ . }}">{{ end }}
+            {{ with .Get "jpg" }}<source type="image/jpg" srcset="{{ . }}">{{ end }}
+            {{ with .Get "png" }}<source type="image/png" srcset="{{ . }}">{{ end }}
 
-        {{ if .Get "jpg" }}<img src="{{ .Get "jpg" }}" alt='{{ .Get "caption" }}'>{{ end }}
-        {{ if .Get "png" }}<img src="{{ .Get "png" }}" alt='{{ .Get "caption" }}'>{{ end }}
-    </picture>
-    
-    {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
-</figure>
-{{< /highlight >}}
+            {{ if .Get "jpg" }}<img src="{{ .Get "jpg" }}" alt='{{ .Get "caption" }}'>{{ end }}
+            {{ if .Get "png" }}<img src="{{ .Get "png" }}" alt='{{ .Get "caption" }}'>{{ end }}
+        </picture>
+        
+        {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
 
 #### Use in content
 
-{{< highlight markdown >}}
-Some text. This is a Markdown template.
+    Some text. This is a Markdown template.
 
-{{</* figure webp="/path/to/image.webp" jpg="/path/to/image.jpg" caption="A great image" */>}}
+    {{</* figure webp="/path/to/image.webp" jpg="/path/to/image.jpg" caption="A great image" */>}}
 
-More text.
-{{< /highlight >}}
+    More text.
 
 ### 3. HTTP headers
 
@@ -126,26 +115,22 @@ I found that these headers give me what I want in a website:
 
 #### static/_headers
 
-{{< highlight text >}}
-Cache-Control: public; max-age=60
-Referrer-Policy: no-referrer-when-downgrade
-Strict-Transport-Security = "max-age=31536000; includeSubdomains; preload"
-X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
-{{< /highlight >}}
+    Cache-Control: public; max-age=60
+    Referrer-Policy: no-referrer-when-downgrade
+    Strict-Transport-Security = "max-age=31536000; includeSubdomains; preload"
+    X-Content-Type-Options: nosniff
+    X-Frame-Options: SAMEORIGIN
 
 ### 4. Share images and favicon
 
 The HTML for these isn't asthetically pleasing, but every website needs sharing icons. I always rely on the free [favicon generator](https://realfavicongenerator.net/). 
 
-{{< highlight html >}}
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="msapplication-TileColor" content="#b91d47">
-<meta name="theme-color" content="#bebcaf">
-{{< /highlight >}}
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#bebcaf">
 
 Done.
 
@@ -162,8 +147,8 @@ The usual PageSpeed and https best practices are included by default as well:
 * all the cache headers: `ETag`, `Cache-Control`
 * HTTP/2 with preload
 * plus some easter eggs
-
+<!-- 
       ██████████████████████████████████████████████
       ███▄─▄█─▄▄─█─▄─▄─█─▄▄─█─▄▄▄─█─▄▄─█▄─▄▄▀█▄─▄▄─█
       █─▄█─██─██─███─███─██─█─███▀█─██─██─▄─▄██─▄▄▄█
-      ▀▄▄▄▀▀▀▄▄▄▄▀▀▄▄▄▀▀▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▀▄▄▀▄▄▀▄▄▄▀▀▀
+      ▀▄▄▄▀▀▀▄▄▄▄▀▀▄▄▄▀▀▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▀▄▄▀▄▄▀▄▄▄▀▀▀ -->

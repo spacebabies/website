@@ -55,7 +55,7 @@ params:
     copyright: KvK 70132208
     radity_logo:
       x: img/general/design-and-code-radity.png
-      _2x: img/general/design-and-code-radity@2x.png
+      _2x: /img/general/design-and-code-radity@2x.png
       alt: Design & Code - Radity
 outputs:
   home:
@@ -65,3 +65,13 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    codeFences: false
+module:
+  mounts:
+    - source: node_modules/feather-icons/dist
+      target: static/feather-icons
+    - source: node_modules/highlight.js
+      target: static/highlight.js
+    - source: static
+      target: static
