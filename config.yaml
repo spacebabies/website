@@ -37,6 +37,7 @@ params:
   images:
     - /img/space-babies.png
   title: Space Babies
+  shortname: spacebabies
   sections:
     - flash
     - showcase
@@ -51,16 +52,30 @@ params:
   logo:
     text1: Space
     text2: Babies
+  theme:
+    color: "#cac8c7"
   footer:
     copyright: KvK 70132208
     radity_logo:
       x: img/general/design-and-code-radity.png
       _2x: img/general/design-and-code-radity@2x.png
       alt: Design & Code - Radity
+mediaTypes:
+  application/manifest+json:
+    suffixes:
+      - webmanifest
 outputs:
   home:
   - HTML
   - RSS
+  - webmanifest
+outputFormats:
+  webmanifest:
+    basename: site
+    isPlainText: true
+    mediaType: application/manifest+json
+    permalinkable: true
+    notAlternative: true
 markup:
   goldmark:
     renderer:

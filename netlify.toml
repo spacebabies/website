@@ -14,17 +14,12 @@
     Cache-Control = "max-age=14400"
 
 [[headers]]
-  for = "/img/*"
+  for = "/images/*"
   [headers.values]
-    Cache-Control = "max-age=14400"
+    Cache-Control = "max-age=31536000"
 
 [[headers]]
   for = "/*fonts/*"
-  [headers.values]
-    Cache-Control = "max-age=14400"
-
-[[headers]]
-  for = "/*.png"
   [headers.values]
     Cache-Control = "max-age=14400"
 
