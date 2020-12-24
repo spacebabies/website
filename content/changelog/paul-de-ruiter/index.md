@@ -9,7 +9,9 @@ description: A stunning new corporate identity, and creation of a new website to
 
 [www.paulderuiter.nl/en](https://www.paulderuiter.nl/en/)
 
-<img align="right" class="img-responsive" src="/img/portfolio/paul-de-ruiter-headshot.jpg" alt="Paul de Ruiter">Buildings should produce, rather than consume energy. This is the title of Paul de Ruiter's PhD thesis from 1992. Ever since, his practice has been on the forefront of sustainable architecture.
+{{< multi-figure src="paul-de-ruiter-headshot" alt="Paul de Ruiter" >}}
+
+Buildings should produce, rather than consume energy. This is the title of Paul de Ruiter's PhD thesis from 1992. Ever since, his practice has been on the forefront of sustainable architecture.
 
 Over the last years, the business has grown considerably. His corporate identity remained the same, including a barely customized Wordpress website. Together with designer Tom Rutgers, we developed a new design for print, outdoor and digital media. It builds on the first one, but reduces and clarifies, giving the work more room to shine. A photography brief focussed on clarity, crisp color and considerable whitespace completes the new look.
 

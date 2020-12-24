@@ -17,7 +17,7 @@ videos: # array of absolute paths
 ## Header
 More content goes here.
 
-{{< figure src="image.jpg" caption="Caption text" >}}
+{{< multi-figure src="image" caption="Caption text" >}}
 
 {{< highlight ruby >}}
 @array.each do |element|

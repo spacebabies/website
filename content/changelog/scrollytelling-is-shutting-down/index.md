@@ -11,7 +11,7 @@ for Scrollytelling, of which I am a co-founder. A bittersweet goodbye for sure.
 We created great unique content, had our delivery apparatus in top condition,
 and had a phenomenal reach. Over half the country has seen our work!
 
-{{< figure src="scrolly-shutdown.png" caption="It's the end of hope." >}}
+{{< multi-figure src="scrolly-shutdown" caption="It's the end of hope." >}}
 
 So yeah, the new website's occasion is sad, but it does look very pretty.
 Where one door closes, another one opens.

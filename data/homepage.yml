@@ -8,11 +8,11 @@ showcase:
   subtitle: "Full Stack Developer"
   description: "I run Space Babies, a software development company in Amsterdam. I create beautiful, fast and secure internet applications, and have been doing so for more than twenty years."
   image:
-    x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase@2x.png"
+    x: "/img/showcase/showcase.png"
+    _2x: "/img/showcase/showcase@2x.png"
     alt: Showcase
   imageMobile:
-    x: "img/showcase/showcase-mobile.jpg"
+    x: "/img/showcase/showcase-mobile.jpg"
     alt: Showcase
   button:
     icon: "send"

@@ -9,7 +9,7 @@ It's time to say _adieu_ to Chromedriver and Selenium.
 
 > Quick TLDR: I can control Chrome like a puppeteer and make it go through a project that is still under construction. It can do everything Chrome can, using a script I write. And it happily keeps testing everything, day after day. Hands in the air for outsourcing boring stuff!
 
-{{< figure src="la-et-ms-dead-or-alive-s-you-spin-me-round-like-a-record-20161024.jpg" alt="You spin me right round baby right round like a record baby right round round round" >}}
+{{< multi-figure src="la-et-ms-dead-or-alive-s-you-spin-me-round-like-a-record-20161024" alt="You spin me right round baby right round like a record baby right round round round" >}}
 
 For Ruby on Rails you need a few bits and pieces to make everything work together. Notoriously, a webdriver and Selenium. The former is additional software to be installed on the computer, and the latter is generic browser automation software.
 
@@ -21,7 +21,7 @@ The [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protoco
 
 We can us it to speak to Chrome. Dependency free! Here's how.
 
-{{< figure src="joy-choose.jpg" alt="Choose joy" >}}
+{{< multi-figure src="joy-choose" alt="Choose joy" >}}
 
 ### Out with the old
 

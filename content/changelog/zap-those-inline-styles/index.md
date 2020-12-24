@@ -22,7 +22,7 @@ We want to move those styles into the place where styles belong, i.e. a styleshe
 
 We will need a stylesheet and we will want it to be dynamic. This means we want it to go into a controller to fetch the current product images and render those out into something that looks like CSS. And, if you're wondering, no the idiot Sprockets asset pipeline is not going to help us here, even if we add `.erb` to a stylesheet. (Which is a dumb idea if you ever asked me anyway)
 
-{{< figure src="530e685201681a4c402b382055389a6f0fcea5941705e348634c53502ca3813e.jpg" caption="Your idea is bad, and you should feel bad." >}}
+{{< multi-figure src="530e685201681a4c402b382055389a6f0fcea5941705e348634c53502ca3813e" caption="Your idea is bad, and you should feel bad." >}}
 
 ## New step
 This is going into our layout:
@@ -57,7 +57,7 @@ with this in the view, which you should name `index.css.erb`:
 
 No, it's not time for a refreshing beverage just yet. While the code probably works, it will cause quite a load on our server. If you've put the stylesheet link into the application layout, we will be fetching **all** the products **all** the times!
 
-<img alt="Do you have any idea how dumb you sound" src="/img/portfolio/a89022ec566abec5307db616b0aaa20adfecd8101f0936a99ac9cef5603b30a6.jpg">
+{{< multi-figure caption="Do you have any idea how dumb you sound" src="a89022ec566abec5307db616b0aaa20adfecd8101f0936a99ac9cef5603b30a6" >}}
 
 Maybe your server won't explode if you have a couple thousand products, but this really isn't web scale! To solve this, we will use caching. Optionally powered-up by a caching proxy, which you should have either way, if you ask me. Anyway, on to the magic.
 

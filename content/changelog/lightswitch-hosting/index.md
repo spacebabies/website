@@ -10,7 +10,7 @@ It's cheap, practically invisible and it's very uncool. Oh, and it's expected to
 ## Um, yes please? A hundred of them?
 Even if we developed everything in-house, our customers rightfully compare their website hosting with Facebook or Google. The only way to play this game, is team up with the best companies in the world. By choosing Netlify, we have done just that.
 
-![Netlify][1]
+{{< multi-figure src="netlify" alt="Netlify logo" caption="Netlify. I am just a happy customer" >}}
 
 ## There was a light, and it was Netlify
 Netlify gives our customers world-class features:
@@ -31,5 +31,3 @@ Space Babies has worked with every hosting solution imaginable: from hand-crafte
 The combination is unstoppable and we're proud and excited to pass it all on to our customers.
 
 Instead of abandoning hosting, or leaving it to massive providers that mostly don't care, we're embracing and celebrating this new future.
-
-[1]: /img/portfolio/netlify.jpg

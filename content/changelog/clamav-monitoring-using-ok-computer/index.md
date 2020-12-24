@@ -7,7 +7,7 @@ description: Made the world every so slightly better today.
 ---
 {{% param description %}}
 
-{{< figure src="ok__what_now__by_lazylatiaslover-dbjq69b.png" caption="Better is good" >}}
+{{< multi-figure src="ok__what_now__by_lazylatiaslover-dbjq69b" caption="Better is good" >}}
 
 For some projects, I add a <mark>virus scanner for every upload going into the system</mark>. You just
 don't know what someone could be bringing into your <s>house</s>server, intentionally or not.

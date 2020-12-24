@@ -8,13 +8,13 @@ date: "2015-11-05T19:57:40+05:30"
 
 {{% param description %}}
 
-{{< figure src="blitts-buildings.jpg" caption="Blitts logo" >}}
+{{< multi-figure src="blitts-buildings" alt="BLITTS logo" caption="Blitts, for home improvement" >}}
 
 Space Babies maintains [BLITTS](https://www.blitts.nl/), an online application to create and submit building permits for home improvement.
 
 ## Self-service permit application
 
-{{< figure src="winner-gemeentepioniers-jury-2017.jpg" caption="We won a prize! In 2017." >}}
+{{< multi-figure src="winner-gemeentepioniers-jury-2017" caption="We won a prize! In 2017." >}}
 
 Where usually the process to obtain a building permit means several trips to city hall, and several chats with folks wary of your napkin diagrams, BLITTS injects some 21st century into the process. You can create detailed plans of your house online, even if you haven't studied civil engineering. Enter your home's dimensions and the planned changes. Something not right? You can always go back and change the specs.
 

@@ -64,6 +64,7 @@ figcaption p {
     position: relative;
     background: white;
     z-index: 1;
+    margin-bottom: 2em;
 }
 
 .content-column .gallery::before {
@@ -86,7 +87,7 @@ figcaption p {
 .content-column .gallery img {
     display: inline;
     margin: 0 1em 0 0;
-}    
+}
 
 .content-column figcaption {
     text-align: center;

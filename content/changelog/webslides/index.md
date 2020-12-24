@@ -6,7 +6,7 @@ works equally good, also gets out of your way. "
 ---
 {{% param description %}}
 
-{{< figure src="Screenshot-20200908150420-1486x977.png" caption="Truth in advertising." >}}
+{{< multi-figure src="Screenshot-20200908150420-1486x977" caption="Truth in advertising." >}}
 
 
 I've already used it on the new website for [Jotocorp](https://www.jotocorp.com).

@@ -7,7 +7,7 @@ description: We are delighted to announce that Mr. Jones is now maintained by Sp
 ---
 {{% param description %}}
 
-{{< figure src="mr-jones.png" caption="Mr. Jones" >}}
+{{< multi-figure src="mr-jones" caption="Mr. Jones" >}}
 
 ## Okay who is he
 Who he is? He is a high-end tea brand sold in The Netherlands.

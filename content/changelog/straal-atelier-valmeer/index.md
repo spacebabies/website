@@ -16,17 +16,17 @@ It's a great example of a [Jamstack](https://www.jamstack.org) website. But what
 
 _text continues after image_
 
-{{< figure src="jamstack.webp" caption="Jamstack. I think this is the logo?" >}}
+{{< multi-figure src="jamstack" caption="Jamstack. I think this is the logo?" >}}
 
 As usual I used [Hugo](https://gohugo.io) to create this website. I decided to put in a little extra effort and create [custom shortcodes](https://gohugo.io/templates/shortcode-templates/) for sections that require it. It's not hard at all! Should have done that way more. I also incorporated stuff I recently learned, and did an extensive round of Search Engine Optimization (SEO).
 
-{{< figure src="much-to-learn-you-still-have.jpg" caption="Meme: Yoda saying 'Much to learn, you still have'" >}}
+{{< multi-figure src="much-to-learn-you-still-have" caption="Meme: Yoda saying 'Much to learn, you still have'" >}}
 
 ### 1. Instagram grid
 
 My customer is acrive on Instagram. But I didn't want to use the official toolkit, being overkill and containing trackers. So I copied the nine most recent photos in a grid, similar to the Instagram layout.
 
-{{< figure src="instagrid.png" caption="Instagram photos in a grid" >}}
+{{< multi-figure src="instagrid" caption="Instagram photos in a grid" >}}
 
 It was also a perfect chance to use the CSS `grid` specification.
 

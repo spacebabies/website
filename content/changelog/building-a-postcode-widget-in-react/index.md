@@ -8,7 +8,7 @@ images:
 
 {{% param description %}}
 
-{{< figure src="blitts-widget.png" caption="Blitts postcode widget" >}}
+{{< multi-figure src="blitts-widget" caption="Blitts postcode widget" >}}
 
 The widget is in use on [Blitts](http://www.blitts.nl/), one of the products we maintain. Blitts allows you to request a permit for home improvement. Enter your postcode to see if the product is supported in your area. (hint: only Dutch postcodes will work. Try 1234AA 1 for a success response).
 

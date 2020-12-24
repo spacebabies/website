@@ -23,7 +23,7 @@ videos: # array of absolute paths
 
 And it's really, really good at being it.
 
-{{< figure src="remarkable-2-4.jpg" caption="reMarkable 2. I received no compensation for writing this review." >}}
+{{< multi-figure src="remarkable-2-4" caption="reMarkable 2. I received no compensation for writing this review." >}}
 
 I really love paper notebooks, Moleskines especially so. It's the quickest way for me to make an idea more concrete. Until the reMarkable, there was no device that could make the good old analog notebook obsolete. Alas, its demise has now finally come.
 
@@ -31,7 +31,7 @@ Why?
 
 I do exactly what I could do on paper. No compromise. That means drawing diagrams, making doodles, playing a game of [Kamertje Verhuren]({{< relref "#kamertje-verhuren" >}} "internal link to the bottom of the page ;)"). The pencil should not be worse. Drawings appear instantly. Throwing something away is effortless.
 
-{{< figure src="a_diagram.png" caption="A diagram. It has a box, arrows, and a cloud." >}}
+{{< multi-figure src="a_diagram" caption="A diagram. It has a box, arrows, and a cloud." >}}
 
 The reMarkable does it all. And then it has a bunch of features:
 
@@ -49,7 +49,7 @@ Turns out it is pretty hackable, too. It has no official support for it, but its
 
 ### rmKit
 
-{{< figure src="rmkit.png" caption="rmKit." >}}
+{{< multi-figure src="rmkit" caption="rmKit." >}}
 
 The project that seems to spearhead this movement is rmKit. It's a group of coders, lying a solid framework for easy app development. Their website looks great and bundles the tools: [rmKit.dev](https://rmkit.dev/) 
 
@@ -64,10 +64,10 @@ A great tweak, I think, is an app called [reMarkable_mouse](https://github.com/E
 The first thing I did, is customize the various splash screens. I added the four interpid Space Babies to everything! So nice.
 
 {{% gallery %}}
-![rebooting][rebooting]
-![starting][starting]
-![suspended][suspended]
-![sleeping][sleeping]
+{{% picture src="rebooting" alt="Shown when you chose Reboot in Settings" %}}
+{{% picture src="starting" alt="Shown when the device starts cold" %}}
+{{% picture src="suspended" alt="Shown when you need to press the power button to begin" %}}
+{{% picture src="sleeping" alt="Shown when the device fell asleep" %}}
 {{% /gallery %}}
 
 ## Developments are hot 🌶
@@ -78,10 +78,4 @@ Most tools are not compatible with the reMarkable 2 yet. At this point, it's not
 
 What about that game of _kamertje verhuren_ I mentioned? Fear not! It's a classic paper-and-pencil game that never gets old. The reMarkable is perfect for playing it. See:
 
-![Playing Kamertje Verhuren on reMarkable 2][kamertje-verhuren]
-
-[rebooting]: rebooting.png "Shown when you chose Reboot in Settings"
-[sleeping]: sleeping.png "Shown when the device fell asleep"
-[starting]: starting.png "Shown when the device starts cold"
-[suspended]: suspended.png "Shown when you need to press the power button to begin"
-[kamertje-verhuren]: kamertje_verhuren.png "An evergreen game, played on a grid of dots"
+{{< multi-figure src="kamertje_verhuren" alt="Kamertje verhuren" caption="An evergreen game, played on a grid of dots" >}}

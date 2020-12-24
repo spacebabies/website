@@ -2,13 +2,14 @@
 title: "Preserving Online"
 date: 2020-08-05T13:56:52+02:00
 draft: false
-images : ["/changelog/preserving-online-content/photo-1526314114033-349ef6f72220.jpg"]
+images:
+    - /changelog/preserving-online-content/photo-1526314114033-349ef6f72220.jpg
 description: Online content gets destroyed way too easily. To help preserve, I invented a system that fetches, analyses, and repackages it for eternity. With eternity, I mean about a decade or so. This stuff is surprisingly hard.
 ---
 
 {{% param description %}}
 
-{{< figure src="photo-1526314114033-349ef6f72220.jpg" caption="Stuttgart Stadtbibliothek, photo by Max Langelott" >}}
+{{< multi-figure src="photo-1526314114033-349ef6f72220" caption="Stuttgart Stadtbibliothek, photo by Max Langelott" >}}
 
 Case in point are the stories made when our startup [Scrollytelling](https://www.scrollytelling.com) was a thing. All in all, a little under a thousand. What
 does it take to preserve them, hopefully for a long time?
@@ -170,7 +171,7 @@ a human. Go forth and do unforeseen things with it!
 
 ### Microsite
 
-{{< figure src="archive-screenshot-index.png" >}}
+{{< multi-figure src="archive-screenshot-index" >}}
 
 I wrap the archive using a nice little HTML website that contains a link to each
 story. It even has search and filter fields to easily work with large archives.

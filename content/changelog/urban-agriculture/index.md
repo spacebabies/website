@@ -9,6 +9,6 @@ description: We went to Iraq to find stories around urban agriculture by people 
 
 This growing of crops has a clear role to play from the earliest stages of a crisis, through refugee camp and crisis-city settings, to resettlement or returnees.
 
-{{< figure src="makeshift-professional-lighting.jpg" caption="Makeshift Professional lighting" >}}
+{{< multi-figure src="makeshift-professional-lighting" caption="Makeshift Professional lighting" >}}
 
 We came to seek urban farmers of any skill level. We found awe-inspiring stories of people growing crops and lush gardens in the most unlikely of places. These stories will be published as a series of [Scrollytellings](https://www.scrollytelling.com/) in the coming time.
