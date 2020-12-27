@@ -8,8 +8,8 @@
 	"lang": "{{ .Site.Language.Lang }} ",
 	"display": "browser",
 	"start_url": "{{ .Site.BaseURL }} ",
-    "theme_color": "{{ .Site.Params.theme.color }}",
-    "background_color": "{{ .Site.Params.theme.color }}",
+	"theme_color": "{{ .Site.Params.theme.color }}",
+	"background_color": "{{ .Site.Params.theme.color }}",
 	"icons": [
 		{
 			"src": "{{ $192png.Permalink }}",
@@ -28,6 +28,6 @@
 			"sizes": "1024x1024 512x512 384x384 192x192 180x180 152x152",
 			"type": "image/svg+xml",
 			"purpose": "any"
-		},
+		}
 	]
 }
