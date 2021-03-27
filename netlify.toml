@@ -31,7 +31,9 @@
 [build]
   functions = "functions"
   publish = "public"
-
+[build.environment]
+  HUGO_VERSION = "0.80.0"
+  NODE_VERSION = "12"
 [build.processing]
   skip_processing = false
 [build.processing.css]
@@ -47,14 +49,9 @@
 
 [context.branch-deploy]
   command = "hugo --baseURL $DEPLOY_URL --buildDrafts --gc --minify"
-  environment = { HUGO_VERSION = "0.80.0" }
 
 [context.production]
   command = "hugo --gc --minify"
-
-[context.production.environment]
-  HUGO_VERSION = "0.80.0"
-  NODE_VERSION = 12
 
 [[redirects]]
   from = "/portfolio/*"
