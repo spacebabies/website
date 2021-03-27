@@ -51,7 +51,10 @@
 
 [context.production]
   command = "hugo --gc --minify"
-  environment = { HUGO_VERSION = "0.80.0" }
+
+[context.production.environment]
+  HUGO_VERSION = "0.80.0"
+  NODE_VERSION = 12
 
 [[redirects]]
   from = "/portfolio/*"
