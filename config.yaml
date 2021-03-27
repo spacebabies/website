@@ -59,22 +59,6 @@ params:
       x: /img/general/design-and-code-radity.png
       _2x: /img/general/design-and-code-radity@2x.png
       alt: Design & Code - Radity
-mediaTypes:
-  application/manifest+json:
-    suffixes:
-      - webmanifest
-outputs:
-  home:
-  - HTML
-  - RSS
-  - webmanifest
-outputFormats:
-  webmanifest:
-    basename: site
-    isPlainText: true
-    mediaType: application/manifest+json
-    permalinkable: true
-    notAlternative: true
 markup:
   goldmark:
     renderer:

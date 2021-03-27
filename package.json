@@ -10,5 +10,8 @@
   "dependencies": {
     "feather-icons": "^4.28.0"
   },
-  "scripts": {}
+  "scripts": {},
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
 }

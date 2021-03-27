@@ -1,8 +1,10 @@
+{{ with where .Site.RegularPages "Section" "flash" }}
 <section class="section rad-animation-group" id="flash">
-    {{ range where .Site.RegularPages "Section" "flash" }}
+    {{ range . }}
     <div class="container rad-fade-down">
         <h2>{{ .Title }}</h2>
         {{ .Content }}
     </div>
     {{ end }}
 </section>
+{{ end }}
