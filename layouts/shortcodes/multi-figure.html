@@ -1,8 +1,12 @@
 <figure>
     <picture>
-        <source srcset="{{ .Get "src" }}.webp" type="image/webp">
-        <source srcset="{{ .Get "src" }}.jpg" type="image/jpeg">
-        <img src="{{ .Get "src" }}.jpg" alt="{{ .Get "alt" }}">
+        {{ range .Page.Resources.Match (add (.Get "src") ".*") }}
+        <source src="{{ .RelPermalink }}" type="{{ .MediaType }}">
+        {{ end }}
+
+        {{ with .Page.Resources.GetMatch (add (.Get "src") ".*") }}
+        <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+        {{ end }}
     </picture>
     <figcaption>{{ .Get "caption" }}</figcaption>
 </figure>
