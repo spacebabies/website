@@ -1,7 +1,7 @@
 <figure>
     <picture>
         {{ range .Page.Resources.Match (add (.Get "src") ".*") }}
-        <source src="{{ .RelPermalink }}" type="{{ .MediaType }}">
+        <source type="{{ .MediaType }}" src="{{ .RelPermalink }}">
         {{ end }}
 
         {{ with .Page.Resources.GetMatch (add (.Get "src") ".*") }}
