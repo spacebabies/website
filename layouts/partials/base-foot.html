@@ -16,3 +16,13 @@
 <script src="/js/library/fontfaceobserver.js"></script>
 <script src="/js/library/feather.js"></script>
 <script src="/js/main.js"></script>
+
+{{- $logo := resources.Get "images/space-babies-logo.png" | fingerprint }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "{{ ref . "/" }}",
+  "logo": "{{ $logo.Permalink }}"
+}
+</script>
