@@ -1,15 +1,11 @@
-<!-- inject:../components/baseHead/baseHeadStart.html -->
 <!DOCTYPE html>
 <html lang="{{ .Language.Lang }}">
 
 <head>
-
-    {{ partial "head.html" . }}
-
+	{{ partial "head.html" . }}
 </head>
 
 <body>
-
 	{{ partial "header.html" . }}
 
 		{{ block "main" . }}
@@ -18,6 +14,4 @@
 	{{ partial "footer.html" . }}
 	{{ partial "base-foot.html" . }}
 </body>
-
 </html>
-<!-- endinject -->

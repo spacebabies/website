@@ -1,5 +1,5 @@
 ---
-baseURL: 'https://www.spacebabies.nl/'
+baseURL: "https://www.spacebabies.nl/"
 defaultContentLanguage: en
 languageCode: en-us
 theme: raditian-free-hugo-theme
@@ -14,26 +14,26 @@ taxonomies:
 menu:
   header:
     - name: About me
-      URL: '#about'
+      URL: "#about"
       weight: 2
     - name: Portfolio
-      URL: '#portfolio'
+      URL: "#portfolio"
       weight: 3
     - name: Contact
-      URL: '#contact'
+      URL: "#contact"
       weight: 4
   footer:
     - name: About me
-      URL: '#about'
+      URL: "#about"
       weight: 2
     - name: Portfolio
-      URL: '#portfolio'
+      URL: "#portfolio"
       weight: 3
     - name: Contact
-      URL: '#contact'
+      URL: "#contact"
       weight: 4
 params:
-  description: 'I create websites in Ruby on Rails and HTML, CSS, and Javascript (Jamstack)'
+  description: "I create websites in Ruby on Rails and HTML, CSS, and Javascript (Jamstack)"
   images:
     - /img/space-babies.png
   title: Space Babies
@@ -55,10 +55,6 @@ params:
     color: "#cac8c7"
   footer:
     copyright: KvK 70132208
-    radity_logo:
-      x: /img/general/design-and-code-radity.png
-      _2x: /img/general/design-and-code-radity@2x.png
-      alt: Design & Code - Radity
 markup:
   goldmark:
     renderer:
