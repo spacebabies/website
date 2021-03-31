@@ -1,10 +1,12 @@
-<script src="/js/library/jquery-3.5.1.slim.min.js"></script>
-<script src="/js/library/bootstrap.min.js"></script>
-<script src="/js/sticky-header.js"></script>
-<script src="/js/library/feather.js"></script>
-<script src="/js/main.js"></script>
+{{ $jq := resources.Get "js/library/jquery-3.5.1.slim.min.js" }}
+{{ $bs := resources.Get "js/library/bootstrap.min.js" }}
+{{ $sh := resources.Get "js/library/sticky-header.js" }}
+{{ $fe := resources.Get "js/library/feather.js" }}
+{{ $ma := resources.Get "js/main.js" }}
+{{ $js := slice $jq $bs $sh $fe $ma | resources.Concat "js/app.js" | minify | fingerprint }}
+<script async type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
-{{- $logo := resources.Get "images/space-babies-logo.png" | fingerprint }}
+{{ $logo := resources.Get "images/space-babies-logo.png" | fingerprint }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
