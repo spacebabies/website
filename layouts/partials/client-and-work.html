@@ -1,20 +1,19 @@
 {{ if .Site.Data.homepage.client_and_work.enable }}
 <section id="portfolio" class="section section--border-bottom">
   <div class="container">
-    <h2 class="rad-animation-group rad-fade-down">
+    <h2 class=" rad-fade-down">
       {{ .Site.Data.homepage.client_and_work.title }}
     </h2>
-    <div class="row row--padded rad-animation-group rad-fade-down">
+    <div class="row row--padded  rad-fade-down">
       <div class="col-12">
         <div class="clients">
           {{ range .Site.Data.homepage.client_and_work.clients }}
           <div class="clients__item">
             <a href="{{ .URL }}">
-              <img class="lozad img-responsive"
+              <img class="img-responsive"
                 width="128" height="30"
-                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="{{ .logo.x }}"
-                data-srcset="{{ .logo.x }} {{ .logo.xw }}w, {{ .logo._2x }} {{ .logo._2xw }}w"
+                src="{{ .logo.x }}"
+                srcset="{{ .logo.x }} {{ .logo.xw }}w, {{ .logo._2x }} {{ .logo._2xw }}w"
                 alt="{{ .alt }}" />
             </a>
           </div>
@@ -24,7 +23,7 @@
     </div>
     {{ range $index, $element := .Site.Data.homepage.client_and_work.works }}
     <div
-      class="row row--padded rad-animation-group rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}">
+      class="row row--padded  rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}">
       {{ if .is_even }}
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
         <h3>{{ .title }}</h3>
@@ -36,16 +35,18 @@
       </div>
       <div class="col-12 col-md-7 pl-md-0 text-right">
         <img
-          class='lozad img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}'
-          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .image.x  }}" data-srcset="{{ .image.x  }} {{ .image.xw }}w, {{ .image._2x  }} {{ .image._2xw }}w" alt="{{ .title }}" />
+          class='img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}'
+          src="{{ .image.x  }}"
+          srcset="{{ .image.x  }} {{ .image.xw }}w, {{ .image._2x  }} {{ .image._2xw }}w"
+          alt="{{ .title }}">
       </div>
       {{ else }}
       <div class="col-12 col-md-7 pl-md-0 text-right">
         <img
-          class='lozad img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}'
-          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .image.x  }}" data-srcset="{{ .image.x  }} {{ .image.xw }}w, {{ .image._2x  }} {{ .image._2xw }}w" alt="{{ .title }}" />
+          class='img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}'
+          src="{{ .image.x  }}"
+          srcset="{{ .image.x  }} {{ .image.xw }}w, {{ .image._2x  }} {{ .image._2xw }}w"
+          alt="{{ .title }}">
       </div>
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
         <h3>{{ .title }}</h3>

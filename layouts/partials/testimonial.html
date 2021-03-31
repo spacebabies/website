@@ -1,5 +1,5 @@
 {{ if .Site.Data.homepage.testimonial.enable }}
-<section class="section rad-animation-group section--border-bottom">
+<section class="section  section--border-bottom">
     <div class="container">
         <h2 class="rad-fade-down">{{ .Site.Data.homepage.testimonial.title }}</h2>
         <div class="row row--padded mb-0 rad-fade-down">
@@ -10,11 +10,10 @@
                     {{ .content }}
                 </p>
                 <div class="testimonial__author">
-                    <img class="lozad testimonial__author-image"
-                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                         data-src="{{ .image.x }}"
-                         data-srcset="{{ .image.x }} {{ .image.xw }}w, {{ .image._2x }} {{ .image._2xw }}w"
-                         alt="{{ .name }}"/>
+                    <img class="testimonial__author-image"
+                         src="{{ .image.x }}"
+                         srcset="{{ .image.x }} {{ .image.xw }}w, {{ .image._2x }} {{ .image._2xw }}w"
+                         alt="{{ .name }}">
                     <div class="testimonial__author-info">
                         <h4>{{ .name }}</h4>
                         <span>{{ .position }}</span>

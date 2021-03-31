@@ -184,20 +184,6 @@ client_and_work:
         _2xw: 1320
       is_even: true
 
-# testimonial
-testimonial:
-  enable: false
-  title: "Testimonials"
-  items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
-      image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        xw: 128
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
-        _2xw: 256
-
 # contact
 contact:
   enable: true
