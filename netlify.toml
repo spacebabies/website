@@ -37,6 +37,10 @@
   NODE_VERSION = "15"
   RUBY_VERSION = "2.7.1"
 
+[build.processing.js]
+  bundle = true
+  minify = true
+
 [context.branch-deploy]
   command = "hugo --baseURL $DEPLOY_URL --buildDrafts --gc --minify"
 
