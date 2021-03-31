@@ -53,8 +53,6 @@ params:
     text2: Babies
   theme:
     color: "#cac8c7"
-  footer:
-    copyright: KvK 70132208
 markup:
   goldmark:
     renderer:

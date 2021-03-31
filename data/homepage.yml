@@ -192,6 +192,9 @@ contact:
     full_name: "Your name"
     email: "Email Address"
     message: "Type Your Message Here"
+  kvk:
+    title: KvK
+    number: 70132208
   phone:
     title: "VAT ID"
     number: "NL001734749B64"
