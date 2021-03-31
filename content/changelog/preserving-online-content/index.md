@@ -3,7 +3,7 @@ title: "Preserving Online"
 date: 2020-08-05T13:56:52+02:00
 draft: false
 images:
-    - /changelog/preserving-online-content/photo-1526314114033-349ef6f72220.jpg
+  - /changelog/preserving-online-content/photo-1526314114033-349ef6f72220.jpg
 description: Online content gets destroyed way too easily. To help preserve, I invented a system that fetches, analyses, and repackages it for eternity. With eternity, I mean about a decade or so. This stuff is surprisingly hard.
 ---
 
@@ -107,13 +107,12 @@ For instance, here is ours:
 
 {{< highlight text >}}
 Look! It's a
-_________________________________________________/\/\____/\/\_______________
-___/\/\/\/\____/\/\/\/\__/\/\__/\/\____/\/\/\____/\/\____/\/\____/\/\__/\/\_
-_/\/\/\/\____/\/\________/\/\/\/\____/\/\__/\/\__/\/\____/\/\____/\/\__/\/\_
-_______/\/\__/\/\________/\/\________/\/\__/\/\__/\/\____/\/\______/\/\/\/\_
-_/\/\/\/\______/\/\/\/\__/\/\__________/\/\/\____/\/\/\__/\/\/\________/\/\_
-_________________________________________________________________/\/\/\/\___
-
+************************\_************************/\/\_**\_/\/\_****\_\_\_\_******
+**\_/\/\/\/\_\_**/\/\/\/\_\_/\/\_\_/\/\_**\_/\/\/\_\_**/\/\_**\_/\/\_\_**/\/\__/\/\_
+_/\/\/\/\_**\_/\/\_**\_****/\/\/\/\_**\_/\/\_\_/\/\_\_/\/\_\_**/\/\_**\_/\/\_\_/\/\_
+**\_****/\/\_\_/\/\_**\_\_\_**/\/\_**\_\_\_**/\/\_\_/\/\_\_/\/\_**\_/\/\_\_\_\_**/\/\/\/\_
+\_/\/\/\/\_**\_**/\/\/\/\_\_/\/\_****\_****/\/\/\_**\_/\/\/\_\_/\/\/\_**\_****/\/\_
+********************************\_********************************/\/\/\/\_\_\_
 
 Scrollytelling was a widely used multimedia storytelling product. What you
 have in this folder, is all the stories Scrollytelling produced while they
@@ -124,7 +123,8 @@ I never realised we were a great Gift to Mankind. But it's undeniable.
 
 ==============
 Scrollytelling
---------------
+
+---
 
 💥 It's us! Founders:
 
@@ -138,13 +138,14 @@ neural interface, proceed as usual.
 💥 Scrolly's little helpers:
 
 - Our sinus-wave logo was designed by Inge Beekmans. ♥
-- Some of our custom work was freelance designed by Hamid Salali. *boks*
+- Some of our custom work was freelance designed by Hamid Salali. _boks_
 - An equal amount of respect for our house photographer Dirk-Jan Visser. 📸
 - Many piles of respect for Vincent Kranendonk, developer and universal man. 👨‍🎓
 
 ==============
 Scrollytelling, a.k.a. our dear customer
---------------
+
+---
 
 💥 Account managers:
 
@@ -155,9 +156,10 @@ Scrollytelling, a.k.a. our dear customer
 - Nienke van Rijn
 - Miss Janet Deibert
 - dirk jan visser
-{{</highlight >}}
+  {{</highlight >}}
 
 ### Feeds
+
 For archives to be useful many years from now, it helps if you can consume them
 using computer programs. Facilitating this are two technical feed formats anyone
 can use to further understand and remix the archive.
@@ -171,7 +173,7 @@ a human. Go forth and do unforeseen things with it!
 
 ### Microsite
 
-{{< multi-figure src="archive-screenshot-index" >}}
+{{< multi-figure loading="lazy" src="archive-screenshot-index" >}}
 
 I wrap the archive using a nice little HTML website that contains a link to each
 story. It even has search and filter fields to easily work with large archives.

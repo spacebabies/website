@@ -5,6 +5,7 @@ description: Long gone are the days when https for websites was a curiosity; res
 series:
   - https-development
 ---
+
 {{% param description %}}
 
 But as creators, we never bothered with https for our local website development. (That is on our own computer, while we're working on the foundations and stuff.)
@@ -34,8 +35,8 @@ Say we want to https-ify **www.example.local**. Behold, the magic:
 easyrsa init-pki
 easyrsa build-ca nopass
 easyrsa --req-cn=example.local gen-req example.local nopass
-easyrsa --subject-alt-name='DNS:example.local,DNS:www.example.local'  \
-    sign-req server example.local
+easyrsa --subject-alt-name='DNS:example.local,DNS:www.example.local' \
+ sign-req server example.local
 {{< /highlight >}}
 
 ### 2. Trust the fake
@@ -43,12 +44,17 @@ easyrsa --subject-alt-name='DNS:example.local,DNS:www.example.local'  \
 We have to let our computer believe this is all bonafide https infrastructure.
 
 {{< highlight bash >}}
+
 # Place our CA certificate where the computer will find it
+
 sudo ln -s ~/pki/ca.crt /usr/local/share/ca-certificates/$HOST.crt
 
 # Refresh the list of Certificate Authorities.
+
 # This should show a message that one certificate was added:
-#     Adding debian:$HOST.pem
+
+# Adding debian:$HOST.pem
+
 sudo update-ca-certificates --fresh
 {{< /highlight >}}
 
@@ -59,10 +65,10 @@ Chrome and Firefox need to have this certificate imported separately. This is a 
 To switch from http to https, we need a certificate and a key, exactly
 like in the real world.
 
-The *certificate* is in `~/pki/issued/example.local.crt`.
+The _certificate_ is in `~/pki/issued/example.local.crt`.
 
-The corresponding *key* is in `~/pki/private/example.local.key`.
+The corresponding _key_ is in `~/pki/private/example.local.key`.
 
 Where these go depends on the software you're using.
 
-{{< multi-figure src="baby-elephants-3545047_1280.jpg" caption="Two elephants, cuddling." >}}
+{{< multi-figure loading="lazy" src="baby-elephants-3545047_1280" caption="Two elephants, cuddling." >}}

@@ -1,5 +1,8 @@
 <picture>
     <source srcset="{{ .Get "src" }}.webp" type="image/webp">
     <source srcset="{{ .Get "src" }}.jpg" type="image/jpeg">
-    <img src="{{ .Get "src" }}.jpg" alt="{{ .Get "alt" }}">
+    <img
+        src="{{ .Get "src" }}.jpg"
+        {{ with (.Get "loading") }} loading="{{ . }}" {{ end }}
+        alt="{{ .Get "alt" }}">
 </picture>

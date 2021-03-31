@@ -2,11 +2,15 @@
     <picture>
         {{ range .Page.Resources.Match (add (.Get "src") ".*") }}
         <source type="{{ .MediaType }}" src="{{ .RelPermalink }}">
-        {{ end }}
+        {{ end -}}
 
+        {{ $loading := (.Get "loading") }}
         {{ with .Page.Resources.GetMatch (add (.Get "src") ".*") }}
-        <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-        {{ end }}
+        <img
+            {{ with $loading }} loading="{{ . }}" {{ end }}
+            src="{{ .RelPermalink }}"
+            alt="{{ .Title }}">
+        {{ end -}}
     </picture>
     <figcaption>{{ .Get "caption" }}</figcaption>
 </figure>

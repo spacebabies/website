@@ -5,6 +5,7 @@ images:
   - /changelog/zap-those-inline-styles/css3.svg
 description: "We‘ve all done it: adding inline styles to HTML pages, because the content is dynamic. Backgrounds for example."
 ---
+
 {{% param description %}}
 
 Inline styles bother me because they bloat the page, can't be cached and just look ugly. Zap those ugly inline styles! Using Rails helpers and bad-ass cache magic. ✨
@@ -12,9 +13,11 @@ Inline styles bother me because they bloat the page, can't be cached and just lo
 I'm gonna walk you step by step.
 
 ## First step
+
 We're tryna move away from this ugly fella here:
 
 {{< highlight html >}}
+
 <section style="background: no-repeat left/300% url(<%= product.image.url %>);">
 {{< /highlight >}}
 
@@ -22,9 +25,10 @@ We want to move those styles into the place where styles belong, i.e. a styleshe
 
 We will need a stylesheet and we will want it to be dynamic. This means we want it to go into a controller to fetch the current product images and render those out into something that looks like CSS. And, if you're wondering, no the idiot Sprockets asset pipeline is not going to help us here, even if we add `.erb` to a stylesheet. (Which is a dumb idea if you ever asked me anyway)
 
-{{< multi-figure src="530e685201681a4c402b382055389a6f0fcea5941705e348634c53502ca3813e" caption="Your idea is bad, and you should feel bad." >}}
+{{< multi-figure loading="lazy" src="530e685201681a4c402b382055389a6f0fcea5941705e348634c53502ca3813e" caption="Your idea is bad, and you should feel bad." >}}
 
 ## New step
+
 This is going into our layout:
 
 {{< highlight erb >}}
@@ -34,12 +38,15 @@ This is going into our layout:
 The astute observer will observe it starts with a slash. This will side-track Sprockets and the asset pipeline meaning we can get down to biznis. Don't copypasta that line quite yet though; it's not good enough as we'll soon see.
 
 ## Next step: controller
+
 The corresponding controller code will look something like this:
 
 {{< highlight ruby >}}
 def index
-  # actually put Product.all into a helper and memoize it. mkay
-  @products = Product.all
+
+# actually put Product.all into a helper and memoize it. mkay
+
+@products = Product.all
 end
 {{< /highlight >}}
 
@@ -48,7 +55,7 @@ with this in the view, which you should name `index.css.erb`:
 {{< highlight ruby >}}
 <% @products.each do |product| %>
 .product-<%= product.slug %> {
-  background: no-repeat left/300% url(<%= product.image.url %>);
+background: no-repeat left/300% url(<%= product.image.url %>);
 }
 <% end %>
 {{< /highlight >}}
@@ -57,7 +64,7 @@ with this in the view, which you should name `index.css.erb`:
 
 No, it's not time for a refreshing beverage just yet. While the code probably works, it will cause quite a load on our server. If you've put the stylesheet link into the application layout, we will be fetching **all** the products **all** the times!
 
-{{< multi-figure caption="Do you have any idea how dumb you sound" src="a89022ec566abec5307db616b0aaa20adfecd8101f0936a99ac9cef5603b30a6" >}}
+{{< multi-figure loading="lazy" caption="Do you have any idea how dumb you sound" src="a89022ec566abec5307db616b0aaa20adfecd8101f0936a99ac9cef5603b30a6" >}}
 
 Maybe your server won't explode if you have a couple thousand products, but this really isn't web scale! To solve this, we will use caching. Optionally powered-up by a caching proxy, which you should have either way, if you ask me. Anyway, on to the magic.
 
@@ -65,11 +72,11 @@ To cache things forever, Rails provides the aptly named `http_cache_forever` met
 
 {{< highlight ruby >}}
 def index
-  @products = Product.all
+@products = Product.all
 
-  http_cache_forever(public: true) do
-    render
-  end
+http_cache_forever(public: true) do
+render
+end
 end
 {{< /highlight >}}
 
@@ -89,14 +96,15 @@ then render the classes using a helper:
 
 {{< highlight ruby >}}
 def product_classes(product)
-  product.map { |product| "product-#{product.slug}" }.join(' ')
+product.map { |product| "product-#{product.slug}" }.join(' ')
 end
 {{< /highlight >}}
 
 use the helper in your view:
 
 {{< highlight bash >}} html
+
 <section class="<%= product_classes(product) %>">
 {{< /highlight >}}
 
-and *now* you can paste those delicious lines into your own app. I don't have a gist handy, but if you hire me to help build you app I'll throw this one in for free! Yay free stuff!
+and _now_ you can paste those delicious lines into your own app. I don't have a gist handy, but if you hire me to help build you app I'll throw this one in for free! Yay free stuff!

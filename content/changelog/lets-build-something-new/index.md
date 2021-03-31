@@ -3,6 +3,7 @@ title: "Let's Build Something New"
 date: "2017-02-05T19:41:01+05:30"
 description: Let's build something totally new today, who'se with me?!
 ---
+
 {{% param description %}}
 
 It has been snowing all weekend, and my town is covered in a fluffy white blanket. Perfect conditions for the creation of a thing.
@@ -50,7 +51,7 @@ git push -u origin master
 
 Excellent.
 
-{{< multi-figure src="step-1-complete-yrjkpv" caption="Step 1 Complete" >}}
+{{< multi-figure loading="lazy" src="step-1-complete-yrjkpv" caption="Step 1 Complete" >}}
 
 ### 2: fill in the gemspec
 
@@ -70,11 +71,11 @@ We create a new file that holds the Rails Engine code:
 
 {{< highlight ruby >}}
 module Pageflow
-  module Localfocus
-    class Engine < ::Rails::Engine
-      isolate_namespace Pageflow::Localfocus
-    end
-  end
+module Localfocus
+class Engine < ::Rails::Engine
+isolate_namespace Pageflow::Localfocus
+end
+end
 end
 {{< /highlight >}}
 
@@ -84,14 +85,18 @@ need add Rails as a dependency in our spec.
 _PS: after that initial file, I added two more handy things:_
 
 {{< highlight bash >}}
-  # autoload our code, which is Rails dogma
-  config.autoload_paths << File.join(config.root, 'lib')
 
-  # automagically reload our React code when it changes
-  # This has been fixed in newer versions of react-rails.
-  initializer "pageflow-localfocus.add_watchable_files", group: :all do |app|
-    app.config.watchable_files.concat Dir["#{config.root}/app/assets/javascripts/**/*.jsx*"]
-  end
+# autoload our code, which is Rails dogma
+
+config.autoload_paths << File.join(config.root, 'lib')
+
+# automagically reload our React code when it changes
+
+# This has been fixed in newer versions of react-rails.
+
+initializer "pageflow-localfocus.add_watchable_files", group: :all do |app|
+app.config.watchable_files.concat Dir["#{config.root}/app/assets/javascripts/**/*.jsx*"]
+end
 {{< /highlight >}}
 
 Our first bit of code is in the can! But how can we see if it does something?
@@ -128,40 +133,41 @@ as to what it does! Like this:
 
 {{< highlight javascript >}}
 (function() {
-  const {
-    PageWrapper,
-    PageBackground, PageBackgroundImage, PageShadow,
-    PageContent, PageHeader, PageText
-  } = pageflow.react.components;
+const {
+PageWrapper,
+PageBackground, PageBackgroundImage, PageShadow,
+PageContent, PageHeader, PageText
+} = pageflow.react.components;
 
-  function Page(props) {
-    return (
-      <PageWrapper>
-        <PageBackground>
-        </PageBackground>
+function Page(props) {
+return (
+<PageWrapper>
+<PageBackground>
+</PageBackground>
 
         <PageContent>
         </PageContent>
       </PageWrapper>
     );
-  }
 
-  const {registerPageType, connectInPage, combine} = pageflow.react;
-  const {pageAttributes} = pageflow.react.selectors;
+}
 
-  registerPageType('localfocus', {
-    component: connectInPage(
-      combine({
-        page: pageAttributes()
-      })
-    )(Page)
-  });
+const {registerPageType, connectInPage, combine} = pageflow.react;
+const {pageAttributes} = pageflow.react.selectors;
+
+registerPageType('localfocus', {
+component: connectInPage(
+combine({
+page: pageAttributes()
+})
+)(Page)
+});
 }());
 {{< /highlight >}}
 
 It sure looks impressive.
 
-{{< multi-figure src="i-like-the-way-you-move" caption="I like the way you move" >}}
+{{< multi-figure loading="lazy" src="i-like-the-way-you-move" caption="I like the way you move" >}}
 
 So far, we've added boilerplate. It's time to get dirty. All we need is
 an `<iframe>` that points to the chart. Let's hard-code one into our
@@ -178,17 +184,17 @@ function to create your component. So, a class it is.
 
 {{< highlight bash >}} jsx
 class LocalfocusIframe extends React.Component {
-  render() {
-    return (
-      <iframe
-        className="localfocusvisual"
-        scrolling="no"
-        frameborder="0"
-        style="width:100%;height:550px;overflow:hidden"
-        ref={iframe => this.iframe = iframe}
-        src="https://localfocus2.appspot.com/551a9626918b3?api=1"></iframe>
-    );
-  }
+render() {
+return (
+<iframe
+className="localfocusvisual"
+scrolling="no"
+frameborder="0"
+style="width:100%;height:550px;overflow:hidden"
+ref={iframe => this.iframe = iframe}
+src="https://localfocus2.appspot.com/551a9626918b3?api=1"></iframe>
+);
+}
 }
 {{< /highlight >}}
 
@@ -211,15 +217,16 @@ I found that I wanted my own URL input field:
 
 {{< highlight bash >}} html
 <label>
-  <span class="name"></span>
-  <span class="inline_help"></span>
-  <input
+<span class="name"></span>
+<span class="inline_help"></span>
+<input
     type="url"
     required pattern="https://localfocus2.appspot.com/.*"
     caption="Only localfocus URLs are allowed"
     placeholder="https://localfocus2.appspot.com/551a9626918b3"
   />
 </label>
+
 <div class="validation"></div>
 <div class="status_container"></div>
 {{< /highlight >}}
@@ -247,13 +254,13 @@ This is pretty routine; copypasta-time once more.
 
 {{< highlight ruby >}}
 module Pageflow
-  module Localfocus
-    class Plugin < Pageflow::Plugin
-      def configure(config)
-        config.page_types.register(Pageflow::Localfocus.page_type)
-      end
-    end
-  end
+module Localfocus
+class Plugin < Pageflow::Plugin
+def configure(config)
+config.page_types.register(Pageflow::Localfocus.page_type)
+end
+end
+end
 end
 {{< /highlight >}}
 
@@ -262,7 +269,7 @@ this class:
 
 {{< highlight ruby >}}
 def self.plugin
-  Localfocus::Plugin.new
+Localfocus::Plugin.new
 end
 {{< /highlight >}}
 
@@ -275,7 +282,7 @@ _Or, how I started seeing things._
 
 Having created all this awesome code we need just one thing: **RESULTS!**
 
-{{< multi-figure src="10-resultaten" caption="RESULTS" >}}
+{{< multi-figure loading="lazy" src="10-resultaten" caption="RESULTS" >}}
 
 It would be a little presumptuous to publish the gem as-is and call it a day.
 Instead, we will activate the plugin locally and see what's what. Time to leave
@@ -296,9 +303,13 @@ bundle install
 And add it to the Pageflow initializer:
 
 {{< highlight ruby >}}
+
 # ... lots of config
+
 config.plugin(Pageflow::Localfocus.plugin)
+
 # ... lots of config more
+
 {{< /highlight >}}
 
 Progress being made. Yes, we will need more configuration once everything is
@@ -321,7 +332,7 @@ Our method should look like this:
 
 {{< highlight ruby >}}
 def configure(config)
-  config.page_types.register(Pageflow::React.create_page_type('localfocus'))
+config.page_types.register(Pageflow::React.create_page_type('localfocus'))
 end
 {{< /highlight >}}
 
@@ -338,7 +349,7 @@ console:
 
 {{< highlight javascript >}}
 Uncaught TypeError: constructor is not a constructor
-    at child.createConfigurationEditorView (http://scrollytelling.dev/assets/pageflow/editor/api/page_type.self-34fa332454121a83e2f96da2706f603016182821520121041780d6369b666374.js?body=1:35:12)
+at child.createConfigurationEditorView (http://scrollytelling.dev/assets/pageflow/editor/api/page_type.self-34fa332454121a83e2f96da2706f603016182821520121041780d6369b666374.js?body=1:35:12)
 {{< /highlight >}}
 
 At this point (actually, a half hour later) I realized I needed to actually
@@ -346,13 +357,17 @@ configure the plugin properly. Which means adding it to `components.js` and
 the Rails asset stylesheet. Which means doing this in the Rails app:
 
 {{< highlight ruby >}}
+
 # app/assets/javascripts/components.js
+
 //= require "pageflow/localfocus/components"
 
 # app/assets/javascripts/pageflow/application.js
+
 //= require "pageflow/localfocus"
 
 # app/assets/javascripts/pageflow/editor.js
+
 //= require pageflow/localfocus/editor
 {{< /highlight >}}
 
@@ -364,11 +379,14 @@ Actually, one:
 
 {{< highlight bash >}}
 SyntaxError: unknown: Unexpected token (15:5)
-  13 |       );
-  14 |     }
-> 15 |   }());
+13 | );
+14 | }
+
+> 15 | }());
+
      |      ^
-  16 |
+
+16 |
 {{< /highlight >}}
 
 Turns out I hadn't indented the `LocalfocusIframe` class properly. I blame
@@ -383,18 +401,18 @@ into a proper class:
 
 {{< highlight javascript >}}
 class LocalfocusIframe extends React.Component {
-  render() {
-    return (
-      <iframe
-        className="localfocusvisual"
-        scrolling="no"
-        frameborder="0"
-        style="width:100%;height:550px;overflow:hidden"
-        ref={iframe => this.iframe = iframe}
-        src="https://localfocus2.appspot.com/551a9626918b3?api=1">
-      </iframe>
-    )
-  }
+render() {
+return (
+<iframe
+className="localfocusvisual"
+scrolling="no"
+frameborder="0"
+style="width:100%;height:550px;overflow:hidden"
+ref={iframe => this.iframe = iframe}
+src="https://localfocus2.appspot.com/551a9626918b3?api=1">
+</iframe>
+)
+}
 }
 {{< /highlight >}}
 
@@ -434,4 +452,4 @@ to purge the local cache first. Now What?
 
 Now, nothing! After that it kind of just worked!
 
-{{< multi-figure src="something-new" caption="A LocalFocus graph embedded in a Pageflow/Scrollytelling document" >}}
+{{< multi-figure loading="lazy" src="something-new" caption="A LocalFocus graph embedded in a Pageflow/Scrollytelling document" >}}

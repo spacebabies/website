@@ -3,6 +3,7 @@ title: "Middleman Netlify Server Push"
 date: "2017-08-07T16:44:48+01:00"
 description: Last month, Netlify introduced their implementation of HTTP/2 Server Push.
 ---
+
 {{% param description %}}
 
 We started using this and have have noticed significantly faster websites. Here is how to configure Middleman to use this feature.
@@ -19,7 +20,7 @@ Now, on to the full story!
 
 ### Middleman creates static files
 
-{{< multi-figure src="middleman-foundation" alt="Middleman is something that saves time building websites." >}}
+{{< multi-figure loading="lazy"  src="middleman-foundation" alt="Middleman is something that saves time building websites." >}}
 
 Middleman is a static website generator, written in Ruby. It is one of the tools we use to deploy websites on Netlify. Middleman is smart enough to use fingerprinted asset URLs. This means that filenames of CSS and JavaScript files change every time we make a change to them. Netlify needs a static file called `_headers` to configure Server Push. To marry the two worlds, we need a bit of code.
 
@@ -29,21 +30,23 @@ We will use the [Middleman Sitemap](https://middlemanapp.com/advanced/sitemap/) 
 
 Or, how do we automatically use those changed filenames without having to do any work?
 
-{{< multi-figure src="lazy-office-worker" alt="The stereotype is that office workers are lazy." >}}
+{{< multi-figure loading="lazy" src="lazy-office-worker" alt="The stereotype is that office workers are lazy." >}}
 
 When Middleman has finished constructing the sitemap, it will trigger an event we can use from the config file. Here's the code you'll need in `config.rb`:
 
 {{< highlight bash >}}
 ready do
-  # Insert fingerprinted asset paths into _headers for Netlify.
-  proxy "/_headers", "/headers.txt",
-    layout: false,
-    locals: {
-      all_css: sitemap.find_resource_by_path('css/all.css'),
-      vendor_js: sitemap.find_resource_by_path('js/vendor.js'),
-      main_js: sitemap.find_resource_by_path('js/main.js')
-    },
-    ignore: true
+
+# Insert fingerprinted asset paths into \_headers for Netlify.
+
+proxy "/\_headers", "/headers.txt",
+layout: false,
+locals: {
+all_css: sitemap.find_resource_by_path('css/all.css'),
+vendor_js: sitemap.find_resource_by_path('js/vendor.js'),
+main_js: sitemap.find_resource_by_path('js/main.js')
+},
+ignore: true
 end
 {{< /highlight >}}
 
@@ -52,19 +55,22 @@ When the Sitemap is ready, we fire up a Proxy. If you're as confused by this nam
 About that template file, here is ours. It lives in `source/headers.txt.erb`:
 
 {{< highlight bash >}}
+
 # configure HTTP/2 Server Push
+
 /
-  Link: <<%= all_css.url %>>; rel=preload; as=style
-  Link: <<%= vendor_js.url %>>; rel=preload; as=script
-  Link: <<%= main_js.url %>>; rel=preload; as=script
+Link: <<%= all_css.url %>>; rel=preload; as=style
+Link: <<%= vendor_js.url %>>; rel=preload; as=script
+Link: <<%= main_js.url %>>; rel=preload; as=script
 
 # Set a long cache expiry on asset urls
+
 <%= all_css.url %>
-  Cache-Control: public, max-age=31556926
+Cache-Control: public, max-age=31556926
 <%= vendor_js.url %>
-  Cache-Control: public, max-age=31556926
+Cache-Control: public, max-age=31556926
 <%= main_js.url %>
-  Cache-Control: public, max-age=31556926
+Cache-Control: public, max-age=31556926
 {{< /highlight >}}
 
 The local variables you see being used here were given to the template from our config file. Yours will be different from ours. If you want, go nuts with nested hashes, objects or Structs. We chose to keep things flat and simple.
