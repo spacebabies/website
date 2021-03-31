@@ -11,8 +11,11 @@
           <div class="clients__item">
             <a href="{{ .URL }}">
               <img class="lozad img-responsive"
+                width="128" height="30"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="{{ .logo.x }}" data-srcset="{{ .logo.x }} 1x, {{ .logo._2x }} 2x" alt="{{ .alt }}" />
+                data-src="{{ .logo.x }}"
+                data-srcset="{{ .logo.x }} {{ .logo.xw }}w, {{ .logo._2x }} {{ .logo._2xw }}w"
+                alt="{{ .alt }}" />
             </a>
           </div>
           {{ end }}
@@ -35,14 +38,14 @@
         <img
           class='lozad img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .image.x  }}" data-srcset="{{ .image.x  }} 1x, {{ .image._2x  }} 2x" alt="{{ .title }}" />
+          data-src="{{ .image.x  }}" data-srcset="{{ .image.x  }} {{ .image.xw }}w, {{ .image._2x  }} {{ .image._2xw }}w" alt="{{ .title }}" />
       </div>
       {{ else }}
       <div class="col-12 col-md-7 pl-md-0 text-right">
         <img
           class='lozad img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .image.x  }}" data-srcset="{{ .image.x  }} 1x, {{ .image._2x  }} 2x" alt="{{ .title }}" />
+          data-src="{{ .image.x  }}" data-srcset="{{ .image.x  }} {{ .image.xw }}w, {{ .image._2x  }} {{ .image._2xw }}w" alt="{{ .title }}" />
       </div>
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
         <h3>{{ .title }}</h3>

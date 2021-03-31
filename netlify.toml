@@ -14,7 +14,7 @@
     Cache-Control = "max-age=14400"
 
 [[headers]]
-  for = "/images/*"
+  for = "/fonts/*"
   [headers.values]
     Cache-Control = "max-age=31536000"
 
@@ -31,16 +31,15 @@
 [build]
   functions = "functions"
   publish = "public"
+  command = "hugo --gc --minify"
+
 [build.environment]
-  HUGO_VERSION = "0.80.0"
-  NODE_VERSION = "12"
+  HUGO_VERSION = "0.82.0"
+  NODE_VERSION = "15"
   RUBY_VERSION = "2.7.1"
 
 [context.branch-deploy]
   command = "hugo --baseURL $DEPLOY_URL --buildDrafts --gc --minify"
-
-[context.production]
-  command = "hugo --gc --minify"
 
 [[redirects]]
   from = "/portfolio/*"

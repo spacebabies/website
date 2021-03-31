@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Data.homepage.head.title }}{{ end }}</title>
 
+{{ with getenv "NETLIFY_IMAGES_CDN_DOMAIN" }}<link rel="preconnect" href="https://{{ . }}">{{ end -}}
 {{ $options := (dict "targetPath" "css/styles.css" "includePaths" (slice "themes/raditian-free-hugo-theme/static/css") "outputStyle" "compressed" "enableSourceMap" true) }}
 {{ $style := resources.Get "scss/custom.scss" | toCSS $options | fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">

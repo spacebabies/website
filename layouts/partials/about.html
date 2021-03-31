@@ -5,8 +5,9 @@
       <div class="about__profile-picture col-12 col-md-6">
         {{ with .Site.Data.homepage.about.image }}
         <img class="lozad img-responsive image-left-overflow"
-          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs=" data-src="{{ .x }}"
-          data-srcset="{{ .x }} 1x, {{ ._2x }} 2x" alt="Profile Picture" />
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="{{ .x }}"
+          data-srcset="{{ .x }} {{ .xw }}w, {{ ._2x }} {{ ._2xw }}w" alt="Profile Picture" />
         {{ end }}
       </div>
       <div class="col-12 col-md-6 my-auto my-auto">

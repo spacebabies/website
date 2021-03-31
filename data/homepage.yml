@@ -9,7 +9,9 @@ showcase:
   description: "I run Space Babies, a software development company in Amsterdam. I create beautiful, fast and secure internet applications, and have been doing so for more than twenty years."
   image:
     x: "/img/showcase/showcase.png"
+    xw: 1580
     _2x: "/img/showcase/showcase@2x.png"
+    _2xw: 790
     alt: Showcase
   imageMobile:
     x: "/img/showcase/showcase-mobile.jpg"
@@ -51,7 +53,9 @@ about:
     URL: "/#portfolio"
   image:
     x: "img/who-am-i/user-picture.png"
+    xw: 560
     _2x: "img/who-am-i/user-picture@2x.png"
+    _2xw: 1202
 
 # education
 education:
@@ -110,25 +114,33 @@ client_and_work:
   clients:
     - logo:
         x: "img/clients/kingnascholing.png"
+        xw: 128
         _2x: "img/clients/kingnascholing@2x.png"
+        _2xw: 256
       alt: "King nascholing"
       URL: "https://www.kingnascholing.nl"
 
     - logo:
         x: "img/clients/mrjones.png"
+        xw: 128
         _2x: "img/clients/mrjones@2x.png"
+        _2xw: 256
       alt: "Mr. Jones"
       URL: "https://mrjones.org"
 
     - logo:
         x: "img/clients/dedigitaletopschool.png"
+        xw: 128
         _2x: "img/clients/dedigitaletopschool@2x.png"
+        _2xw: 256
       alt: "De Digitale Topschool"
       URL: "https://www.dedigitaletopschool.nl"
 
     - logo:
         x: "img/clients/xs2radio.png"
+        xw: 128
         _2x: "img/clients/xs2radio@2x.png"
+        _2xw: 256
       alt: "XS2RADIO"
       URL: "https://www.xs2radio.com"
 
@@ -141,7 +153,9 @@ client_and_work:
         URL: "https://www.scrollytelling.com"
       image:
         x: "img/works/scrollytelling.png"
+        xw: 697
         _2x: "img/works/scrollytelling@2x.png"
+        _2xw: 1320
       is_even: true
 
     - title: "King nascholing"
@@ -152,7 +166,9 @@ client_and_work:
         URL: "https://www.kingnascholing.nl"
       image:
         x: "img/works/kingnascholing.png"
+        xw: 697
         _2x: "img/works/kingnascholing@2x.png"
+        _2xw: 1320
       is_even: false
 
     - title: "De Digitale Topschool"
@@ -163,7 +179,9 @@ client_and_work:
         URL: "https://www.dedigitaletopschool.nl"
       image:
         x: "img/works/dedigitaletopschool.png"
+        xw: 679
         _2x: "img/works/dedigitaletopschool@2x.png"
+        _2xw: 1320
       is_even: true
 
 # testimonial
@@ -176,7 +194,9 @@ testimonial:
       content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
       image:
         x: "img/testimonials/daniel-jordan.jpg"
+        xw: 128
         _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        _2xw: 256
 
 # contact
 contact:
