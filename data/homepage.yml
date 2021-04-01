@@ -195,7 +195,7 @@ contact:
   kvk:
     title: KvK
     number: 70132208
-  phone:
+  vatID:
     title: "VAT ID"
     number: "NL001734749B64"
   email:

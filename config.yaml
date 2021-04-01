@@ -53,6 +53,11 @@ params:
     text2: Babies
   theme:
     color: "#cac8c7"
+  streetAddress: Overhoeksplein 2
+  addressLocality: Amsterdam
+  postalCode: NL-1031KS
+  addressCountry: NL
+  email: info@spacebabies.nl
 markup:
   goldmark:
     renderer:

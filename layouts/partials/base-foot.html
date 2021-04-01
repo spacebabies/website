@@ -8,10 +8,25 @@
 
 {{ $logo := resources.Get "images/space-babies-logo.png" | fingerprint }}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "url": "{{ ref . "/" }}",
-  "logo": "{{ $logo.Permalink }}"
-}
-</script>
+  {{ $address := dict
+    "@type" "PostalAddress"
+    "streetAddress" .Site.Params.streetAddress
+    "addressLocality" .Site.Params.addressLocality
+    "postalCode" .Site.Params.postalCode
+    "addressCountry" .Site.Params.addressCountry
+  -}}
+  {{ dict
+    "@context" "https://schema.org"
+    "@type" "Organization"
+    "@id" (ref . "/")
+    "name" .Site.Title
+    "description" .Site.Params.description
+    "url" (ref . "/")
+    "location" $address
+    "publicAccess" false
+    "logo" $logo.Permalink
+    "image" .Site.Params.images
+    "priceRange" "$$$$"
+    "vatID" .Site.Data.homepage.contact.vatID.number
+    "email" .Site.Params.email | jsonify (dict "indent" "\t") | safeJS }}
+  </script>
