@@ -1,7 +1,7 @@
-<aside class="gallery-grid grid-7w swipe-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+<aside class="gallery-grid grid-7w swipe-gallery" itemscope itemtype="https://schema.org/ImageGallery">
   {{ range .Page.Resources.Match (.Get "match") }}
   {{ $thumb := .Resize "x300" -}}
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+  <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
     <a href="{{ .RelPermalink }}" itemprop="contentUrl" data-size="{{ .Width }}x{{ .Height }}">
       <img src="{{ $thumb.RelPermalink }}" itemprop="thumbnail" alt="{{ .Title }}">
     </a>

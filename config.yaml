@@ -1,4 +1,5 @@
 ---
+title: Space Babies
 baseURL: "https://www.spacebabies.nl/"
 defaultContentLanguage: en
 languageCode: en-us
@@ -58,6 +59,22 @@ params:
   postalCode: NL-1031KS
   addressCountry: NL
   email: info@spacebabies.nl
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: false
+    simple: true
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: true
+  youtube:
+    disable: false
+    privacyEnhanced: true
+
 markup:
   goldmark:
     renderer:
