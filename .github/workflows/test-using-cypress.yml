@@ -5,6 +5,7 @@ on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v2
 
@@ -17,7 +18,7 @@ jobs:
       - name: Run the tests
         uses: cypress-io/github-action@v2
         with:
-          start: yarn run ci
+          build: yarn run build
           record: true
           group: "UI"
         env:
