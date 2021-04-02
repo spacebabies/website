@@ -1,13 +1,14 @@
-<div class="swipe-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+<aside class="gallery-grid grid-7w swipe-gallery" itemscope itemtype="http://schema.org/ImageGallery">
   {{ range .Page.Resources.Match (.Get "match") }}
+  {{ $thumb := .Resize "x300" -}}
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <a href="{{ .RelPermalink }}" itemprop="contentUrl" data-size="{{ .Width }}x{{ .Height }}">
-        <img src="{{ .RelPermalink }}" itemprop="thumbnail" alt="{{ .Title }}" />
+        <img src="{{ $thumb.RelPermalink }}" itemprop="thumbnail" alt="{{ .Title }}" />
     </a>
-    <figcaption itemprop="caption description">{{ .Params.caption }}</figcaption>
+    {{ with .Params.caption }}<figcaption itemprop="caption description">{{ . }}</figcaption>{{ end }}
   </figure>
   {{ end }}
-</div>
+</aside>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">

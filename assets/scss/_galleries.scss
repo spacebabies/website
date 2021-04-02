@@ -1,0 +1,47 @@
+.gallery-grid {
+  display: grid;
+  margin: 2em 0 2em 0;
+  background-color: #dbe0e4;
+
+  position: relative;
+  background: white;
+  z-index: 1;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: repeating-linear-gradient(
+      -45deg,
+      white,
+      white 20px,
+      black 20px,
+      black 40px
+    );
+    z-index: -1;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
+
+  &.grid-5w {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+  }
+
+  &.grid-7w {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+    justify-content: space-between;
+  }
+
+  figure {
+    margin: 0;
+  }
+}
