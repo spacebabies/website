@@ -2,8 +2,10 @@
 {{ $bs := resources.Get "js/library/bootstrap.min.js" }}
 {{ $sh := resources.Get "js/library/sticky-header.js" }}
 {{ $fe := resources.Get "js/library/feather.js" }}
+{{ $ps := resources.Get "js/library/photoswipe.js" }}
+{{ $pu := resources.Get "js/library/photoswipe-ui-default.js" }}
 {{ $ma := resources.Get "js/main.js" }}
-{{ $js := slice $jq $bs $sh $fe $ma | resources.Concat "js/app.js" | minify | fingerprint }}
+{{ $js := slice $jq $bs $sh $fe $ps $pu $ma | resources.Concat "js/app.js" | minify | fingerprint }}
 <script async type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
 {{ $logo := resources.Get "images/space-babies-logo.png" | fingerprint }}

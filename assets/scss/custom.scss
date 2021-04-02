@@ -1,7 +1,29 @@
 @charset "UTF-8";
 
+@import "photoswipe/main";
+@import "photoswipe/default-skin/default-skin";
+
 @import "main";
 @import "rad-icons";
+
+.swipe-gallery {
+  width: 100%;
+  float: left;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  figure {
+    display: block;
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 150px;
+  }
+  figcaption {
+    display: none;
+  }
+}
 
 @keyframes spin {
   from {
@@ -62,8 +84,11 @@ figcaption p {
 
 .content-column {
   img {
-    display: block;
     margin: 0 auto;
+  }
+
+  figure img {
+    display: block;
   }
 
   ul {
@@ -109,6 +134,7 @@ figcaption p {
       margin: 0 1em 0 0;
     }
   }
+
   figcaption {
     text-align: center;
   }

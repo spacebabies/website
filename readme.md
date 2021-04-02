@@ -14,7 +14,7 @@ hugo server
 # New content
 
 ```
-hugo new --kind changelog changelog/title-here
+hugo new changelog/title-here --kind changelog
 ```
 
 Both the changelog `kind` and the directory are needed, because our archetype is directory-based.
