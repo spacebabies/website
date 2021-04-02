@@ -1,7 +1,7 @@
 <figure>
     <picture>
         {{ range .Page.Resources.Match (add (.Get "src") ".*") }}
-        <source type="{{ .MediaType }}" src="{{ .RelPermalink }}">
+        <source type="{{ .MediaType }}" srcset="{{ .RelPermalink }}">
         {{ end -}}
 
         {{ $loading := (.Get "loading") }}
