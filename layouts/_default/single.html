@@ -12,7 +12,7 @@
             </p>
             {{ end }}
 
-          <p>
+          <p class="taxonomyLinks">
             {{ range (.GetTerms "tags") }}
             <a href="{{ .Permalink }}" class="taxonomyLink">{{ .LinkTitle }}</a>
             {{ end }}

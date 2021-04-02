@@ -8,13 +8,14 @@ showcase:
   subtitle: "Full Stack Developer"
   description: "I run Space Babies, a software development company in Amsterdam. I create beautiful, fast and secure internet applications, and have been doing so for more than twenty years."
   image:
-    x: "/img/showcase/showcase.png"
-    xw: 1580
-    _2x: "/img/showcase/showcase@2x.png"
-    _2xw: 790
+    x: "/img/showcase/showcase.jpg"
+    xw: 790
+    _2x: "/img/showcase/showcase@2x.jpg"
+    _2xw: 1580
     alt: Showcase
   imageMobile:
     x: "/img/showcase/showcase-mobile.jpg"
+    xw: 691
     alt: Showcase
   button:
     icon: "send"
@@ -52,9 +53,9 @@ about:
     btnText: "Portfolio"
     URL: "/#portfolio"
   image:
-    x: "img/who-am-i/user-picture.png"
+    x: "img/who-am-i/user-picture.jpg"
     xw: 560
-    _2x: "img/who-am-i/user-picture@2x.png"
+    _2x: "img/who-am-i/user-picture@2x.jpg"
     _2xw: 1202
 
 # education

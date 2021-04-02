@@ -31,12 +31,13 @@
   }
 
   &.grid-5w {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 0;
+    justify-content: space-between;
   }
 
   &.grid-7w {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
     grid-gap: 0.5em;
     justify-content: space-between;
   }
