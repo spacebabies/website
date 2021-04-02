@@ -10820,3 +10820,10 @@ button svg {
 p {
   margin-bottom: 1em;
 }
+
+a.taxonomyLink {
+  border: 1px solid #666;
+  color: #aaa;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+}

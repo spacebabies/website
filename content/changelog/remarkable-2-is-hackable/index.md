@@ -64,12 +64,7 @@ A great tweak, I think, is an app called [reMarkable_mouse](https://github.com/E
 
 The first thing I did, is customize the various splash screens. I added the four interpid Space Babies to everything! So nice.
 
-{{% grid/5w %}}
-{{% picture loading="lazy" src="rebooting" alt="Shown when you chose Reboot in Settings" %}}
-{{% picture loading="lazy" src="starting" alt="Shown when the device starts cold" %}}
-{{% picture loading="lazy" src="suspended" alt="Shown when you need to press the power button to begin" %}}
-{{% picture loading="lazy" src="sleeping" alt="Shown when the device fell asleep" %}}
-{{% /grid/5w %}}
+{{< grid/5w match="splash/*.png*" title="Space Babies have infiltrated my reMarkable 2" >}}
 
 ## Developments are hot 🌶
 

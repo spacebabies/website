@@ -1,9 +1,5 @@
-<aside class="gallery-grid grid-5w" title="{{ .Get "title" }}">
-  {{ with .Inner }}
-    {{ . }}
-  {{ else }}
-    {{ range .Page.Resources.Match (.Get "match") }}
-      <img class="grid-img" src="{{ .RelPermalink }}" alt="{{ .Title }}">
-    {{ end }}
-  {{ end}}
+<aside class="gallery-grid grid-5w" title="{{ .Get "title" }}" itemscope itemtype="http://schema.org/ImageGallery">
+  {{ range .Page.Resources.Match (.Get "match") }}
+    <img class="grid-img" src="{{ .RelPermalink }}" alt="{{ .Title }}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+  {{ end }}
 </aside>

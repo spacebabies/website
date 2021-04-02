@@ -26,7 +26,7 @@ Well, now there is **DALL-E**.
 
 One of the examples given in the [announcement](https://openai.com/blog/dall-e/) is **"an armchair in the shape of an avocado. an armchair imitating an avocado"**. And this, amazingly, is what DALL-E came up with:
 
-{{< grid/5w match="avocado/*" title="an armchair in the shape of an avocado. an armchair imitating an avocado" >}}
+{{< grid/5w match="avocado/*.png" title="an armchair in the shape of an avocado. an armchair imitating an avocado" >}}
 
 ## Wha?
 

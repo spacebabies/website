@@ -11,6 +11,12 @@
              on {{ dateFormat "2 January 2006" .PublishDate }}
             </p>
             {{ end }}
+
+          <p>
+            {{ range (.GetTerms "tags") }}
+            <a href="{{ .Permalink }}" class="taxonomyLink">{{ .LinkTitle }}</a>
+            {{ end }}
+          </p>
           {{ .Content }}
         </div>
       </div>
