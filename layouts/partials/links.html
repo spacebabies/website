@@ -1,6 +1,6 @@
 {{ $options := (dict
     "targetPath" "css/styles.css"
-    "includePaths" (slice "themes/raditian-free-hugo-theme/static/css")
+    "includePaths" (slice "static/css")
     "outputStyle" "compressed"
     "enableSourceMap" true) -}}
 {{ $style := resources.Get "scss/custom.scss" | toCSS $options | resources.PostCSS | fingerprint -}}

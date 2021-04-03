@@ -9559,59 +9559,16 @@ html body {
 .clients__item:hover {
   opacity: 1;
 }
-.testimonial .icon-quote {
-  display: block;
-  margin-bottom: 16px;
-}
 @media (min-width: 768px) {
   .clients__item {
     margin-left: 50px;
-  }
-  .testimonial .icon-quote {
-    margin-bottom: 24px;
   }
   .img-clip-left-backward {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 14% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 14% 100%);
   }
 }
-.testimonial__author {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  align-items: center;
-}
-.testimonial__author-info,
-html body {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-}
-.testimonial__author-image {
-  margin-right: 16px;
-  width: 52px;
-  height: 52px;
-  border-radius: 100%;
-}
-.testimonial__author-info {
-  display: flex;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: start;
-  align-items: flex-start;
-}
-.testimonial__author-info h4 {
-  font-size: 16px;
-  margin-bottom: 0;
-}
-.testimonial__author-info span {
-  font-size: 14px;
-  font-weight: 700;
-  color: #e93e34;
-}
+
 html {
   height: 100%;
   overflow-x: hidden;

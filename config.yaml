@@ -3,7 +3,6 @@ title: Space Babies
 baseURL: "https://www.spacebabies.nl/"
 defaultContentLanguage: en
 languageCode: en-us
-theme: raditian-free-hugo-theme
 disableHugoGeneratorInject: true
 enableGitInfo: true
 enableRobotsTXT: true
@@ -45,7 +44,6 @@ params:
     - about
     - experience
     - client-and-work
-    - testimonial
     - contact
   mainSections:
     - changelog
