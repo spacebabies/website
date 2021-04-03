@@ -1,0 +1,28 @@
+{{ $options := (dict
+    "targetPath" "css/styles.css"
+    "includePaths" (slice "themes/raditian-free-hugo-theme/static/css")
+    "outputStyle" "compressed"
+    "enableSourceMap" true) -}}
+{{ $style := resources.Get "scss/custom.scss" | toCSS $options | resources.PostCSS | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+
+<link rel="preload" as="image" href="{{ ($.Scratch.Get "sbA").RelPermalink }}">
+<link rel="preload" as="image" href="{{ ($.Scratch.Get "sbB").RelPermalink }}">
+<link rel="preload" as="image" href="{{ ($.Scratch.Get "sbC").RelPermalink }}">
+<link rel="preload" as="image" href="{{ ($.Scratch.Get "sbD").RelPermalink }}">
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+<link rel="shortcut icon" type="image/svg+xml" href="{{ ($.Scratch.Get "sbA").RelPermalink }}">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#cac8c7">
+
+{{- with .Prev }}<link rel="prev" href="{{ .Permalink }}">{{ end }}
+{{ with .Next }}<link rel="next" href="{{ .Permalink }}">{{ end }}
+
+{{- range .AlternativeOutputFormats -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+{{ end -}}

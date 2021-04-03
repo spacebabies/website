@@ -8,7 +8,10 @@
   "license": "None",
   "private": true,
   "dependencies": {
-    "feather-icons": "^4.28.0"
+    "autoprefixer": "^10.2.5",
+    "feather-icons": "^4.28.0",
+    "postcss": "^8.2.9",
+    "postcss-cli": "^8.3.1"
   },
   "scripts": {
     "start": "hugo server --buildDrafts --buildFuture --noHTTPCache",
@@ -22,5 +25,10 @@
     "cypress": "^6.8.0",
     "netlify-plugin-submit-sitemap": "^0.2.3",
     "prettier": "^2.2.1"
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
 }

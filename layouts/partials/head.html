@@ -1,38 +1,10 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Data.homepage.head.title }}{{ end }}</title>
+{{ partialCached "global.html" . }}
+{{ partial "links.html" . }}
 
-{{ with getenv "NETLIFY_IMAGES_CDN_DOMAIN" }}<link rel="preconnect" href="https://{{ . }}">{{ end -}}
-
-{{ $options := (dict
-    "targetPath" "css/styles.css"
-    "includePaths" (slice "themes/raditian-free-hugo-theme/static/css")
-    "outputStyle" "compressed"
-    "enableSourceMap" true)
--}}
-{{ $style := resources.Get "scss/custom.scss" | toCSS $options | fingerprint -}}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
-
-<link rel="canonical" href="{{ .Permalink }}">
-{{ with .Prev }}
-<link rel="prev" href="{{ .Permalink }}">{{ end -}}
-{{ with .Next }}
-<link rel="next" href="{{ .Permalink }}">{{ end -}}
-<meta name="description"
-    content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
-
-{{ range .AlternativeOutputFormats -}}
-<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Param "title" }}">
-{{ end -}}
-
-{{- $logo := resources.Get "images/sbA.svg" | fingerprint }}
-<link rel="shortcut icon" type="image/svg+xml" href="{{ $logo.Permalink }}">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#cac8c7">
-
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 <meta name="apple-mobile-web-app-title" content="Space Babies">
 <meta name="application-name" content="Space Babies">
 <meta name="msapplication-TileColor" content="#603cba">
