@@ -42,9 +42,9 @@ works:
       btnText: "scrollytelling.com"
       URL: "https://www.scrollytelling.com"
     image:
-      x: "img/works/scrollytelling.png"
+      x: "img/works/scrollytelling.jpg"
       xw: 697
-      _2x: "img/works/scrollytelling@2x.png"
+      _2x: "img/works/scrollytelling@2x.jpg"
       _2xw: 1320
     is_even: true
 
@@ -55,9 +55,9 @@ works:
       btnText: "kingnascholing.nl"
       URL: "https://www.kingnascholing.nl"
     image:
-      x: "img/works/kingnascholing.png"
+      x: "img/works/kingnascholing.jpg"
       xw: 697
-      _2x: "img/works/kingnascholing@2x.png"
+      _2x: "img/works/kingnascholing@2x.jpg"
       _2xw: 1320
     is_even: false
 
@@ -68,8 +68,8 @@ works:
       btnText: "dedigitaletopschool.nl"
       URL: "https://www.dedigitaletopschool.nl"
     image:
-      x: "img/works/dedigitaletopschool.png"
+      x: "img/works/dedigitaletopschool.jpg"
       xw: 679
-      _2x: "img/works/dedigitaletopschool@2x.png"
+      _2x: "img/works/dedigitaletopschool@2x.jpg"
       _2xw: 1320
     is_even: true
