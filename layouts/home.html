@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+	{{ range .Site.Params.sections }}
+	{{ partial . $ }}
+	{{ end }}
+
+	{{ partial "changelog.html" . }}
+
+{{ end }}

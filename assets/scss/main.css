@@ -61,55 +61,6 @@ sub,
 sup {
   vertical-align: baseline;
 }
-@font-face {
-  font-family: AutumnMoon;
-  src: url(../fonts/autumn-moon/AutumnMoon.woff) format("woff"),
-    url(../fonts/autumn-moon/AutumnMoon.woff2) format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/inter/Inter-Light.woff2) format("woff2"),
-    url(../fonts/inter/Inter-Light.woff) format("woff");
-}
-@font-face {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/inter/Inter-Regular.woff2) format("woff2"),
-    url(../fonts/inter/Inter-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  src: url(../fonts/inter/Inter-Medium.woff2) format("woff2"),
-    url(../fonts/inter/Inter-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  src: url(../fonts/inter/Inter-SemiBold.woff2) format("woff2"),
-    url(../fonts/inter/Inter-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 700;
-  src: url(../fonts/inter/Inter-Bold.woff2) format("woff2"),
-    url(../fonts/inter/Inter-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 800;
-  src: url(../fonts/inter/Inter-ExtraBold.woff2) format("woff2"),
-    url(../fonts/inter/Inter-ExtraBold.woff) format("woff");
-}
 @keyframes right-to-left {
   0% {
     transform: translateX(180%);

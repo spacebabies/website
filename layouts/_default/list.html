@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="{{ .Language.Lang }}">
+{{ define "main" }}
 
-<head>
-
-    {{ partial "head.html" . }}
-
-</head>
-
-<body>
-
-	{{ partial "header.html" . }}
-
+	<div style="height: 10em"></div>
+	<ol>
 	{{ range .Pages }}
-	-             <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+		<li>
+			<a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+		</li>
 	{{ end }}
+	</ol>
 
-	{{ partial "footer.html" . }}
-    {{ partial "base-foot.html" . }}
-</body>
-
-</html>
+{{ end }}
