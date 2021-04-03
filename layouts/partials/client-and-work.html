@@ -1,28 +1,31 @@
-{{ if .Site.Data.homepage.client_and_work.enable }}
+{{ if .Site.Data.client_and_work.enable }}
 <section id="portfolio" class="section section--border-bottom">
   <div class="container">
     <h2 class=" rad-fade-down">
-      {{ .Site.Data.homepage.client_and_work.title }}
+      {{ .Site.Data.client_and_work.title }}
     </h2>
     <div class="row row--padded  rad-fade-down">
       <div class="col-12">
         <div class="clients">
-          {{ range .Site.Data.homepage.client_and_work.clients }}
+          {{ range .Site.Data.client_and_work.clients }}
           <div class="clients__item">
             <a href="{{ .URL }}">
-              <img class="img-responsive"
-                width="128" height="30"
-                src="{{ .logo.x }}"
-                srcset="{{ .logo.x }} {{ .logo.xw }}w, {{ .logo._2x }} {{ .logo._2xw }}w"
-                loading="lazy"
-                alt="{{ .alt }}" />
+              <picture>
+                <source srcset="">
+                <img class="img-responsive"
+                  width="128" height="30"
+                  src="{{ .logo.x }}"
+                  srcset="{{ .logo.x }} {{ .logo.xw }}w, {{ .logo._2x }} {{ .logo._2xw }}w"
+                  loading="lazy"
+                  alt="{{ .alt }}" />
+              </picture>
             </a>
           </div>
           {{ end }}
         </div>
       </div>
     </div>
-    {{ range $index, $element := .Site.Data.homepage.client_and_work.works }}
+    {{ range $index, $element := .Site.Data.client_and_work.works }}
     <div
       class="row row--padded  rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}">
       {{ if .is_even }}

@@ -6,10 +6,9 @@
 {{ $style := resources.Get "scss/custom.scss" | toCSS $options | resources.PostCSS | fingerprint -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
-<link rel="preload" as="image" href="{{ ($.Scratch.Get "sbA").RelPermalink }}">
-<link rel="preload" as="image" href="{{ ($.Scratch.Get "sbB").RelPermalink }}">
-<link rel="preload" as="image" href="{{ ($.Scratch.Get "sbC").RelPermalink }}">
-<link rel="preload" as="image" href="{{ ($.Scratch.Get "sbD").RelPermalink }}">
+{{ range (slice "sbA" "sbB" "sbC" "sbD") -}}
+<link rel="preload" as="image" href="{{ ($.Scratch.Get .).RelPermalink }}">
+{{ end -}}
 
 <link rel="canonical" href="{{ .Permalink }}">
 
