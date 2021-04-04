@@ -6,7 +6,7 @@
 {{ $pu := resources.Get "js/library/photoswipe-ui-default.js" }}
 {{ $ma := resources.Get "js/main.js" }}
 {{ $js := slice $jq $bs $sh $fe $ps $pu $ma | resources.Concat "js/app.js" | minify | fingerprint }}
-<script async type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+<script type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
 <script type="application/ld+json">
   {{ $address := dict
