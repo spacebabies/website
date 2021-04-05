@@ -2,74 +2,40 @@ title: "Portfolio"
 enable: true
 
 clients:
-  - logo:
-      x: "img/clients/kingnascholing.png"
-      xw: 128
-      _2x: "img/clients/kingnascholing@2x.png"
-      _2xw: 256
-    alt: "King nascholing"
+  - name: King nascholing
+    base: "/img/clients/kingnascholing"
     URL: "https://www.kingnascholing.nl"
 
-  - logo:
-      x: "img/clients/mrjones.png"
-      xw: 128
-      _2x: "img/clients/mrjones@2x.png"
-      _2xw: 256
-    alt: "Mr. Jones"
+  - name: Mr. Jones
+    base: "/img/clients/mrjones"
     URL: "https://mrjones.org"
 
-  - logo:
-      x: "img/clients/dedigitaletopschool.png"
-      xw: 128
-      _2x: "img/clients/dedigitaletopschool@2x.png"
-      _2xw: 256
-    alt: "De Digitale Topschool"
+  - name: De Digitale Topschool
+    base: "/img/clients/dedigitaletopschool"
     URL: "https://www.dedigitaletopschool.nl"
 
-  - logo:
-      x: "img/clients/xs2radio.png"
-      xw: 128
-      _2x: "img/clients/xs2radio@2x.png"
-      _2xw: 256
-    alt: "XS2RADIO"
+  - name: XS2RADIO
+    base: "/img/clients/xs2radio"
     URL: "https://www.xs2radio.com"
 
 works:
   - title: "Scrollytelling"
     description: "Co-founded and architected Scrollytelling, a successful new business for telling content-rich online stories.  Ultimately serving more than 7 million readers."
-    button:
-      icon: "external-link"
-      btnText: "scrollytelling.com"
-      URL: "https://www.scrollytelling.com"
-    image:
-      x: "img/works/scrollytelling.jpg"
-      xw: 697
-      _2x: "img/works/scrollytelling@2x.jpg"
-      _2xw: 1320
+    base: /img/works/scrollytelling
     is_even: true
+    buttonText: scrollytelling.com
+    buttonURL: https://www.scrollytelling.com
 
   - title: "King nascholing"
     description: "I architected and built this bespoke mission critical e-commerce website and online courseware. All their business now runs through this property."
-    button:
-      icon: "external-link"
-      btnText: "kingnascholing.nl"
-      URL: "https://www.kingnascholing.nl"
-    image:
-      x: "img/works/kingnascholing.jpg"
-      xw: 697
-      _2x: "img/works/kingnascholing@2x.jpg"
-      _2xw: 1320
+    base: /img/works/kingnascholing
     is_even: false
+    buttonText: kingnascholing.nl
+    buttonURL: "https://www.kingnascholing.nl"
 
   - title: "De Digitale Topschool"
     description: "I architected, designed and built the premier Dutch online school for gifted children in primary education, and have handled all maintenance since then."
-    button:
-      icon: "external-link"
-      btnText: "dedigitaletopschool.nl"
-      URL: "https://www.dedigitaletopschool.nl"
-    image:
-      x: "img/works/dedigitaletopschool.jpg"
-      xw: 679
-      _2x: "img/works/dedigitaletopschool@2x.jpg"
-      _2xw: 1320
+    base: /img/works/dedigitaletopschool
     is_even: true
+    buttonText: dedigitaletopschool.nl
+    buttonURL: https://www.dedigitaletopschool.nl

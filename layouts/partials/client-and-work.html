@@ -9,14 +9,15 @@
         <div class="clients">
           {{ range .Site.Data.client_and_work.clients }}
           <div class="clients__item">
-            <a href="{{ .URL }}">
+            <a href="{{ .URL }}" target="_blank">
               <picture>
+                <source srcset="{{ .base }}.webp 320w, {{ .base }}@2x.webp 600w" type="image/webp">
+                <source srcset="{{ .base }}.jpg 320w, {{ .base }}@2x.jpg 600w" type="image/jpeg">
                 <img class="img-responsive"
                   width="128" height="30"
-                  src="{{ .logo.x }}"
-                  srcset="{{ .logo.x }} {{ .logo.xw }}w, {{ .logo._2x }} {{ .logo._2xw }}w"
+                  src="{{ .base }}.jpg"
                   loading="lazy"
-                  alt="{{ .alt }}" />
+                  alt="{{ .name }}" />
               </picture>
             </a>
           </div>
@@ -26,39 +27,45 @@
     </div>
     {{ range $index, $element := .Site.Data.client_and_work.works }}
     <div
-      class="row row--padded  rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}">
+      class="row row--padded rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}">
       {{ if .is_even }}
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
         <h3>{{ .title }}</h3>
         <p class="lead">{{ .description }}</p>
-        <a href="{{ .button.URL  }}" class="btn btn-primary">
-          {{ .button.btnText }}
-          <span data-feather="{{ .button.icon }}"></span>
-          </a>
+        <a href="{{ .buttonURL  }}" target="_blank" class="btn btn-primary">
+          {{ .buttonText }}
+          <span data-feather="external-link"></span>
+        </a>
       </div>
       <div class="col-12 col-md-7 pl-md-0 text-right">
-        <img
-          class='img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}'
-          src="{{ .image.x  }}"
-          srcset="{{ .image.x  }} {{ .image.xw }}w, {{ .image._2x  }} {{ .image._2xw }}w"
-          loading="lazy"
-          alt="{{ .title }}">
+        <picture>
+          <source type="image/webp" srcset="{{ .base }}@2x.webp 600w, {{ .base }}.webp 300w" type="image/webp">
+          <source type="image/jpg" srcset="{{ .base }}@2x.jpg 600w, {{ .base }}.jpg 300w" type="image/jpeg">
+          <img
+            class='img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}'
+            src="{{ .base  }}.jpg"
+            loading="lazy"
+            alt="{{ .title }}">
+        </picture>
       </div>
       {{ else }}
       <div class="col-12 col-md-7 pl-md-0 text-right">
-        <img
-          class='img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}'
-          src="{{ .image.x  }}"
-          srcset="{{ .image.x  }} {{ .image.xw }}w, {{ .image._2x  }} {{ .image._2xw }}w"
-          loading="lazy"
-          alt="{{ .title }}">
+        <picture>
+          <source type="image/webp" srcset="{{ .base }}@2x.webp 600w, {{ .base }}.webp 300w" type="image/webp">
+          <source type="image/jpg" srcset="{{ .base }}@2x.jpg 600w, {{ .base }}.jpg 300w" type="image/jpeg">
+          <img
+            class='img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}'
+            src="{{ .base }}.jpg"
+            loading="lazy"
+            alt="{{ .title }}">
+        </picture>
       </div>
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
         <h3>{{ .title }}</h3>
         <p class="lead">{{ .description }}</p>
-        <a href="{{ .button.URL  }}" class="btn btn-primary">
-          {{ .button.btnText }}
-          <span data-feather="{{ .button.icon }}"></span>
+        <a href="{{ .buttonURL  }}" target="_blank" class="btn btn-primary">
+          {{ .buttonText }}
+          <span data-feather="external-link"></span>
         </a>
       </div>
       {{ end }}

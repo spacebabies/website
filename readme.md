@@ -26,3 +26,13 @@ Hosted on Netlify.
 ```
 git push origin master
 ```
+
+# Optimize images
+
+```
+exiftool -r -all= -overwrite_original assets/images
+find assets/images -type f -name *.jpg -exec mogrify -resize '1400>' {} \;
+find assets/images -type f -name *.png -exec mogrify -resize '1400>' {} \;
+find assets/images -type f -name *.jpg -exec jpegoptim --strip-all --all-progressive {} \;
+find assets/images -type f -name *.png -exec optipng -clobber -strip all {} \;
+```
