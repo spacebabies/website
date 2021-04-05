@@ -7,16 +7,6 @@ showcase:
   title: "Hello, I’m Joost."
   subtitle: "Full Stack Developer"
   description: "I run Space Babies, a software development company in Amsterdam. I create beautiful, fast and secure internet applications, and have been doing so for more than twenty years."
-  image:
-    x: "/img/showcase/showcase.jpg"
-    xw: 790
-    _2x: "/img/showcase/showcase@2x.jpg"
-    _2xw: 1580
-    alt: Showcase
-  imageMobile:
-    x: "/img/showcase/showcase-mobile.jpg"
-    xw: 691
-    alt: Showcase
   button:
     icon: "send"
     btnText: "Get in touch"
@@ -52,13 +42,8 @@ about:
     icon: "smile"
     btnText: "Portfolio"
     URL: "/#portfolio"
-  image:
-    x: "img/who-am-i/user-picture.jpg"
-    xw: 560
-    _2x: "img/who-am-i/user-picture@2x.jpg"
-    _2xw: 1202
 
-# education
+    # education
 education:
   enable: true
   title: "Expertise"

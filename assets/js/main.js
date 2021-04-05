@@ -224,7 +224,7 @@ const animateCSS = (element, animation, prefix = "animate__") =>
  */
 (function () {
   function randomBaby() {
-    var nextBaby = Math.ceil(Math.random() * 10000);
+    var nextBaby = Math.ceil(Math.random() * 6000) + 2000;
 
     var babies = ["#sbA", "#sbB", "#sbC", "#sbD"];
     var whatBaby = babies[Math.floor(Math.random() * babies.length)];

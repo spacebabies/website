@@ -1,10 +1,14 @@
 {{ if .Site.Data.homepage.showcase.enable }}
 <section id="showcase" class="rad-showcase rad-showcase--index  rad-fade-down">
   <div class="rad-showcase__bg">
-    <img class="img-responsive"
-      src="{{ .Site.Data.homepage.showcase.image.x }}"
-      srcset="{{ .Site.Data.homepage.showcase.image.x }} {{ .Site.Data.homepage.showcase.image.xw }}w, {{ .Site.Data.homepage.showcase.image._2x }} {{ .Site.Data.homepage.showcase.image._2xw }}w"
-      alt="{{ .Site.Data.homepage.showcase.image.alt }}" />
+    <picture>
+      <source srcset="/img/showcase/showcase.jpg 320w, /img/showcase/showcase@2x.jpg" type="image/jpeg">
+      <source srcset="/img/showcase/showcase.webp 320w, /img/showcase/showcase@2x.webp" type="image/webp">
+      <img class="img-responsive"
+        src="/img/showcase/showcase.jpg"
+        loading="lazy"
+        alt="">
+    </picture>
   </div>
   <div class="container">
     <div class="row">
@@ -32,10 +36,10 @@
       </div>
     </div>
   </div>
-  <div class="rad-showcase__bg rad-showcase__bg--mobile">
+  <div class="rad-showcase rad-showcase__bg--mobile">
     <img class="img-responsive"
-      src="{{ .Site.Data.homepage.showcase.imageMobile.x }}"
-      alt="{{ .Site.Data.homepage.showcase.imageMobile.alt }}">
+      src="/img/showcase/showcase.jpg"
+      alt="Bla">
   </div>
 </section>
 {{ end }}
