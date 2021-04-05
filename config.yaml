@@ -32,6 +32,12 @@ menu:
     - name: Contact
       URL: "#contact"
       weight: 4
+module:
+  mounts:
+    - source: node_modules/animate.css
+      target: assets/animate.css
+    - source: assets
+      target: assets
 params:
   description: "I create websites in Ruby on Rails and HTML, CSS, and Javascript (Jamstack)"
   images:

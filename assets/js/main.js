@@ -1,3 +1,5 @@
+"use strict";
+
 var initPhotoSwipeFromDOM = function (gallerySelector) {
   // parse slide data (url, title, size ...) from DOM elements
   // (children of gallerySelector)
@@ -199,38 +201,54 @@ var initPhotoSwipeFromDOM = function (gallerySelector) {
   }
 };
 
-(function () {
-  // Pick a lucky Space Babies character and animate them.
-  function pickLucky() {
-    var theBabies = document.querySelectorAll(".navbar-brand img");
-    var animations = new Array("anim-spin", "anim-jump");
-    var luckyIndex = Math.floor(Math.random() * theBabies.length);
-    var lucky = theBabies[luckyIndex];
+const animateCSS = (element, animation, prefix = "animate__") =>
+  // We create a Promise and return it
+  new Promise((resolve, reject) => {
+    const animationName = `${prefix}${animation}`;
+    const node = document.querySelector(element);
 
-    lucky.style.animationDelay = Math.floor(Math.random() * 4 + 4) + "s";
-    lucky.classList.add(
-      animations[Math.floor(Math.random() * animations.length)]
-    );
-    setTimeout(pickLucky, Math.floor(Math.random() * 2000) + 1000);
-    lucky.addEventListener("animationend", function (event) {
-      event.target.classList.remove("anim-jump", "anim-spin");
-    });
-  }
+    node.classList.add(`${prefix}animated`, animationName);
 
-  function fixNavbarToggle() {
-    var navbar = $(".navbar-collapse");
-    if (navbar && navbar.hasClass("show")) {
-      $(".navbar-toggler").click();
+    // When the animation ends, we clean the classes and resolve the Promise
+    function handleAnimationEnd(event) {
+      event.stopPropagation();
+      node.classList.remove(`${prefix}animated`, animationName);
+      resolve("Animation ended");
     }
+
+    node.addEventListener("animationend", handleAnimationEnd, { once: true });
+  });
+
+/**
+ * Our IIFE starts here.
+ */
+(function () {
+  function randomBaby() {
+    var nextBaby = Math.ceil(Math.random() * 10000);
+
+    var babies = ["#sbA", "#sbB", "#sbC", "#sbD"];
+    var whatBaby = babies[Math.floor(Math.random() * babies.length)];
+
+    var anims = [
+      "bounce",
+      "pulse",
+      "rubberBand",
+      "shakeX",
+      "shakeY",
+      "swing",
+      "tada",
+      "flip",
+    ];
+    var whatAnim = anims[Math.floor(Math.random() * anims.length)];
+
+    animateCSS(whatBaby, whatAnim);
+    setTimeout(randomBaby, nextBaby);
   }
 
   // The "main" functions.
-
-  $(document).on("click", "a.nav-link", fixNavbarToggle);
-
   window.addEventListener("DOMContentLoaded", function () {
     initPhotoSwipeFromDOM(".swipe-gallery");
     feather.replace({ width: "1em", height: "1em", strokeWidth: "3px" });
-    setTimeout(pickLucky, Math.floor(Math.random() * 2000) + 500);
+    randomBaby();
   });
 })();

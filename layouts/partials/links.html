@@ -1,9 +1,11 @@
+{{ $an := resources.Get "animate.css/animate.css" }}
 {{ $options := (dict
     "targetPath" "css/styles.css"
     "includePaths" (slice "static/css")
     "outputStyle" "compressed"
-    "enableSourceMap" true) -}}
-{{ $style := resources.Get "scss/custom.scss" | toCSS $options | resources.PostCSS | fingerprint -}}
+    "enableSourceMap" false) -}}
+{{ $css := resources.Get "scss/custom.scss" | toCSS $options | resources.PostCSS | fingerprint -}}
+{{ $style := slice $an $css | resources.Concat "css/styles.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
 {{ range (slice "sbA" "sbB" "sbC" "sbD") -}}

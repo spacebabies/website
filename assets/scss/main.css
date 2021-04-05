@@ -10387,27 +10387,17 @@ section#about {
   margin-left: auto;
 }
 
-.header .navbar-brand img {
-  max-height: 50px;
-  height: 50px;
-}
+.theBabies {
+  width: 300px;
 
-.header .navbar-brand img.sbA {
-  width: 50px;
-}
+  img {
+    max-height: 50px;
+  }
 
-.header .navbar-brand img.sbB {
-  width: 45px;
-}
-
-.header .navbar-brand img.sbC {
-  width: 65px;
-  padding-bottom: 1px;
-  transform-origin: 50% 40%;
-}
-
-.header .navbar-brand img.sbD {
-  width: 50px;
+  &#sbC {
+    padding-bottom: 1px;
+    transform-origin: 50% 40%;
+  }
 }
 
 .btn svg,
