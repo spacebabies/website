@@ -18,13 +18,9 @@
   "scripts": {
     "start": "hugo server --buildDrafts --buildFuture --noHTTPCache",
     "build": "hugo --minify --gc",
-    "cy:open": "cypress open",
-    "test": "cypress run --record",
-    "ci": "yarn run build && yarn run test",
     "clean": "rm -rf public"
   },
   "devDependencies": {
-    "cypress": "^6.8.0",
     "netlify-plugin-submit-sitemap": "^0.2.3",
     "prettier": "^2.2.1"
   },

@@ -250,5 +250,8 @@ const animateCSS = (element, animation, prefix = "animate__") =>
     initPhotoSwipeFromDOM(".swipe-gallery");
     feather.replace({ width: "1em", height: "1em", strokeWidth: "3px" });
     randomBaby();
+
+    // this one last
+    document.body.classList.add("data-js-loaded");
   });
 })();
