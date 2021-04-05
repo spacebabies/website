@@ -1,11 +1,10 @@
 <section id="changelog" class="section section--cta">
     <div class="container">
         <div class="row">
+            {{ range first 1 (where site.RegularPages "Type" "changelog") }}
             <div class="col-12 col-md-10 offset-md-1 text-center">
                 <h2>
                     Latest in my blog, The Changelog:<br>
-
-                    {{ range first 1 ( where site.RegularPages "Type" "in" site.Params.mainSections ) }}
                     <small>{{ .Title }}</small>
                 </h2>
             </div>
@@ -15,9 +14,8 @@
                     {{ .Description | markdownify }}
                     <a class="morelink" href="{{ .RelPermalink }}">-> read more</a>
                 </p>
-                {{ end }}
-                </ul>
             </div>
+            {{ end -}}
         </div>
     </div>
 </section>

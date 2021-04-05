@@ -1,12 +1,12 @@
-{{ $jq := resources.Get "js/library/jquery-3.5.1.slim.min.js" }}
 {{ $bs := resources.Get "js/library/bootstrap.min.js" }}
-{{ $sh := resources.Get "js/library/sticky-header.js" }}
 {{ $fe := resources.Get "js/library/feather.js" }}
+{{ $jq := resources.Get "js/library/jquery-3.5.1.slim.min.js" }}
 {{ $ps := resources.Get "js/library/photoswipe.js" }}
 {{ $pu := resources.Get "js/library/photoswipe-ui-default.js" }}
+{{ $sh := resources.Get "js/library/sticky-header.js" }}
 {{ $ma := resources.Get "js/main.js" }}
-{{ $js := slice $jq $bs $sh $fe $ps $pu $ma | resources.Concat "js/app.js" | minify | fingerprint }}
-<script type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ $js := slice $bs $fe $jq $ps $pu $sh $ma | resources.Concat "js/app.js" | minify | fingerprint }}
+<script type="text/javascript" src="{{ $js.RelPermalink }}" xintegrity="{{ $js.Data.Integrity }}"></script>
 
 <script type="application/ld+json">
   {{ $address := dict
