@@ -4,12 +4,23 @@
     <div class="row d-flex flex-column-reverse flex-md-row">
       <div class="about__profile-picture col-12 col-md-6">
         <picture>
-          <source srcset="/img/about/user-picture.jpg 320ww, /img/about/user-picture@2x.jpg" type="image/jpeg">
-          <source srcset="/img/about/user-picture.webp 320ww, /img/about/user-picture@2x.webp" type="image/webp">
+          {{ range slice "jpeg" "webp" }}
+          <source type="image/{{ . }}"
+            srcset="/img/about/user-picture_450.{{ . }},
+                    /img/about/user-picture_900.{{ . }} 2x"
+            media="(max-width: 449px)">
+          <source type="image/{{ . }}"
+            srcset="/img/about/user-picture_900.{{ . }},
+                    /img/about/user-picture_1200.{{ . }} 2x"
+            media="(min-width: 450px) and (max-width: 1199px)">
+          <source type="image/{{ . }}"
+            srcset="/img/about/user-picture_1200.{{ . }}"
+            media="(min-width: 1200px)">
+          {{ end }}
           <img class="img-responsive image-left-overflow"
-            src="/img/about/user-picture.jpg"
+            src="/img/about/user-picture_450.jpg"
             loading="lazy"
-            alt="">
+            alt="A stockphoto with a computer screen and human hands.">
         </picture>
       </div>
       <div class="col-12 col-md-6 my-auto my-auto">
