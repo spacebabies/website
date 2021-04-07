@@ -225,10 +225,8 @@ const animateCSS = (element, animation, prefix = "animate__") =>
 (function () {
   function randomBaby() {
     var nextBaby = Math.ceil(Math.random() * 6000) + 2000;
-
     var babies = ["#sbA", "#sbB", "#sbC", "#sbD"];
     var whatBaby = babies[Math.floor(Math.random() * babies.length)];
-
     var anims = [
       "bounce",
       "pulse",
@@ -242,7 +240,9 @@ const animateCSS = (element, animation, prefix = "animate__") =>
     var whatAnim = anims[Math.floor(Math.random() * anims.length)];
 
     animateCSS(whatBaby, whatAnim);
-    setTimeout(randomBaby, nextBaby);
+    setTimeout(function () {
+      requestAnimationFrame(randomBaby);
+    }, nextBaby);
   }
 
   // The "main" functions.

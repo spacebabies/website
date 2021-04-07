@@ -3,8 +3,15 @@
 {{ $pu := resources.Get "js/library/photoswipe-ui-default.js" -}}
 {{ $sh := resources.Get "js/library/sticky-header.js" -}}
 {{ $ma := resources.Get "js/main.js" }}
-{{ $js := slice $fe $ps $pu $sh $ma | resources.Concat "js/app.js" }}
+{{ $js := slice $fe $ps $pu $sh $ma | resources.Concat "js/main.js" }}
 <script type="text/javascript" src="{{ $js.RelPermalink }}" xintegrity="{{ $js.Data.Integrity }}"></script>
+
+{{ $esopt := (dict
+    "minify" true
+    "targetPath" "js/app.js"
+    "target" "es2017") -}}
+{{ $app := resources.Get "js/app.js" | js.Build $esopt }}
+<script type="text/javascript" src="{{ $app.RelPermalink }}" integrity="{{ $app.Data.Integrity }}"></script>
 
 <script type="application/ld+json">
   {{ $address := dict

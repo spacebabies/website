@@ -7,6 +7,11 @@
   "author": "Joost Baaij <joost@spacebabies.nl>",
   "license": "None",
   "private": true,
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ],
   "dependencies": {
     "animate.css": "^4.1.1",
     "autoprefixer": "^10.2.5",
@@ -15,18 +20,17 @@
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.1"
   },
-  "scripts": {
-    "start": "hugo server --buildDrafts --buildFuture --noHTTPCache",
-    "build": "hugo --minify --gc",
-    "clean": "rm -rf public"
-  },
   "devDependencies": {
     "netlify-plugin-submit-sitemap": "^0.2.3",
     "prettier": "^2.2.1"
   },
-  "browserslist": [
-    "defaults",
-    "not IE 11",
-    "maintained node versions"
-  ]
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "prestart": "yarn install",
+    "start": "hugo server --buildDrafts --buildFuture --noHTTPCache",
+    "build": "hugo --minify --gc",
+    "clean": "rm -rf public"
+  }
 }
