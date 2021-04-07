@@ -6,6 +6,11 @@ languageCode: en-us
 disableHugoGeneratorInject: true
 enableGitInfo: true
 enableRobotsTXT: true
+enableEmoji: true
+# We do redirects via Netlify
+disableAliases: true
+ignoreErrors:
+  - error-remote-getjson
 taxonomies:
   category: categories
   tag: tags
@@ -13,6 +18,8 @@ taxonomies:
   series: series
 menu:
   header:
+    - name: Home
+      URL: /
     - name: About me
       URL: "#about"
       weight: 2

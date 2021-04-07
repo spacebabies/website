@@ -2,9 +2,9 @@
 {{ $ps := resources.Get "js/library/photoswipe.js" -}}
 {{ $pu := resources.Get "js/library/photoswipe-ui-default.js" -}}
 {{ $sh := resources.Get "js/library/sticky-header.js" -}}
-{{ $ma := resources.Get "js/main.js" }}
-{{ $js := slice $fe $ps $pu $sh $ma | resources.Concat "js/main.js" }}
-<script type="text/javascript" src="{{ $js.RelPermalink }}" xintegrity="{{ $js.Data.Integrity }}"></script>
+{{ $ma := resources.Get "js/main.js" -}}
+{{ $js := slice $fe $ps $pu $sh $ma | resources.Concat "js/main.js" -}}
+<script type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
 {{ $esopt := (dict
     "minify" true

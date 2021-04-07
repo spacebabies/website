@@ -5,7 +5,7 @@
     Strict-Transport-Security = "max-age=31536000; includeSubdomains; preload"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
-  
+
 [[headers]]
   for = "/site.webmanifest"
   [headers.values]
@@ -28,20 +28,24 @@
     Cache-Control = "max-age=31536000"
 
 [build]
-  functions = "functions"
-  publish = "public"
-  command = "hugo --gc --minify"
+functions = "functions"
+publish = "public"
+command = "hugo --gc --minify"
 
 [build.environment]
-  HUGO_VERSION = "0.82.0"
-  NODE_VERSION = "15"
-  RUBY_VERSION = "2.7.1"
+HUGO_VERSION = "0.82.0"
+NODE_VERSION = "15"
+RUBY_VERSION = "2.7.1"
+HUGO_ENABLEGITINFO = "true"
 
 [build.processing]
-  skip_processing = true
+skip_processing = true
 
 [context.branch-deploy]
-  command = "hugo --baseURL $DEPLOY_URL --buildDrafts --gc --minify"
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.82.0"
 
 [[redirects]]
   from = "/portfolio/*"
