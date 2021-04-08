@@ -21,23 +21,23 @@ menu:
     - name: Home
       URL: /
     - name: About me
-      URL: "#about"
+      URL: "/#about"
       weight: 2
     - name: Portfolio
-      URL: "#portfolio"
+      URL: "/#portfolio"
       weight: 3
     - name: Contact
-      URL: "#contact"
+      URL: "/#contact"
       weight: 4
   footer:
     - name: About me
-      URL: "#about"
+      URL: "/#about"
       weight: 2
     - name: Portfolio
-      URL: "#portfolio"
+      URL: "/#portfolio"
       weight: 3
     - name: Contact
-      URL: "#contact"
+      URL: "/#contact"
       weight: 4
 module:
   mounts:
