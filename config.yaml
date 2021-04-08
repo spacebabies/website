@@ -45,6 +45,10 @@ module:
       target: assets/animate.css
     - source: assets
       target: assets
+    - source: node_modules/@fontsource/inter/files
+      target: static/fonts/inter
+    - source: static
+      target: static
 params:
   description: "I create websites in Ruby on Rails and HTML, CSS, and Javascript (Jamstack)"
   images:

@@ -19,6 +19,13 @@ clients:
     URL: "https://www.xs2radio.com"
 
 works:
+  - title: "Straal Atelier Val-Meer"
+    description: "I created a website for this sandblasting company, plus a 360-degree content strategy which included SEO, Instagram and Google Maps. Fast-loading is a key metric, which is paying off: their profits have increased considerably."
+    base: /img/works/straalatelier
+    is_even: false
+    buttonText: straalatelier.com
+    buttonURL: https://www.straalatelier.com
+
   - title: "Scrollytelling"
     description: "Co-founded and architected Scrollytelling, a successful new business for telling content-rich online stories.  Ultimately serving more than 7 million readers."
     base: /img/works/scrollytelling

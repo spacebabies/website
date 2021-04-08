@@ -1,6 +1,8 @@
 {{ $options := (dict
     "targetPath" "css/styles.css"
-    "includePaths" (slice "node_modules/photoswipe/src")
+    "includePaths" (slice
+      "node_modules/@fontsource"
+      "node_modules/photoswipe/src")
     "outputStyle" "compressed"
     "enableSourceMap" false) -}}
 {{ $bundle := slice (resources.Get "animate.css/animate.css" | minify) -}}

@@ -34,7 +34,7 @@
         </a>
       </div>
       <div class="col-12 col-md-7 pl-md-0 text-right">
-        <picture class="aspectBox-portfolio">
+        <picture>
           {{ range slice "webp" "jpeg" }}
           <source type="image/{{ . }}"
             srcset="{{ $element.base }}_450.{{ . }},
@@ -56,7 +56,7 @@
       </div>
       {{ else }}
       <div class="col-12 col-md-7 pl-md-0 text-right">
-        <picture class="aspectBox-portfolio">
+        <picture>
           {{ range slice "webp" "jpeg" }}
           <source type="image/{{ . }}"
             srcset="{{ $element.base }}_450.{{ . }},
