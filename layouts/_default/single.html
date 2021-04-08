@@ -1,23 +1,26 @@
 {{ define "main" }}
-<section class="section section--border-bottom ">
+<section class="section section--single section--border-bottom ">
   <div class="container">
-    <div class="col-md-12 content-column white-background">
+    <div class="col-md-10 content-column white-background">
       <div class="row">
         <div class="content-column-content">
           <h1>{{ .Title }}</h1>
-          {{ if .GitInfo }}
+
+          {{ with .GitInfo }}
           <p class="lead publishedBy">
-            Published by {{ .GitInfo.AuthorName }}
-             on {{ dateFormat "2 January 2006" .PublishDate }}
-            </p>
-            {{ end }}
+            Published by {{ .AuthorName }} on {{ dateFormat "2 January 2006" .PublishDate }}
+          </p>
+          {{ end }}
 
           <p class="taxonomyLinks">
             {{ range (.GetTerms "tags") }}
             <a href="{{ .Permalink }}" class="taxonomyLink">{{ .LinkTitle }}</a>
             {{ end }}
           </p>
-          {{ .Content }}
+
+          <section class="singleContent">
+            {{ .Content }}
+          </section>
         </div>
       </div>
       <div class="row prev-next">

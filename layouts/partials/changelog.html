@@ -1,21 +1,24 @@
 <section id="changelog" class="section section--cta">
-    <div class="container">
-        <div class="row">
-            {{ range first 1 (where site.RegularPages "Type" "changelog") }}
-            <div class="col-12 col-md-10 offset-md-1 text-center">
-                <h2>
-                    Latest in my blog, The Changelog:<br>
-                    <small>{{ .Title }}</small>
-                </h2>
-            </div>
-            <div class="col-12 col-md-8 offset-md-2 text-center">
-                <p class="lead">
-                    <span data-feather="globe"></span>
-                    {{ .Description | markdownify }}
-                    <a class="morelink" href="{{ .RelPermalink }}">-> read more</a>
-                </p>
-            </div>
-            {{ end -}}
-        </div>
+  <div class="container">
+    <div class="row">
+      {{ range first 1 (where site.RegularPages "Type" "changelog") -}}
+      <div class="col-12 col-md-10 offset-md-1 text-center">
+        <h2>
+            <small>Latest in my blog <em>The Changelog</em></small><br>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+      </div>
+      <div class="col-12 col-md-8 offset-md-2 text-center">
+        <p class="lead">
+          {{ .Description | markdownify }}
+
+          <a class="morelink" href="{{ .RelPermalink }}">
+            read more
+            <span data-feather="arrow-right"></span>
+          </a>
+        </p>
+      </div>
+      {{ end -}}
     </div>
+  </div>
 </section>

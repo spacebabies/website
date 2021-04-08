@@ -1,0 +1,70 @@
+#changelog small,
+#changelog h1,
+#changelog h2,
+#changelog h3,
+#changelog p,
+#changelog a {
+  color: white;
+}
+
+#changelog p a:hover {
+  border-bottom: 2px solid white;
+}
+
+.section--single {
+  margin-top: 6em;
+
+  .content-column-content {
+    max-width: 80em;
+  }
+}
+.singleContent {
+  padding-top: 2em;
+
+  > p:first-of-type {
+    font-size: 1.4em;
+    line-height: 1.4;
+  }
+}
+
+.content-column-content {
+  overflow-x: auto;
+
+  blockquote,
+  figure {
+    margin: 0 0 3em 0;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  figure img {
+    display: block;
+  }
+
+  ul,
+  ol {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 1em;
+  }
+
+  li {
+    margin-left: 5px;
+  }
+
+  figcaption {
+    text-align: center;
+    color: #454d55;
+    font-size: 90%;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    margin-top: 4rem;
+  }
+
+  h3 {
+    margin-top: 3rem;
+  }
+}

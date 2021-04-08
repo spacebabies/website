@@ -9089,19 +9089,6 @@ textarea:focus {
   max-height: none;
 }
 
-#changelog small,
-#changelog h1,
-#changelog h2,
-#changelog h3,
-#changelog p,
-#changelog p a {
-  color: white;
-}
-
-#changelog p a:hover {
-  border-bottom: 2px solid white;
-}
-
 figcaption p {
   color: rgba(0, 0, 0, 0.3);
   font-style: italic;
@@ -9114,44 +9101,7 @@ figcaption p {
 .morelink {
   word-break: keep-all;
   margin-left: 2em;
-}
-
-.content-column-content {
-  overflow-x: auto;
-
-  blockquote,
-  figure {
-    margin: 0 0 1rem;
-  }
-
-  img {
-    margin: 0 auto;
-  }
-
-  figure img {
-    display: block;
-  }
-
-  ul {
-    margin: 0 0 1em 0;
-    padding: 0;
-  }
-
-  li {
-    margin-left: 5px;
-  }
-
-  figcaption {
-    text-align: center;
-  }
-
-  h2 {
-    margin-top: 2rem;
-  }
-
-  h3 {
-    margin-top: 1rem;
-  }
+  display: inline-block;
 }
 
 .prev-next {
