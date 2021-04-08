@@ -8,7 +8,7 @@
 
           {{ with .GitInfo }}
           <p class="lead publishedBy">
-            Published by {{ .AuthorName }} on {{ dateFormat "2 January 2006" .PublishDate }}
+            Published by {{ .AuthorName }} on {{ dateFormat "2 January 2006" .AuthorDate }}
           </p>
           {{ end }}
 
