@@ -35,14 +35,19 @@
                     </form>
                 </div>
                 <div class="col-12 col-lg-5 contact__info">
-                    <h4>{{ .Site.Data.homepage.contact.kvk.title }}</h4>
-                    <span>{{ .Site.Data.homepage.contact.kvk.number }}</span>
-                    <h4>{{ .Site.Data.homepage.contact.vatID.title }}</h4>
-                    <span>{{ .Site.Data.homepage.contact.vatID.number }}</span>
-                    <h4>{{ .Site.Data.homepage.contact.email.title }}</h4>
-                    <span>{{ .Site.Data.homepage.contact.email.email | safeHTML }}</span>
-                    <h4>{{ .Site.Data.homepage.contact.address.title }}</h4>
-                    <span>{{ .Site.Data.homepage.contact.address.address | safeHTML }}</span>
+                  <dl>
+                    <dt>{{ .Site.Data.homepage.contact.kvk.title }}</dt>
+                    <dd>{{ .Site.Data.homepage.contact.kvk.number }}</dd>
+
+                    <dt>{{ .Site.Data.homepage.contact.vatID.title }}</dt>
+                    <dd>{{ .Site.Data.homepage.contact.vatID.number }}</dd>
+
+                    <dt>{{ .Site.Data.homepage.contact.email.title }}</dt>
+                    <dd>{{ .Site.Data.homepage.contact.email.email | safeHTML }}</dd>
+
+                    <dt>{{ .Site.Data.homepage.contact.address.title }}</dt>
+                    <dd>{{ .Site.Data.homepage.contact.address.address| safeHTML  }}</dd>
+                  </dl>
                 </div>
             </div>
         </div>

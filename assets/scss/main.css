@@ -9045,6 +9045,7 @@ p {
   }
 }
 p a,
+dd a,
 span a {
   color: #000;
   font-weight: 600;
@@ -9052,6 +9053,7 @@ span a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 p a:hover,
+dd a:hover,
 span a:hover {
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
@@ -9310,27 +9312,27 @@ span a:hover {
 .experience + .experience {
   padding-top: 50px;
 }
-.contact__info h4 {
+.contact__info dt {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 300;
   line-height: 2;
   color: #333;
 }
-.contact__info span {
+.contact__info dd {
   font-size: 14px;
   font-weight: 700;
   line-height: normal;
   color: #000;
 }
-.contact__info span + h4 {
+.contact__info dd + dt {
   margin-top: 20px;
 }
 @media (min-width: 992px) {
   .contact__info {
     padding: 0 70px;
   }
-  .contact__info span + h4 {
+  .contact__info dd + dt {
     margin-top: 40px;
   }
 }
