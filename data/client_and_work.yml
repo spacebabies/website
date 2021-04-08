@@ -3,19 +3,19 @@ enable: true
 
 clients:
   - name: King nascholing
-    base: "/img/clients/kingnascholing"
+    base: /img/logos/kingnascholing
     URL: "https://www.kingnascholing.nl"
 
   - name: Mr. Jones
-    base: "/img/clients/mrjones"
+    base: /img/logos/mrjones
     URL: "https://mrjones.org"
 
   - name: De Digitale Topschool
-    base: "/img/clients/dedigitaletopschool"
+    base: /img/logos/dedigitaletopschool
     URL: "https://www.dedigitaletopschool.nl"
 
   - name: XS2RADIO
-    base: "/img/clients/xs2radio"
+    base: /img/logos/xs2radio
     URL: "https://www.xs2radio.com"
 
 works:

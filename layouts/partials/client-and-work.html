@@ -7,18 +7,13 @@
     <div class="row row--padded  rad-fade-down">
       <div class="col-12">
         <div class="clients">
-          {{ range .Site.Data.client_and_work.clients }}
+          {{ range $client := .Site.Data.client_and_work.clients }}
           <div class="clients__item">
-            <a href="{{ .URL }}" target="_blank">
+            <a href="{{ $client.URL }}" target="_blank">
               <picture>
-                <source srcset="{{ .base }}.webp 320w, {{ .base }}@2x.webp 600w" type="image/webp">
-                <source srcset="{{ .base }}.jpg 320w, {{ .base }}@2x.jpg 600w" type="image/jpeg">
-                <img class="img-responsive"
-                  width="128" height="30"
-                  src="{{ .base }}.jpg"
-                  loading="lazy"
-                  alt="{{ .name }}" />
-              </picture>
+                <source srcset="{{ $client.base }}.webp 320w, {{ $client.base }}@2x.webp 600w" type="image/webp">
+                <source srcset="{{ $client.base }}.jpg 320w, {{ $client.base }}@2x.jpg 600w" type="image/jpeg">
+                <img class="img-responsive" width="128" height="30" src="{{ $client.base }}.jpg">
             </a>
           </div>
           {{ end }}
@@ -39,25 +34,45 @@
       </div>
       <div class="col-12 col-md-7 pl-md-0 text-right">
         <picture>
-          <source type="image/webp" srcset="{{ .base }}@2x.webp 600w, {{ .base }}.webp 300w" type="image/webp">
-          <source type="image/jpg" srcset="{{ .base }}@2x.jpg 600w, {{ .base }}.jpg 300w" type="image/jpeg">
-          <img
-            class='img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}'
-            src="{{ .base  }}.jpg"
+          {{ range slice "webp" "jpeg" }}
+          <source type="image/{{ . }}"
+            srcset="{{ $element.base }}_450.{{ . }},
+                    {{ $element.base }}_900.{{ . }} 2x"
+            media="(max-width: 449px)">
+          <source type="image/{{ . }}"
+            srcset="{{ $element.base }}_900.{{ . }},
+                    {{ $element.base }}_1200.{{ . }} 2x"
+            media="(min-width: 450px) and (max-width: 1199px)">
+          <source type="image/{{ . }}"
+            srcset="{{ $element.base }}_1200.{{ . }}"
+            media="(min-width: 1200px)">
+          {{ end }}
+          <img class="img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}"
+            src="{{ $element.base }}_450.jpg"
             loading="lazy"
-            alt="{{ .title }}">
+            alt="{{ $element.title }}">
         </picture>
       </div>
       {{ else }}
       <div class="col-12 col-md-7 pl-md-0 text-right">
         <picture>
-          <source type="image/webp" srcset="{{ .base }}@2x.webp 600w, {{ .base }}.webp 300w" type="image/webp">
-          <source type="image/jpg" srcset="{{ .base }}@2x.jpg 600w, {{ .base }}.jpg 300w" type="image/jpeg">
-          <img
-            class='img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}'
-            src="{{ .base }}.jpg"
+          {{ range slice "webp" "jpeg" }}
+          <source type="image/{{ . }}"
+            srcset="{{ $element.base }}_450.{{ . }},
+                    {{ $element.base }}_900.{{ . }} 2x"
+            media="(max-width: 449px)">
+          <source type="image/{{ . }}"
+            srcset="{{ $element.base }}_900.{{ . }},
+                    {{ $element.base }}_1200.{{ . }} 2x"
+            media="(min-width: 450px) and (max-width: 1199px)">
+          <source type="image/{{ . }}"
+            srcset="{{ $element.base }}_1200.{{ . }}"
+            media="(min-width: 1200px)">
+          {{ end }}
+          <img class="img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}"
+            src="{{ $element.base }}_450.jpg"
             loading="lazy"
-            alt="{{ .title }}">
+            alt="{{ $element.title }}">
         </picture>
       </div>
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">

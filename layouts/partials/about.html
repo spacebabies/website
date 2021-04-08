@@ -4,7 +4,7 @@
     <div class="row d-flex flex-column-reverse flex-md-row">
       <div class="about__profile-picture col-12 col-md-6">
         <picture>
-          {{ range slice "jpeg" "webp" }}
+          {{ range slice "webp" "jpeg" }}
           <source type="image/{{ . }}"
             srcset="/img/about/user-picture_450.{{ . }},
                     /img/about/user-picture_900.{{ . }} 2x"
