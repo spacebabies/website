@@ -5,6 +5,9 @@
     Strict-Transport-Security = "max-age=31536000; includeSubdomains; preload"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
+    Content-Security-Policy-Report-Only = "default-src 'none'; font-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; report-uri https://spacebabies.report-uri.com/r/d/csp/reportOnly"
+    Report-To = "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://spacebabies.report-uri.com/a/d/g\"}],\"include_subdomains\":true}"
+
 
 [[headers]]
   for = "/site.webmanifest"
