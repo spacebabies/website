@@ -1,11 +1,11 @@
-{{ $an := resources.Get "animate.css/animate.css" }}
 {{ $options := (dict
     "targetPath" "css/styles.css"
-    "includePaths" (slice "static/css")
+    "includePaths" (slice "node_modules/photoswipe/src")
     "outputStyle" "compressed"
     "enableSourceMap" false) -}}
-{{ $css := resources.Get "scss/custom.scss" | toCSS $options | resources.PostCSS | fingerprint -}}
-{{ $style := slice $an $css | resources.Concat "css/styles.css" | minify | fingerprint }}
+{{ $bundle := slice (resources.Get "animate.css/animate.css" | minify) -}}
+{{ $bundle = $bundle | append (resources.Get "scss/custom.scss" | toCSS $options | resources.PostCSS) -}}
+{{ $style := $bundle | resources.Concat "css/styles.css" | fingerprint -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
 {{ range (slice "sbA" "sbB" "sbC" "sbD") -}}

@@ -1,9 +1,10 @@
-{{ $fe := resources.Get "js/library/feather.js" -}}
-{{ $ps := resources.Get "js/library/photoswipe.js" -}}
-{{ $pu := resources.Get "js/library/photoswipe-ui-default.js" -}}
-{{ $sh := resources.Get "js/library/sticky-header.js" -}}
 {{ $ma := resources.Get "js/main.js" -}}
-{{ $js := slice $fe $ps $pu $sh $ma | resources.Concat "js/main.js" | minify | fingerprint -}}
+{{ $bundle := slice (resources.Get "js/library/feather.js") -}}
+{{ $bundle = $bundle | append (resources.Get "js/library/photoswipe.js") -}}
+{{ $bundle = $bundle | append (resources.Get "js/library/photoswipe-ui-default.js") -}}
+{{ $bundle = $bundle | append (resources.Get "js/library/sticky-header.js") -}}
+{{ $bundle = $bundle | append (resources.Get "js/main.js") -}}
+{{ $js := $bundle | resources.Concat "js/main.js" | minify | fingerprint -}}
 <script type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
 {{ $esopt := (dict

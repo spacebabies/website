@@ -1,20 +1,25 @@
 @charset "UTF-8";
 
-@import "font-face";
-@import "photoswipe/main";
-@import "photoswipe/default-skin/default-skin";
-@import "animate.css";
+@import "css/main"; // photoswipe
+@import "css/default-skin/default-skin";
 
+@import "font-face";
 @import "main";
-@import "rad-icons";
 @import "galleries";
 
-@keyframes spin {
-  from {
-    transform: rotate(0);
-  }
+// this here is the devil's work.
+// it helps the browser layout engine and prevents content shifts.
+.aspectBox-portfolio {
+  overflow: hidden;
+  height: 0;
+  padding-top: 65.78%;
+}
 
-  to {
-    transform: rotate(359deg);
+@keyframes button-loading {
+  0% {
+    right: 100%;
+  }
+  100% {
+    right: -100%;
   }
 }
