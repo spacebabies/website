@@ -1,24 +1,6 @@
 head:
   title: 'I create websites in Ruby on Rails and HTML, CSS, Javascript'
 
-# showcase
-showcase:
-  enable: true
-  title: "Hello, I’m Joost."
-  subtitle: "Full Stack Developer"
-  description: "I run Space Babies, a software development company in Amsterdam. I create beautiful, fast and secure internet applications, and have been doing so for more than twenty years."
-  button:
-    icon: "send"
-    btnText: "Get in touch"
-    URL: "/#contact"
-
-  socialLinks:
-    # - icon: "github"
-    #   URL: "https://github.com/tilsammans"
-
-    # - icon: "stackoverflow"
-    #   URL: "https://stackoverflow.com/users/story/235411"
-
 # about
 about:
   enable: true
@@ -31,7 +13,7 @@ about:
     e-commerce systems, online streaming storytelling, and cutting-edge websites.
     </p>
     <p>
-    I founded Space Babies in 2000 and have used almost every web technology imaginable. 
+    I founded Space Babies in 2000 and have used almost every web technology imaginable.
     My products routinely handle millions of visitors and are designed to be fast and reliable.
     I usually handle monitoring and preemptive maintenance as well.
     </p>

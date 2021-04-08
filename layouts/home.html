@@ -1,7 +1,10 @@
 {{ define "main" }}
 
+  {{ partial "flash" . }}
+  {{ partial "showcase" . }}
+
 	{{ range .Site.Params.sections }}
-	{{ partial . $ }}
+	  {{ partial . $ }}
 	{{ end }}
 
 	{{ partial "changelog.html" . }}

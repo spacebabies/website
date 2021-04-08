@@ -23,7 +23,7 @@
         <ul class="navbar-nav ml-lg-auto">
           {{ range .Site.Menus.header }}
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="{{ .URL }}"
+            <a data-scroll class="nav-link" href="{{ ref $ .URL }}"
               >{{ .Name | upper }}</a
             >
           </li>

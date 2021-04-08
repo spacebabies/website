@@ -1,13 +1,13 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Data.homepage.head.title }}{{ end }}</title>
+<title>{{ $.Param "title" }}</title>
 {{ partial "links.html" . }}
 
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
-<meta name="apple-mobile-web-app-title" content="Space Babies">
-<meta name="application-name" content="Space Babies">
-<meta name="msapplication-TileColor" content="#603cba">
-<meta name="theme-color" content="#cac8c7">
+{{ with $.Param "description" }}<meta name="description" content="{{ . }}">{{ end }}
+<meta name="apple-mobile-web-app-title" content="{{ $.Param "title" }}">
+<meta name="application-name" content="{{ $.Param "title" }}">
+{{ with $.Param "colors.tile" }}<meta name="msapplication-TileColor" content="{{ . }}">{{ end }}
+{{ with $.Param "colors.theme" }}<meta name="theme-color" content="{{ . }}">{{ end }}
 
 {{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/opengraph.html" . }}

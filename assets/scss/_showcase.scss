@@ -1,0 +1,119 @@
+.rad-showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: -20px;
+  padding-top: 120px;
+}
+.rad-showcase__bg {
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  z-index: 0;
+  display: none;
+}
+.rad-showcase__bg img {
+  width: 100%;
+  margin-top: 90px;
+  height: 100%;
+  max-height: 721px;
+}
+@media (min-width: 992px) {
+  .rad-showcase {
+    min-height: 870px;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .rad-showcase__bg {
+    display: flex;
+    right: -50px;
+  }
+  .rad-showcase__bg img {
+    width: auto;
+  }
+}
+.rad-showcase__bg--mobile {
+  display: flex;
+  position: relative;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+.rad-showcase__bg--mobile img {
+  margin-top: 40px;
+}
+.rad-showcase .container {
+  position: relative;
+  z-index: 2;
+}
+.rad-showcase .container h1 {
+  width: 100%;
+  font-size: 32px;
+}
+@media (min-width: 992px) {
+  .rad-showcase__bg--mobile {
+    display: none;
+  }
+  .rad-showcase .container h1 {
+    font-size: 48px;
+  }
+}
+.rad-showcase .container h1 span {
+  display: block;
+  margin-top: 5px;
+  font-weight: 300;
+}
+.rad-showcase .container p.lead {
+  width: 100%;
+}
+.rad-showcase .platform-links {
+  margin-top: 40px;
+  margin-right: -5px;
+}
+@media (min-width: 992px) {
+  .rad-showcase .platform-links {
+    margin-top: 92px;
+    margin-right: -10px;
+  }
+}
+.rad-showcase + section {
+  margin-top: 0;
+}
+@media (min-width: 1200px) {
+  .footer .navbar-nav .nav-item .nav-link {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .rad-showcase {
+    min-height: 870px;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .rad-showcase + section {
+    margin-top: -125px;
+  }
+}
+
+#showcase .hat-1 {
+  font-size: 2.5em;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#showcase h1 {
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 2.1em;
+  letter-spacing: -1px;
+}
+
+.rad-showcase__bg img {
+  margin-top: 0;
+  max-height: none;
+}

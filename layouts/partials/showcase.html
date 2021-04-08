@@ -1,4 +1,3 @@
-{{ if .Site.Data.homepage.showcase.enable }}
 <section id="showcase" class="rad-showcase rad-showcase--index  rad-fade-down">
   <div class="rad-showcase__bg">
     <picture>
@@ -13,33 +12,56 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
-        <span class="hat-1">{{ .Site.Data.homepage.showcase.title }}</span>
-        <h1>{{ .Site.Data.homepage.showcase.subtitle }}</h1>
+        <span class="hat-1">Hello, I’m Joost.</span>
+        <h1>Full Stack Developer</h1>
         <p class="lead">
-          {{ .Site.Data.homepage.showcase.description | safeHTML }}
+          I run Space Babies, a software development company in Amsterdam.
+          I create beautiful, fast and secure internet applications, and have
+          been doing so for more than twenty years.
         </p>
-        {{ with .Site.Data.homepage.showcase.button }}
-        <a href="{{ .URL }}" class="btn btn-primary">
-          {{ .btnText }}
-          <span data-feather="{{ .icon }}"></span>
+
+        <a href="{{ ref . "#contact" }}" class="btn btn-primary">
+          Get in touch
+          <span data-feather="send"></span>
         </a>
-        {{ end }}
-      </div>
-    </div>
-    <div class="row platform-links">
-      <div class="col-12">
-        {{ range .Site.Data.homepage.showcase.socialLinks }}
-        <a href="{{ .URL }}">
-          <span data-feather="{{ .icon }}"></span>
-        </a>
-        {{ end }}
-      </div>
+     </div>
     </div>
   </div>
   <div class="rad-showcase rad-showcase__bg--mobile">
-    <img class="img-responsive"
-      src="/img/showcase/showcase.jpg"
-      alt="It is me, Joost Baaij. Nice to meet ya.">
+    {{ $jpeg450 := resources.Get "images/showcase_450.jpeg" | fingerprint -}}
+    {{ $webp450 := resources.Get "images/showcase_450.webp" | fingerprint -}}
+    {{ $jpeg900 := resources.Get "images/showcase_900.jpeg" | fingerprint -}}
+    {{ $webp900 := resources.Get "images/showcase_900.webp" | fingerprint -}}
+    {{ $jpeg1200 := resources.Get "images/showcase_1200.jpeg" | fingerprint -}}
+    {{ $webp1200 := resources.Get "images/showcase_1200.webp" | fingerprint -}}
+
+    <picture>
+      <source type="image/webp" media="(max-width: 449px)"
+        srcset="{{ $webp450.RelPermalink }},
+                {{ $webp900.RelPermalink }} 2x">
+      <source type="image/jpeg" media="(max-width: 449px)"
+        srcset="{{ $jpeg450.RelPermalink }},
+                {{ $jpeg900.RelPermalink }} 2x">
+
+      <source type="image/webp"
+        srcset="{{ $webp900.RelPermalink }},
+                {{ $webp1200.RelPermalink }} 2x"
+        media="(min-width: 450px) and (max-width: 1199px)">
+      <source type="image/jpeg"
+        srcset="{{ $jpeg900.RelPermalink }},
+                {{ $jpeg1200.RelPermalink }} 2x"
+        media="(min-width: 450px) and (max-width: 1199px)">
+
+      <source type="image/webp"
+        srcset="{{ $jpeg1200.RelPermalink }}"
+        media="(min-width: 1200px)">
+      <source type="image/jpeg"
+        srcset="{{ $jpeg1200.RelPermalink }}"
+        media="(min-width: 1200px)">
+
+      <img class="img-responsive image-left-overflow"
+        src="{{ $jpeg450.RelPermalink }}"
+        alt="It is me, Joost Baaij. Nice to meet ya.">
+    </picture>
   </div>
 </section>
-{{ end }}

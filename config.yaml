@@ -50,14 +50,15 @@ module:
     - source: static
       target: static
 params:
+  colors:
+    tile: "#603cba"
+    theme: "#cac8c7"
   description: "I create websites in Ruby on Rails and HTML, CSS, and Javascript (Jamstack)"
   images:
     - /img/space-babies.png
   title: Space Babies
   shortname: spacebabies
   sections:
-    - flash
-    - showcase
     - about
     - experience
     - client-and-work
@@ -93,6 +94,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+mediaTypes:
+  application/manifest+json:
+    suffixes:
+      - webmanifest
 server:
   headers:
     - for: /site.webmanifest
