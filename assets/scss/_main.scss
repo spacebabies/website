@@ -75,9 +75,9 @@ sup {
  */
 html {
   box-sizing: border-box;
-  -ms-overflow-style: scrollbar;
   font-family: sans-serif;
   line-height: 1.15;
+  scroll-behavior: smooth;
 }
 .popover,
 .tooltip,
@@ -297,13 +297,6 @@ select {
 button:not(:disabled) {
   cursor: pointer;
 }
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner,
-button::-moz-focus-inner {
-  padding: 0;
-  border-style: none;
-}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -333,9 +326,6 @@ legend {
 .blockquote,
 hr {
   margin-bottom: 1rem;
-}
-[type="search"] {
-  outline-offset: -2px;
 }
 .display-2,
 .display-3,
@@ -1607,10 +1597,6 @@ pre code {
     transition: none;
   }
 }
-.form-control::-ms-expand {
-  background-color: transparent;
-  border: 0;
-}
 .form-control:focus {
   color: #495057;
   background-color: #fff;
@@ -1625,10 +1611,6 @@ pre code {
 .form-control[readonly] {
   background-color: #e9ecef;
   opacity: 1;
-}
-select.form-control:focus::-ms-value {
-  color: #495057;
-  background-color: #fff;
 }
 .form-control-file,
 .form-control-range {
@@ -2039,8 +2021,6 @@ textarea.form-control.is-invalid {
   color: #212529;
   text-align: center;
   vertical-align: middle;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
@@ -3141,7 +3121,6 @@ input[type="submit"].btn-block {
     right 0.75rem center/8px 10px no-repeat #fff;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-  -moz-appearance: none;
   appearance: none;
 }
 .custom-file-input:focus ~ .custom-file-label,
@@ -3151,10 +3130,6 @@ input[type="submit"].btn-block {
 }
 .custom-select:focus {
   outline: 0;
-}
-.custom-select:focus::-ms-value {
-  color: #495057;
-  background-color: #fff;
 }
 .custom-file-input:disabled ~ .custom-file-label,
 .custom-select:disabled {
@@ -3168,9 +3143,6 @@ input[type="submit"].btn-block {
 }
 .custom-select:disabled {
   color: #6c757d;
-}
-.custom-select::-ms-expand {
-  display: none;
 }
 .custom-select-sm {
   height: calc(1.5em + 0.5rem + 2px);
@@ -3242,20 +3214,10 @@ input[type="submit"].btn-block {
   height: calc(1rem + 0.4rem);
   padding: 0;
   background-color: transparent;
-  -moz-appearance: none;
   appearance: none;
 }
 .custom-range:focus {
   outline: 0;
-}
-.custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
-.custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
-.custom-range::-moz-focus-outer {
-  border: 0;
 }
 .custom-control-label::before,
 .custom-file-label,
@@ -3813,9 +3775,7 @@ input[type="submit"].btn-block {
     border-bottom-left-radius: 0;
   }
   .card-columns {
-    -moz-column-count: 3;
     column-count: 3;
-    -moz-column-gap: 1.25rem;
     column-gap: 1.25rem;
     orphans: 1;
     widows: 1;
@@ -4536,7 +4496,6 @@ button.close {
   padding: 0;
   background-color: transparent;
   border: 0;
-  -moz-appearance: none;
   appearance: none;
 }
 .toast,
@@ -8555,14 +8514,6 @@ textarea {
 .experience__date {
   line-height: 1.57;
 }
-input[type="text"]::-moz-placeholder,
-input[type="email"]::-moz-placeholder {
-  color: #333;
-}
-input[type="text"]::-ms-input-placeholder,
-input[type="email"]::-ms-input-placeholder {
-  color: #333;
-}
 input[type="text"]::placeholder,
 input[type="email"]::placeholder {
   color: #333;
@@ -8748,10 +8699,6 @@ html body {
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-html body ::-moz-selection {
-  background-color: #e93e34;
-  color: #fff;
 }
 html body ::selection {
   background-color: #e93e34;
