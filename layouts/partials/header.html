@@ -7,18 +7,6 @@
         <img id="sbC" height="50" width="65" src="{{ ($.Scratch.Get "sbC").RelPermalink }}" alt="Space Baby C">
         <img id="sbD" height="50" width="50" src="{{ ($.Scratch.Get "sbD").RelPermalink }}" alt="Space Baby D">
       </a>
-      <button
-        id="menu-mobile"
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent, #header"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        title="Open Site Menu">
-        <span data-feather="menu"></span>
-      </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-lg-auto">
           {{ range .Site.Menus.header }}
