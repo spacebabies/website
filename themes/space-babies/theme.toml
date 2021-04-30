@@ -1,0 +1,18 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Space Babies"
+description = "A one-page scroller for personal portfolios."
+homepage = "https://www.spacebabies.nl/"
+tags = ["singlepage", "portfolio", "tailwindcss", "light", "simple"]
+features = ["responsive", "tailwind", "scss", "pipes", "postcss", "flexbox"]
+min_version = "0.41.0"
+
+[author]
+  name = "Joost Baaij"
+
+# If porting an existing theme
+[original]
+  name = "Raditian Free Hugo Theme"
+  homepage = "https://raditian-hugo.radity.com/"
+  repo = "https://github.com/radity/raditian-free-hugo-theme.git"

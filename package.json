@@ -25,7 +25,8 @@
   },
   "devDependencies": {
     "netlify-plugin-submit-sitemap": "^0.2.3",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.1.1"
   },
   "engines": {
     "node": ">=12"

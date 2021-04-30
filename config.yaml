@@ -1,6 +1,7 @@
 ---
 title: Space Babies
 baseURL: "https://www.spacebabies.nl/"
+theme: space-babies
 defaultContentLanguage: en
 languageCode: en-us
 disableHugoGeneratorInject: true
@@ -9,6 +10,8 @@ enableRobotsTXT: true
 enableEmoji: true
 # We do redirects via Netlify
 disableAliases: true
+build:
+  writeStats: true
 ignoreErrors:
   - error-remote-getjson
 taxonomies:
