@@ -1,0 +1,33 @@
+baseURL: https://www.spacebabies.nl/
+languageCode: en-us
+title: Space Babies
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  description: Sound Engineer based in Amsterdam. Specialized in systems design and psychoacoustics.
+  keywords: [Audio, Music, Acoustics, Sound]
+  author: Joost Baaij
+  DateFormat: "2 January 2006"
+  defaultTheme: auto
+
+  profilemode:
+    enabled: true
+    subtitle: Sound Engineer
+    imageUrl: images/concerthall.png
+    imageWidth: 240
+    imageHeight: 240
+    imageTitle: A large, internationally renowned concert hall, realistic photo from a high standpoint at the back of the hall, with empty stage visible, with line array speakers on eiher side, with seats and balcony visible, with ceiling grid visible, dramatically lighted.
+
+    buttons:
+      - name: joost@spacebabies.nl
+        url: mailto:joost@spacebabies.nl
