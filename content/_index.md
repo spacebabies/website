@@ -6,4 +6,4 @@ With a passion that's as loud as the gigs I work on, I've had the honor of being
 
 If you're looking for a professional touch to ensure your audience is immersed in crystal clear audio, you're in the right place. Let's collaborate and make your next event an auditory masterpiece!
 
-Formally trained at [IAB Opleidingen](https://iabopleidingen.nl/).
+Certified [IAB](https://iabopleidingen.nl/) Live Audio Engineer.
