@@ -12,12 +12,6 @@ minify:
   disableXML: true
   minifyOutput: true
 
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
-    
 params:
   env: production
   description: Live Sound Engineer based in Amsterdam. Specialized in systems design and psychoacoustics.
