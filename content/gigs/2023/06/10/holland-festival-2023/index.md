@@ -9,7 +9,6 @@ cover:
 draft: false
 tags:
   - muziekgebouw
-  - ai-generated
 ---
 
 I had the distinct honor of being part of the setup for the _Holland Festival 2023_, marking its remarkable 76th edition. This edition was celebrated for its expansive artistic vision and an impressively diverse and generous audience, more engaged with the festival than ever before.

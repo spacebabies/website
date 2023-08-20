@@ -7,7 +7,6 @@ cover:
 draft: false
 tags:
   - muziekgebouw
-  - ai-generated
 ---
 
 This June, I started work as a humble stage hand at the [Muziekgebouw](https://www.muziekgebouw.nl/) for the _Italiaans drama_ event, performed by the renowned Symfonieorkest De Philharmonie.

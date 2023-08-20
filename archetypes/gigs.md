@@ -8,6 +8,5 @@ cover:
   relative: true
 draft: false
 tags:
-  - ai-generated
 ---
 
