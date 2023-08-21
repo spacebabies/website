@@ -2,6 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ with resources.Get "css/main.css" | postCSS }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
     <title>{{ block "title" . }}
       {{ .Site.Title }}
     {{ end }}</title>
