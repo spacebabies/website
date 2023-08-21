@@ -1,4 +1,4 @@
-@charset 'utf8';
+@charset "utf8";
 
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
@@ -498,6 +498,19 @@ video {
 .block{
   display: block;
 }
+.min-h-\[50\%\]{
+  min-height: 50%;
+}
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-cover{
+  background-size: cover;
+}
+.bg-bottom{
+  background-position: bottom;
+}
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -505,6 +518,23 @@ video {
 .font-bold{
   font-weight: 700;
 }
-.underline{
-  text-decoration-line: underline;
+.text-amber-50{
+  --tw-text-opacity: 1;
+  color: rgb(255 251 235 / var(--tw-text-opacity));
+}
+.text-slate-900{
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+@media (prefers-color-scheme: dark){
+
+  .dark\:bg-slate-900{
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  }
+
+  .dark\:text-amber-50{
+    --tw-text-opacity: 1;
+    color: rgb(255 251 235 / var(--tw-text-opacity));
+  }
 }
