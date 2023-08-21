@@ -1,7 +1,6 @@
 baseURL: https://www.spacebabies.nl/
 languageCode: en-us
 title: Space Babies
-theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -18,13 +17,10 @@ params:
   keywords: [Audio, Music, Acoustics, Sound]
   author: Joost Baaij
   DateFormat: "2 January 2006"
-  defaultTheme: auto
-  hideFooter: true
   ShowPostNavLinks: true
-
   images:
-    - images/tilsammans_diverse_audience_festival_setting_enjoying_music_e0c5cb22-0690-4a53-ae86-5b732cfdb031.jpg
-    - images/tilsammans_diverse_audience_festival_setting_enjoying_music_e0c5cb22-0690-4a53-ae86-5b732cfdb031-square.png
+  - images/tilsammans_diverse_audience_festival_setting_enjoying_music_e0c5cb22-0690-4a53-ae86-5b732cfdb031.jpg
+  - images/tilsammans_diverse_audience_festival_setting_enjoying_music_e0c5cb22-0690-4a53-ae86-5b732cfdb031-square.png
 
   mainSections:
     - gigs
