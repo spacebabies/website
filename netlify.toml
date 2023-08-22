@@ -1,16 +1,8 @@
 [build]
   publish = "public"
-  command = "hugo --gc --minify"
+  command = "npm install && hugo --gc --minify"
 
-[context.production.environment]
+[build.environment]
   HUGO_VERSION = "0.101.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
-
-# The extended version of Hugo supports SCSS, among other things.
-# Netlify has a build image that includes the extended version.
-[build.environment]
-  HUGO_VERSION = "0.101.0-extended"
-
-# Other settings, like redirects, headers, etc. can go here.
-
