@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{ end }}
 </head>
-<body class="bg-white text-gray-800 text-lg leading-loose font-sans">
+<body class="bg-amber-50 text-zinc-800 dark:bg-amber-950 dark:text-zinc-100 text-lg leading-loose font-sans">
   <main>
     {{ block "main" . }}
     {{ end }}
   </main>
 
-  <footer class="bg-gray-100 py-4">
+  <footer class="bg-amber-200 py-4">
     {{ block "footer" . }}
       <div class="container mx-auto text-center">
-      <a href="mailto:your-email@example.com" class="text-amber-600 hover:underline">Email</a> | 
-      <a href="https://wa.me/yourphonenumber" class="text-amber-600 hover:underline">WhatsApp</a><br>
+      <a href="mailto:your-email@example.com">Email</a> | 
+      <a href="https://wa.me/yourphonenumber">WhatsApp</a><br>
       VAT ID: NL001734749B64 | KVK: 70132208
       </div>
     {{ end }}

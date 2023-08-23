@@ -4,7 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+a {
+    color: theme(colors.amber.600);
+
+    :hover {
+        text-decoration: underline;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
-    body { background-color: #1a202c; color: #f7fafc; }
-    a { color: #fbbf24; }
+    a {
+        color: theme(colors.amber.400)
+    }
 }

@@ -1,0 +1,17 @@
+<div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+  <div class="md:flex h-full">
+    {{ $images := .Resources.ByType "image" }}
+    {{ $image := $images.GetMatch "{*cover*,*thumbnail*}" }}
+    {{ if not $image }}{{ $image = index $images 0 }}{{ end }}
+    {{ with $image }}
+    <div class="md:shrink-0">
+      <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
+    </div>
+    {{ end }}
+    <div class="p-8 md:h-full">
+      <p class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{{ dateFormat "2 January 2006" .Date }}</p>
+      <a href="{{ .RelPermalink }}" class="block mt-1 text-lg leading-tight font-medium">{{ .Title }}</a>
+      <div class="mt-2 prose prose-zinc">{{ .Summary }}</div>
+    </div>
+  </div>
+</div>
