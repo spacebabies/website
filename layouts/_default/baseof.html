@@ -15,13 +15,20 @@
     {{ end }}
   </main>
 
-  <footer class="bg-amber-200 py-4">
+  <footer class="bg-amber-200 text-amber-800 py-12">
     {{ block "footer" . }}
-      <div class="container mx-auto text-center">
-      <a href="mailto:your-email@example.com">Email</a> | 
-      <a href="https://wa.me/yourphonenumber">WhatsApp</a><br>
-      VAT ID: NL001734749B64 | KVK: 70132208
+    <div class="container mx-auto mb-12 px-6 lg:px-0 max-w-screen-lg">
+      <div class="flex flex-col md:flex-row md:space-x-4">
+        <div class="flex flex-col md:flex-row md:space-x-2">
+          <dt class="font-bold">VAT ID:</dt>
+          <dd>NL001734749B64</dd>
+        </div>
+        <div class="flex flex-col md:flex-row md:space-x-2">
+          <dt class="font-bold">KVK:</dt>
+          <dd>70132208</dd>
+        </div>
       </div>
+    </div>
     {{ end }}
   </footer>
 </body>
