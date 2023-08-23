@@ -3,16 +3,16 @@
 {{ $hero := resources.Get "images/tilsammans_diverse_audience_festival_setting_enjoying_music_e0c5cb22-0690-4a53-ae86-5b732cfdb031.png" }}
 <header class="bg-cover bg-center" style="background-image: url({{ $hero.RelPermalink }}); height: 60vh;">
   <div class="h-full flex flex-col justify-center items-center text-amber-50 font-black text-center">
-      <h1 class="text-5xl mb-4">{{ .Site.Title }}</h1>
+      <h1 class="text-5xl mb-4 drop-shadow">{{ .Site.Title }}</h1>
       {{ with .Param "subtitle" }}
-        <p class="text-4xl">{{ . }}</p>
+        <p class="text-4xl drop-shadow">{{ . }}</p>
       {{ end }}
   </div>
 </header>
 
 <div class="container mx-auto px-6 lg:px-0 py-12 max-w-screen-lg">
   <div class="md:grid md:grid-cols-4 gap-4">
-    <div class="md:col-span-3 p-4">
+    <div class="md:col-span-3">
       <div class="prose prose-zinc max-w-none">
         {{ .Content }}
       </div>
@@ -23,7 +23,7 @@
         <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
           <path fill-rule="evenodd" d="M5.478 5.559A1.5 1.5 0 016.912 4.5H9A.75.75 0 009 3H6.912a3 3 0 00-2.868 2.118l-2.411 7.838a3 3 0 00-.133.882V18a3 3 0 003 3h15a3 3 0 003-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0017.088 3H15a.75.75 0 000 1.5h2.088a1.5 1.5 0 011.434 1.059l2.213 7.191H17.89a3 3 0 00-2.684 1.658l-.256.513a1.5 1.5 0 01-1.342.829h-3.218a1.5 1.5 0 01-1.342-.83l-.256-.512a3 3 0 00-2.684-1.658H3.265l2.213-7.191z" clip-rule="evenodd" />
           <path fill-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v6.44l1.72-1.72a.75.75 0 111.06 1.06l-3 3a.75.75 0 01-1.06 0l-3-3a.75.75 0 011.06-1.06l1.72 1.72V3a.75.75 0 01.75-.75z" clip-rule="evenodd" />
-        </svg>          
+        </svg>
         <span>email</span>
       </a>
 
@@ -42,7 +42,7 @@
   <header class="py-4">
     <h2 class="text-3xl font-bold">Past gigs</h2>
   </header>
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 text-sm">
     {{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
     {{ partial "cards/gig.html" . }}
     {{ end }}
