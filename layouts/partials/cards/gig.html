@@ -5,7 +5,7 @@
     {{ if not $image }}{{ $image = index $images 0 }}{{ end }}
     {{ with $image }}
     <div class="md:shrink-0">
-      <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
+      <img loading="lazy" class="h-48 w-full object-cover md:h-full md:w-48" src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
     </div>
     {{ end }}
     <div class="p-8 md:h-full">

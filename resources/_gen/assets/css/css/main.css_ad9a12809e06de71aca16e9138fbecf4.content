@@ -1228,9 +1228,6 @@ video {
 .p-1{
   padding: 0.25rem;
 }
-.p-4{
-  padding: 1rem;
-}
 .p-8{
   padding: 2rem;
 }
@@ -1248,9 +1245,6 @@ video {
 }
 .pl-6{
   padding-left: 1.5rem;
-}
-.pt-0{
-  padding-top: 0px;
 }
 .text-center{
   text-align: center;
