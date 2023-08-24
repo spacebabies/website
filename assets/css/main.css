@@ -12,7 +12,7 @@ a {
     }
 }
 
-.prose p:first-of-type {
+.prose.leading-first p:first-of-type {
     font-size: theme(fontSize.xl);
 }
 

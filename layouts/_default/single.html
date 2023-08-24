@@ -5,11 +5,15 @@
 {{ if not $hero }}{{ $hero = index $images 0 }}{{ end }}
 <header class="bg-cover bg-center" style="background-image: url({{ $hero.RelPermalink }}); height: 60vh;">
   <div class="h-full flex flex-col justify-center items-center text-amber-50 font-black text-center">
-      <h1 class="text-5xl mb-4 drop-shadow">{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</h1>
+      <h1 class="text-5xl mb-4 drop-shadow"><a class="text-amber-50 hover:text-amber-100" href="/">{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</a></h1>
       <p class="text-4xl drop-shadow">{{ dateFormat "2 January 2006" .Date }}</p>
   </div>
 </header>
 {{ end }}
 {{ define "main" }}
 {{ partial "grids/content" . }}
+<section class="flex flex-col md:flex-row gap-4 border-t pt-6 mt-12 border-amber-100">
+  {{ with .PrevInSection }}<a class="p-1 pl-6 pr-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+  {{ with .NextInSection }}<a class="p-1 pl-6 pr-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+</section>
 {{ end }}
