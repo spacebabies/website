@@ -12,6 +12,10 @@ a {
     }
 }
 
+.prose p:first-of-type {
+    font-size: theme(fontSize.xl);
+}
+
 @media (prefers-color-scheme: dark) {
     a {
         color: theme(colors.amber.400)

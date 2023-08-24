@@ -1127,6 +1127,9 @@ video {
 .mt-2{
   margin-top: 0.5rem;
 }
+.mt-4{
+  margin-top: 1rem;
+}
 .block{
   display: block;
 }
@@ -1246,6 +1249,9 @@ video {
 .pl-6{
   padding-left: 1.5rem;
 }
+.pt-0{
+  padding-top: 0px;
+}
 .text-center{
   text-align: center;
 }
@@ -1336,6 +1342,10 @@ a {
     :hover {
         text-decoration: underline;
     }
+}
+
+.prose p:first-of-type {
+    font-size: 1.25rem;
 }
 
 @media (prefers-color-scheme: dark) {
