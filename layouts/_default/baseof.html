@@ -5,14 +5,14 @@
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ .Param "description" }}">
-    {{ with resources.Get "css/main.css" | postCSS }}
+    {{ with resources.Get "css/main.css" | postCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{ end }}
     {{ partial "favicon" . }}
 </head>
 <body class="bg-amber-50 text-zinc-800 dark:bg-amber-950 dark:text-zinc-100 text-lg leading-loose font-sans">
   {{ block "header" . }}
-  {{ $hero := resources.Get "images/tilsammans_diverse_audience_festival_setting_enjoying_music_e0c5cb22-0690-4a53-ae86-5b732cfdb031.png" }}
+  {{ $hero := resources.Get "images/tilsammans_diverse_audience_festival_setting_enjoying_music_e0c5cb22-0690-4a53-ae86-5b732cfdb031.png" | fingerprint }}
   <header class="bg-cover bg-center" style="background-image: url({{ $hero.RelPermalink }}); height: 60vh;">
     <div class="h-full flex flex-col justify-center items-center text-amber-50 font-black text-center">
         <h1 class="text-5xl mb-4 drop-shadow">{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</h1>
