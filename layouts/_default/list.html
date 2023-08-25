@@ -1,9 +1,11 @@
 {{ define "main" }}
-  <h1>Posts</h1>
+<header class="py-4">
+  <h2 class="text-3xl font-bold">Pages tagged <em>{{ .Title }}</em></h2>
+</header>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 text-sm">
   {{ range .Pages }}
-    <article>
-      <h2>{{ .Title }}</h2>
-      {{ .Content }}
-    </article>
+  {{ partial "cards/gig.html" . }}
   {{ end }}
+</div>
 {{ end }}

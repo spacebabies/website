@@ -4,6 +4,7 @@
 <header class="py-4">
   <h2 class="text-3xl font-bold">Past gigs</h2>
 </header>
+
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 text-sm">
   {{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
   {{ partial "cards/gig.html" . }}

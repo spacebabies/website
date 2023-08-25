@@ -12,8 +12,20 @@
 {{ end }}
 {{ define "main" }}
 {{ partial "grids/content" . }}
+
 <section class="flex flex-col md:flex-row gap-4 border-t pt-6 mt-12 border-amber-100">
-  {{ with .PrevInSection }}<a class="p-1 pl-6 pr-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
-  {{ with .NextInSection }}<a class="p-1 pl-6 pr-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+  <span>related:</span>
+  {{ with .PrevInSection }}<a class="p-1 px-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+  {{ with .NextInSection }}<a class="p-1 px-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
 </section>
+
+{{ with .Params.tags }}
+<section class="flex flex-col md:flex-row gap-4 mt-12">
+  <span>tags:</span>
+  {{ range . }}
+    <a class="p-1 px-6 bg-zinc-200 rounded-none hover:bg-zinc-300" href="{{ relLangURL (printf "/tags/%s" .) }}">{{ . }}</a>
+  {{ end }}
+</section>
+{{ end }}
+
 {{ end }}
