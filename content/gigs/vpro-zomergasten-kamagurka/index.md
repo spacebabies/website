@@ -3,6 +3,10 @@ title: "Vpro Zomergasten: Kamagurka"
 date: 2023-08-20T17:54:10+02:00
 tags:
   - muziekgebouw
+resources:
+  - src: Kama_169_230702A_HR.jpeg
+    name: cover
+    title: Kamagurka op de set van Zomergasten
 ---
 Summer in the Netherlands isn't just about sun and holidays; it also heralds the return of the acclaimed television series _Zomergasten_.
 <!--more-->

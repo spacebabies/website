@@ -1,14 +1,14 @@
 ---
-title: "Holland Festival 2023"
+title: Holland Festival 2023
 date: 2023-06-10
-cover:
-  image: call_for_the_company__copy__ada_nieuwendijk__12__lr.jpg
-  alt: Opening of Holland Festival 2023 in Muziekgebouw aan 't IJ Amsterdam
-  caption: Copyright Ada Nieuwendijk
-  relative: true
-draft: false
 tags:
   - muziekgebouw
+  - hollandfestival
+  - amsterdam
+resources:
+  - src: call_for_the_company__copy__ada_nieuwendijk__12__lr.jpg
+    name: cover
+    title: Opening of Holland Festival 2023 in Muziekgebouw aan 't IJ Amsterdam. Copyright Ada Nieuwendijk
 ---
 I was part of the setup for the _Holland Festival 2023_, marking its remarkable 76th edition.
 <!--more-->

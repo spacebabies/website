@@ -1,12 +1,13 @@
 ---
 title: Symfonieorkest de Philharmonie
 date: 2023-06-04T15:00:00+02:00
-cover:
-  image: img66400_orig.jpg
-  relative: true
-draft: false
+resources:
+  - src: img66400_orig.jpg
+    name: cover
+    title: Symfonieorkest de Philharmonie
 tags:
   - muziekgebouw
+  - amsterdam
 ---
 Worked as a humble stage hand at [Muziekgebouw](https://www.muziekgebouw.nl/) for the _Italiaans drama_ event, performed by the renowned Symfonieorkest De Philharmonie.
 <!--more-->

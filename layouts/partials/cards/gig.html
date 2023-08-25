@@ -4,9 +4,14 @@
     {{ $image := $images.GetMatch "{*cover*,*thumbnail*}" }}
     {{ if not $image }}{{ $image = index $images 0 }}{{ end }}
     {{ with $image }}
-    <div class="md:shrink-0">
-      <img loading="lazy" class="h-48 w-full object-cover md:h-full md:w-48" src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
-    </div>
+      <picture class="md:shrink-0">
+        {{ with .Resize "1000x webp" | fingerprint }}
+        <source srcset="{{ .RelPermalink }}" type="image/webp">
+        {{ end }}
+        {{ with .Resize "1000x jpg" | fingerprint }}
+        <img loading="lazy" class="h-48 w-full object-cover md:h-full md:w-48" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $image.Title }}">
+        {{ end }}
+      </picture>
     {{ end }}
     <div class="p-8 md:h-full">
       <p class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{{ dateFormat "2 January 2006" .Date }}</p>

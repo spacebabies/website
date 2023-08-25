@@ -1,12 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-cover:
-  image: 
-#   alt:
-#   caption:
-  relative: true
-draft: false
 tags:
+resources:
+  - src: image.jpg
+    name: cover
+    title: Image
 ---
 
+<!--more-->
