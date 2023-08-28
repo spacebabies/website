@@ -1,31 +1,37 @@
 {{ define "title" }}{{ .Title }} – {{ .Site.Title }}{{ end }}
 {{ define "header" }}
-{{ $images := $.Resources.ByType "image" }}
-{{ $hero := $images.GetMatch "*feature*" }}
-{{ if not $hero }}{{ $hero = index $images 0 }}{{ end }}
-<header class="bg-cover bg-center" style="background-image: url({{ $hero.RelPermalink }}); height: 60vh;">
-  <div class="h-full flex flex-col justify-center items-center text-amber-50 font-black text-center">
-      <h1 class="text-5xl mb-4 drop-shadow"><a class="text-amber-50 hover:text-amber-100" href="/">{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</a></h1>
-      <p class="text-4xl drop-shadow">{{ dateFormat "2 January 2006" .Date }}</p>
-  </div>
-</header>
+  {{ $images := $.Resources.ByType "image" }}
+  {{ $hero := $images.GetMatch "*feature*" }}
+  {{ if not $hero }}{{ $hero = index $images 0 }}{{ end }}
+  {{ with $hero }}
+    <header
+      class="bg-cover bg-center"
+      style="height: 60vh; background-image:
+        url({{ (.Resize "1400x webp" | fingerprint).RelPermalink }}),
+        url({{ (.Resize "1400x jpg" | fingerprint).RelPermalink }})">
+      <div class="relative h-full flex flex-col justify-center items-center text-amber-50 text-center">
+        <a class="bg-transparent border p-1 px-6 m-6 rounded-full absolute top-0 left-0 text-amber-50 hover:text-zinc-800 hover:bg-amber-50" href="/">Home</a>
+        <h1 class="font-black text-5xl mb-4 drop-shadow">{{ $.Page.Title }}</h1>
+        <p class="font-black text-4xl drop-shadow">{{ dateFormat "2 January 2006" $.Page.Date }}</p>
+      </div>
+    </header>
+  {{ end }}
 {{ end }}
 {{ define "main" }}
-{{ partial "grids/content" . }}
+  {{ partial "grids/content" . }}
 
-<section class="flex flex-col md:flex-row gap-4 border-t pt-6 mt-12 border-amber-100">
-  <span>related:</span>
-  {{ with .PrevInSection }}<a class="p-1 px-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
-  {{ with .NextInSection }}<a class="p-1 px-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
-</section>
+  <section class="flex flex-col md:flex-row gap-4 border-t pt-6 mt-12 border-amber-100">
+    <span>related:</span>
+    {{ with .PrevInSection }}<a class="p-1 px-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+    {{ with .NextInSection }}<a class="p-1 px-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+  </section>
 
-{{ with .Params.tags }}
-<section class="flex flex-col md:flex-row gap-4 mt-12">
-  <span>tags:</span>
-  {{ range . }}
-    <a class="p-1 px-6 bg-zinc-200 rounded-none hover:bg-zinc-300" href="{{ relLangURL (printf "/tags/%s" .) }}">{{ . }}</a>
+  {{ with .Params.tags }}
+  <section class="flex flex-col md:flex-row gap-4 mt-12">
+    <span>tags:</span>
+    {{ range . }}
+      <a class="p-1 px-6 bg-zinc-200 rounded-none hover:bg-zinc-300" href="{{ relLangURL (printf "/tags/%s" .) }}">{{ . }}</a>
+    {{ end }}
+  </section>
   {{ end }}
-</section>
-{{ end }}
-
 {{ end }}
