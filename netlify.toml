@@ -9,7 +9,11 @@
   NODE_VERSION = "16.18.1"
 
 [[headers]]
-  for = "/images/*"
+  for = "*.jpg"
+  [headers.values]
+    Cache-Control = "max-age=31536000, immutable"
+[[headers]]
+  for = "*.webp"
   [headers.values]
     Cache-Control = "max-age=31536000, immutable"
 [[headers]]
