@@ -28,4 +28,7 @@ command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [[context.production.plugins]]
-package = "netlify-plugin-submit-sitemap"
+  package = "netlify-plugin-submit-sitemap"
+
+[[context.production.plugins]]
+  package = "@netlify/plugin-lighthouse"
