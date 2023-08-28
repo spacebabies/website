@@ -21,3 +21,5 @@ params:
   mainSections:
     - gigs
 
+imaging:
+  quality: 90
