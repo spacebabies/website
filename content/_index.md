@@ -1,6 +1,6 @@
 **Hello there!**
 
-I'm Joost Baaij, the og Space Baby, and dedicated **Live Sound Engineer 🎶** located in Amsterdam.
+I'm Joost Baaij, **Live Sound Engineer 🎵🎤🎹🎷🎸🥁** located in Amsterdam.
 
 With a passion that's as loud as the gigs I work on, I've been part of monumental events like _Zomergasten_ at Muziekgebouw and the iconic 76th edition of the _Holland Festival_. Specializing in systems design and psychoacoustics, I bring unparalleled sound quality that can elevate any event.
 
