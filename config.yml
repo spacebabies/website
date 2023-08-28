@@ -1,6 +1,6 @@
 baseURL: https://www.spacebabies.nl/
 languageCode: en-us
-title: Space Babies
+title: Space Babies - Digital Audio Engineer
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -13,11 +13,10 @@ minify:
 
 params:
   subtitle: Live Sound Engineer
-  description: Live Sound Engineer based in Amsterdam. Specialized in systems design and psychoacoustics.
-  keywords: [Audio, Music, Acoustics, Sound]
+  description: Certified IAB Live Audio Engineer specialized in Dante, AES, and digital audio networks. Available for freelance work in systems design, psychoacoustics, and festival sound engineering.
+  keywords: Audio Engineer, Dante, AES, Digital Audio, Systems Design, Psychoacoustics, IAB Certified, Festival Sound, Freelance
   author: Joost Baaij
   DateFormat: "2 January 2006"
-  ShowPostNavLinks: true
 
   mainSections:
     - gigs
