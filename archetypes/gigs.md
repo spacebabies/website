@@ -5,7 +5,7 @@ tags:
 resources:
   - src: image.jpg
     name: cover
-    title: Image
+    title:
 ---
 
 <!--more-->

@@ -16,7 +16,7 @@ params:
   description: Certified IAB Live Audio Engineer specialized in Dante, AES, and digital audio networks. Available for freelance work in systems design, psychoacoustics, and festival sound engineering.
   keywords: Audio Engineer, Dante, AES, Digital Audio, Systems Design, Psychoacoustics, IAB Certified, Festival Sound, Freelance
   author: Joost Baaij
-  DateFormat: "2 January 2006"
+  DateFormat: 2 January 2006
 
   mainSections:
     - gigs
