@@ -20,6 +20,18 @@
   for = "/css/*"
   [headers.values]
     Cache-Control = "max-age=31536000, immutable"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    # Content-Security-Policy = "default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline' 'unsafe-eval'"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    Feature-Policy = "microphone 'none'; payment 'none'; geolocation 'none'"
+    Permissions-Policy = "camera=(), geolocation=(), microphone=()"
+    # Access-Control-Allow-Origin = "*"
 
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
@@ -29,6 +41,3 @@ command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [[context.production.plugins]]
   package = "netlify-plugin-submit-sitemap"
-
-[[context.production.plugins]]
-  package = "@netlify/plugin-lighthouse"

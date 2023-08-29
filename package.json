@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@netlify/plugin-lighthouse": "^5.0.0",
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.15",
     "netlify-plugin-submit-sitemap": "^0.4.0",
