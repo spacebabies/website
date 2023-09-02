@@ -21,9 +21,8 @@
   {{ partial "grids/content" . }}
 
   <section class="flex flex-col md:flex-row gap-4 border-t pt-6 mt-12 border-amber-100">
-    <span>related:</span>
-    {{ with .PrevInSection }}<a class="p-1 px-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
-    {{ with .NextInSection }}<a class="p-1 px-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+    {{ with .PrevInSection }}<a rel="prev" class="p-1 px-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">🠐 {{ .LinkTitle }}</a>{{ end }}
+    {{ with .NextInSection }}<a rel="next" class="p-1 px-6 bg-amber-100 rounded-none hover:bg-amber-200" href="{{ .Permalink }}">{{ .LinkTitle }} 🠒</a>{{ end }}
   </section>
 
   {{ with .Params.tags }}
