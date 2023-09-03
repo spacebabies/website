@@ -1,3 +1,5 @@
+<title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ .Summary | default (.Param "description") }}">
 <meta property="og:title" content="{{ .Site.Title }}">
 <meta property="og:type" content="website">
 {{ with resources.Get "images/audience_music.png" }}
@@ -5,4 +7,4 @@
     <meta property="og:image" content="{{ $image.Permalink }}">
 {{ end }}
 <meta property="og:url" content="{{ .Site.BaseURL }}">
-<meta property="og:description" content="{{ .Param "description" }}">
+<meta property="og:description" content="{{ .Summary | default (.Param "description") }}">

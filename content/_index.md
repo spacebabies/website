@@ -1,3 +1,6 @@
+---
+summary: Certified IAB Live Audio Engineer specialized in Dante, AES, and digital audio networks. Available for freelance work in systems design, psychoacoustics, and festival sound engineering.
+---
 **Hello there!**
 
 I'm Joost Baaij, **Live Sound Engineer 🎵🎤🎹🎷🎸🥁** located in Amsterdam.
