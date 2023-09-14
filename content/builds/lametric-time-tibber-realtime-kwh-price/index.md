@@ -9,7 +9,7 @@ resources:
 
 Let me take you on a journey. A journey through time: LaMetric Time. Let me take you on my journey through LaMetric Time in which I built a display to show my realtime electricity price in my kitchen.
 
-I buy my electricity from [Tibber](https://tibber.com/) and they have not paid me (yet) to write this tutorial. But they do have an API and since my kWh-price changes every hour, I thought it would be neat to show it realtime in my house. My idea was that if it's high, I would delay whatever energy-intensive thing I was about to do until the price comes back down.
+I buy my electricity from [Tibber](https://tibber.com/), and they have not paid me to write this tutorial. But they do have an API and since my kWh-price changes every hour, I thought it would be neat to show it realtime in my house. My idea was that if it's high, I would delay whatever energy-intensive thing I was about to do until the price comes back down.
 
 Our endgame is going to be this:
 
@@ -70,7 +70,7 @@ This should be set to Poll.
 
 We have to create an URL to get data from.
 
-This is probably the most difficult part. You are going to need a web server to sit in between Tibber and LaMetric. You see, they don't understand each other directly so you need something to translate between them. I chose to create a [Netlify](https://www.netlify.com/) website for this that has a serveless function inside. You can use something else too. All it has to do, is read JSON from Tibber and write JSON in a format that LaMetric understands.
+This is probably the most difficult part. You are going to need a web server to sit in between Tibber and LaMetric. You see, they don't understand each other directly, so you need something to translate between them. I chose to create a [Netlify](https://www.netlify.com/) website for this that has a serveless function inside. You can use something else too. All it has to do, is read JSON from Tibber and write JSON in a format that LaMetric understands.
 
 The source code to my website is here: <https://github.com/spacebabies/lametric.jotocorp.com>. Feel free to copy it, reuse it, or be inspired by it. It is written in JavaScript (mostly).
 
@@ -280,7 +280,9 @@ As you can see, the code does a couple nifty things:
 
 My code looks for a TIBBER_ACCESS_TOKEN in the server's environment.
 
-No, you can't have mine. ;)
+You have to get your own Tibber access token and put that in your server's environment, for this to work. You can use other methods to handle credentials too.
+
+And no, you can't have mine. ;)
 
 ## Step 4. Ship it!
 
