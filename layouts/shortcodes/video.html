@@ -1,0 +1,15 @@
+<section>
+    <video controls
+        class="w-full h-auto max-w-full"
+        poster="{{ .Get "name" }}.jpg">
+        <source src="{{ .Get "name" }}.mp4" type="video/mp4" />
+        <source src="{{ .Get "name" }}.webm" type="video/webm" />
+        <source src="{{ .Get "name" }}.webm" type="video/ogg" />
+        <p>
+        Your browser doesn't support HTML video. Here is a
+        <a href="{{ .Get "name" }}.mp4">link to the video</a> instead.
+        </p>
+    </video>
+
+    <p class="bg-amber-200 text-slate-800 text-xs p-2 mt-[-2rem]">LaMetric Time x Tibber © 2023 by Joost Baaij is licensed under CC BY-NC-SA 4.0</p>
+</section>
