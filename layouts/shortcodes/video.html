@@ -11,5 +11,5 @@
         </p>
     </video>
 
-    <p class="bg-amber-200 text-slate-800 text-xs p-2 mt-[-2rem]">LaMetric Time x Tibber © 2023 by Joost Baaij is licensed under CC BY-NC-SA 4.0</p>
+    {{ with .Get "caption" }}<p class="bg-amber-200 text-slate-800 text-xs p-2 mt-[-2rem]">{{ . }}</p>{{ end }}
 </section>

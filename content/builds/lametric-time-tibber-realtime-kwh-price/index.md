@@ -7,13 +7,13 @@ resources:
     title: My LaMetric Time showing my current kWh price from Tibber
 ---
 
-Let me take you on a journey. A journey through time: LaMetric Time. Let me take you on my journey through LaMetric Time in which I built a display to show my realtime electricity price in my kitchen.
+Let me take you on a journey. A journey through time: LaMetric Time. Let me take you on my journey through LaMetric Time in which I built a display to show my realtime kWh price in my kitchen.
 
-I buy my electricity from [Tibber](https://tibber.com/), and they have not paid me to write this tutorial. But they do have an API and since my kWh-price changes every hour, I thought it would be neat to show it realtime in my house. My idea was that if it's high, I would delay whatever energy-intensive thing I was about to do until the price comes back down.
+I buy my electricity from [Tibber](https://tibber.com/), and they have not paid me to write this tutorial. But they do have an API and since my kWh price changes every hour, I thought it would be neat to show it realtime in my house. My idea was that if it's high, I would delay whatever energy-intensive thing I was about to do until the price comes back down.
 
 Our endgame is going to be this:
 
-{{< video name="LaMetric Time x Tibber_web" >}}
+{{< video name="LaMetric Time x Tibber_web" caption="LaMetric Time x Tibber © 2023 by Joost Baaij is licensed under CC BY-NC-SA 4.0" >}}
 
 What you'll need to get there:
 
@@ -268,13 +268,13 @@ exports.handler = async (event, context) => {
 
 As you can see, the code does a couple nifty things:
 
-- gets current price, plus today and tomorrow's prices
-- creates a LaMetric frame for each of your homes
+- gets current price, price level, and today and tomorrow's prices
+- creates a LaMetric page for each of your homes
+- shows the current realtime price for each home
+- selects an icon color based on how high the price is
 - filters all prices to only show the current hour onwards
 - massages the data so that it fits the display best
 - rounds the prices to two decimals
-- selects an icon color based on how high the price is
-- caches the response
 
 ## Step 3. Manage the secret credentials
 
@@ -299,3 +299,17 @@ Install your own app onto yours:
 {{< figure src="install tibber app on LaMetric Time.jpg" >}}
 
 and presto! Your current energy price should pop up immediately.
+
+## Wait! You mentioned icon colors?
+
+Yes! This is a handy feature from the Tibber API where they tell you how expensive or cheap the price currently is. When it's higher than usual, I make the Tibber icon red. When it's lower than usual, I make it green. This is what is shown in the first video.
+
+Here then are the two other states:
+
+{{< video name="cyan" caption="LaMetric Time x Tibber, average price © 2023 by Joost Baaij is licensed under CC BY-NC-SA 4.0" >}}
+
+{{< video name="red" caption="LaMetric Time x Tibber, high price © 2023 by Joost Baaij is licensed under CC BY-NC-SA 4.0" >}}
+
+As you can see, the graph matches the color state. When the price is average, the graph goes both higher and lower in time. When the price is high, it only goes down from then. And if you go back to the video at the top, where the price is low, you'll see that it only gets higher. SCIENCE
+
+_If you look carefully at the code, both red and green have more strongly colored variants too, for when the price is really extreme. Who said developers don't like pretty colors?_
