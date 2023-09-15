@@ -1,7 +1,7 @@
 {{ define "title" }}{{ .Param "title" }} – {{ .Site.Title }}{{ end }}
 {{ define "header" }}
   {{ with $images := $.Resources.ByType "image" }}
-    {{ with $hero := or ($.Resources.GetMatch "*feature*") (index $images 0) }}
+    {{ with or ($.Resources.GetMatch "*feature*") (index $images 0) }}
       <header
         class="bg-cover bg-center"
         style="height: 60vh; background-image:
