@@ -31,5 +31,11 @@
         <span>whatsapp</span>
       </a>
     </address>
+
+    {{ with resources.Get "images/iron_ears.png" }}
+    <figure>
+      <img class="mx-auto w-1/2" src="{{ .RelPermalink }}" alt="Iron Ears award">
+    </figure>
+    {{ end }}
   </aside>
 </div>
