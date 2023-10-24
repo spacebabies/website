@@ -21,8 +21,5 @@ params:
   mainSections:
     - gigs
 
-  images:
-    - audience_music_hu656f5ab97bbb55fdbce4677ed76110f2_1108743_1400x0_resize_q90_bgffffff_box_3.3cf3b0b0dc2b2665a20e97f6ee1723cd4ef2812a9d1abbc95ba8d36fb0d4d877.jpg
-
 imaging:
   quality: 90
