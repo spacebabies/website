@@ -2,6 +2,8 @@
 title: "On the Road with Miffy the Musical"
 date: 2023-10-24T14:25:01+02:00
 tags:
+  - musical
+  - tour
 resources:
   - src: IMG20231021141555.jpg
     name: cover

@@ -2,6 +2,8 @@
 title: "Dauw: a Prelude to Daylight in Sound and Story"
 date: 2023-11-03T00:10:52+01:00
 tags:
+  - muziekgebouw
+  - amsterdam
 resources:
   - src: Dauw - Bart Grietens-36.jpg
     name: cover

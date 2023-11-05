@@ -32,11 +32,20 @@
       </a>
     </address>
 
-    {{ with resources.Get "images/1637793301_Dante_Certification_Level_2_2ndEd_seal.png" }}
-    <figure class="mt-8">
-      <img class="mx-auto w-1/2" src="{{ .RelPermalink }}" alt="I am certified for Dante Level 2 (2nd Ed)">
-      <figcaption class="text-xs text-center">Dante Level 2 (2nd Ed) certified</figcaption>
-    </figure>
-    {{ end }}
+    <section class="pt-4 text-xs text-center">
+      {{ with resources.Get "images/1637793301_Dante_Certification_Level_2_2ndEd_seal.png" }}
+      <figure class="mt-8">
+        <img class="mx-auto w-1/2" src="{{ (. | fingerprint).RelPermalink }}" alt="I am certified for Dante Level 2 (2nd Ed)">
+        <figcaption>Dante Level 2 (2nd Ed) certified</figcaption>
+      </figure>
+      {{ end }}
+
+      {{ with resources.Get "images/krans-logo-e1513603946247.png" }}
+      <figure class="mt-8">
+        <img class="mx-auto w-1/2" src="{{ (. | fingerprint).RelPermalink }}" alt="I am a IAB certified Live Audio Engineer">
+        <figcaption>IAB certified Live Audio Engineer</figcaption>
+      </figure>
+      {{ end }}
+      </section>
   </aside>
 </div>
