@@ -35,6 +35,6 @@ Every venue has its quirks, but the Nieuwe Luxor in Rotterdam was a real treat f
 
 And here's the whimsical cherry on top: for Miffy's birthday scene, we snuck in a massive bouquet of helium balloons stage-right. The actors were as surprised as the audience and even improvised with the floating spectacle. Talk about a spontaneous burst of joy!
 
-This tour keeps me busy until the end of October, but I promise to keep the stories coming. Until then, if you've got little ones—or if you're a fan of Dick Bruna's charming universe—grab your tickets and your Miffy plushies. See you at the theater!
+This tour keeps me busy until Summer 2024, but we do have sizable gaps so I can pursue other gigs. If you've got little ones—or if you're a fan of Dick Bruna's charming universe—grab your tickets and your Miffy plushies. See you at the theater!
 
 <https://www.theaterkidslive.nl/>
