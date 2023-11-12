@@ -9,9 +9,9 @@ resources:
     name: cover
     title: The full cast on stage during the Medieval Castle scene
 ---
-This fall, I'm hitting the road, not with the usual synth-loaded DJ or a rock band, but with the iconic rabbit herself—Miffy! Or as we say in Dutch, _Nijntje_. A far cry from strobe lights and smoke machines, I'm rolling into A-list theaters across The Netherlands to make sure the first-ever theater experience for kiddos is unforgettable. And, of course, to make it sound incredible.
-
+This fall, I'm hitting the road, not with the usual synth-loaded DJ or a rock band, but with the iconic rabbit herself—Miffy!
 <!--more-->
+Or as we say in Dutch, _Nijntje_. A far cry from strobe lights and smoke machines, I'm rolling into A-list theaters across The Netherlands to make sure the first-ever theater experience for kiddos is unforgettable. And, of course, to make it sound incredible.
 
 #### Why Miffy?
 

@@ -7,8 +7,10 @@ resources:
     name: cover
     title: The main stage during build
 ---
-On the bank of Amsterdam's IJ river, the giant SS Rotterdam moored outside, a carnival of tropical vibes unfolded on a serene October afternoon. The event dubbed "Vida Brasileira" a voyage into the lush, vibrant, and rhythmic culture of Brazil.
+On the bank of Amsterdam's IJ river, the giant SS Rotterdam moored outside, a carnival of tropical vibes unfolded on a serene October afternoon.
 <!--more-->
+The event dubbed "Vida Brasileira" a voyage into the lush, vibrant, and rhythmic culture of Brazil.
+
 Held at my home venue, Muziekgebouw, on October 7, 2023, from 14:15 to 16:30, with a brief interlude at 15:35, the event was a rich tapestry of Brazilian sounds, resplendent with live palm trees accentuating the tropical ambiance across two uniquely themed stages. I quite enjoyed schlepping live palm trees from our loading dock onto the stages. Now I kinda wonder why we don't feature plants on stage more often.
 
 The larger, main stage, exuded a touch of formality yet was swathed in tropical aesthetics, while the foyer stage offered an intimate setting for a more close-knit interaction between the performers and the attendees. As the melodies resonated through the hall, attendees were invited to linger post-concert, as the foyer transformed into a mini-carnival with cocktails and live music, ensuring the rhythms of Brazil continued to pulsate through the night. However, the latter is acoustically quite a challenge. Not only is the space drowning in reverb, the audience is often quite chatty, at times drowning out the music. Quite the opposite from our Grote Zaal.

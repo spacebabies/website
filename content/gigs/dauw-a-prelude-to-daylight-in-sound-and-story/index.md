@@ -9,8 +9,10 @@ resources:
     name: cover
     title:
 ---
-On a crisp November evening, the Muziekgebouw in Amsterdam was transformed into a threshold between night and day, courtesy of 'Dauw', a unique performance by the Amsterdams Andalusisch Orkest. This was not merely a concert but an exploration of the blue hour — that mystical time when the world hovers between the last whispers of the moon and the eager rays of the sun.
+On a crisp November evening, the Muziekgebouw in Amsterdam was transformed into a threshold between night and day, courtesy of 'Dauw', a unique performance by the Amsterdams Andalusisch Orkest.
 <!--more-->
+This was not merely a concert but an exploration of the blue hour — that mystical time when the world hovers between the last whispers of the moon and the eager rays of the sun.
+
 ## Behind the Scenes with the Crew
 
 As part of the crew, my role was pivotal in bringing the serene ambiance of 'Dauw' to life. Under the dim lights of the stage, I meticulously set pieces into place, ensuring that each element of the set resonated with the theme of dawn. Connecting microphones, light fixtures, and speakers, I was one of the artisans working in the shadows to weave together a flawless tapestry of sound and light.
