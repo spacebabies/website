@@ -1,4 +1,4 @@
-<div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+<div class="mx-auto bg-white dark:bg-zinc-800 rounded-xl shadow-md overflow-hidden">
   <div class="md:flex h-full">
     {{ $images := .Resources.ByType "image" }}
     {{ $image := $images.GetMatch "{*cover*,*thumbnail*}" }}
