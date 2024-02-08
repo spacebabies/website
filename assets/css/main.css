@@ -17,6 +17,13 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
+    section.gig {
+        .prose {
+            p {
+                color: theme(colors.zinc.400)
+            }
+        }
+    }
     .prose {
         strong,
         a,

@@ -1,4 +1,4 @@
-<div class="mx-auto bg-white dark:bg-zinc-800 rounded-xl shadow-md overflow-hidden">
+<section class="gig mx-auto bg-white dark:bg-zinc-800 rounded-xl shadow-md overflow-hidden">
   <div class="md:flex h-full">
     {{ $images := .Resources.ByType "image" }}
     {{ $image := $images.GetMatch "{*cover*,*thumbnail*}" }}
@@ -19,4 +19,4 @@
       <div class="mt-2 prose prose-sm">{{ .Summary }}</div>
     </div>
   </div>
-</div>
+</section>
