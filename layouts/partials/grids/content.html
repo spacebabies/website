@@ -46,6 +46,13 @@
         <figcaption>IAB certified Live Audio Engineer</figcaption>
       </figure>
       {{ end }}
-      </section>
+
+      {{ with resources.Get "images/shure.png" }}
+      <figure class="mt-8">
+        <img class="mx-auto w-1/2" src="{{ (. | fingerprint).RelPermalink }}" alt="Completed Shure Master Class: Wireless Best Practices & Techniques">
+        <figcaption>Shure Master Class alum</figcaption>
+      </figure>
+      {{ end }}
+    </section>
   </aside>
 </div>
