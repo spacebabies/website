@@ -4,7 +4,7 @@ date: 2024-02-02
 tags:
   - amsterdam
   - muziekgebouw
-  - speech
+  - listening
 resources:
   - src: SQBA_leerorkest_20240127_eduardus_lee001-1024x681.jpg
     name: cover
