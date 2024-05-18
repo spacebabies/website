@@ -2,6 +2,9 @@
 title: "David August presented: VĪS"
 date: 2023-11-19
 tags:
+  - muziekgebouw
+  - the rest is noise
+  - dj set
 resources:
   - src: img68554_orig.webp
     name: cover
