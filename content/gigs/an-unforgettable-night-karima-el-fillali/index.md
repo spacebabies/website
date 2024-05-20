@@ -1,13 +1,13 @@
 ---
 title: "An Unforgettable Night with Karima El Fillali"
-date: 2024-05-21T00:11:45+02:00
+date: 2024-05-20
 tags:
 resources:
   - src: karima.webp
     name: cover
     title: Karima el Fillali
 ---
-On May 20, 2024, the Muziekgebouw in Amsterdam hosted an extraordinary performance by Karima El Fillali.
+This night, the Muziekgebouw in Amsterdam hosted an extraordinary performance by Karima El Fillali.
 <!--more-->
 As a stagehand and sound technician for this event, I was captivated by the stunning blend of trip-hop and Arabic poetry that filled the Grote Zaal.
 
