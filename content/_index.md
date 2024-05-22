@@ -8,12 +8,10 @@ I'm Joost Baaij, **Live Sound Engineer 🎵🎤🎹🎷🎸🥁** located in Ams
 With a passion that's as loud as the gigs I work on, I've been part of monumental productions like _Nijntje (Miffy) de musical_ on tour and the _Holland Festival_. I strive to bring unparalleled sound quality that can elevate any event.
 
 - Freelance Live Audio Engineer for Hire
-- Supporting single speakers to full orchestras
-- Expert in Dante and AES Digital Audio/Video
-- Skilled in Systems Design and Acoustic Modeling
-- Experienced in Open Source Software & Linux Environments
-- Adaptable to Analog & Digital Synth Artists
-- Working with Wireless Systems correctly and accurately
+- Strong focus on collaboration and open communication with artists and other technicians
+- Extensive experience with Yamaha (Dante) and Midas hardware and software
+- Specialized UHF transmitter technician with experience in Shure Axient, ULX-D, and QLX-D
+- Good knowledge of ICT and software such as Sound Vision and various DAWs
 
 Handling all aspects of a production, from unloading a trailer to doing a show in QLab, is a given for me. I can work solo on small productions or as part of a crew for larger gigs.
 
