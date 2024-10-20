@@ -30,3 +30,5 @@ As the final applause reverberated, the unsung symphony of load-out commenced. W
 ## Reflections in the Quiet
 
 Standing in the now-empty Grote Zaal, I reflected on the night. In the echoes of silence, I could still hear the remnants of _Carmina Burana_. It was a reminder of the ephemeral nature of live performances - intense, powerful, and fleeting. But for those of us behind the scenes, the satisfaction comes from knowing we played a crucial part in bringing these moments of intense joy to life.
+
+<https://www.muziekgebouw.nl/nl/agenda/13525/pianoduo-festival-amsterdam/carmina-burana-van-orff>

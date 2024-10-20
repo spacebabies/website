@@ -13,7 +13,7 @@ As a stagehand and sound technician for this event, I was captivated by the stun
 
 The evening began with an introduction by Mohamedou Ould Slahi on Foyerdeck 1, for which I handled the sound. As the audience settled in, anticipation built for what would be a remarkable main program starting at 20:15.
 
-Karima El Fillali, accompanied by Stijn van Beek on live electronics, low whistle, and uilleann pipes, Marcos Baggiani on drums and percussion, and Jamil al Asadi on qanun, delivered a performance that was nothing short of magical. Her voice, a force of nature, brought life to the ancient Sufi poetry of Ibn Arabi, Mansur al-Hallaj, and Rabia al-Adawiyya, seamlessly blending with modern musical elements.
+[Karima El Fillali](https://nl.wikipedia.org/wiki/Karima_El_Fillali), accompanied by Stijn van Beek on live electronics, low whistle, and uilleann pipes, Marcos Baggiani on drums and percussion, and Jamil al Asadi on qanun, delivered a performance that was nothing short of magical. Her voice, a force of nature, brought life to the ancient Sufi poetry of Ibn Arabi, Mansur al-Hallaj, and Rabia al-Adawiyya, seamlessly blending with modern musical elements.
 
 What made this concert even more remarkable was the reaction of the audience. It's rare for an audience to stand up during a concert, but such was the power of Karima's performance that they couldn't remain seated. The 4DSOUND installation added an extra spatial dimension, enveloping the listeners in a cocoon of sound that was both immersive and transformative.
 
