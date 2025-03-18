@@ -1,20 +1,17 @@
----
-summary: Certified IAB Live Audio Engineer specialized in Dante and AES digital audio/video networks. Available for freelance work in systems design, psychoacoustics, and festival sound engineering.
----
-**Hello there!**
+**Hallo daar!**
 
-I'm Joost Baaij, **Live Sound Engineer 🎵🎤🎹🎷🎸🥁** located in Amsterdam.
+Ik ben Joost Baaij, **Live Geluidstechnicus** 🎵🎤🎹🎷🎸🥁 gevestigd in Amsterdam.
 
-With a passion that's as loud as the gigs I work on, I've been part of monumental productions like _Nijntje (Miffy) de musical_ on tour and the _Holland Festival_. I strive to bring unparalleled sound quality that can elevate any event.
+Met passie voor elk project zorg ik voor een geluidsbeleving die het verschil maakt. Van prestigieuze producties zoals de opening van de Cello Biënnale tot landelijke tours, sta ik bekend om geluidskwaliteit die evenementen naar een hoger niveau tilt.
 
-- Freelance Live Audio Engineer for Hire
-- Strong focus on collaboration and open communication with artists and other technicians
-- Extensive experience with Yamaha (Dante) and Midas hardware and software
-- Specialized UHF transmitter technician with experience in Shure Axient, ULX-D, and QLX-D
-- Good knowledge of ICT and software such as Sound Vision and various DAWs
+* **Freelance geluidstechnicus** voor concertzalen, zakelijke evenementen en elektronische muziek
+* **Specialist in complexe producties** met nadruk op heldere communicatie tussen artiesten en technisch team
+* **Uitgebreide ervaring** met Yamaha (Dante), Midas en digitale netwerken voor foutloze audioweergave
+* **Expert in draadloze audiosystemen** met specialisatie in Shure Axient, ULX-D en QLX-D voor producties waar betrouwbaarheid cruciaal is
+* **Technisch veelzijdig** in zowel ICT, Sound Vision als diverse DAWs voor naadloze integratie van audio en beeld
 
-Handling all aspects of a production, from unloading a trailer to doing a show in QLab, is a given for me. I can work solo on small productions or as part of a crew for larger gigs.
+Of het nu gaat om een compleet festival, een bedrijfspresentatie of een elektronische live-set - ik regel het complete audiotraject. Van opbouw en systeemontwerp tot de uitvoering tijdens het evenement, zowel zelfstandig als in teamverband.
 
-In my work, I am reminded of the importance of listening. Not just as a technical skill but as an art form. Whether through the strings of a quartet or the words of an artist, the ability to listen deeply and translate that into a sound that resonates with others is what makes my role as a sound engineer both challenging and profoundly rewarding.
+In mijn werk staat luisteren centraal. Niet alleen als technische vaardigheid, maar als kunstvorm. Of het nu de subtiele nuances van een strijkkwartet betreft, de impact van een zakelijke presentatie of de energie van elektronische muziek - mijn doel is om jouw geluid perfect tot zijn recht te laten komen, precies zoals jij het bedoeld hebt.
 
-_In the past, I’ve been full-stack internet developer 🧑‍💻 and owner of a Ruby on Rails studio. 💎_
+_In het verleden ben ik ook full-stack internet developer 🧑‍💻 geweest en eigenaar van een Ruby on Rails studio. 💎_

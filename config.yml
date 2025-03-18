@@ -1,5 +1,5 @@
 baseURL: https://www.spacebabies.nl/
-languageCode: en-us
+languageCode: nl
 title: Space Babies
 
 enableRobotsTXT: true
@@ -12,9 +12,9 @@ minify:
   minifyOutput: true
 
 params:
-  subtitle: Live Sound Engineer
-  description: Certified IAB Live Audio Engineer specializing in Dante and AES networking. Available for bands and concert halls, offering complete sound engineering from setup to performance, committed to making every show sound great.
-  keywords: Audio Engineer, Dante, Shure, Yamaha, Midas, AES, Digital Audio, Systems Design, Psychoacoustics, IAB Certified, Festival Sound, Freelance
+  subtitle: Live Geluidstechnicus
+  description: Geluidstechnicus in Amsterdam gespecialiseerd in concertzalen, bands en zakelijke evenementen. Expert in Yamaha/Dante-systemen en draadloze oplossingen. Beschikbaar voor projecten in heel Nederland en Europa.
+  keywords: geluidstechnicus amsterdam, live geluid, concertzalen geluid, zakelijke evenementen audio, elektronische muziek technicus, freelance geluidsman, draadloze audiosystemen, dante specialist, audiovisuele techniek, tour geluidstechniek, festival geluid, shure axient specialist
   author: Joost Baaij
   DateFormat: 2 January 2006
 
