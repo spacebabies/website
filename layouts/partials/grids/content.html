@@ -3,6 +3,26 @@
     <article class="leading-first prose dark:text-zinc-400 max-w-none mb-12">
       {{ .Content }}
     </article>
+
+    <section class="services grid grid-cols-1 lg:grid-cols-3 gap-6">
+      {{ range .Site.Data.services }}
+      <div class="card bg-zinc-800 dark:bg-zinc-700 rounded-xl shadow-md overflow-hidden">
+        <div class="card-header w-full bg-amber-800 dark:bg-amber-700 p-4">
+          <h3 class="text-white dark:text-zinc-100 font-medium text-lg">{{ .title }}</h3>
+        </div>
+        <div class="card-body text-sm p-6">
+          <p class="mb-4 text-zinc-100 dark:text-zinc-200">
+            {{ .description }}
+          </p>
+          <ul class="mb-6 space-y-2 text-zinc-100 dark:text-zinc-200">
+            {{ range .features }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+    </section>
   </main>
 
   <aside class="md:col-span-1">
@@ -21,28 +41,5 @@
         <span>book a call</span>
       </a>
     </address>
-
-    <section class="py-4 text-xs text-center">
-      {{ with resources.Get "images/krans-logo-e1513603946247.png" }}
-      <figure class="mt-8">
-        <img class="mx-auto w-1/2" src="{{ (. | fingerprint).RelPermalink }}" alt="Ik ben afgestudeerd aan het IAB">
-        <figcaption>IAB Live Geluidstechnicus</figcaption>
-      </figure>
-      {{ end }}
-
-      {{ with resources.Get "images/1637793319_Dante_Certification_Level_3_2ndEd_seal.png" }}
-      <figure class="mt-8">
-        <img class="mx-auto w-1/2" src="{{ (. | fingerprint).RelPermalink }}" alt="I am certified for Dante Level 3 (2nd Ed)">
-        <figcaption>Dante Level 3 (2nd Ed)</figcaption>
-      </figure>
-      {{ end }}
-
-      {{ with resources.Get "images/shure.png" }}
-      <figure class="mt-8">
-        <img class="mx-auto w-1/2" src="{{ (. | fingerprint).RelPermalink }}" alt="Completed Shure Master Class: Wireless Best Practices & Techniques">
-        <figcaption>Shure UHF Technician</figcaption>
-      </figure>
-      {{ end }}
-    </section>
   </aside>
 </div>
