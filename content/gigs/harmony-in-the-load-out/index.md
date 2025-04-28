@@ -1,5 +1,5 @@
 ---
-title: "Harmony in the Load Out"
+title: Harmonie in de load-out
 date: 2023-11-24T09:09:11+01:00
 tags:
   - muziekgebouw
@@ -10,36 +10,37 @@ resources:
     name: cover
     title: AskoSchonberg + LOD - Rhapsody (foto Kurt Van der Elst)
 ---
-Last night, at the esteemed Muziekgebouw, as the echoes of "Rhapsody" faded away in the Grote Zaal, a different kind of symphony began backstage.
+Afgelopen nacht, terwijl de echo's van "Rhapsody" nog klonken in de Grote Zaal van het Muziekgebouw, begon ik samen met mijn collega's backstage aan een heel andere symfonie.
 <!--more-->
-### The Rhapsodic End of "Rhapsody"
 
-The performance, a stunning blend of spoken word and music, inspired by the iconic VPRO television series "Van de schoonheid en de troost," had just concluded. The audience was left mesmerized by Josse De Pauw's interpretation and Frederik Neyrinck's compositions. But for us, the crew, our performance was just beginning.
+### Het poëtische einde van "Rhapsody"
 
-### The Unspoken Dance of Load-Out
+De voorstelling, een verbluffende mengeling van spoken word en muziek, geïnspireerd door de iconische VPRO televisieserie _Van de schoonheid en de troost_, was net afgelopen. Het publiek was betoverd achtergelaten door Josse de Pauws interpretatie en Frederik Neyrincks composities. Maar voor ons, de crew, onze voorstelling was nog maar net begonnen.
 
-Unlike the audience, we didn't witness the imposant installation by Anne Marcq or the engaging light design by Luc Schaltin and Pino Etz. We were backstage, prepping for the load-out. This is where our tight-knit crew shines. In the world of theatre, the load-out, the teardown phase after a show, is a dance as intricate as any performance on stage.
+### De woordeloze dans van de breek
 
-In our world, there's a rhythm to unscrewing, a harmony in unplugging, and a melody in moving out. Yesterday was no different. As the final applause died down, we moved in. Each one of us knew our part by heart. In a world where efficiency and precision are kings, we were the silent monarchs of the night.
+In tegenstelling tot het publiek waren wij geen getuige van de imposante installatie van Anne Marcq of de veelomvattende lichtshow van Luc Schaltin en Pino Etz. Wij waren backstage, aan het voorbereiden voor de load-out. En het is hier waar onze hechte ploeg schittert. In de wereld van het theater is de breek, het afbreken en opruimen van decors, licht en geluid, een dans net zo delicaat als elke performance op het podium.
 
-### Effortless Coordination, Unspoken Understanding
+Er zit ritme in het losschroeven, harmonie in uittrekken, en melodie in wegrijden. Gisteren was niet anders. Al bij de laatste restjes applaus stonden we klaar op het zijpodium. Elk van ons wist al precies wat te doen. In een wereld waar efficiëntie en precisie koningen zijn, waren wij de stille monarchen van de nacht.
 
-What I love most about our crew is the seamless communication that comes not from words, but from working together in close harmony. Like an ensemble that needs no conductor, we moved through the Grote Zaal with a shared purpose. There's something beautiful in how a glance can convey a thousand instructions and a nod can affirm perfect understanding.
+### Coordinatie zonder moeite, onuitgesproken begrip
 
-The decor that had brought "Rhapsody" to life was now in our hands, and we treated it with a mix of reverence and efficiency. The lights, which had just moments ago painted the stage with emotion, were silently packed away. Beautiful crumbled paper-like curtains were carefully rolled up and shoved into a trailer.
+Een enorm vette ervaring van onze crew is dat we naadloos communiceren niet door woorden te gebruiken, maar van het samenwerken in close harmony. Als een ensemble dat geen dirigent nodig heeft, bewogen we ons door de ruimte met een gezamenlijk doel. Er zit iets prachtigs in hoe eebn blik meer dan duizend instructies kan overbrengen en een licht knikje perfect begrip.
 
-### Reflections on the Night
+Het decor dat _Rhapsody_ tot leven had gebracht lag nu in onze handen, en we behandelden het met een mix van eerbied en efficientie. De lichten, die momenten daarvoor nog het podium hadden beschilderd met emotie, werden stilzwijgend opgeborgen. Prachtige papier-achtige, gekreukelde gordijnen werden nauwgezet opgerold en in een trailer geduwd.
 
-As we loaded out the last roll of ballet floor, I couldn't help but reflect on the show's theme: the beauty in uncertainty, the poetry in the unknown. In our line of work, the certainty lies in our skills, the known in our experience. But every night, with every performance, there's a new challenge, a fresh perspective. And, of course, things that don't go as planned.
+### Terugkijken op de nacht
 
-The show "Rhapsody" itself was a testament to the power of art in encapsulating complex emotions and thoughts. Josse De Pauw's portrayal and the interwoven music and spoken words reminded us of the myriad ways in which art touches lives. And as we, the crew, played our part in the background, there was a quiet acknowledgment of our role in this grand tapestry of artistic expression.
+Tijdens het inladen van de laatste rol balletvloer dwaalden mijn gedachten naar het thema van de show: de schoonheid in onzekerheid, de poëzie in het onbekende. In ons vakgebied ligt de zekerheid juist in onze vaardigheden, het vertrouwde in onze ervaring. Maar elke avond, bij elke voorstelling, duikt er een nieuwe uitdaging op, een ander perspectief. En natuurlijk, dingen die niet precies volgens plan lopen.
 
-### The Unsung Heroes
+De voorstelling "Rhapsody" zelf was een levend bewijs van hoe kunst complexe emoties en gedachten kan vangen. De vertolking van Josse De Pauw en de verwevenheid van muziek en gesproken woord toonden ons de talloze manieren waarop kunst mensen raakt. En terwijl wij, de crew, ons ding deden op de achtergrond, hing er een stilzwijgende erkenning van onze bijdrage aan dit grote tapijt van artistieke expressie.
 
-As I left Muziekgebouw, the experience lingered with me. It's moments like these that remind me why I love this job. We may not be in the spotlight, but in our own quiet, efficient way, we are integral to the magic of theatre. The load-out may just seem like the end, but for us, it's a crucial part of the show's lifecycle, a testament to the collaborative spirit of theatre.
+### De onzichtbare helden
 
-Tonight, as the Muziekgebouw stands silent, it holds the memories of "Rhapsody" and the unspoken symphony of its load-out – a melody that resonates with those who understand the beauty of what happens behind the curtains.
+Bij het verlaten van het Muziekgebouw bleef deze ervaring in mijn hoofd hangen. Het zijn juist dit soort momenten die me doen beseffen waarom ik zo van deze baan hou. We staan dan misschien niet in de spotlights, maar op onze eigen rustige, gestroomlijnde manier zijn we onmisbaar voor de magie van het theater. De breek lijkt voor buitenstaanders slechts het einde, maar voor ons is het een wezenlijk onderdeel van de levenscyclus van een voorstelling, een bewijs van de samenwerkingsgeest die theater zo bijzonder maakt.
 
-Oh, and the thing that went wrong? Well, nothing went wrong at all! How odd.
+Vanavond, terwijl het Muziekgebouw in stilte gehuld is, bewaart het de herinneringen aan "Rhapsody" en de onuitgesproken symfonie van de load-out – een melodie die resoneert bij iedereen die de schoonheid begrijpt van wat er achter die gordijnen gebeurt.
+
+Oh, en dat ene ding dat fout ging? Nou, er ging eigenlijk helemaal niks mis! Dat is toch raar?
 
 <https://www.muziekgebouw.nl/nl/agenda/12707/asko-schonberg-lod-muziektheater-josse-de-pauw/rhapsody>
