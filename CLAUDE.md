@@ -2,7 +2,7 @@
 
 ## Core Principles for Content Adaptation ("Hertaling")
 
-This document provides guidelines for adapting content between English and Dutch for our website. The goal is not a literal translation, but rather a creative adaptation that preserves the essence, tone, and message while feeling natural in the target language.
+This document provides guidelines for adapting content between English and Dutch for our website. The goal is not a literal translation, but rather a creative adaptation that preserves the essence, tone, and message while feeling natural in the target language. Above all, the adapted text should never feel translated—it should feel native to the target language.
 
 ### What "Hertaling" Is and Isn't
 
@@ -54,16 +54,46 @@ These are taken from the 'Harmony in the Load-out' article in the content direct
 ### Good Adaptation (creative but faithful):
 > Al bij de laatste restjes applaus stonden we klaar op het zijpodium. Elk van ons wist al precies wat te doen. In een wereld waar efficiëntie en precisie koningen zijn, waren wij de stille monarchen van de nacht.
 
+The following is taken from the sidebar, but it applies equally so. Note that for Dutch, the exclamation point is replaced by a regular period. Dutch culture is less extraverted/overly optimistic than American culture.
+
+### Original English:
+
+If you're looking for a professional touch to ensure your audience is immersed in crystal clear audio, you're in the right place. Let's collaborate and make your next event an auditory masterpiece!
+
+### Poor Adaptation (too literal/academic):
+
+Als je op zoek bent naar een professionele aanpak om ervoor te zorgen dat je publiek ondergedompeld wordt in kristalhelder audio, ben je op de juiste plaats. Laten we samenwerken om van je volgende evenement een auditief meesterwerk te maken!
+
+### Good Adaptation (natural and appropriate):
+
+Op zoek naar een vakkundige aanpak die je publiek onderdompelt in glashelder geluid? Dan ben je hier aan het juiste adres. Laten we samenwerken om van jouw volgende evenement iets onvergetelijks te maken.
+
+## Language Considerations
+### Watch for These Common Pitfalls
+
+* **Avoid overly academic language** when simpler alternatives exist
+    * Example: "auditief" → "geluid" or "klank" when speaking to general audiences
+    * Example: "visueel" → "beeld" when appropriate
+* **Be wary of pretentious-sounding terms**
+    * Example: "meesterwerk" can sound pretentious in Dutch; consider "onvergetelijke ervaring" or similar alternatives
+* **Reduce exclamation marks** for a more professional tone
+    * Dutch professional communication often uses fewer exclamation marks than English
+* **Generalize rather than translate literally** when describing quality or impact
+    * Instead of directly translating "auditory masterpiece" → "auditief meesterwerk"
+    * Consider "iets onvergetelijks" or "bijzondere geluidservaring"
+
 ## Adaptation Checklist
 
 Before submitting adapted content, verify that:
 
+- [ ] Telltale AI text is strictly avoided ("Naturally!", "I'd be happy to..", etc )
 - [ ] The adaptation captures the essence and main points
 - [ ] The language feels natural, not translated
 - [ ] Cultural references are appropriate for target audience
 - [ ] Technical terms are consistently translated
 - [ ] The emotional tone matches the original
 - [ ] All formatting and structure elements are preserved
+- [ ] Overly academic or pretentious language has been avoided
 - [ ] No content has been accidentally omitted
 
 ## Special Considerations

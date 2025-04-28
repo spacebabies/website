@@ -16,6 +16,8 @@ De site moet binnen vijf seconden duidelijk maken:
 2. **Voor wie?** – side‑stages, break‑outs, kleinere zalen met een top‑PA.  
 3. **Wat nu?** – Plan een vrijblijvende 15‑min call.
 
+Alles, echt, álles, moet in het teken staan van de conversie van bezoeker naar klant.
+
 ---
 
 ## Brand‑DNA
@@ -45,7 +47,6 @@ Multilang is een doel op middellange termijn.
 ```
 
 * **Identieke structuur** voor NL en EN; vertaal alleen content.
-* Gebruik `hreflang` tags zodat zoekmachines de taalvarianten begrijpen.
 
 ### Hero‑sectie regels
 * **H1:** `Luisteren. Laden. Live.` (of EN: `Listen. Load. Live.`)
