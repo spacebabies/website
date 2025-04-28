@@ -41,9 +41,13 @@ Capture the essence and meaning of each paragraph, but feel free to:
 - Keep the HTML comment markers (e.g., `<!--more-->`) intact
 - Preserve paragraph breaks but feel free to adjust sentence breaks
 
+## Canonical Example
+
+The 'Harmony in the Load-out' article, found in the `content` directory, has been carefully translated by hand and represents a "perfect" adaptation. Its concept, jargon, and tone serves as guidepost for future translations. However, it is also important to be creative and bold if the situation calls for it.
+
 ## Examples of Good Adaptation
 
-These are taken from the 'Harmony in the Load-out' article in the content directory. This content in particular was hand-translated and as such, needs to be the guidepost for future translations.
+This excerpt is taken from the canonical article:
 
 ### Original English:
 > As the final applause died down, we moved in. Each one of us knew our part by heart. In a world where efficiency and precision are kings, we were the silent monarchs of the night.
@@ -54,7 +58,7 @@ These are taken from the 'Harmony in the Load-out' article in the content direct
 ### Good Adaptation (creative but faithful):
 > Al bij de laatste restjes applaus stonden we klaar op het zijpodium. Elk van ons wist al precies wat te doen. In een wereld waar efficiëntie en precisie koningen zijn, waren wij de stille monarchen van de nacht.
 
-The following is taken from the sidebar, but it applies equally so. Note that for Dutch, the exclamation point is replaced by a regular period. Dutch culture is less extraverted/overly optimistic than American culture.
+The following is taken from the sidebar. Note that for Dutch, the exclamation point is replaced by a regular period, since Dutch culture does not appreciate baseless optimism.
 
 ### Original English:
 
@@ -101,7 +105,7 @@ Before submitting adapted content, verify that:
 ### Technical/Industry Terms
 - Theater and performance terms should maintain industry standards
 - It is often okay to retain English in the Dutch version (load-out is an acceptable term for _breek_), but never okay to have Dutch in the English version
-- When uncertain about a technical term, research the equivalent used in the target language's industry. "Stage left" is "Podium rechts" in Dutch, and vice versa. "Input list" is "priklijst" yet "Stage plot" is "Stageplot". Discover these boundaries and play with them.
+- When uncertain about a technical term, research the equivalent used in the target language's industry. "Stage left" is "Podium rechts" in Dutch, and vice versa. "Input list" is "priklijst" yet "Stage plot" is also "Stageplot". Discover these boundaries and play with them.
 
 ### Creative Elements
 - Poetry, wordplay, and puns require special attention

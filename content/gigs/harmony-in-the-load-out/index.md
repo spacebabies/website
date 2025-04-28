@@ -10,10 +10,10 @@ resources:
     name: cover
     title: AskoSchonberg + LOD - Rhapsody (foto Kurt Van der Elst)
 ---
-Afgelopen nacht, terwijl de echo's van "Rhapsody" nog klonken in de Grote Zaal van het Muziekgebouw, begon ik samen met mijn collega's backstage aan een heel andere symfonie.
+Afgelopen nacht, terwijl de echo's van _Rhapsody_ nog klonken in de Grote Zaal van het Muziekgebouw, begon ik samen met mijn collega's backstage aan een heel andere symfonie.
 <!--more-->
 
-### Het poëtische einde van "Rhapsody"
+### Het poëtische einde van _Rhapsody_
 
 De voorstelling, een verbluffende mengeling van spoken word en muziek, geïnspireerd door de iconische VPRO televisieserie _Van de schoonheid en de troost_, was net afgelopen. Het publiek was betoverd achtergelaten door Josse de Pauws interpretatie en Frederik Neyrincks composities. Maar voor ons, de crew, onze voorstelling was nog maar net begonnen.
 
@@ -33,13 +33,13 @@ Het decor dat _Rhapsody_ tot leven had gebracht lag nu in onze handen, en we beh
 
 Tijdens het inladen van de laatste rol balletvloer dwaalden mijn gedachten naar het thema van de show: de schoonheid in onzekerheid, de poëzie in het onbekende. In ons vakgebied ligt de zekerheid juist in onze vaardigheden, het vertrouwde in onze ervaring. Maar elke avond, bij elke voorstelling, duikt er een nieuwe uitdaging op, een ander perspectief. En natuurlijk, dingen die niet precies volgens plan lopen.
 
-De voorstelling "Rhapsody" zelf was een levend bewijs van hoe kunst complexe emoties en gedachten kan vangen. De vertolking van Josse De Pauw en de verwevenheid van muziek en gesproken woord toonden ons de talloze manieren waarop kunst mensen raakt. En terwijl wij, de crew, ons ding deden op de achtergrond, hing er een stilzwijgende erkenning van onze bijdrage aan dit grote tapijt van artistieke expressie.
+De voorstelling _Rhapsody_ zelf was een levend bewijs van hoe kunst complexe emoties en gedachten kan vangen. De vertolking van Josse De Pauw en de verwevenheid van muziek en gesproken woord toonden ons de talloze manieren waarop kunst mensen raakt. En terwijl wij, de crew, ons ding deden op de achtergrond, hing er een stilzwijgende erkenning van onze bijdrage aan dit grote tapijt van artistieke expressie.
 
 ### De onzichtbare helden
 
 Bij het verlaten van het Muziekgebouw bleef deze ervaring in mijn hoofd hangen. Het zijn juist dit soort momenten die me doen beseffen waarom ik zo van deze baan hou. We staan dan misschien niet in de spotlights, maar op onze eigen rustige, gestroomlijnde manier zijn we onmisbaar voor de magie van het theater. De breek lijkt voor buitenstaanders slechts het einde, maar voor ons is het een wezenlijk onderdeel van de levenscyclus van een voorstelling, een bewijs van de samenwerkingsgeest die theater zo bijzonder maakt.
 
-Vanavond, terwijl het Muziekgebouw in stilte gehuld is, bewaart het de herinneringen aan "Rhapsody" en de onuitgesproken symfonie van de load-out – een melodie die resoneert bij iedereen die de schoonheid begrijpt van wat er achter die gordijnen gebeurt.
+Vanavond, terwijl het Muziekgebouw in stilte gehuld is, bewaart het de herinneringen aan _Rhapsody_ en de onuitgesproken symfonie van de load-out – een melodie die resoneert bij iedereen die de schoonheid begrijpt van wat er achter die gordijnen gebeurt.
 
 Oh, en dat ene ding dat fout ging? Nou, er ging eigenlijk helemaal niks mis! Dat is toch raar?
 
