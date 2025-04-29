@@ -13,7 +13,7 @@ De locatie zelf was al een uitdaging. Stel je voor: een podium op een vlot midde
 
 Voor deze klus gebruikte ik de Midas MR-18, en het geluid was gewoonweg feilloos. Ik zette drie verschillende reverbs en een stereo tap delay in om de gewenste akoestiek te bereiken. Het resultaat? Een klankervaring die resoneerde met de natuurlijke omgeving en het publiek met open mond achterliet.
 
-[RHTHM](https://rhthmband.nl/), de band van dit jaar, toonde hun veelzijdigheid met een breed scala aan nummers. Maar het hoogtepunt voor mij was hun versie van "Valerie". Ze vertraagden het, gaven het een jazzy touch, en net toen je dacht dat het voorbij was, versnelden ze het tempo voor de laatste twee coupletten. Het was een heerlijke wending die mensen op hun boten deed dansen. Sommigen doken zelfs het water in, genietend van de strakblauwe lucht en het schilderachtige Nederlandse waterland.
+[RHTHM](https://rhthmband.nl/), de band van dit jaar, toonde hun veelzijdigheid met een breed scala aan nummers. Maar het hoogtepunt voor mij was hun versie van _Valerie_. Ze vertraagden het, gaven het een jazzy touch, en net toen je dacht dat het voorbij was, versnelden ze het tempo voor de laatste twee coupletten. Het was een heerlijke wending die mensen op hun boten deed dansen. Sommigen doken zelfs het water in, genietend van de strakblauwe lucht en het schilderachtige Nederlandse waterland.
 
 Het concert, temidden van de natuurlijke schoonheid van de Kortenhoefse Plassen, is uitgegroeid tot een traditie. Met de steun van verschillende organisaties en sponsors is dit jaarlijkse evenement in aanzien gegroeid. En dit jaar was niet anders. Het weer was perfect, de muziek hartverwarmend en de sfeer bruisend.
 

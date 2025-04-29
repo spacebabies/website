@@ -85,6 +85,9 @@ Op zoek naar een vakkundige aanpak die je publiek onderdompelt in glashelder gel
 * **Generalize rather than translate literally** when describing quality or impact
     * Instead of directly translating "auditory masterpiece" → "auditief meesterwerk"
     * Consider "iets onvergetelijks" or "bijzondere geluidservaring"
+* **Apostrophe rules differ** between languages
+    * English: Used for possession and contractions
+    * Dutch: Mainly for plurals and vowel-ending words
 
 ## Adaptation Checklist
 
