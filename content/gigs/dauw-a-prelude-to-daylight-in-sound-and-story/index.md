@@ -1,5 +1,5 @@
 ---
-title: "Dauw: a Prelude to Daylight in Sound and Story"
+title: "Dauw: een muzikaal voorspel op het ochtendgloren"
 date: 2023-11-03T00:10:52+01:00
 tags:
   - muziekgebouw
@@ -9,20 +9,20 @@ resources:
     name: cover
     title:
 ---
-On a crisp November evening, the Muziekgebouw in Amsterdam was transformed into a threshold between night and day, courtesy of 'Dauw', a unique performance by the Amsterdams Andalusisch Orkest.
+Op een frisse novemberavond veranderde het Muziekgebouw in Amsterdam in een drempel tussen nacht en dag, dankzij 'Dauw', een bijzondere voorstelling van het Amsterdams Andalusisch Orkest.
 <!--more-->
-This was not merely a concert but an exploration of the blue hour — that mystical time when the world hovers between the last whispers of the moon and the eager rays of the sun.
+Dit was niet zomaar een concert, maar een ontdekkingstocht door het blauwe uur – dat mystieke moment waarop de wereld balanceert tussen de laatste fluisteringen van de maan en de eerste stralen van de zon.
 
-## Behind the Scenes with the Crew
+## Achter de schermen met de crew
 
-As part of the crew, my role was pivotal in bringing the serene ambiance of 'Dauw' to life. Under the dim lights of the stage, I meticulously set pieces into place, ensuring that each element of the set resonated with the theme of dawn. Connecting microphones, light fixtures, and speakers, I was one of the artisans working in the shadows to weave together a flawless tapestry of sound and light.
+Als onderdeel van de crew speelde ik een essentiële rol in het tot leven brengen van de serene sfeer van 'Dauw'. In het gedempte licht van het podium plaatste ik zorgvuldig alle elementen, zodat elk onderdeel van het decor resoneerde met het thema van de dageraad. Door microfoons, lichtarmaturen en speakers te verbinden, was ik een van de vakmensen die in de schaduw werkten om een naadloos tapijt van geluid en licht te weven.
 
-## The Tapestry of Sound and Sight
+## Een tapijt van geluid en beeld
 
-The past performance saw ancient melodies float across the stage, delivered through the time-honored ud, ney, and rabab. Each musician, from Marianne Noordink’s wind-whispered melodies to Rémy Dielemans’ deep strings, played from the soul, without the barrier of sheet music. Their repertoire, a blend of centuries-old tunes and cultural hymns, celebrated 'dauw' — not just as morning dew but also as the 'light' in a musical sense.
+Tijdens de voorstelling zweefden eeuwenoude melodieën over het podium, vertolkt door de klassieke ud, ney en rabab. Elke muzikant, van Marianne Noordinks windgefluisterde melodieën tot Rémy Dielemans' diepe snaren, speelde vanuit de ziel, zonder de barrière van bladmuziek. Hun repertoire, een mengeling van eeuwenoude melodieën en culturele hymnen, vierde 'dauw' – niet alleen als ochtenddauw maar ook als het 'licht' in muzikale zin.
 
-## Echoing a Sustainable Note
+## Een duurzame noot
 
-Sustainability was more than a concept for this event — it was a practice. I took pride in arranging decors crafted from repurposed wood and positioning costumes that told stories of performances past. This environmentally conscious approach harmonized with the ethereal music, echoing the orchestra's respect for both heritage and nature.
+Duurzaamheid was meer dan een concept voor dit evenement – het was een praktijk. Ik was trots op het arrangeren van decors gemaakt van hergebruikt hout en het plaatsen van kostuums die verhalen vertelden van eerdere voorstellingen. Deze milieubewuste aanpak harmoniseerde met de etherische muziek, als echo van het respect van het orkest voor zowel erfgoed als natuur.
 
 <https://oorkaan.nl/voorstellingen/dauw/>

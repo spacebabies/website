@@ -1,5 +1,5 @@
 ---
-title: "A Night of Innovation: Cocon with Cello Octet Amsterdam"
+title: "Een avond vol innovatie: Cocon met Cello Octet Amsterdam"
 date: 2024-05-18T13:28:20+02:00
 tags:
   - muziekgebouw
@@ -9,20 +9,20 @@ tags:
 resources:
   - src: IMG_20240517_163429018~2.jpg
     name: cover
-    title: The L.A.S.E.R. being calibrated before the show
+    title: De L.A.S.E.R. wordt gekalibreerd voor de show
 ---
-I helped build COCON, a groundbreaking performance featuring the Cello Octet Amsterdam.
+Ik hielp bij de opbouw van COCON, een baanbrekende voorstelling met het Cello Octet Amsterdam.
 
 <!--more-->
 
-The evening began with a DJ set by Sanneke Kleingeld in the entrance hall, warming up the audience for what was to come. As the clock struck 20:30, the main event unfolded in the Grote Zaal, where the audience was greeted by the world premiere of "Graduals" by Sarah Davachi. This was just the beginning of a remarkable program that also included compositions by Qasim Naqvi, Jesse Broekman, Kara-Lis Coverdale, Abul Mogard & KMRU, and Caterina Barbieri.
+De avond begon met een DJ-set van Sanneke Kleingeld in de entreehal, die het publiek opwarmde voor wat komen zou. Toen de klok 20:30 sloeg, ontvouwde het hoofdevenement zich in de Grote Zaal, waar het publiek werd verwelkomd met de wereldpremière van "Graduals" van Sarah Davachi. Dit was slechts het begin van een bijzonder programma dat ook composities bevatte van Qasim Naqvi, Jesse Broekman, Kara-Lis Coverdale, Abul Mogard & KMRU, en Caterina Barbieri.
 
-The first half of the concert was an intense experience. The Cello Octet, enveloped by eight moving robotic shells, played "Graduals" for 45 minutes. This composition was a true test of endurance, both for the performers and the audience. The eight cellos seemed to hover on a single note, with off-key variations creating a mesmerizing, almost hypnotic effect. This piece was not for the faint-hearted; its subtle shifts and droning tones demanded a deep level of focus and appreciation for minimalist music.
+De eerste helft van het concert was een intense ervaring. Het Cello Octet, omhuld door acht bewegende robotische schelpen, speelde "Graduals" gedurende 45 minuten. Deze compositie was een ware uithoudingsproef, zowel voor de uitvoerders als voor het publiek. De acht cello's leken te zweven op één enkele noot, waarbij variaties die net buiten de toonladder vielen een betoverend, bijna hypnotisch effect creëerden. Dit stuk was niet voor de gevoelige luisteraar; de subtiele verschuivingen en dreunende tonen vereisten een diep niveau van concentratie en waardering voor minimalistische muziek.
 
-After a much-needed intermission at 21:15, the second half of the concert brought a shift in energy and accessibility. This part of the performance showcased the full potential of the Cello Octet and their robotic companions. The music became more varied and approachable, captivating the audience with its dynamic range and emotional depth.
+Na een welkome pauze om 21:15 bracht de tweede helft van het concert een verschuiving in energie en toegankelijkheid. Dit deel van de voorstelling toonde het volledige potentieel van het Cello Octet en hun robotische metgezellen. De muziek werd gevarieerder en toegankelijker, en boeide het publiek met dynamische contrasten en emotionele diepgang.
 
-The real spectacle, however, was the integration of robotic arms and innovative lighting. Each cellist was encased in a robotic shell that moved and transformed in sync with the music, thanks to the engineering prowess of Daniel de Bruin, Wes Broersen, Pim Swinkels, and the creative technical production of Wout Panis. The scenography and light design by Nick Verstand were nothing short of spectacular. A variety of lamps, colors, and smoke effects created an eerie yet organic atmosphere, enhancing the otherworldly feel of the performance.
+Het echte spektakel was echter de integratie van robotarmen en innovatieve belichting. Elke cellist zat in een robotische schelp die bewoog en transformeerde in synchronie met de muziek, dankzij het technisch vernuft van Daniel de Bruin, Wes Broersen, Pim Swinkels, en de creatieve technische productie van Wout Panis. De scenografie en lichtontwerp van Nick Verstand waren ronduit spectaculair. Een verscheidenheid aan lampen, kleuren en rookeffecten creëerde een unheimliche maar organische sfeer, die het buitenaardse gevoel van de voorstelling versterkte.
 
-The finale was a visual and auditory feast. Eight massive laser beams were projected onto the robotic arms and into the venue, creating an awe-inspiring display that left the audience in sheer wonder. This culmination of light, sound, and movement brought the evening to a triumphant close, showcasing the seamless collaboration between human musicians and cutting-edge technology.
+De finale was een visueel en auditief feest. Acht gigantische laserstralen werden geprojecteerd op de robotarmen en in de zaal, wat resulteerde in een ontzagwekkende vertoning die het publiek in pure verwondering achterliet. Deze culminatie van licht, geluid en beweging bracht de avond tot een triomfantelijk einde, waarin de naadloze samenwerking tussen menselijke musici en geavanceerde technologie werd getoond.
 
-After the concert, the audience returned to the entrance hall where Sanneke Kleingeld's DJ set provided a perfect backdrop for reflection and discussion about the night's experience.
+Na het concert keerde het publiek terug naar de entreehal waar Sanneke Kleingeld's DJ-set een perfecte achtergrond vormde voor reflectie en discussie over de ervaring van de avond.

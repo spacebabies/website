@@ -8,12 +8,12 @@ resources:
     name: cover
     title: Kamagurka op de set van Zomergasten
 ---
-Summer in the Netherlands isn't just about sun and holidays; it also heralds the return of the acclaimed television series _Zomergasten_.
+Zomer in Nederland betekent niet alleen zon en vakantie; het kondigt ook de terugkeer aan van de geprezen televisieserie _Zomergasten_.
 <!--more-->
-As a recurring backstage presence at these live broadcasts, I've had the privilege of witnessing many incredible guests and hosts sharing their stories.
+Als terugkerende aanwezigheid achter de schermen bij deze live-uitzendingen heb ik het voorrecht gehad om veel bijzondere gasten en presentatoren hun verhalen te zien delen.
 
-This week was particularly special as we welcomed Kamagurka, the illustrious cartoonist and multifaceted artist. Known to many as Luc Zeebroek, his tales of growing up in the Belgian coastal town of Nieuwpoort and evolving into a cultural icon were both entertaining and enlightening.
+Deze week was extra bijzonder omdat we Kamagurka mochten verwelkomen, de illustere cartoonist en veelzijdige kunstenaar. Velen kennen hem als Luc Zeebroek, en zijn verhalen over opgroeien in het Belgische kustplaatsje Nieuwpoort en zijn ontwikkeling tot cultuuricoon waren zowel vermakelijk als verrijkend.
 
-Every episode of _Zomergasten_ carries its own energy, and with Kamagurka, there was a unique blend of wit, absurdism, and profound insights. Theo Maassen, conducting the interview, rightly described him as "a one-of-a-kind artist, an absurdist whose work is both nonsensical and profound." As I gear up for more episodes this season, this experience underscores the magic and diversity of stories we get to hear. And while every episode is distinct, my commitment remains constant: ensuring impeccable sound and stage setup for an immersive audience experience. Here's to many more nights with _Zomergasten_!
+Elke aflevering van _Zomergasten_ draagt zijn eigen energie, en met Kamagurka was er een unieke mengeling van humor, absurdisme en diepgaande inzichten. Theo Maassen, die het interview leidde, omschreef hem terecht als "een kunstenaar van een andere planeet, een absurdist wiens werk zowel onzinnig als diepzinnig is." Terwijl ik me voorbereid op meer afleveringen dit seizoen, onderstreept deze ervaring de magie en diversiteit van de verhalen die we mogen horen. En hoewel elke aflevering uniek is, blijft mijn toewijding constant: zorgen voor onberispelijk geluid en podiumopstelling voor een meeslepende publiekservaring. Op naar nog meer avonden met _Zomergasten_!
 
 https://www.vpro.nl/programmas/zomergasten/kijk/afleveringen/2023/kamagurka.html

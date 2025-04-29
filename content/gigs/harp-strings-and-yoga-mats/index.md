@@ -1,28 +1,28 @@
 ---
-title: "Harp Strings and Yoga Mats"
+title: "Harpsnaren en Yogamatten"
 date: 2024-10-07
 tags:
   - muziekgebouw
   - yoga
   - harp
   - amsterdam
-  - sound engineering
-  - live music
+  - geluidstechniek
+  - live muziek
 resources:
   - src: Entreehal-Amplifyher2021-bykirstenvansanten-34-1280x854.jpg
     name: cover
-    title: Photo by Kirsten van Santen
+    title: Foto door Kirsten van Santen
 ---
-A first for me, I helped transform a huge open space into a yoga studio and reinforced a harp.
+Een primeur voor mij: ik hielp bij het omtoveren van een enorme open ruimte tot een yogastudio en versterkte een harp.
 <!--more-->
-Yogis stretched on colorful mats, a harpist's fingers danced across strings, and Nick from Yoga Den guided the class through their poses.
+Yogabeoefenaars strekten zich uit op kleurrijke matten, de vingers van de harpiste dansten over de snaren, en Nick van Yoga Den begeleidde de klas door hun houdingen.
 
-For Nick's voice, I reached for a trusty DPA headset. These mics are the unsung heroes of clear communication. They've survived being dropped, sweated on, and probably a few downward dogs. Today, it would ensure every "breathe in" and "hold that pose" floated effortlessly to eager ears.
+Voor Nicks stem koos ik voor een betrouwbare DPA headset. Deze microfoons zijn de onbezongen helden van heldere communicatie. Ze hebben het overleefd om gevallen te worden, bezweet te raken, en waarschijnlijk een paar downward dogs. Vandaag zorgde het ervoor dat elke "adem in" en "houd die houding vast" moeiteloos naar gretige oren zweefde.
 
-For the harp, I chose a vintage Sennheiser MD 421, positioning it a meter away, angled towards the higher strings. Those high notes needed a little extra love to soar across the deck, while the lower tones rumbled through just fine on their own. The untreated wooden floor helped, too.
+Voor de harp koos ik een vintage Sennheiser MD 421, geplaatst op een meter afstand, gericht op de hogere snaren. Die hoge noten hadden wat extra aandacht nodig om over het deck te zweven, terwijl de lagere tonen vanzelf prima doorkwamen. De onbehandelde houten vloer hielp ook mee.
 
-As the class began, I noticed the harpist's brow furrow. She'd been asked to play to specific chakras, which she interpreted as sticking to F Major. It sounded fine, but I could almost see the musical questions bouncing around in her head. Note to self: next time, suggest a pre-event jam session between the musician and instructor. A little harmony before the harmonizing, if you will.
+Toen de les begon, zag ik het voorhoofd van de harpiste fronsen. Haar was gevraagd om voor specifieke chakra's te spelen, wat zij interpreteerde als het blijven binnen F majeur. Het klonk prima, maar ik kon bijna de muzikale vragen in haar hoofd zien ronddwalen. Aantekening voor mezelf: stel de volgende keer een korte jamsessie voor tussen de muzikant en instructeur. Een beetje harmonie vóór het harmoniseren, zeg maar.
 
-Bodies swayed to plucked strings, breaths synced with musical phrases. A gentle 3 dB boost was all it took to wrap the entire Foyer Deck in a blanket of sound. Just enough to fill the space without overwhelming the _om_.
+Lichamen bewogen op het ritme van getokkelde snaren, ademhalingen synchroniseerden met muzikale frasen. Een subtiele versterking van 3 dB was alles wat nodig was om het hele Foyer Deck in een deken van geluid te wikkelen. Net genoeg om de ruimte te vullen zonder de _om_ te overstemmen.
 
 <https://www.instagram.com/yogaden.nl/reel/DBG7MgJNZk1/>

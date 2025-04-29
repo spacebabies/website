@@ -1,24 +1,24 @@
 ---
-title: "Wijdegat Concert: an Afternoon to Remember"
+title: "Wijdegat Concert: een middag om nooit te vergeten"
 date: 2023-09-09T22:30:42+02:00
 tags:
 resources:
   - src: IMG20230909174245.jpg
     name: cover
-    title: View from my mixing position of the Wijdegat Concert 2023
+    title: Uitzicht vanaf mijn mixpositie op het Wijdegat Concert 2023
 ---
-Today, I had the privilege of being both the systems engineer and the front-of-house engineer for the Wijdegat Concert. And let me tell you, it was an experience like no other.
+Vandaag had ik het voorrecht om zowel systeemtechnicus als front-of-house engineer te zijn voor het Wijdegat Concert. En geloof me, het was een ervaring als geen ander.
 <!--more-->
-The venue itself was a challenge. Imagine this: a stage set on a raft in the middle of the Wijde Gat lake, with the backstage being a small boat. The journey to Kortenhoef involved hauling a power source, PA, equipment, and the entire back line. The final stretch of our journey was by boat, making the setup all the more unique.
+De locatie zelf was al een uitdaging. Stel je voor: een podium op een vlot midden in het Wijde Gat, met als backstage een kleine boot. De reis naar Kortenhoef betekende het verslepen van een stroomvoorziening, PA, apparatuur en de hele backline. Het laatste stuk van onze reis ging per boot, wat de opbouw des te bijzonderder maakte.
 
-For this gig, I used the Midas MR-18, and the sound was simply impeccable. I employed three reverbs and a stereo tap delay to achieve the desired acoustics. The result? A sonic experience that resonated with the natural surroundings and left the audience in awe.
+Voor deze klus gebruikte ik de Midas MR-18, en het geluid was gewoonweg feilloos. Ik zette drie verschillende reverbs en een stereo tap delay in om de gewenste akoestiek te bereiken. Het resultaat? Een klankervaring die resoneerde met de natuurlijke omgeving en het publiek met open mond achterliet.
 
-[RHTHM](https://rhthmband.nl/), this year's band, showcased their versatility with a range of tracks. But the highlight for me was their rendition of "Valerie." They slowed it down, giving it a soulful touch, and just when you thought it was over, they picked up the pace for the last two verses. It was a delightful twist that had people dancing on their boats. Some even took a dive into the water, making the most of the clear blue skies and the picturesque Dutch wetlands.
+[RHTHM](https://rhthmband.nl/), de band van dit jaar, toonde hun veelzijdigheid met een breed scala aan nummers. Maar het hoogtepunt voor mij was hun versie van "Valerie". Ze vertraagden het, gaven het een jazzy touch, en net toen je dacht dat het voorbij was, versnelden ze het tempo voor de laatste twee coupletten. Het was een heerlijke wending die mensen op hun boten deed dansen. Sommigen doken zelfs het water in, genietend van de strakblauwe lucht en het schilderachtige Nederlandse waterland.
 
-The concert, set amidst the natural beauty of Kortenhoefse Plassen, has become a tradition. With the support of various organizations and sponsors, this annual event has grown in stature. And this year was no different. The weather was perfect, the music was soul-stirring, and the ambiance was electric.
+Het concert, temidden van de natuurlijke schoonheid van de Kortenhoefse Plassen, is uitgegroeid tot een traditie. Met de steun van verschillende organisaties en sponsors is dit jaarlijkse evenement in aanzien gegroeid. En dit jaar was niet anders. Het weer was perfect, de muziek hartverwarmend en de sfeer bruisend.
 
-RHTHM, with their six-member ensemble, brought a mix of funky jazz numbers from renowned artists. Their setlist, specially curated for the Wijdegat Concert, had both popular and lesser-known tracks, and own material. The band's enthusiasm was palpable, and they were eager to make 9th September a memorable day for all.
+RHTHM, met hun zespersoons ensemble, bracht een mix van funky jazznummers van gerenommeerde artiesten. Hun setlist, speciaal samengesteld voor het Wijdegat Concert, bevatte zowel populaire als minder bekende nummers, en eigen werk. Het enthousiasme van de band was voelbaar, en ze stonden te popelen om van 9 september een gedenkwaardige dag te maken voor iedereen.
 
-In conclusion, the Wijdegat Concert was not just another gig for me. It was an adventure, a challenge, and most importantly, a celebration of music amidst nature. The memories of this day will remain etched in my heart for a long time. And I'm sure, for everyone who was there, it was an afternoon they won't forget.
+Kortom, het Wijdegat Concert was voor mij niet zomaar een klus. Het was een avontuur, een uitdaging en bovenal een viering van muziek temidden van de natuur. De herinneringen aan deze dag zullen nog lang in mijn hart gegrift blijven. En ik weet zeker dat het voor iedereen die erbij was een middag was die ze niet snel zullen vergeten.
 
 <https://www.wijdegatconcert.nl/>

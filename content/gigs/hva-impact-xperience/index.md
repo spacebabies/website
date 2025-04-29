@@ -1,5 +1,5 @@
 ---
-title: Opening of the HvA Academic Year
+title: Opening van het HvA Academisch Jaar
 date: 2023-08-29T11:11:38+02:00
 tags:
   - muziekgebouw
@@ -10,14 +10,14 @@ resources:
     name: cover
     title: HvA Impact Xperience hero graphic
 ---
-On August 29th, I was part of the stage hand team for the _Impact Xperience_ event at Muziekgebouw aan het IJ in Amsterdam.
+Op 29 augustus maakte ik deel uit van het stagecrew team voor het evenement _Impact Xperience_ in het Muziekgebouw aan het IJ in Amsterdam.
 <!--more-->
-This event marked the festive opening of the new academic year organized by HvA.
+Dit evenement markeerde de feestelijke opening van het nieuwe academische jaar georganiseerd door de HvA.
 
-My role for the day was fairly specific: I assisted in setting up a ball pit on the terrace of the venue. It's a small yet impactful part of an event designed to explore how we can make a difference in the city, in education, and in society. While my involvement was limited, it was interesting to see how even a small feature like a ball pit could add to the overall atmosphere of the event.
+Mijn rol voor die dag was vrij specifiek: ik hielp bij het opzetten van een ballenbak op het terras van de locatie. Een klein maar opvallend onderdeel van een evenement dat was ontworpen om te onderzoeken hoe we verschil kunnen maken in de stad, in het onderwijs en in de samenleving. Hoewel mijn bijdrage beperkt was, was het interessant om te zien hoe zelfs een simpel element als een ballenbak kon bijdragen aan de algehele sfeer van het evenement.
 
-The venue had another surprise for attendees. Moored next to the Muziekgebouw aan het IJ was the Norwegian Prima, a cruise ship designed to elevate every expectation. Even though it was not part of the event, the sight of the ship added an extra layer of excitement to the atmosphere. Known for its most spacious outdoor deck among any new cruise ships and first-rate service, Norwegian Prima stood as an additional symbol of innovation and luxury just a stone's throw away.
+De locatie had nog een verrassing voor de aanwezigen. Naast het Muziekgebouw aan het IJ lag de Norwegian Prima aangemeerd, een cruiseschip ontworpen om elke verwachting te overtreffen. Hoewel het geen onderdeel was van het evenement, voegde de aanblik van het schip een extra dimensie toe aan de sfeer. De Norwegian Prima, bekend om het ruimste buitendek onder alle nieuwe cruiseschepen en eersteklas service, stond als een aanvullend symbool van innovatie en luxe op een steenworp afstand.
 
-It was a day that encapsulated the spirit of innovation, albeit in different forms—from academic discussions to a ball pit on a terrace, and a state-of-the-art cruise ship moored beside the venue. Each component, no matter how large or small, contributed to the overall Xperience.
+Het was een dag die de geest van innovatie belichaamde, zij het in verschillende vormen – van academische discussies tot een ballenbak op een terras, en een ultramodern cruiseschip aangemeerd naast de locatie. Elk onderdeel, hoe groot of klein ook, droeg bij aan de totale Xperience.
 
 <https://www.hva.nl/content/evenementen/evenementen/2023/8/opening-hogeschooljaar-2023.html>

@@ -1,31 +1,31 @@
 ---
-title: Setting the Stage for Pärt über Bach
+title: Het podium klaarmaken voor Pärt über Bach
 date: 2024-10-17T21:22:53+02:00
 tags:
   - muziekgebouw
   - amsterdam
-  - classical
-  - contemporary
-  - sound engineering
+  - klassiek
+  - hedendaags
+  - geluidstechniek
 resources:
   - src: img77686_orig.webp
     name: cover
     title: Simone Lamsma (foto Otto van den Toorn)
 ---
-Foyer Deck 1 at Muziekgebouw is a beast of its own. 
+Foyer Deck 1 in het Muziekgebouw is een beest op zich. 
 <!--more-->
-It's a space that whispers secrets in echoes, with glass and metal surfaces that love to play ping-pong with sound waves. As I set up for [Michel Khalifa](https://www.conservatoriumvanamsterdam.nl/docenten/klassiek/michel-khalifa/)'s introduction to "Pärt über Bach", I couldn't help but grin at the familiar challenge.
+Het is een ruimte die geheimen fluistert in echo's, met glazen en metalen oppervlakken die dol zijn op pingpong spelen met geluidsgolven. Terwijl ik alles klaarmaakte voor [Michel Khalifa](https://www.conservatoriumvanamsterdam.nl/docenten/klassiek/michel-khalifa/)'s introductie op "Pärt über Bach", moest ik glimlachen om de vertrouwde uitdaging.
 
-My secret weapon is a monitor speaker aimed straight at the performer. It's like giving them an audio lifeline in a sea of reverb. Without it, poor Michel would be at the mercy of sound bouncing off every surface like a deranged pinball machine. But with it, his soft-spoken wisdom cuts through the noise, clear as a bell.
+Mijn geheime wapen is een monitorluidspreker die recht op de spreker is gericht. Het is alsof je ze een audio-reddingslijn geeft in een zee van galm. Zonder zou arme Michel overgeleverd zijn aan geluid dat als een dolgedraaide flipperkast van elk oppervlak kaatst. Maar hiermee snijdt zijn zachtaardige wijsheid door de ruis, helder als een klok.
 
-Speaking of Michel, what a gem of a human being. His knowledge of music is as vast as the North Sea, but he wears it as lightly as a feather. As he began his talk, I watched from my station, always ready to adjust a level or troubleshoot a hiccup.
+Over Michel gesproken, wat een prachtmens. Zijn kennis van muziek is zo uitgestrekt als de Noordzee, maar hij draagt het zo licht als een veertje. Toen hij aan zijn praatje begon, keek ik toe vanaf mijn plek, altijd klaar om een niveau aan te passen of een probleempje op te lossen.
 
-Then came a moment that'll stick with me. As I cued up a fragment of Pärt's music, Michel closed his eyes. It was like watching someone step into another world. Pärt's notes filled the air, and Michel... well, he seemed to float. It was a reminder of why we do this job - to create these little pockets of magic.
+Toen kwam er een moment dat me bij zal blijven. Toen ik een fragment van Pärt's muziek afspeelde, sloot Michel zijn ogen. Het was alsof je iemand een andere wereld ziet binnenstappen. Pärt's noten vulden de ruimte, en Michel... nou, hij leek te zweven. Het was een herinnering aan waarom we dit werk doen - om deze kleine momentjes van magie te creëren.
 
-The highlight of the intro was undoubtedly the music video for Amsterdam Sinfonietta. As soon as it started, you could feel the energy in the room shift. The audience leaned in, captivated by the slick black-and-white visuals dancing in perfect sync with Bach's timeless notes. It was pop art meets classical mastery, and boy, did it work.
+Het hoogtepunt van de intro was ongetwijfeld de muziekvideo voor Amsterdam Sinfonietta. Zodra die begon, kon je de energie in de ruimte voelen verschuiven. Het publiek leunde voorover, geboeid door de strakke zwart-wit beelden die perfect synchroon dansten met Bach's tijdloze noten. Het was popart ontmoet klassieke meesterlijkheid, en het werkte verbluffend goed.
 
-As the video ended and Michel wrapped up, there was a palpable buzz in the air. The intro had done its job - priming the audience for the sonic journey ahead. And me? I was already mentally preparing for the teardown, feeling that familiar mix of satisfaction and anticipation.
+Toen de video eindigde en Michel afsloot, hing er een voelbare spanning in de lucht. De intro had zijn werk gedaan - het publiek voorbereid op de klankreis die zou volgen. En ik? Ik was al mentaal bezig met de afbouw, met dat vertrouwde gevoel van voldoening en verwachting.
 
-Another day, another sound challenge conquered. In the world of live events, that's what we call a good start.
+Weer een dag, weer een geluidsuitdaging overwonnen. In de wereld van live evenementen noemen we dat een goed begin.
 
-<https://www.muziekgebouw.nl/en/agenda/14068/amsterdam-sinfonietta-candida-thompson-simone-lamsma/part-uber-bach>
+<https://www.muziekgebouw.nl/nl/agenda/14068/amsterdam-sinfonietta-candida-thompson-simone-lamsma/part-uber-bach>

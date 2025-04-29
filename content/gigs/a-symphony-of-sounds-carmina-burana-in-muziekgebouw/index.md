@@ -1,34 +1,34 @@
 ---
-title: "A Symphony of Sounds: Carmina Burana in Muziekgebouw"
+title: "Een symfonie van klanken: Carmina Burana in het Muziekgebouw"
 date: 2023-12-08
 tags:
   - muziekgebouw
   - concert
   - amsterdam
-  - classical
+  - klassiek
 resources:
   - src: img68449_orig.webp
     name: cover
     title: Boudewijn Jansen - Carmina Burana (foto Robert Verhoeve)
 ---
 
-As the Muziekgebouw's Grote Zaal dimmed, the stage was set for a night of Carl Orff’s Carmina Burana. But beyond the spotlight, another symphony was in play - our backstage ballet of sound engineering.
+Terwijl de Grote Zaal van het Muziekgebouw langzaam donker werd, was het podium klaar voor een avond met Carl Orff's _Carmina Burana_. Maar buiten de schijnwerpers speelde zich nog een andere symfonie af - ons backstage ballet van geluidstechniek.
 <!--more-->
 
-## The Prelude: Load-In
+## Het voorspel: Load-in
 
-The day began with the meticulous dance of load-in. Amid the organized chaos, every cable, every mic, and every piece of equipment had its place. As the pianos were tuned and the percussion set, I felt the palpable anticipation of the performers. The challenge? Balancing the sound of a 40-strong teenage choir, a 40-strong adult choir, alongside two grand pianos and an array of percussion instruments. It was a task I relished, drawing upon my experience and intuition to ensure every note would reach the audience in perfect harmony.
+De dag begon uiteraard weer met alles uit de trailer halen en opbouwen in de Grote Zaal. Te midden van de georganiseerde chaos had elke kabel, elke microfoon en elk stuk apparatuur zijn plek. Terwijl de piano's werden gestemd en het slagwerk werd opgesteld, voelde ik de tastbare spanning van het gezelschap. De uitdaging? Het balanceren van het geluid van een 40-koppig tienerkoor, een 40-koppig volwassenenkoor, naast twee vleugels en een verzameling slaginstrumenten. Challenge accepted! Ik putte uit mijn ervaring en intuïtie om ervoor te zorgen dat elke noot het publiek zou bereiken.
 
-## The Performance: A Sonic Journey
+## De uitvoering: Een klankmatige reis
 
-As the lights dimmed, the first notes of ‘O Fortuna’ echoed through the hall, sending shivers down my spine. The power of Jeannette van Schaik’s soprano, the depth of Raoul Steffani’s baritone, and the clarity of Jan-Willem Schaafsma’s tenor - all were projected acoustically throughout our majestic Grote Zaal. And let’s not forget the pianos, under the masterful control of Scholtes & Janssens, weaving through Orff’s demanding score. It was exhilarating to be the unseen hand guiding this auditory experience.
+Toen de lichten dimden klonken de eerste noten van _O Fortuna_ door de zaal en het is misschien cringe, maar ik kreeg toch kippenvel. De kracht van Jeannette van Schaiks sopraan, de diepte van Raoul Steffani's bariton en de helderheid van Jan-Willem Schaafsma's tenor - allemaal werden ze akoestisch verspreid door onze majestueuze Grote Zaal. En laten we de piano's niet vergeten, onder de meesterlijke beheersing van Scholtes & Janssens, die zich door Orff's veeleisende partituur weefden. Het was opwindend om de onzichtbare hand te zijn die deze auditieve ervaring begeleidde.
 
-## The Encore: Load-Out
+## De toegift: Load-out
 
-As the final applause reverberated, the unsung symphony of load-out commenced. With a nod and a glance, the crew and I dismantled the stage with the efficiency of a well-oiled machine. Each microphone, each cable, was a memory of the night’s performance, carefully packed away for the next show. Our 'H' and 'K' Steinways carefully tucked away in their respective places.
+Terwijl het laatste applaus nog nagalmde, begon de onbezongen symfonie van de load-out. Met een knikje en een blik ontmantelden de crew en ik het podium met de efficiëntie van een goed geoliede machine. Elke microfoon, elke kabel was een herinnering aan de uitvoering van die avond, zorgvuldig ingepakt voor de volgende show. Onze 'H' en 'K' Steinways werden voorzichtig op hun respectievelijke plaatsen teruggezet.
 
-## Reflections in the Quiet
+## Overpeinzingen in de stilte
 
-Standing in the now-empty Grote Zaal, I reflected on the night. In the echoes of silence, I could still hear the remnants of _Carmina Burana_. It was a reminder of the ephemeral nature of live performances - intense, powerful, and fleeting. But for those of us behind the scenes, the satisfaction comes from knowing we played a crucial part in bringing these moments of intense joy to life.
+Staand in de nu lege Grote Zaal, overdacht ik de avond. In de echo's van de stilte kon ik nog steeds de overblijfselen van _Carmina Burana_ horen. Het was een herinnering aan de vluchtige aard van live optredens - intens, krachtig en kortstondig. Maar voor diegenen van ons achter de schermen komt de voldoening van het weten dat we een cruciale rol hebben gespeeld in het tot leven brengen van deze momenten van intense vreugde.
 
 <https://www.muziekgebouw.nl/nl/agenda/13525/pianoduo-festival-amsterdam/carmina-burana-van-orff>

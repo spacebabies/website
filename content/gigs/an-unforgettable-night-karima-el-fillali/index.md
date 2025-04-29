@@ -1,5 +1,5 @@
 ---
-title: "An Unforgettable Night with Karima El Fillali"
+title: "Een onvergetelijke avond met Karima El Fillali"
 date: 2024-05-20
 tags:
 resources:
@@ -7,18 +7,18 @@ resources:
     name: cover
     title: Karima el Fillali
 ---
-This night, the Muziekgebouw in Amsterdam hosted an extraordinary performance by Karima El Fillali.
+Vanavond was het Muziekgebouw in Amsterdam het toneel van een buitengewoon optreden van Karima El Fillali.
 <!--more-->
-As a stagehand and sound technician for this event, I was captivated by the stunning blend of trip-hop and Arabic poetry that filled the Grote Zaal.
+Als stagehand en geluidstechnicus voor dit evenement werd ik gegrepen door de verbluffende mix van trip-hop en Arabische poëzie die de Grote Zaal vulde.
 
-The evening began with an introduction by Mohamedou Ould Slahi on Foyerdeck 1, for which I handled the sound. As the audience settled in, anticipation built for what would be a remarkable main program starting at 20:15.
+De avond begon met een introductie door Mohamedou Ould Slahi op Foyerdeck 1, waarvoor ik het geluid verzorgde. Terwijl het publiek plaatsnam, groeide de spanning voor wat een bijzonder hoofdprogramma zou worden dat om 20:15 begon.
 
-[Karima El Fillali](https://nl.wikipedia.org/wiki/Karima_El_Fillali), accompanied by Stijn van Beek on live electronics, low whistle, and uilleann pipes, Marcos Baggiani on drums and percussion, and Jamil al Asadi on qanun, delivered a performance that was nothing short of magical. Her voice, a force of nature, brought life to the ancient Sufi poetry of Ibn Arabi, Mansur al-Hallaj, and Rabia al-Adawiyya, seamlessly blending with modern musical elements.
+[Karima El Fillali](https://nl.wikipedia.org/wiki/Karima_El_Fillali), begeleid door Stijn van Beek op live elektronica, low whistle en uilleann pipes, Marcos Baggiani op drums en percussie, en Jamil al Asadi op qanun, gaf een optreden dat niets minder dan magisch was. Haar stem, een natuurkracht, bracht de eeuwenoude soefi-poëzie van Ibn Arabi, Mansur al-Hallaj en Rabia al-Adawiyya tot leven, naadloos vermengd met moderne muzikale elementen.
 
-What made this concert even more remarkable was the reaction of the audience. It's rare for an audience to stand up during a concert, but such was the power of Karima's performance that they couldn't remain seated. The 4DSOUND installation added an extra spatial dimension, enveloping the listeners in a cocoon of sound that was both immersive and transformative.
+Wat dit concert nog bijzonderder maakte, was de reactie van het publiek. Het is zeldzaam dat een publiek tijdens een concert opstaat, maar zo groot was de kracht van Karima's optreden dat ze niet konden blijven zitten. De 4DSOUND-installatie voegde een extra ruimtelijke dimensie toe, die de luisteraars omhulde in een cocon van geluid die zowel meeslepend als transformerend was.
 
-Her voice, powerful and evocative, soared through the venue, leaving everyone in awe. The blend of traditional Arabic music with contemporary influences created a unique and mesmerizing experience that resonated deeply with everyone present.
+Haar stem, krachtig en evocatief, steeg op door de zaal en liet iedereen in verwondering achter. De mix van traditionele Arabische muziek met hedendaagse invloeden creëerde een unieke en betoverende ervaring die diep resoneerde bij alle aanwezigen.
 
-The entire production was a testament to the skill and artistry of everyone involved, from the musicians to the technical crew. Being part of the build and load-out process, and handling the sound for the introduction, allowed me to appreciate the immense effort and dedication that went into making this night a success.
+De gehele productie was een bewijs van de vaardigheid en het kunstenaarschap van iedereen die erbij betrokken was, van de muzikanten tot de technische crew. Deel uitmaken van het opbouw- en afbreekproces, en het verzorgen van het geluid voor de introductie, stelde me in staat de enorme inspanning en toewijding te waarderen die nodig waren om deze avond tot een succes te maken.
 
-Karima El Fillali's performance at the Muziekgebouw was an unforgettable experience, a perfect fusion of past and present, tradition and innovation. Her music, filled with passion and emotion, left a lasting impression on all who were fortunate enough to attend.
+Karima El Fillali's optreden in het Muziekgebouw was een onvergetelijke ervaring, een perfecte fusie van verleden en heden, traditie en vernieuwing. Haar muziek, vol passie en emotie, liet een blijvende indruk achter bij allen die het geluk hadden erbij te zijn.

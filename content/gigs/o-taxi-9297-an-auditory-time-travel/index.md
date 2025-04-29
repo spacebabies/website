@@ -1,10 +1,10 @@
 ---
-title: "O táxi n.º 9297: An Auditory Time Travel"
+title: "O táxi n.º 9297: Een auditieve tijdreis"
 date: 2024-04-03
 tags:
   - muziekgebouw
   - amsterdam
-  - orchestra
+  - orkest
 resources:
   - src: IMG_20240403_215206281.jpg
     name: feature cover
@@ -13,19 +13,19 @@ resources:
     name:
     title:
 ---
-Today the Muziekgebouw played host to a mesmerizing performance called _O táxi n.º 9297_. It was an orchestral narration that weaved through the silent film of the same name, a masterpiece dating back to 1927.
+Vandaag was het Muziekgebouw het toneel van een betoverende voorstelling genaamd _O táxi n.º 9297_. Het was een orkestrale vertelling die verweven was met de gelijknamige stomme film, een meesterwerk uit 1927.
 
 <!--more-->
 
-As all-around sound engineer, my role spanned the breadth of this auditory spectacle, from the load-in and setup on April 2 to ensuring every note and sound effect hit the mark during rehearsals and the live performance.
+Als allround geluidstechnicus omvatte mijn rol het volledige spectrum van dit auditieve spektakel, van de load-in en opbouw op 2 april tot het zorgen dat elke noot en elk geluidseffect perfect overkwam tijdens repetities en de live voorstelling.
 
-![A symphony of silence awaits: The pre-show quiet of 'O táxi n.º 9297'.](IMG_20240403_181612379.jpg)
-*The calm before the score: Setting the stage for 'O táxi n.º 9297' at the Muziekgebouw.*
+![Een symfonie van stilte wacht: De voorstellingsrust van 'O táxi n.º 9297'.](IMG_20240403_181612379.jpg)
+*De stilte voor de muzikale storm: Het klaarmaken van het podium voor 'O táxi n.º 9297' in het Muziekgebouw.*
 
-Connecting around 20 microphones, each one destined to capture the unique timbre of instruments like trumpets, clarinets, bassoons, the velvety touch of marimbas, and a whole universe of percussion, was no small feat. It was a task matched only by the talent of the musicians I had the pleasure to work with.
+Het aansluiten van ongeveer 20 microfoons, elk bestemd om de unieke klankkleur van instrumenten zoals trompetten, klarinetten, fagotten, de fluweelachtige toon van marimba's en een heel universum aan percussie vast te leggen, was bepaald geen kleinigheid. Het was een taak die alleen geëvenaard werd door het talent van de musici met wie ik het genoegen had samen te werken.
 
-Their talent was something to behold. As they wielded an eclectic mix of props for foley – the art of creating live sound effects – the musicians truly brought the film to life, crafting an immersive soundscape that transported us all back to the roaring '20s.
+Hun vakmanschap was indrukwekkend. Terwijl ze een eclectische mix van rekwisieten hanteerden voor foley – de kunst van het creëren van live geluidseffecten – brachten de musici de film echt tot leven en creëerden ze een meeslepend geluidslandschap dat ons allemaal terugvoerde naar de bruisende jaren '20.
 
-It's gigs like these, where technology meets tradition, and where every sound wave is a thread in the fabric of an era long passed, that remind me why I fell in love with sound engineering. Each microphone check, each cable run, each soundcheck – it's all part of the magic.
+Het zijn klussen als deze, waar techniek traditie ontmoet en waar elke geluidsgolf een draad is in het weefsel van een lang vervlogen tijdperk, die me herinneren waarom ik verliefd werd op geluidstechniek. Elke microfooncheck, elke kabelverbinding, elke soundcheck – het is allemaal onderdeel van de magie.
 
 <https://www.muziekgebouw.nl/nl/agenda/12645/united-instruments-of-lucilin/o-taxi-n-o-9297-1927>

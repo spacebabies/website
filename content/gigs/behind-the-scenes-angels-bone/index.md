@@ -1,5 +1,5 @@
 ---
-title: "Behind the Scenes of Angel's Bone"
+title: "Achter de schermen bij Angel's Bone"
 date: 2023-11-09
 tags:
 resources:
@@ -7,13 +7,13 @@ resources:
     name: cover
     title: Angel's Bone (foto Daniel Senzek)
 ---
-Just wrapped up working on _Angel's Bone_, an opera that's been stirring waves since its 2016 debut.
+Zojuist de werkzaamheden afgerond voor _Angel's Bone_, een opera die sinds haar debuut in 2016 veel opschudding veroorzaakt.
 <!--more-->
-The set? An astonishing assembly of massive, stark metal cages, flickering monochrome TVs, and an ambiance that perfectly captured the opera's gritty realism. Think rusty metal, dirt, dust – a visual feast that translated into a unique challenge for us backstage.
+Het decor? Een verbazingwekkende verzameling van enorme, kale metalen kooien, flikkerende zwart-wit tv's, en een ambiance die de rauwe realiteit van de opera perfect vastlegde. Denk aan roestig metaal, vuil, stof – een visueel feest dat zich vertaalde in een unieke uitdaging voor ons backstage.
 
 
-This production's theme – human trafficking and abuse – is as intense as it gets. While it didn't resonate with me on a personal level, the audience's reaction was something else. The cast received a standing ovation, and the satisfaction was palpable. Part of my role included managing the wireless mics post-show, a crucial task in maintaining the seamless audio experience this opera demands.
+Het thema van deze productie – mensenhandel en misbruik – is zo intens als het maar kan. Hoewel het mij persoonlijk niet zo raakte, was de reactie van het publiek iets bijzonders. De cast ontving een staande ovatie, en de voldoening was voelbaar. Een deel van mijn rol bestond uit het beheren van de draadloze microfoons na de voorstelling, een cruciale taak bij het handhaven van de naadloze audioervaring die deze opera vereist.
 
-From a technical standpoint, "Angel's Bone" was a tour de force. The production team rolled in with their own PA and equipment, leading us to clear out our line array at Muziekgebouw. They even constructed bleachers in the Grote Zaal for the audience! As a sound engineer, the 'snow crash' aesthetic of the black and white TVs strewn around was a visual treat. And for those curious, the video was seamlessly fed using an SDI cable, ensuring high-quality visuals to complement the intense audio experience.
+Vanuit technisch oogpunt was "Angel's Bone" een tour de force. Het productieteam kwam aan met hun eigen PA en apparatuur, waardoor we onze line array in het Muziekgebouw moesten verwijderen. Ze bouwden zelfs tribunes in de Grote Zaal voor het publiek! Als geluidstechnicus was de 'snow crash'-esthetiek van de zwart-witte tv's die overal verspreid lagen een visuele traktatie. En voor de nieuwsgierigen: de video werd naadloos gevoed met een SDI-kabel, wat zorgde voor beelden van hoge kwaliteit als aanvulling op de intense audioervaring.
 
 <https://www.muziekgebouw.nl/nl/agenda/12923/opera-wuppertal/angel-s-bone>

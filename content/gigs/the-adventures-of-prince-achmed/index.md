@@ -1,24 +1,24 @@
 ---
-title: "The Adventures of Prince Achmed"
+title: "De Avonturen van Prins Achmed"
 date: 2025-01-19T12:13:18+01:00
 tags:
 resources:
   - src: IMG_20250112_210203582~2.jpg
     name: cover
-    title: Transfixed audience, as seen from Front of House
+    title: Geboeid publiek, gezien vanaf Front of House
 ---
-The great thing about producing a live film score, is that they are passion projects almost by definition. Steven Kamperman's rendition of _The Adventures of Prince Achmed_ was no exception.
+Het mooie aan het produceren van een live filmscore is dat ze vrijwel per definitie passieprojecten zijn. Steven Kamperman's uitvoering van _Die Abenteuer des Prinzen Achmed_ vormde hierop geen uitzondering.
 <!--more-->
-Being the sound guy for live (silent) film scores has become [somewhat of a niche for me](https://www.spacebabies.nl/gigs/o-taxi-9297-an-auditory-time-travel/). I love the dance between visual storytelling and live music - the way each element breathes life into the other. Tonight's performance of _The Adventures of Prince Achmed_ was pure magic.
+Als geluidsman voor live (stomme) filmscores is dit [een soort specialisme voor mij geworden](https://www.spacebabies.nl/gigs/o-taxi-9297-an-auditory-time-travel/). Ik hou van de dans tussen visueel verhalen vertellen en live muziek - de manier waarop elk element het andere tot leven brengt. De voorstelling van vanavond van _Die Abenteuer des Prinzen Achmed_ was pure magie.
 
-Steven Kamperman's score brought Lotte Reiniger's intricate silhouettes to vivid life. His compositions shifted seamlessly between moods and acts, painting rich soundscapes that made the hand-cut figures practically leap off the screen. The music didn't just accompany the film - it became its heartbeat.
+Steven Kamperman's compositie bracht Lotte Reiniger's ingewikkelde silhouetten levendig tot leven. Zijn muziek verschoof naadloos tussen stemmingen en scènes, en schilderde rijke geluidslandschappen die de handgeknipte figuren bijna van het scherm lieten springen. De muziek begeleidde de film niet alleen - ze werd zijn hartslag.
 
-Eric Vloeimans' trumpet solos soared during Prince Achmed's most dramatic moments. I caught myself grinning as I worked the Plate Reverb, giving his notes that extra shimmer of space they deserved. The way his sound floated above the ensemble, yet stayed perfectly woven into the narrative... that's the stuff that makes this job worth every second.
+Eric Vloeimans' trompetsolo's stegen op tijdens de meest dramatische momenten van Prins Achmed. Ik betrapte mezelf op een glimlach terwijl ik de Plate Reverb bediende, om zijn noten die extra glans van ruimte te geven die ze verdienden. De manier waarop zijn geluid boven het ensemble zweefde, maar toch perfect verweven bleef in het verhaal... dat is waar dit werk elke seconde waard maakt.
 
 {{< applemusic url="https://embed.music.apple.com/nl/album/prince-achmed-feat-hamid-reza-behzadian-esat-ekincioglu/1784749234" >}}
 
-My prep work started long before the first note. I spent hours with the Yamaha CL5, mapping out its 15 inputs, three effect returns, five monitors and 8 recording buses. Named every channel, dialed in the low-cut filters, set up the compressors - all the invisible groundwork that lets me focus on the music when it matters. The Portico 5043 compressor and 5033 EQ earned their keep that night, helping craft a sound as enchanting as the visual world they accompanied.
+Mijn voorbereidingswerk begon lang voor de eerste noot. Ik bracht uren door met de Yamaha CL5, waarbij ik de 15 inputs, drie effectreturns, vijf monitors en 8 opnamebussen in kaart bracht. Elk kanaal een naam gegeven, de low-cut filters ingesteld, de compressors opgezet - al het onzichtbare grondwerk dat me in staat stelt me te concentreren op de muziek wanneer het ertoe doet. De Portico 5043 compressor en 5033 EQ verdienden die avond hun sporen, door te helpen een geluid te creëren dat net zo betoverend was als de visuele wereld die ze begeleidden.
 
-Seven hundred people held their breath as the story unfolded. Their laughter bubbled up at just the right moments, and when the final frame faded to black, they leapt to their feet. That standing ovation wasn't just for the performers - it was for the entire experience, for this beautiful marriage of century-old animation and fresh, vibrant music.
+Zevenhonderd mensen hielden hun adem in terwijl het verhaal zich ontvouwde. Hun gelach borrelde op precies de juiste momenten, en toen het laatste beeld vervaagde naar zwart, sprongen ze op. Die staande ovatie was niet alleen voor de uitvoerenden - het was voor de totale ervaring, voor deze prachtige vereniging van eeuw-oude animatie en frisse, levendige muziek.
 
 <https://www.muziekgebouw.nl/nl/agenda/13834/steven-kamperman-eric-vloeimans-esat-ekincioglu-hamid-reza-behzadian/die-abenteuer-des-prinzen-achmed-1926>
