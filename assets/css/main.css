@@ -16,6 +16,10 @@ a {
     font-size: theme(fontSize.xl);
 }
 
+aside address a:hover svg {
+    fill: theme(colors.zinc.50);
+}
+
 @media (prefers-color-scheme: dark) {
     section.gig {
         .prose {
@@ -39,4 +43,8 @@ a {
     a {
         color: theme(colors.amber.200)
     }
+    aside address a svg {
+        fill: theme(colors.zinc.400);
+    }
+    
 }
