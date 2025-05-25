@@ -1,6 +1,7 @@
 ---
 title: "David August presenteert: VĪS"
 date: 2023-11-19
+featured: true
 tags:
   - muziekgebouw
   - the rest is noise

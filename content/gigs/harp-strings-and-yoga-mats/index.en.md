@@ -1,6 +1,7 @@
 ---
 title: "Harp Strings and Yoga Mats"
 date: 2024-10-07
+featured: true
 tags:
   - muziekgebouw
   - yoga

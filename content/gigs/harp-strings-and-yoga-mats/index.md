@@ -1,6 +1,7 @@
 ---
 title: "Harpsnaren en Yogamatten"
 date: 2024-10-07
+featured: true
 tags:
   - muziekgebouw
   - yoga

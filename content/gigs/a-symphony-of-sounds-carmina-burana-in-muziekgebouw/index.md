@@ -1,6 +1,7 @@
 ---
 title: "Een symfonie van klanken: Carmina Burana in het Muziekgebouw"
 date: 2023-12-08
+featured: true
 tags:
   - muziekgebouw
   - concert

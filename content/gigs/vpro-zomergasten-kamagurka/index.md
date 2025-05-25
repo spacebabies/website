@@ -1,6 +1,7 @@
 ---
 title: "Vpro Zomergasten: Kamagurka"
 date: 2023-08-20T17:54:10+02:00
+featured: true
 tags:
   - muziekgebouw
 resources:

@@ -1,6 +1,7 @@
 ---
 title: Setting the Stage for Pärt über Bach
 date: 2024-10-17T21:22:53+02:00
+featured: true
 tags:
   - muziekgebouw
   - amsterdam

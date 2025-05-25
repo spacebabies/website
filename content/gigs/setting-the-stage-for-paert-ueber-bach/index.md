@@ -1,6 +1,7 @@
 ---
 title: Het podium klaarmaken voor Pärt über Bach
 date: 2024-10-17T21:22:53+02:00
+featured: true
 tags:
   - muziekgebouw
   - amsterdam

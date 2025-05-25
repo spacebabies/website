@@ -1,6 +1,7 @@
 ---
 title: "Dauw: een muzikaal voorspel op het ochtendgloren"
 date: 2023-11-03T00:10:52+01:00
+featured: true
 tags:
   - muziekgebouw
   - amsterdam

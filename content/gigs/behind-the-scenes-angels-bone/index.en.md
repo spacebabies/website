@@ -1,6 +1,7 @@
 ---
 title: "Behind the Scenes of Angel's Bone"
 date: 2023-11-09
+featured: true
 tags:
 resources:
   - src: img70999_orig.webp

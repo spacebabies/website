@@ -1,6 +1,7 @@
 ---
 title: "Een onvergetelijke avond met Karima El Fillali"
 date: 2024-05-20
+featured: true
 tags:
 resources:
   - src: karima.webp

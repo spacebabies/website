@@ -1,6 +1,7 @@
 ---
 title: Opening of the HvA Academic Year
 date: 2023-08-29T11:11:38+02:00
+featured: true
 tags:
   - muziekgebouw
   - hva

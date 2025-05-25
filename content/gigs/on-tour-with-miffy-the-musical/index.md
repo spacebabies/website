@@ -1,6 +1,7 @@
 ---
 title: "Op tournee met Nijntje de Musical"
 date: 2023-10-24T14:25:01+02:00
+featured: true
 tags:
   - musical
   - tour

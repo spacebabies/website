@@ -1,6 +1,7 @@
 ---
 title: "Canto and Karmit With Noord Nederlands Orchestra"
 date: 2024-04-15T11:40:35+02:00
+featured: true
 tags:
   - muziekgebouw
   - amsterdam

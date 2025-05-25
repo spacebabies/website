@@ -1,6 +1,7 @@
 ---
 title: Harmonie in de load-out
 date: 2023-11-24T09:09:11+01:00
+featured: true
 tags:
   - muziekgebouw
   - amsterdam

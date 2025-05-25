@@ -1,6 +1,7 @@
 ---
 title: Harmonies and Conversations
 date: 2024-02-02
+featured: true
 tags:
   - amsterdam
   - muziekgebouw

@@ -6,7 +6,7 @@
 </header>
 
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 text-sm">
-  {{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{ range where site.RegularPages "Params.featured" true }}
   {{ partial "cards/gig.html" . }}
   {{ end }}
 </div>

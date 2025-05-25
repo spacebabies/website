@@ -1,6 +1,7 @@
 ---
 title: "A Symphony of Sounds: Carmina Burana in Muziekgebouw"
 date: 2023-12-08
+featured: true
 tags:
   - muziekgebouw
   - concert

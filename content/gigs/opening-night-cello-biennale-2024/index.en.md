@@ -1,6 +1,7 @@
 ---
 title: "Opening Night of Cello Biennale 2024"
 date: 2024-10-31
+featured: true
 tags:
 resources:
   - src: IMG_20241031_205525217.jpg

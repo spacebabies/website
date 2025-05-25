@@ -1,6 +1,7 @@
 ---
 title: "Een avond vol innovatie: Cocon met Cello Octet Amsterdam"
 date: 2024-05-18T13:28:20+02:00
+featured: true
 tags:
   - muziekgebouw
   - dj set

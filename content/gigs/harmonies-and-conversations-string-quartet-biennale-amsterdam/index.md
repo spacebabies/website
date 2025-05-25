@@ -1,6 +1,7 @@
 ---
 title: Harmonieën en Gesprekken
 date: 2024-02-02
+featured: true
 tags:
   - amsterdam
   - muziekgebouw
