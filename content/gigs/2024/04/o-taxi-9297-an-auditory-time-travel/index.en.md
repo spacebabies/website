@@ -6,6 +6,11 @@ tags:
   - muziekgebouw
   - amsterdam
   - orchestra
+  - live film score
+  - silent film
+  - sound engineering
+  - foley
+  - classical music
 resources:
   - src: IMG_20240403_215206281.jpg
     name: feature cover

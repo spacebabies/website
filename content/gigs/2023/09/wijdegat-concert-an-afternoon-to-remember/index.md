@@ -2,6 +2,12 @@
 title: "Wijdegat Concert: een middag om nooit te vergeten"
 date: 2023-09-09T22:30:42+02:00
 tags:
+  - buiten
+  - concert
+  - jazz
+  - geluidstechniek
+  - kortenhoef
+  - boot podium
 resources:
   - src: IMG20230909174245.jpg
     name: cover

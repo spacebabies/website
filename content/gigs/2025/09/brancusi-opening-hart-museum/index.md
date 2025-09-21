@@ -3,7 +3,13 @@ title: "Opening Brancusi-tentoonstelling in H'ART Museum"
 date: 2025-09-19
 featured: true
 tags:
-  - zakelijk
+  - bedrijfsevenement
+  - hart museum
+  - amsterdam
+  - geluidstechniek
+  - vip evenement
+  - tentoonstelling opening
+  - load-out
 resources:
   - src: IMG_20250919_162312627_HDR.jpg
     name: cover

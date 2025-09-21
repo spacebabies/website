@@ -6,6 +6,11 @@ tags:
   - muziekgebouw
   - amsterdam
   - load-out
+  - stagework
+  - theater
+  - rhapsody
+  - asko schonberg
+  - teamwork
 resources:
   - src: img63785_orig.webp
     name: cover

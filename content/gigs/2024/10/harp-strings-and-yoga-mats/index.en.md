@@ -4,11 +4,13 @@ date: 2024-10-07
 featured: true
 tags:
   - muziekgebouw
+  - amsterdam
   - yoga
   - harp
-  - amsterdam
   - sound engineering
   - live music
+  - unique venue
+  - meditation
 resources:
   - src: Entreehal-Amplifyher2021-bykirstenvansanten-34-1280x854.jpg
     name: cover

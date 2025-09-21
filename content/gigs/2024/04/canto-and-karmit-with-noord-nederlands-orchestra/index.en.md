@@ -6,7 +6,11 @@ tags:
   - muziekgebouw
   - amsterdam
   - orchestra
+  - classical music
   - violin
+  - live broadcast
+  - sound engineering
+  - load-in
 resources:
   - src: img77260_orig.webp
     name: cover

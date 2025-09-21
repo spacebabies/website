@@ -4,8 +4,13 @@ date: 2023-06-10
 featured: true
 tags:
   - muziekgebouw
-  - hollandfestival
   - amsterdam
+  - holland festival
+  - festival
+  - podiumwerk
+  - geluidstechniek
+  - kunstfestival
+  - koninklijk bezoek
 resources:
   - src: call_for_the_company__copy__ada_nieuwendijk__12__lr.jpg
     name: cover

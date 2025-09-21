@@ -6,8 +6,11 @@ tags:
   - podcast
   - duinrell
   - vaksjaak
-  - recording
-  - outdoor
+  - opname
+  - buiten
+  - live opname
+  - geluidstechniek
+  - single take
 resources:
   - src: 7FzkPFYrzjw.jpg
     name: cover

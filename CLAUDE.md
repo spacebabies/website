@@ -37,6 +37,40 @@ When asked to create a page or post, parse the given information and then always
 
 Craft great metadata for pages, that at the very least contains relevant tags. It should also contain resources with a placeholder for image. (I will place the image manually)
 
+### Tags Strategy and Taxonomy
+
+A comprehensive, cross-cutting tagging system has been implemented across all gig pages to enhance discoverability, organization, and SEO performance. The system follows these core principles:
+
+**Multi-dimensional Classification:**
+- **Venues:** muziekgebouw, hart museum, duinrell, venues across Netherlands
+- **Locations:** amsterdam, kortenhoef, nederland/netherlands (geographic context)
+- **Genres:** klassieke muziek/classical music, elektronische muziek/electronic music, wereldmuziek/world music, jazz, hedendaagse muziek/contemporary music
+- **Event Types:** concert, opera, festival, podcast, musical, bedrijfsevenement/corporate event
+- **Technical Work:** geluidstechniek/sound engineering, podiumwerk/stagework, load-out, live uitzending/live broadcast, a2 werk/a2 work
+- **Special Features:** buiten/outdoor, live filmscore/live film score, yoga, meditatie/meditation, robotica/robotic performance
+
+**Language Implementation:**
+- **English pages:** Use natural English terminology that resonates with international audiences
+- **Dutch pages:** Employ accessible Dutch terms, avoiding overly academic language (e.g., "geluidstechniek" over "auditieve engineering")
+- **Consistent overlap:** Related pages share common tags while maintaining content-specific uniqueness
+- **Cultural appropriateness:** Tags reflect the cultural context of each language audience
+
+**Strategic Benefits:**
+- **Cross-reference capability:** Users can discover related content across different event types, venues, and technical specializations
+- **SEO optimization:** Descriptive, searchable terms that improve content discoverability
+- **Content organization:** Enables filtering and grouping by multiple dimensions simultaneously
+- **Scalability:** System accommodates new venues, technologies, and event types as they emerge
+
+**Future Enhancement Areas:**
+- **Equipment-specific tags:** Potential addition of specific gear tags (yamaha-cl5, meyer-speakers, etc.) for technical deep-dives
+- **Collaboration tags:** Artist-specific or production company tags for recurring partnerships
+- **Seasonal/temporal tags:** Festival seasons, touring cycles, venue programming periods
+- **Difficulty/complexity tags:** Technical complexity levels for educational content categorization
+- **Format-specific tags:** Video content, photo galleries, technical documentation
+- **Accessibility tags:** Marking content with accessibility features or considerations
+
+The current taxonomy provides a solid foundation while remaining flexible enough to evolve with the site's content and audience needs.
+
 ### File and Directory Structure
 
 For gigs, follow the established pattern:

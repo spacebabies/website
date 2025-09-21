@@ -3,6 +3,12 @@ title: "Achter de schermen bij Angel's Bone"
 date: 2023-11-09
 featured: true
 tags:
+  - muziekgebouw
+  - amsterdam
+  - opera
+  - hedendaagse opera
+  - podiumwerk
+  - draadloze microfoons
 resources:
   - src: img70999_orig.webp
     name: cover

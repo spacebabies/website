@@ -4,8 +4,11 @@ date: 2023-08-29T11:11:38+02:00
 featured: true
 tags:
   - muziekgebouw
-  - hva
   - amsterdam
+  - bedrijfsevenement
+  - hva
+  - podiumwerk
+  - evenement opbouw
 resources:
   - src: hva-impact-experience_hippo-banner_700x350-px.jpg
     name: cover

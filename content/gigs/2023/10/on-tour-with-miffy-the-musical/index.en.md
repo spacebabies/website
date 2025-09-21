@@ -5,6 +5,11 @@ featured: true
 tags:
   - musical
   - tour
+  - children's theater
+  - sound engineering
+  - qlab
+  - wireless mics
+  - netherlands
 resources:
   - src: IMG20231021141555.jpg
     name: cover

@@ -3,6 +3,13 @@ title: "An Unforgettable Night with Karima El Fillali"
 date: 2024-05-20
 featured: true
 tags:
+  - muziekgebouw
+  - amsterdam
+  - world music
+  - arabic music
+  - 4dsound
+  - sound engineering
+  - stagework
 resources:
   - src: karima.webp
     name: cover

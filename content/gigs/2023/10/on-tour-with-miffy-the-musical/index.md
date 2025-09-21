@@ -5,6 +5,11 @@ featured: true
 tags:
   - musical
   - tour
+  - kindertheater
+  - geluidstechniek
+  - qlab
+  - draadloze microfoons
+  - nederland
 resources:
   - src: IMG20231021141555.jpg
     name: cover

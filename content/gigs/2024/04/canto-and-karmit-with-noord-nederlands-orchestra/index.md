@@ -6,7 +6,11 @@ tags:
   - muziekgebouw
   - amsterdam
   - orkest
+  - klassieke muziek
   - viool
+  - live uitzending
+  - geluidstechniek
+  - load-in
 resources:
   - src: img77260_orig.webp
     name: cover

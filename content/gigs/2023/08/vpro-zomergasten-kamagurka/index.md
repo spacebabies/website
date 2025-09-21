@@ -4,6 +4,13 @@ date: 2023-08-20T17:54:10+02:00
 featured: true
 tags:
   - muziekgebouw
+  - amsterdam
+  - televisie
+  - vpro
+  - zomergasten
+  - live uitzending
+  - geluidstechniek
+  - kamagurka
 resources:
   - src: Kama_169_230702A_HR.jpeg
     name: cover

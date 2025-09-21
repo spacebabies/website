@@ -3,6 +3,13 @@ title: "Openingsavond van de Cello Biënnale 2024"
 date: 2024-10-31
 featured: true
 tags:
+  - muziekgebouw
+  - amsterdam
+  - cello biennale
+  - klassieke muziek
+  - geluidstechniek
+  - live uitzending
+  - festival opening
 resources:
   - src: IMG_20241031_205525217.jpg
     name: cover

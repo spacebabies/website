@@ -8,6 +8,13 @@ resources:
     title: Dekmantel aan 't IJ (photo Bart Heemskerk)
 tags:
   - muziekgebouw
+  - amsterdam
+  - electronic music
+  - festival
+  - the orb
+  - leftfield
+  - a2 work
+  - sound engineering
 ---
 Sometimes the most magical moments happen when you least expect them. Working as A2 for Dekmantel aan 't IJ, I discovered that electronic music legends are refreshingly human.
 <!--more-->

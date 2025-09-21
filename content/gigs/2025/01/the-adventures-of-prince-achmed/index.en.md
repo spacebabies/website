@@ -3,6 +3,13 @@ title: "The Adventures of Prince Achmed"
 date: 2025-01-19T12:13:18+01:00
 featured: true
 tags:
+  - muziekgebouw
+  - amsterdam
+  - live film score
+  - silent film
+  - sound engineering
+  - classical music
+  - live music
 resources:
   - src: IMG_20250112_210203582~2.jpg
     name: cover

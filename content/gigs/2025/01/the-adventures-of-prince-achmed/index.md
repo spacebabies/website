@@ -3,6 +3,13 @@ title: "De Avonturen van Prins Achmed"
 date: 2025-01-19T12:13:18+01:00
 featured: true
 tags:
+  - muziekgebouw
+  - amsterdam
+  - live filmscore
+  - stomme film
+  - geluidstechniek
+  - klassieke muziek
+  - live muziek
 resources:
   - src: IMG_20250112_210203582~2.jpg
     name: cover

@@ -2,6 +2,12 @@
 title: "Wijdegat Concert: an Afternoon to Remember"
 date: 2023-09-09T22:30:42+02:00
 tags:
+  - outdoor
+  - concert
+  - jazz
+  - sound engineering
+  - kortenhoef
+  - boat venue
 resources:
   - src: IMG20230909174245.jpg
     name: cover

@@ -8,6 +8,9 @@ tags:
   - vaksjaak
   - recording
   - outdoor
+  - live recording
+  - sound engineering
+  - single take
 resources:
   - src: 7FzkPFYrzjw.jpg
     name: cover

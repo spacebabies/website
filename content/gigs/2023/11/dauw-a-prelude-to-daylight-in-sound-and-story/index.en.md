@@ -5,6 +5,11 @@ featured: true
 tags:
   - muziekgebouw
   - amsterdam
+  - world music
+  - andalusian music
+  - stagework
+  - sound engineering
+  - sustainable production
 resources:
   - src: Dauw - Bart Grietens-36.jpg
     name: cover

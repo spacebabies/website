@@ -4,8 +4,11 @@ date: 2023-11-19
 featured: true
 tags:
   - muziekgebouw
-  - the rest is noise
+  - amsterdam
+  - electronic music
   - dj set
+  - sound engineering
+  - audiovisual
 resources:
   - src: img68554_orig.webp
     name: cover

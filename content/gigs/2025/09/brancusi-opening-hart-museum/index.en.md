@@ -3,7 +3,13 @@ title: "Brancusi Exhibition Opening at H'ART Museum"
 date: 2025-09-19
 featured: true
 tags:
-  - corporate
+  - corporate event
+  - hart museum
+  - amsterdam
+  - sound engineering
+  - vip event
+  - exhibition opening
+  - load-out
 resources:
   - src: IMG_20250919_162312627_HDR.jpg
     name: cover

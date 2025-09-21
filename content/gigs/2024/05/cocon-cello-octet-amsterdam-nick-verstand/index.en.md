@@ -4,9 +4,13 @@ date: 2024-05-18T13:28:20+02:00
 featured: true
 tags:
   - muziekgebouw
-  - dj set
-  - the rest is noise
-  - cello
+  - amsterdam
+  - contemporary music
+  - cello octet
+  - robotic performance
+  - laser show
+  - nick verstand
+  - experimental music
 resources:
   - src: IMG_20240517_163429018~2.jpg
     name: cover
