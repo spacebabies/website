@@ -15,8 +15,8 @@ Eerst de VIP-speech in de Kerkzaal om 18:00. Deze ruimte was een uitdaging - de 
 
 Om 20:30 verplaatsten we ons naar de tuin voor het grote openingsevenement. Hier hadden we onze tien Meyer X20s verdeeld over drie zones: een in de tent (gelukkig bleef het droog), een centrale zone rond het podium waar Annabelle Birnie, directeur van het museum, haar toespraak hield, en een derde zone aan de randen van de tuin.
 
-De avond ontvouwde zich in lagen. Na Annabelle's welkomstwoord nam het jazz-trio de atmosfeer over, gevolgd door de DJ die de energie vastkomend hield tot 23:00. De verdeling van onze speakers zorgde voor een gelijkmatige geluidsverdeling door de hele buitenruimte.
+De avond ontvouwde zich in lagen. Bij de opening speelde een jazz-trio. Na Annabelle's welkomstwoord nam het jazz-trio het stokje weer over, gevolgd door een DJ die de energie vasthield tot 23:00. De verdeling van onze speakers zorgde voor een gelijkmatige geluidsverdeling door de hele buitenruimte.
 
 En toen kwam de uitdaging waar elke technicus mee bekend is: de breek in totale duisternis. Eén uur om tien speakers, LED-parren en uplights, alle bekabeling en randapparatuur in te pakken. In het donker voelde elke beweging als een dans tussen geheugen en instinct. Maar we kregen alles mee - elk stuk equipment vond zijn weg terug naar de truck.
 
-Constantin Brancusi zou hebben geweten wat perfectie betekent in eenvoud. Die avond vonden wij onze eigen versie daarvan: heldere audio, soepele overgangen, en een breek die klaar was voordat de laatste gast het museum verliet.
+Constantin Brancusi zou hebben geweten wat perfectie betekent in eenvoud. Die avond vonden wij onze eigen versie daarvan: heldere audio, soepele overgangen, en een breek die klaar was voordat de bewaking kwam vragen of het nog lang ging duren.
