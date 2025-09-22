@@ -1,4 +1,7 @@
 past_gigs: Past gigs
+all_gigs: All gigs
 vat_id: VAT ID
 cta_call: book a call
 cta_email: email me
+previous: Previous
+next: Next

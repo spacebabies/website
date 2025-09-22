@@ -2,7 +2,7 @@
 {{ partial "grids/content" . }}
 
 <header class="py-8 mt-8">
-  <h2 class="text-3xl font-bold">{{ T "past_gigs" }}</h2>
+  <h2 class="text-3xl font-bold flex justify-between items-center">{{ T "past_gigs" }}<a href="{{ "gigs" | relLangURL }}" class="text-sm font-normal hover:underline">{{ T "all_gigs" }}</a></h2>
 </header>
 
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 text-sm">

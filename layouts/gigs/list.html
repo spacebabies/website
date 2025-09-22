@@ -1,0 +1,46 @@
+{{ define "header" }}
+  {{ $pageTitle := .Title }}
+  {{ with resources.Get "images/audience_music.png" }}
+  <header
+    class="bg-cover bg-center"
+    style="height: 40vh; background-image:
+      url({{ (.Resize "1400x webp" | fingerprint).RelPermalink }}),
+      url({{ (.Resize "1400x jpg" | fingerprint).RelPermalink }})">
+      <div class="relative h-full flex flex-col justify-center items-center text-amber-50 text-center">
+        <a class="bg-transparent border p-1 px-6 m-6 rounded-full absolute top-0 left-0 text-amber-50 hover:text-zinc-800 hover:bg-amber-50" href="/">Home</a>
+        <h1 class="font-black text-4xl mb-4 drop-shadow">{{ $pageTitle }}</h1>
+      </div>
+  </header>
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 text-sm">
+  {{ $paginator := .Paginate (where site.RegularPages "Section" "gigs").ByDate.Reverse }}
+  {{ range $paginator.Pages }}
+  {{ partial "cards/gig.html" . }}
+  {{ end }}
+</div>
+
+{{ if gt $paginator.TotalPages 1 }}
+<nav class="flex justify-center mt-8">
+  <div class="flex space-x-2">
+    {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}" class="px-3 py-2 bg-gray-200 hover:bg-gray-300 rounded">&larr; {{ T "previous" }}</a>
+    {{ end }}
+
+    {{ range $paginator.Pagers }}
+      {{ if eq . $paginator }}
+        <span class="px-3 py-2 bg-blue-500 text-white rounded">{{ .PageNumber }}</span>
+      {{ else }}
+        <a href="{{ .URL }}" class="px-3 py-2 bg-gray-200 hover:bg-gray-300 rounded">{{ .PageNumber }}</a>
+      {{ end }}
+    {{ end }}
+
+    {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}" class="px-3 py-2 bg-gray-200 hover:bg-gray-300 rounded">{{ T "next" }} &rarr;</a>
+    {{ end }}
+  </div>
+</nav>
+{{ end }}
+{{ end }}
