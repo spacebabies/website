@@ -26,8 +26,6 @@ Use the writing style given in the answers to those questions, to infer overall 
 
     De echte verrassing van de dag was Jasper Udink ten Cate als closer. Waar de meeste sprekers netjes achter het lectern bleven, explodeerde Jasper de ruimte met energie. Hij vertelde over zijn kunstprojecten - sommige gelukt, andere gefaald, maar dat was juist het punt. Het meest memorabele was zijn verhaal over het deconstrueren van voedsel tot basisvormen, die hij vervolgens als keramische servies vormde om hetzelfde eten opnieuw te serveren. Conceptueel briljant, en de manier waarop hij het vertelde - met zoveel passie en humor - maakte dat je begreep waarom hij de perfecte afsluiting was voor een dag vol food innovation.
 
-    Het hele ecosysteem van het Eye werkte mee aan de ervaring. Deelnemers wandelden tussen de andere ruimtes door, de iconische architectuur deed zijn werk, en de professionele uitstraling van de venue versterkte de boodschap van de summit. Soms vergeet je bijna dat je aan het werk bent wanneer de locatie, content en techniek zo perfect samenkomen.
-
 **BAD example - do NOT write endings like this:**
 
     Terwijl de laatste beats van Leftfield's set nagalmden door die zes J-subs, realiseerde ik me dat ik net iets zeldzaams had meegemaakt - de perfecte kruising van technische excellentie, muzikale passie, en menselijke verbinding. Soms zijn legendes gewoon mensen die toevallig buitengewoon goed zijn in wat ze doen.
