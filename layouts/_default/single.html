@@ -25,11 +25,13 @@
   </section>
 
   {{ with .Params.tags }}
-  <section class="flex flex-col md:flex-row gap-4 mt-12">
-    <span>tags:</span>
-    {{ range . }}
-      <a class="p-1 px-6 bg-zinc-200 rounded-none hover:bg-zinc-300 dark:text-amber-800" href="{{ relLangURL (printf "/tags/%s" .) }}">{{ . }}</a>
-    {{ end }}
+  <section class="mt-12">
+    <span class="block mb-4">tags:</span>
+    <div class="flex flex-wrap gap-2">
+      {{ range . }}
+        <a class="px-3 py-1 bg-zinc-200 rounded-full hover:bg-zinc-300 dark:text-amber-800 whitespace-nowrap" href="{{ relLangURL (printf "/tags/%s" .) }}">{{ . }}</a>
+      {{ end }}
+    </div>
   </section>
   {{ end }}
 {{ end }}

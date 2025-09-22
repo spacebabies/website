@@ -4,7 +4,7 @@ venue: "Eye Filmmuseum Cinema 1"
 location: "Amsterdam"
 date: 2025-09-17
 featured_image: ""
-tags: [amsterdam, nederland, conference, corporate event, geluidstechniek, eye filmmuseum, foh, microphone technique, video playback, lighting]
+tags: [amsterdam, nederland, conference, zakelijk evenement, geluidstechniek, eye filmmuseum, foh, microfoontechniek, video playback, lighting]
 resources:
   - name: "featured_image"
     src: "TF74983.jpg"
