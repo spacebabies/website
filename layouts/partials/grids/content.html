@@ -5,7 +5,8 @@
     </article>
 
     <section class="mb-4 services grid grid-cols-1 lg:grid-cols-3 gap-6">
-      {{ range .Site.Data.services }}
+      {{ $services := index .Site.Data (printf "services.%s" .Site.Language.Lang) }}
+      {{ range $services }}
       <div
         class="card bg-zinc-800 dark:bg-zinc-700 rounded-xl shadow-md overflow-hidden"
       >
