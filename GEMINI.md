@@ -128,6 +128,26 @@ Capture the essence and meaning of each paragraph, but feel free to:
 - Keep the HTML comment markers (e.g., `<!--more-->`) intact
 - Preserve paragraph breaks but feel free to adjust sentence breaks
 
+### 5. Additional Guidelines for Dutch Content
+
+To better match the desired writing style, the following specific rules apply to Dutch texts:
+
+1.  **Use a Direct and Active Tone:**
+    -   Write in the active voice whenever possible, especially when describing actions (e.g., "We hebben de vloer gelegd" instead of "De vloer werd gelegd").
+    -   Avoid a formal, almost academic tone. Do not use phrases like "is van aard" or "de potentie verkennen". Be direct and factual.
+
+2.  **Be Technically Precise, but Accessible:**
+    -   Explain technical terms briefly and simply the first time you mention them, possibly in parentheses. For example: `akoestisch (dus niet versterkt)` or `...een systeem waarmee je de hele ruimte anders kunt laten klinken.`
+    -   Present technical details as facts ("De zaal beschikt over...") rather than embedding them in a narrative context.
+
+3.  **Enrich with Context and Authenticity:**
+    -   Introduce artists and collaborators early in the text, including their name, role/instrument, and a link to their website if relevant.
+    -   When a term has a clear non-Dutch origin (like `oed`), add the script from the original language (like `عود`) for cultural authenticity and to avoid ambiguity.
+
+4.  **Structure and Formatting:**
+    -   Use Markdown headers (`##`, `###`) for section titles instead of only bolded text.
+    -   Formulate page titles to be descriptive, for example by combining the event name with a relevant subtitle or tagline.
+
 ## Canonical Example
 
 The 'Harmony in the Load-out' article, found in the `content` directory, has been carefully translated by hand and represents a "perfect" adaptation. Its concept, jargon, and tone serves as guidepost for future translations. However, it is also important to be creative and bold if the situation calls for it.
