@@ -27,7 +27,7 @@ resources:
   - src: "IMG_20260206_092605017_HDR.jpg"
     name: "header"
 ---
-De voorstelling _Wiegeling_ is een ode aan het wiegelied. In een zachte, geborgen omgeving gaan een [Sterre Konijn](https://www.sterrekonijn.nl/) (sopraan), [Rudi van Hest](https://rudivanhest.nl/) (klarinet) en [Jaber Fayad](https://www.jaberfayad.com/) (oed/عود) muzikale ontmoetingen aan met het jonge publiek (6-18 maanden) en met elkaar.
+De voorstelling _Wiegeling_ is een ode aan het wiegelied. In een zachte, geborgen omgeving gaan  [Sterre Konijn](https://www.sterrekonijn.nl/) (sopraan), [Rudi van Hest](https://rudivanhest.nl/) (klarinet) en [Jaber Fayad](https://www.jaberfayad.com/) (oed/عود) muzikale ontmoetingen aan met het jonge publiek (6-18 maanden) en met elkaar.
 <!--more-->
 
 Wat dit concert zo bijzonder maakt, is de vaak onverwachte reactie van het piepjonge publiek: zelfs de meest beweeglijke of huilende baby's worden volledig betoverd en kijken met open mond van verbazing toe. Het is een uniek schouwspel om tientallen baby's samen in zo'n diepe verwondering te zien. Het herinnert je eraan hoeveel er al in zo'n jong mensje schuilt.
