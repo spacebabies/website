@@ -39,3 +39,5 @@ As the "eerste inspiciënt" (stage manager), my role for Wiegeling was focused o
 The musicians perform this piece acoustically (i.e., without amplification). The Kleine Zaal was recently equipped with a Yamaha AFC Enhance system, an electronic system that can alter the acoustics of the entire room. The artists were impressed with the sound quality, but we ultimately decided to leave the system off. This was to preserve the natural, 'womb-like' sound and the intimate character of the setup. We laid a black ballet floor as a foundation, and the room was richly provided with cushions and rugs to create a soft and inviting environment.
 
 These baby concerts are consistently sold out at Muziekgebouw aan 't IJ, a testament to the demand for such enchanting experiences for the very youngest audiences. Each time, it's a magical afternoon where even the smallest visitors are completely absorbed by the music and sensory stimuli.
+
+<https://www.muziekgebouw.nl/nl/agenda/wiegeling-6-18-maanden-yfsc>
