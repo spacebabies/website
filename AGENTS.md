@@ -77,6 +77,10 @@ For gigs, follow the established pattern:
 - Files: `index.en.md` (English) and `index.md` (Dutch)
 - Use descriptive but concise directory names that capture the essence of the event
 
+### Tailwind and Hugo
+
+When changing Tailwind classes in Hugo templates or content, also make a tracked change to `assets/css/main.css` so Hugo/PostCSS regenerates the Tailwind output. A template-only class change may not show up locally until the CSS asset is touched.
+
 ### Narrative Elements
 
 Stories should focus on:

@@ -8,18 +8,18 @@
       {{ $services := index .Site.Data (printf "services.%s" .Site.Language.Lang) }}
       {{ range $services }}
       <div
-        class="card bg-zinc-800 dark:bg-zinc-700 rounded-xl shadow-md overflow-hidden"
+        class="card bg-amber-100/60 dark:bg-zinc-900 border border-orange-200/80 dark:border-teal-900/70 rounded-lg shadow-md overflow-hidden"
       >
-        <div class="card-header w-full bg-amber-800 dark:bg-amber-700 p-4">
-          <h3 class="text-white dark:text-zinc-100 font-medium text-lg">
+        <div class="card-header w-full bg-teal-900 dark:bg-teal-950 border-b-4 border-orange-500 dark:border-rose-700 p-4">
+          <h3 class="text-amber-50 dark:text-amber-100 font-medium text-lg">
             {{ .title }}
           </h3>
         </div>
         <div class="card-body text-sm p-6">
-          <p class="mb-4 text-zinc-100 dark:text-zinc-200">
+          <p class="mb-4 text-zinc-800 dark:text-zinc-300">
             {{ .description }}
           </p>
-          <ul class="mb-6 space-y-2 text-zinc-100 dark:text-zinc-200">
+          <ul class="mb-6 space-y-2 text-zinc-800 dark:text-zinc-300">
             {{ range .features }}
             <li>{{ . }}</li>
             {{ end }}
