@@ -1,7 +1,7 @@
 ---
 title: Opening van het HvA Academisch Jaar
 date: 2023-08-29T11:11:38+02:00
-featured: true
+featured: false
 tags:
   - muziekgebouw
   - amsterdam

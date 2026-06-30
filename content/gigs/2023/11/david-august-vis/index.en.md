@@ -1,7 +1,7 @@
 ---
 title: "David August presented: VĪS"
 date: 2023-11-19
-featured: true
+featured: false
 tags:
   - muziekgebouw
   - amsterdam

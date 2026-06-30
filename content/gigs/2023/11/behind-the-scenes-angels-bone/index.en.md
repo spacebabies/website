@@ -1,7 +1,7 @@
 ---
 title: "Behind the Scenes of Angel's Bone"
 date: 2023-11-09
-featured: true
+featured: false
 tags:
   - muziekgebouw
   - amsterdam

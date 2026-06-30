@@ -1,7 +1,7 @@
 ---
 title: Holland Festival 2023
 date: 2023-06-10
-featured: true
+featured: false
 tags:
   - muziekgebouw
   - amsterdam

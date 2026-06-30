@@ -16,6 +16,8 @@ resources:
 ---
 De load-in begon met een flinke wandeling. Samen met de bandleden van Ex-Easter Island Head sleepten we hun uitgebreide instrumentarium – van percussie tot prepared guitars en stage mixers – dwars door een lege Grote Zaal naar onze werkplek in de Kleine Zaal. Er was meteen een klik met Ben, en het viel op hoe behulpzaam en enthousiast deze groep Scousers uit Liverpool was.
 
+<!--more-->
+
 ## De Setup op het Podium
 
 Voor dit concert in de serie *The Rest is Noise* werkten Daan en ik aan een dubbele opstelling. Het voorprogramma, Sun Kit, stond vooraan op een lager podium. Hun set leunde zwaar op elektronica, waarbij we de droge vocalen eerst naar FOH stuurden voor gate en EQ, om ze vervolgens terug te sturen naar hun eigen effectketen op het podium.

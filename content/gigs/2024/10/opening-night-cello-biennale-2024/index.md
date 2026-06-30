@@ -1,7 +1,7 @@
 ---
 title: "Openingsavond van de Cello Biënnale 2024"
 date: 2024-10-31
-featured: true
+featured: false
 tags:
   - muziekgebouw
   - amsterdam

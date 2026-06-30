@@ -16,6 +16,8 @@ resources:
 ---
 The load-in started with quite a trek. Together with the members of Ex-Easter Island Head, we dragged their extensive instrumentation—from percussion and prepared guitars to stage mixers—straight through an empty Grote Zaal all the way to our workspace in the Kleine Zaal. There was an immediate connection with Ben, and the enthusiasm and camaraderie of these Scousers from Liverpool stood out right away. They were incredibly helpful, and the vibe was set from the start.
 
+<!--more-->
+
 ## The Stage Setup
 
 For this concert in *The Rest is Noise* series, Daan and I worked with a dual stage setup. The support act, Sun Kit, was positioned downstage on a lower riser. Their set relied heavily on electronics, requiring us to send their dry vocals to FOH for gate and EQ first, before routing them back into their own effect chain on stage.

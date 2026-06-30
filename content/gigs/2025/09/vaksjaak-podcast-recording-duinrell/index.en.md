@@ -1,7 +1,7 @@
 ---
 title: Vaksjaak Podcast Recording at Duinrell
 date: 2025-09-13T14:00:00+02:00
-featured: true
+featured: false
 tags:
   - podcast
   - duinrell

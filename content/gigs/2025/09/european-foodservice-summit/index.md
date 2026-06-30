@@ -3,6 +3,7 @@ title: "European Foodservice Summit 2025"
 venue: "Eye Filmmuseum Cinema 1"
 location: "Amsterdam"
 date: 2025-09-17
+featured: true
 featured_image: ""
 tags: [amsterdam, nederland, conference, zakelijk evenement, geluidstechniek, eye filmmuseum, foh, microfoontechniek, video playback, lighting]
 resources:
