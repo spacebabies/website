@@ -1,7 +1,7 @@
-I don't just deliver sound—I deliver peace of mind. From complex RF coordination to musical mixes: with precision and expertise, I make the technology disappear so your message comes through crystal clear.
+Good sound starts with close listening and clear thinking. What does the room need, what does the artist need, where are the risks, and what has to be ready before the first case rolls in? I bring structure to complex productions, keep the quality bar high, and make sure the technology serves what is happening on stage.
 
-* **Bulletproof Preparation:** Showfiles, frequency coordination, and network infrastructure sorted before the first case rolls in
-* **Technical Confidence:** Dante Level 3 certified and RF specialist. No drop-outs, no hassle, even in complex environments
-* **Team Player:** I see beyond the faders. I collaborate with lighting, video, and production for a seamless experience
+* **Analysis before action:** Riders, room acoustics, RF, networking, and planning are checked up front. Not to make things complicated, but to know what really matters
+* **Reliable execution:** Showfiles, frequency coordination, and network infrastructure are in order. I keep going until it is right and hold myself and the team to the agreements made
+* **Human in the process:** I listen to artists, technicians, and production. That keeps the crew steady, even when the day is busy or technically complex
 
 [Book a free consultation](https://calendly.com/joost-spacebabies/30min) to discuss your plans.

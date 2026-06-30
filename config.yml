@@ -11,10 +11,10 @@ languages:
     languageName: Nederlands
     weight: 1
     params:
-      slogan: Luisteren. Bouwen. Beleven.
-      subtitle: Hoogwaardig geluidstechnicus voor cultuur, events en zakelijke markt
-      sidebar: Op zoek naar een vakkundige aanpak die je publiek onderdompelt in glashelder geluid? Dan ben je hier aan het juiste adres. Laten we samenwerken om van jouw volgende evenement iets onvergetelijks te maken.
-      description: Geluidstechnicus in Amsterdam gespecialiseerd in concertzalen, bands en zakelijke evenementen. Expert in Yamaha/Dante-systemen en draadloze oplossingen. Beschikbaar voor projecten in heel Nederland en Europa.
+      slogan: Luisteren. Analyseren. Realiseren.
+      subtitle: Geluidstechnicus voor producties die overzicht, precisie en rust nodig hebben
+      sidebar: Op zoek naar iemand die de techniek doorgrondt, afspraken bewaakt en ondertussen blijft luisteren naar de mensen op en naast het podium? Dan ben je hier aan het juiste adres. Laten we je productie helder en beheersbaar maken.
+      description: Geluidstechnicus in Amsterdam gespecialiseerd in concertzalen, bands en zakelijke evenementen. Analytisch, precies en mensgericht, met expertise in Yamaha/Dante-systemen en draadloze oplossingen. Beschikbaar voor projecten in heel Nederland en Europa.
       keywords: geluidstechnicus amsterdam, live geluid, concertzalen geluid, zakelijke evenementen audio, elektronische muziek technicus, freelance geluidsman, draadloze audiosystemen, dante specialist, audiovisuele techniek, tour geluidstechniek, festival geluid, shure axient specialist
       DateFormat: 2 January 2006
   en:
@@ -22,10 +22,10 @@ languages:
     languageName: English
     weight: 2
     params:
-      slogan: Listen. Build. Experience.
-      subtitle: Premium audio engineering for cultural venues, events, and corporate productions
-      sidebar: If you're looking for a professional touch to ensure your audience is immersed in crystal clear audio, you're in the right place. Let's collaborate and make your next event an auditory masterpiece!
-      description: Sound engineer in Amsterdam specializing in concert halls, bands, and corporate events. Expert in Yamaha/Dante systems and wireless solutions. Available for projects throughout the Netherlands and Europe.
+      slogan: Listen. Analyze. Deliver.
+      subtitle: Sound engineering for productions that need overview, precision, and calm
+      sidebar: If you need someone who understands the technical layer, protects the agreements made, and keeps listening to the people on and off stage, you're in the right place. Let's make your production clear and manageable.
+      description: Sound engineer in Amsterdam specializing in concert halls, bands, and corporate events. Analytical, precise, and people-focused, with expertise in Yamaha/Dante systems and wireless solutions. Available for projects throughout the Netherlands and Europe.
       keywords: sound engineer amsterdam, live sound, concert hall audio, corporate event audio, electronic music technician, freelance sound engineer, wireless audio systems, dante specialist, audiovisual engineering, tour sound engineering, festival audio, shure axient specialist
       DateFormat: January 2nd, 2006
 
