@@ -19,7 +19,7 @@ tags:
   - changeover
 resources:
   - name: cover
-    src: image.jpg
+    src: IMG_20260626_211741113.jpg
     title: RAVE-L at Muziekgebouw
 ---
 
