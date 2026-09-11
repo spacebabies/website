@@ -4,9 +4,9 @@ Nederlandse werkversie · 11 september 2026
 
 Interne leidraad. De persoonlijke evaluaties van opdrachtgevers en werkomstandigheden zijn bedoeld voor opdrachtkeuze; neem ze niet over in publieke websiteteksten.
 
-Dit document helpt Joost Baaij kiezen welk werk hij onder Space Babies wil aantrekken, aannemen en uitbouwen. Het uitgangspunt is werk dat inhoudelijk voldoening geeft, zakelijk loont en ruimte laat om te herstellen.
+Dit document helpt Joost Baaij kiezen welk werk hij onder Space Babies wil aantrekken, aannemen en uitbouwen. Het doel is de huidige prettige mix van werk behouden en voldoende passende contacten hebben om het wegvallen van een opdrachtgever op te vangen. Joost zegt al regelmatig nee. De positionering moet aanvragen beter laten passen, zonder de agenda verder onder druk te zetten.
 
-De analyse is gebaseerd op de websitebron in deze repository: homepage, diensten, metadata en gigverslagen uit 2023–2026, met het meeste gewicht bij recente stukken. Dit is geen onderzoek naar concurrenten of klantperceptie. De site laat zien hoe Joost werkt en waarover hij graag vertelt; tarieven, rendement en de energie ná een werkdag staan er niet in. Joosts persoonlijke toelichting op recente klussen vult deze analyse aan. Hieronder wordt onderscheid gemaakt tussen die ervaringen en de interpretatie ervan. De voorkeur om breed te blijven werken is bevestigd. De gewenste schaal en verantwoordelijkheid bij festivalwerk, financiële doelen en concrete grenzen zijn nog niet volledig vastgesteld.
+De analyse is gebaseerd op de websitebron in deze repository: homepage, diensten, metadata en gigverslagen uit 2023–2026, met het meeste gewicht bij recente stukken. Dit is geen onderzoek naar concurrenten of klantperceptie. De site laat zien hoe Joost werkt en waarover hij graag vertelt; tarieven, rendement en de energie ná een werkdag staan er niet in. Joosts persoonlijke toelichting op recente klussen vult deze analyse aan. Hieronder wordt onderscheid gemaakt tussen die ervaringen en de interpretatie ervan. De voorkeur om breed te blijven werken is bevestigd. Het zakelijke doel is continuïteit met passende opdrachtgevers, met behoud van geliefde culturele klussen en ruimte voor het werk bij de Gashouder. De gewenste schaal en verantwoordelijkheid bij festivalwerk en enkele praktische grenzen blijven open.
 
 ## De kern
 
@@ -56,7 +56,7 @@ Dit is geen automatische keuze voor een zwaardere leidinggevende rol. Meer invlo
 
 Congressen, gesprekken, museumevenementen en locatieopnames kunnen goed passen wanneer verstaanbaarheid, timing en prettig contact met sprekers serieus worden genomen. [European Foodservice Summit](content/gigs/2025/09/european-foodservice-summit/index.md) geeft daarvoor concreet bewijs.
 
-De persoonlijke voorbeelden geven geen grond om culturele opdrachten boven zakelijke te plaatsen. FOH bij een congres in Eye voor BeamSystems beviel uitstekend; Holland Festival noemt Joost juist slopend. Selecteer binnen alle drie de groepen op rol, communicatie en werkbare afspraken. Terugkerende samenwerking is daarbij een kwaliteit die in iedere sector kan voorkomen.
+Culturele voorstellingen hebben een bewuste plek in de gewenste werkmix: Joost wil werk voor bijvoorbeeld Dunja en de Dolly Dots behouden. Dat betekent geen algemene voorkeur voor iedere culturele productie boven zakelijk werk. FOH bij een congres in Eye voor BeamSystems beviel uitstekend; Holland Festival noemt Joost juist slopend. Selecteer binnen alle drie de groepen op rol, communicatie en werkbare afspraken. Terugkerende samenwerking is daarbij een kwaliteit die in iedere sector kan voorkomen.
 
 ## Wat de persoonlijke ervaringen toevoegen
 
@@ -136,7 +136,7 @@ De homepagezin “ik werk door tot het klopt” kan onbedoeld grenzeloze inzet b
 
 ## Beslissen over een nieuwe klus
 
-Beantwoord vóór de offerte of toezegging vijf vragen:
+Controleer eerst of er werkelijk ruimte is, met oktober tot en met maart bewust gereserveerd voor de Gashouder. Beantwoord daarna vóór de offerte of toezegging vijf vragen:
 
 1. **Inhoud:** welk onderdeel lijkt me leuk of interessant, heel concreet?
 2. **Rol:** wordt mijn oordeel benut en heb ik voldoende invloed op mijn resultaat?
@@ -150,23 +150,48 @@ Bij een grote productie is de vervolgvraag dus hoe de crew samenwerkt en hoe mij
 
 Een leerzame of prestigieuze klus krijgt geen automatische uitzondering. Benoem vooraf wat je werkelijk leert, met wie je een relatie opbouwt en welke investering je daarvoor bewust accepteert. Een prettige routineklus kan juist waardevol zijn doordat hij goed betaalt en ruimte overlaat.
 
-## Zakelijk vooruitgang boeken
+## Zakelijk doel: continuïteit en passende alternatieven
 
-De voorgestelde richting is vaker teruggevraagd worden om je oordeel, voorbereiding en samenwerking. Toets die richting aan deze praktische signalen:
+**Ik wil mijn winkel openhouden met het soort klanten en klussen waar ik nu al graag voor werk. Als een klant afvalt, wil ik opties hebben.**
 
-- Voorbereiding wordt expliciet geboekt en betaald.
-- Goede opdrachtgevers betrekken je eerder bij een volgende productie.
-- Je krijgt vaker de rollen waarvan je na afloop opnieuw denkt: dit wil ik doen.
-- De vergoeding blijft passend wanneer je ook voorbereiding, administratie en reisuren meetelt.
-- Je agenda houdt voldoende ruimte voor herstel en voor werk dat je graag wilt aannemen.
+Joost zegt al vaak nee. Meer aanvragen, meer werkdagen of zwaardere verantwoordelijkheid zijn daarom geen zelfstandige doelen. De gewenste verbetering is een beter filter: herkenbaar zijn voor passende opdrachtgevers en contact houden zonder voortdurend extra vraag te creëren.
 
-Stel een eigen minimumvergoeding en maximale belasting vast voordat je met vaste bedragen of grenzen in dit document gaat werken. De website biedt daarvoor geen cijfers.
+### Tarief en behoud van de werkmix
 
-Gebruik bestaande contacten bij passende producties om concreet te vertellen welk werk je vaker wilt doen. Benoem bijvoorbeeld het begeleiden en mixen van een voorstelling, of huistechniek waarbij je ook de technische voorbereiding verzorgt. Zo kunnen mensen je voor een herkenbare rol terugvragen.
+Het huidige tarief is €450. Joost noemt dit marktconform, maar geen grote vetpot; dat is zijn eigen inschatting, geen externe marktvergelijking. De tariefeenheid, inbegrepen uren, btw en eventuele toeslagen zijn hier niet vastgelegd.
+
+Een beweging naar €600 is geen doel van deze positionering. Joost verwacht dat dit fundamenteel ander werk zou aantrekken en wil juist culturele voorstellingen zoals die voor Dunja en de Dolly Dots houden. Dit is een keuze voor de gewenste werkmix, geen permanente bevriezing van het tarief.
+
+Bij opdrachtkeuze blijft relevant wat de vergoeding omvat: voorbereiding, uitvoering, reisuren en eventuele extra werkzaamheden. Het doel is dat fijne klussen houdbaar blijven binnen de afgesproken inzet.
+
+### Seizoensruimte voor de Gashouder
+
+Van oktober tot en met maart houdt Joost zijn kalender bewust vrij leeg voor zijn werk als **Venue Technician voor de Gashouder**. Behandel die ruimte als gereserveerde capaciteit bij het beoordelen van andere aanvragen. Een lege dag is in die periode niet automatisch beschikbaar voor een nieuwe klant.
+
+Andere opdrachten kunnen passen als ze de inzet voor de Gashouder en de benodigde ruimte daaromheen toelaten. Ook april tot en met september hoeft niet maximaal gevuld te worden. Beschikbaarheid wordt per concrete periode en opdracht besproken.
+
+### Zichtbaar blijven zonder voortdurend te werven
+
+- Houd het portfolio actueel met werk dat je graag blijft doen, verspreid over je verschillende rollen.
+- Laat bestaande relaties en doorverwijzers weten welke samenwerking goed past. Zij hoeven je niet uitsluitend voor FOH of grotere producties te onthouden.
+- Onderhoud contact met een beperkt aantal passende potentiële opdrachtgevers, zonder beschikbaarheid toe te zeggen die er niet is.
+- Maak in contact onderscheid tussen kennismaken voor een toekomstige samenwerking en een concrete datum kunnen aannemen.
+- Zoek gerichter contact wanneer er daadwerkelijk ruimte ontstaat of een opdrachtgever dreigt weg te vallen. Voer de acquisitie niet op zolang de gewenste capaciteit al gevuld is.
+
+Dit zijn voorgestelde werkwijzen voor het uitgesproken doel. Er zijn geen campagnes, contactmomenten of berichten aan opdrachtgevers ingepland.
+
+### Waaraan je merkt dat de positionering werkt
+
+- Nieuwe contacten begrijpen zowel je brede inzet als de manier waarop je prettig samenwerkt.
+- De aanvragen passen vaker bij je gewenste werk; het totale aantal hoeft niet te stijgen.
+- Bij het wegvallen van een opdrachtgever weet je welke passende contacten je kunt benaderen, zonder te rekenen op gegarandeerde opdrachten.
+- Geliefde culturele voorstellingen blijven onderdeel van je agenda.
+- De ruimte voor de Gashouder van oktober tot en met maart blijft behouden.
+- Je hoeft niet steeds vaker nee te verkopen als gevolg van je zichtbaarheid.
 
 ## Wat dit betekent voor de website
 
-De [homepage](content/_index.nl.md), [diensten](data/services.nl.yaml) en [huidige slogan](config.yml) dragen het profiel al. De diensten zijn breed ingedeeld naar sector; de verhalen maken het verschil in werkwijze tastbaar. Laat bij een volgende inhoudelijke aanpassing vooral zien: wat vroeg de productie, welke keuze maakte Joost en wat leverde dat op?
+De [homepage](content/_index.nl.md), [diensten](data/services.nl.yaml) en [huidige slogan](config.yml) dragen het profiel al. De diensten zijn breed ingedeeld naar sector; de verhalen maken het verschil in werkwijze tastbaar. De website moet een passende opdrachtgever helpen herkennen waarom hij Joost zou bellen en bestaande aanbevelingen onderbouwen. Stuur op de kwaliteit van aanvragen en houd de uitnodiging tot contact rustig, zonder algemene beschikbaarheid te suggereren. Laat bij een volgende inhoudelijke aanpassing vooral zien: wat vroeg de productie, welke keuze maakte Joost en wat leverde dat op?
 
 De [README](README.md) verwijst voor positionering naar dit document: passende aanvragen en houdbaar werk zijn het doel. Eerdere uitgangspunten als zoveel mogelijk boekingen, een beperking tot kleinere zalen en de belofte “nul stress” zijn losgelaten. De praktijkverhalen onderbouwen een bredere inzet en een zorgvuldige werkwijze, zonder absolute garanties.
 
@@ -182,8 +207,8 @@ Vul na de komende zes klussen kort dit overzicht in. Vergelijk vervolgens welke 
 | --- | --- | --- | --- | --- |
 | … | … | … | … | … |
 
-Bespreek daarnaast deze drie open punten en verwerk de antwoorden in de prioriteiten hierboven:
+Bespreek daarnaast deze open punten en verwerk de antwoorden in de prioriteiten hierboven:
 
 1. Welk concreet moment bij Van Nelle laat zien waar het vastloopt, en wat gebeurde op een vergelijkbaar moment bij de prettige productie anders?
 2. Wat maakt een groot festivalpodium precies intimiderend: het mixen voor veel mensen, de technische schaal, het aansturen van de ploeg, of de combinatie? Wil je dat onder afgebakende omstandigheden onderzoeken?
-3. Wat heeft zakelijk voorrang: vergoeding, continuïteit, verantwoordelijkheid, vrije tijd of minder reizen?
+3. Welke bestaande of nieuwe contacten zouden een passende aanvulling zijn als er ruimte ontstaat, rekening houdend met de inzet voor de Gashouder?
