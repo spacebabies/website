@@ -6,7 +6,7 @@ Interne leidraad. De persoonlijke evaluaties van opdrachtgevers en werkomstandig
 
 Dit document helpt Joost Baaij kiezen welk werk hij onder Space Babies wil aantrekken, aannemen en uitbouwen. Het uitgangspunt is werk dat inhoudelijk voldoening geeft, zakelijk loont en ruimte laat om te herstellen.
 
-De analyse is gebaseerd op de websitebron in deze repository: homepage, diensten, metadata en gigverslagen uit 2023–2026, met het meeste gewicht bij recente stukken. Dit is geen onderzoek naar concurrenten of klantperceptie. De site laat zien hoe Joost werkt en waarover hij graag vertelt; tarieven, rendement en de energie ná een werkdag staan er niet in. Joosts persoonlijke toelichting op recente klussen vult deze analyse aan. Hieronder wordt onderscheid gemaakt tussen die ervaringen en de interpretatie ervan. De gewenste rolverdeling, financiële doelen en grenzen zijn nog niet volledig vastgesteld.
+De analyse is gebaseerd op de websitebron in deze repository: homepage, diensten, metadata en gigverslagen uit 2023–2026, met het meeste gewicht bij recente stukken. Dit is geen onderzoek naar concurrenten of klantperceptie. De site laat zien hoe Joost werkt en waarover hij graag vertelt; tarieven, rendement en de energie ná een werkdag staan er niet in. Joosts persoonlijke toelichting op recente klussen vult deze analyse aan. Hieronder wordt onderscheid gemaakt tussen die ervaringen en de interpretatie ervan. De voorkeur om breed te blijven werken is bevestigd. De gewenste schaal en verantwoordelijkheid bij festivalwerk, financiële doelen en concrete grenzen zijn nog niet volledig vastgesteld.
 
 ## De kern
 
@@ -22,7 +22,7 @@ Space Babies is Joost Baaij, zelfstandig geluidstechnicus in Amsterdam voor conc
 
 ## Welke soort geluidstechnicus?
 
-Het bruikbaarste profiel is **geluidstechnicus met een analytische werkwijze en aandacht voor de voorstelling en de mensen**. Een functietitel alleen vertelt te weinig. FOH en A2 kunnen allebei goed passen; de ruimte om vakwerk te leveren bepaalt meer dan de plek waar de mengtafel staat.
+Het bruikbaarste profiel is **geluidstechnicus met een analytische werkwijze en aandacht voor de voorstelling en de mensen**. Een functietitel alleen vertelt te weinig. Joost vindt zelf mixen, zenderen, voorbereiding en stagehandwerk allemaal leuk. Die breedte is een bewuste voorkeur. De positionering selecteert op de manier van werken en samenwerken; zij hoeft het aanbod niet terug te brengen tot één technische functie.
 
 | Onderdeel van het profiel | Wat de site laat zien | Waarde voor de opdrachtgever |
 | --- | --- | --- |
@@ -75,7 +75,25 @@ De persoonlijke voorbeelden geven geen grond om culturele opdrachten boven zakel
 
 Dat is de sterkste voorlopige lijn in deze voorbeelden. Een afgebakende solo-opdracht en een grote productie met contact tussen disciplines kunnen allebei goed passen. Het verloren rondlopen bij Van Nelle wijst op een andere ervaring: er zijn mensen en er is werk, maar Joost vindt onvoldoende aansluiting om zijn bijdrage te leveren.
 
-FOH met showbediening is daarmee een kansrijke richting. Het is nog geen reden om ondersteunende of bredere technische rollen af te bouwen: juist het schakelen tussen audio en video beviel bij de productie voor 900 bezoekers goed.
+FOH met showbediening is een passende mogelijkheid naast zenderen, voorbereiding, huistechniek/A2 en stagehandwerk. Joost wil die verschillende werkzaamheden behouden. Ook FOH voor honderden bezoekers geeft hem regelmatig energie.
+
+### Grote festivalpodia: een open grens
+
+FOH en het aansturen van een groot festivalpodium liggen Joost naar eigen zeggen minder. Mixen voor 5000 bezoekers lijkt hem intimiderend. Dat beschrijft zijn huidige inschatting; uit de gegeven voorbeelden blijkt nog niet hoe zo'n mixklus onder goede omstandigheden daadwerkelijk zou uitpakken.
+
+Houd bij het beoordelen van een aanbod drie dingen apart:
+
+- **Het mixen:** verantwoordelijkheid voor wat het publiek hoort, met een passende en gecontroleerde technische basis.
+- **Het aansturen:** anderen coördineren, prioriteiten bepalen en omgaan met vragen of wijzigingen vanuit meerdere partijen.
+- **De schaal en omstandigheden:** publieksomvang, wissels, tijdsdruk, technische ondersteuning en de kwaliteit van de communicatie.
+
+Deze onderdelen kunnen in één functie samenkomen, maar dat hoeft niet. FOH voor een groot publiek met een ervaren systeemtechnicus en duidelijke productieleiding is een andere opdracht dan tegelijk mixen en het hele podium moeten aansturen.
+
+“Analytische Beheerder” is Joosts eigen beschrijving van zijn persoonlijkheidstype. Gebruik die als aanleiding om voorkeuren te onderzoeken, niet als bewijs dat een bepaalde rol wel of niet bij hem past. Of groter festivalwerk een gewenste uitdaging is, blijft een persoonlijke keuze die aan concrete ervaringen moet worden getoetst.
+
+**Voorlopige keuze:** de brede technische inzet behouden en grote festivalpodia niet actief als groeidoel neerzetten. Een passende kans kan afzonderlijk worden overwogen; meer bezoekers of meer leiderschap is geen noodzakelijke volgende stap.
+
+Als Joost dit wil onderzoeken, kies dan een opdracht waarbij vooral één aspect nieuw is. Bijvoorbeeld een groter publiek, met een bekende crew, voldoende voorbereiding, een systeemtechnicus en iemand anders die de podiumproductie leidt. Leg de eigen verantwoordelijkheid vooraf vast. Beoordeel na afloop zowel het plezier tijdens het werk als de belasting en hersteltijd erna, en of hij het onder dezelfde omstandigheden opnieuw zou willen doen. Eén spannende of vermoeiende dag geeft nog geen definitief antwoord; terugkerende ervaringen kunnen de keuze aanscherpen.
 
 ### Wat we hier niet uit kunnen afleiden
 
@@ -167,5 +185,5 @@ Vul na de komende zes klussen kort dit overzicht in. Vergelijk vervolgens welke 
 Bespreek daarnaast deze drie open punten en verwerk de antwoorden in de prioriteiten hierboven:
 
 1. Welk concreet moment bij Van Nelle laat zien waar het vastloopt, en wat gebeurde op een vergelijkbaar moment bij de prettige productie anders?
-2. Welke verhouding tussen zelf mixen, huistechniek/A2, voorbereiding en voorstellingsbegeleiding wil je?
+2. Wat maakt een groot festivalpodium precies intimiderend: het mixen voor veel mensen, de technische schaal, het aansturen van de ploeg, of de combinatie? Wil je dat onder afgebakende omstandigheden onderzoeken?
 3. Wat heeft zakelijk voorrang: vergoeding, continuïteit, verantwoordelijkheid, vrije tijd of minder reizen?
