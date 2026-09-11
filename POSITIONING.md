@@ -2,9 +2,11 @@
 
 Nederlandse werkversie · 11 september 2026
 
+Interne leidraad. De persoonlijke evaluaties van opdrachtgevers en werkomstandigheden zijn bedoeld voor opdrachtkeuze; neem ze niet over in publieke websiteteksten.
+
 Dit document helpt Joost Baaij kiezen welk werk hij onder Space Babies wil aantrekken, aannemen en uitbouwen. Het uitgangspunt is werk dat inhoudelijk voldoening geeft, zakelijk loont en ruimte laat om te herstellen.
 
-De analyse is gebaseerd op de websitebron in deze repository: homepage, diensten, metadata en gigverslagen uit 2023–2026, met het meeste gewicht bij recente stukken. Dit is geen onderzoek naar concurrenten of klantperceptie. De site laat zien hoe Joost werkt en waarover hij graag vertelt; tarieven, rendement en de energie ná een werkdag staan er niet in. De voorgestelde prioriteiten en grenzen moeten daarom aan zijn eigen ervaring worden getoetst.
+De analyse is gebaseerd op de websitebron in deze repository: homepage, diensten, metadata en gigverslagen uit 2023–2026, met het meeste gewicht bij recente stukken. Dit is geen onderzoek naar concurrenten of klantperceptie. De site laat zien hoe Joost werkt en waarover hij graag vertelt; tarieven, rendement en de energie ná een werkdag staan er niet in. Joosts persoonlijke toelichting op recente klussen vult deze analyse aan. Hieronder wordt onderscheid gemaakt tussen die ervaringen en de interpretatie ervan. De gewenste rolverdeling, financiële doelen en grenzen zijn nog niet volledig vastgesteld.
 
 ## De kern
 
@@ -38,27 +40,56 @@ De IT-achtergrond versterkt dit profiel. Die maakt hem handig op het snijvlak va
 
 De voorgestelde lokale basis is Amsterdam en omgeving, waar het portfolio veel aanknopingspunten biedt. Werk daarbuiten wordt per opdracht afgewogen op inhoud, relatie, reistijd en opbrengst. Een precieze reisgrens is nog niet vastgesteld.
 
-### Eerste prioriteit: podia, gezelschappen en culturele producenten
+### Podia, gezelschappen en culturele producenten
 
 Opdrachtgevers met concerten, muziektheater, dans of programma's waarin verschillende disciplines samenkomen. De goede match zoekt een technicus die zich verdiept in de voorstelling en kan samenwerken met artiesten, gasttechnici en het huis.
 
 Live filmscores zijn een concrete richting om verder uit te bouwen: in [Prins Achmed](content/gigs/2025/01/the-adventures-of-prince-achmed/index.md) noemt Joost dit zelf een specialisme en beschrijft hij zowel de voorbereiding als zijn plezier in het mixen. Hedendaagse muziek, elektronica en akoestische bezettingen komen eveneens overtuigend terug. Deze voorbeelden geven richting zonder hem aan één genre vast te zetten.
 
-### Tweede prioriteit: terugkerende technische samenwerking
+### Terugkerende technische samenwerking
 
 Huisploegen, producenten en technische leveranciers die iemand zoeken voor afgebakende verantwoordelijkheid bij voorbereiding en uitvoering. Herhaling kan hier waarde opleveren: de zaal kennen, elkaars werkwijze begrijpen en sneller tot goede beslissingen komen.
 
 Dit is geen automatische keuze voor een zwaardere leidinggevende rol. Meer invloed op het eigen werk kan vooruitgang zijn zonder verantwoordelijk te worden voor de hele productie.
 
-### Selectief: zakelijke evenementen en opnames
+### Zakelijke evenementen en opnames
 
 Congressen, gesprekken, museumevenementen en locatieopnames kunnen goed passen wanneer verstaanbaarheid, timing en prettig contact met sprekers serieus worden genomen. [European Foodservice Summit](content/gigs/2025/09/european-foodservice-summit/index.md) geeft daarvoor concreet bewijs.
 
-“Cultureel” is geen garantie op een fijne klus en “zakelijk” geen reden om af te haken. De mensen, omstandigheden en ruimte voor vakwerk wegen mee in iedere categorie.
+De persoonlijke voorbeelden geven geen grond om culturele opdrachten boven zakelijke te plaatsen. FOH bij een congres in Eye voor BeamSystems beviel uitstekend; Holland Festival noemt Joost juist slopend. Selecteer binnen alle drie de groepen op rol, communicatie en werkbare afspraken. Terugkerende samenwerking is daarbij een kwaliteit die in iedere sector kan voorkomen.
 
-## Waar het plezier vermoedelijk zit
+## Wat de persoonlijke ervaringen toevoegen
 
-Dit zijn hypotheses uit de verhalen, geen vastgestelde persoonlijke voorkeuren:
+| Ervaring van Joost | Wat goed of slecht werkte | Betekenis voor opdrachtkeuze |
+| --- | --- | --- |
+| Rabobank, circa 1000 bezoekers, Van Nelle Fabriek, voor Bourgonje | Slopend; wisselende crews communiceerden slecht, werkten los van elkaar en Joost liep verloren rond | Vooraf onderzoeken hoe zijn bijdrage en de afstemming worden georganiseerd; het afzonderlijke effect van de locatie blijft onduidelijk |
+| Een spraakset voor een beurs, Postillion Rotterdam/WTC, voor Bourgonje | Alleen flink doorwerken; onprettige omgeving en slecht eten, maar het werk ging lekker | Zelfstandig een concrete taak uitvoeren kan goed passen, ook onder weinig aantrekkelijke omstandigheden |
+| Grote productie voor circa 900 bezoekers op dezelfde locatie | Tijd verdeeld tussen audio en video, veel nuttig werk gedaan; de crew communiceerde beter en het liep lekker | Omvang en een losse crewsamenstelling sluiten een goede werkdag niet uit; afstemming en kunnen bijdragen lijken zwaarder te wegen |
+| Congres in Eye Filmmuseum, FOH voor BeamSystems | Ging uitstekend; Joost ervaart de crew daar als prettig | Zakelijk FOH-werk met een fijne crew is een aantoonbaar passende combinatie |
+| Holland Festival | Onduidelijkheid, wispelturigheid en hoge eisen die volgens Joost niet altijd een beter resultaat opleveren | Doorvragen op besluitvorming, wijzigende wensen en het doel van extra werk |
+| De Opvolgers, FOH en show draaien met QLab | Superleuk | Het combineren van mixen en voorstellingsbediening is een concrete positieve aanwijzing voor toekomstige opdrachten |
+
+### Werkhypothese: zelfstandig kunnen handelen en aansluiting vinden
+
+**Ik werk graag zelfstandig aan een duidelijke opdracht, en in een grotere ploeg wil ik kunnen afstemmen en weten waar ik nuttig kan bijdragen.**
+
+Dat is de sterkste voorlopige lijn in deze voorbeelden. Een afgebakende solo-opdracht en een grote productie met contact tussen disciplines kunnen allebei goed passen. Het verloren rondlopen bij Van Nelle wijst op een andere ervaring: er zijn mensen en er is werk, maar Joost vindt onvoldoende aansluiting om zijn bijdrage te leveren.
+
+FOH met showbediening is daarmee een kansrijke richting. Het is nog geen reden om ondersteunende of bredere technische rollen af te bouwen: juist het schakelen tussen audio en video beviel bij de productie voor 900 bezoekers goed.
+
+### Wat we hier niet uit kunnen afleiden
+
+- **Geen harde bezoekersgrens.** De gedachte dat festivals of producties met 1000+ bezoekers niet passen is begrijpelijk, maar het positieve voorbeeld met circa 900 bezoekers maakt publieksaantal ongeschikt als doorslaggevend criterium.
+- **Geen afwijzing van één klant of sector.** Voor Bourgonje zijn zowel belastende als prettige ervaringen genoemd. De concrete productie en samenwerking moeten worden beoordeeld.
+- **Geen vereiste van een vaste, hechte crew.** Een losse ploeg kan goed werken als mensen bereikbaar zijn en afstemmen.
+- **Geen bewijs dat hard werken of een onaantrekkelijke locatie op zichzelf het probleem is.** Postillion laat zien dat dit kan samengaan met werkplezier. Dat maakt goede omstandigheden nog niet onbelangrijk.
+- **Geen verklaring die volledig bij Joost ligt.** Zijn beschrijving noemt concrete organisatorische omstandigheden. Wat hij zelf kan beïnvloeden en wat de productie moet regelen, verdient afzonderlijk aandacht.
+
+De specifieke belasting van Van Nelle blijft een open vraag. Een rollenspel rond één concreet moment kan helpen onderzoeken wat er gebeurde: welke taak was afgesproken, welke informatie ontbrak, wie was bereikbaar, wat probeerde Joost en welke reactie kreeg hij? Daarbij moet ook ruimte blijven voor andere factoren dan communicatie; de oorzaak staat nog niet vast.
+
+## Aanvullende aanwijzingen uit het portfolio
+
+Deze hypotheses uit de websiteverhalen vullen de persoonlijke voorbeelden aan. Ze leggen nog geen rangorde in gewenste werkzaamheden vast:
 
 - **Een puzzel met een hoorbaar resultaat.** In [Casa Cadanza](content/gigs/2026/03/casa-cadanza-on-tour/index.md) dienen luidsprekerrichting en volume direct de verstaanbaarheid van de comedian.
 - **Samenwerken met mensen die hun vak serieus nemen.** Bij [Ex-Easter Island Head](content/gigs/2026/04/ex-easter-island-head/index.md) krijgen behulpzame muzikanten en aandacht voor hun monitorzorgen veel ruimte in het verhaal.
@@ -76,6 +107,8 @@ Onderstaande grenzen zijn voorstellen voor het aannemen van werk. Ze zijn geen o
 | --- | --- |
 | Je draagt verantwoordelijkheid voor geluid | Leg vast wat je zelf beslist, wie productievragen oplost en wie wijzigingen goedkeurt |
 | Er is voorbereiding nodig | Neem rideroverleg, showfile, technische afstemming en tests mee in de opdracht en vergoeding |
+| Je werkt in een wisselende of over meerdere disciplines verdeelde crew | Spreek af wie je bij aankomst bijpraat, wat jouw bijdrage is en hoe je tijdens de dag afstemt |
+| Wensen veranderen of spreken elkaar tegen | Maak duidelijk wie prioriteiten bepaalt, wat de wijziging moet opleveren en wat ervoor moet wijken |
 | Tijdens de dag komen taken erbij | Bespreek wat haalbaar is en wat extra tijd, mensen of materiaal vraagt |
 | Eén persoon krijgt geluid, licht, video én opbouw | Toets of de combinatie werkelijk uitvoerbaar is voor dit programma en deze planning |
 | Een lange dag eindigt met zware afbouw | Weeg bemensing, eindtijd, terugreis en herstel mee vóór je de datum vastlegt |
@@ -89,11 +122,13 @@ Beantwoord vóór de offerte of toezegging vijf vragen:
 
 1. **Inhoud:** welk onderdeel lijkt me leuk of interessant, heel concreet?
 2. **Rol:** wordt mijn oordeel benut en heb ik voldoende invloed op mijn resultaat?
-3. **Samenwerking:** wie is mijn aanspreekpunt en kunnen we eerlijk over beperkingen praten?
+3. **Samenwerking:** wie praat me bij, hoe bereik ik de andere disciplines en wie hakt knopen door bij veranderende wensen?
 4. **Opbrengst:** klopt de vergoeding bij alle benodigde tijd, kosten en verantwoordelijkheid?
 5. **Belasting:** past de volledige inzet, inclusief reizen en herstel, tussen mijn andere verplichtingen?
 
 **Aannemen:** de basis klopt en er is een duidelijke reden om dit werk te willen doen. **Eerst aanpassen:** een probleem is oplosbaar met een andere taakverdeling, planning of vergoeding. **Afwijzen of doorverwijzen:** wezenlijke bezwaren blijven bestaan en de opdrachtgever wil daar niets aan veranderen.
+
+Bij een grote productie is de vervolgvraag dus hoe de crew samenwerkt en hoe mijn rol is ingebed. Een bezoekersaantal alleen bepaalt de keuze niet.
 
 Een leerzame of prestigieuze klus krijgt geen automatische uitzondering. Benoem vooraf wat je werkelijk leert, met wie je een relatie opbouwt en welke investering je daarvoor bewust accepteert. Een prettige routineklus kan juist waardevol zijn doordat hij goed betaalt en ruimte overlaat.
 
@@ -131,6 +166,6 @@ Vul na de komende zes klussen kort dit overzicht in. Vergelijk vervolgens welke 
 
 Bespreek daarnaast deze drie open punten en verwerk de antwoorden in de prioriteiten hierboven:
 
-1. Welke recente klussen gaven daadwerkelijk energie, welke putten uit en waardoor kwam dat?
+1. Welk concreet moment bij Van Nelle laat zien waar het vastloopt, en wat gebeurde op een vergelijkbaar moment bij de prettige productie anders?
 2. Welke verhouding tussen zelf mixen, huistechniek/A2, voorbereiding en voorstellingsbegeleiding wil je?
 3. Wat heeft zakelijk voorrang: vergoeding, continuïteit, verantwoordelijkheid, vrije tijd of minder reizen?
