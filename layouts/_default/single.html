@@ -24,12 +24,12 @@
     {{ with .NextInSection }}<a rel="next" class="p-1 px-6 bg-amber-100 rounded-none hover:bg-amber-200 dark:text-zinc-800" href="{{ .Permalink }}">{{ .LinkTitle }} →</a>{{ end }}
   </section>
 
-  {{ with .Params.tags }}
+  {{ with .GetTerms "tags" }}
   <section class="mt-12">
     <span class="block mb-4">tags:</span>
     <div class="flex flex-wrap gap-2">
       {{ range . }}
-        <a class="px-3 py-1 bg-zinc-200 rounded-full hover:bg-zinc-300 dark:text-amber-800 whitespace-nowrap" href="{{ relLangURL (printf "/tags/%s" .) }}">{{ . }}</a>
+        <a class="px-3 py-1 bg-zinc-200 rounded-full hover:bg-zinc-300 dark:text-amber-800 whitespace-nowrap" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
       {{ end }}
     </div>
   </section>

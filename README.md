@@ -21,7 +21,9 @@ De site gebruikt Hugo, Tailwind CSS en PostCSS en heeft Nederlandse en Engelse c
 
 ## Build en deployment
 
-Installeer de dependencies met `npm install`. Bouw de site met `hugo --gc --minify`.
+Installeer Hugo Extended 0.168.0 met `mise install` en de Node-dependencies met `npm install` (Node.js 22.23.1, gelijk aan Netlify). Bouw de site met `mise exec -- hugo --gc --minify` en start de lokale server met `mise exec -- hugo server`.
+
+De Hugo-versie staat in `.tool-versions` en `netlify.toml`; houd die gelijk bij upgrades. De bijgewerkte Browserslist-versie in `package-lock.json` kan omgaan met Hugo's Node-permissies wanneer PostCSS naar browserconfiguratie zoekt.
 
 De Netlify-buildinstellingen staan in [netlify.toml](netlify.toml). Een push kan een deployment triggeren; werk op een aparte branch en laat Joost zelf de pull request aanmaken.
 

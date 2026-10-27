@@ -3,10 +3,21 @@
   command = "hugo --gc --minify"
 
 [build.environment]
-  HUGO_VERSION = "0.121.2"
+  HUGO_VERSION = "0.168.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
-  NODE_VERSION = "20.12.2"
+  NODE_VERSION = "22.23.1"
+
+# Preserve incoming links after Hugo's taxonomy slug changes.
+[[redirects]]
+  from = "/tags/allen-heath/"
+  to = "/tags/allen--heath/"
+  status = 301
+
+[[redirects]]
+  from = "/en/tags/allen-heath/"
+  to = "/en/tags/allen--heath/"
+  status = 301
 
 [[headers]]
   for = "*.jpg"
