@@ -1,5 +1,5 @@
 ---
-title: "FOLK van Dunja Jocić: twaalf outputs en een Death Star"
+title: "Twaalf outputs en een Death Star"
 date: 2026-10-27
 featured: true
 description: "Als invaller voor Seb Jongejans draai ik FOH-geluid op de FOLK-tour van Dunja Jocić. Twaalf outputs, Cortenstaal en een choreograaf die alles hoort."
@@ -19,13 +19,16 @@ tags:
   - tournee
 resources:
   - name: cover
-    src: cover.jpg
+    src: scenefoto-11-FOLK-Dunja-Jocic_fotocredit-Sjoerd-Derine-1536x1024.jpg
     title: FOLK van Dunja Jocić
 ---
 
-Wie nog nooit met een laser-focused choreograaf (allemaal?) heeft gewerkt, kan ik het van harte aanbevelen. Het is heel intens. En dan ben ik nog maar 'gewoon' crew: de dansers op het podium moeten echt beuken. En dat elke voorstelling. Dunja is van alle laser-focused choreografen de ultieme Death Star argonlaser volgens mij. Elk detail ziet en hoort ze. En elk detail wordt gecorrigeerd. En o wee als je een beetje loopt te dromen en niet in de gaten hebt wat beter kan. Dunja is je een paar stappen voor. Is dat intens? Ja. Levert dat iets prachtigs op? Ook ja.
+Wie nog nooit met een laser-focused choreograaf (allemaal?) heeft gewerkt, kan ik het van harte aanbevelen. Het is heel intens. En dan ben ik nog maar 'gewoon' crew: de dansers op het podium moeten echt beuken. En dat elke voorstelling. Dunja is van alle laser-focused choreografen de ultieme Death Star argonlaser volgens mij.
 
 <!--more-->
+
+Elk detail ziet en hoort ze. En elk detail wordt gecorrigeerd. En o wee als je een beetje loopt te dromen en niet in de gaten hebt wat beter kan. Dunja is je een paar stappen voor. Is dat intens? Ja. Levert dat iets prachtigs op? Ook ja.
+
 
 Voor [FOLK van choreograaf Dunja Jocić](https://www.dunjajocic.com/folk/) neem ik enkele voorstellingen FOH-geluid over van hoofdtechnicus Seb Jongejans als hij verhinderd is. Amsterdam, in de Stadsschouwburg, Rotterdam in TR25, Delft en Hoofddorp heb ik inmiddels gedaan. De tour loopt nog, er volgen meer data.
 
